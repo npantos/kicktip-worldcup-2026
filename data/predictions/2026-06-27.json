@@ -1,0 +1,257 @@
+{
+  "match_date": "2026-06-27",
+  "predictions": [
+    {
+      "match_id": "M067",
+      "created_at": "2026-06-11T18:07:51Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 1912,
+        "elo_away": 1510,
+        "home_adv_applied": 0,
+        "lambda_home": 4.0,
+        "lambda_away": 0.282,
+        "p_home": 0.9581,
+        "p_draw": 0.0345,
+        "p_away": 0.0074,
+        "expected_score": "3-0",
+        "p_home_advance": null
+      },
+      "adjusted": null,
+      "odds": {
+        "source": "worldfootball26.com (-134/+275/+410); Betfair similar [prefill sweep 2026-06-11]",
+        "decimal_odds": [
+          1.75,
+          3.75,
+          5.1
+        ],
+        "overround": 0.0342,
+        "p_home": 0.5525,
+        "p_draw": 0.2579,
+        "p_away": 0.1896,
+        "fetched_at": "2026-06-11T18:16:50Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-11T20:11:34Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        }
+      ]
+    },
+    {
+      "match_id": "M068",
+      "created_at": "2026-06-11T18:07:51Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 1730,
+        "elo_away": 2024,
+        "home_adv_applied": 0,
+        "lambda_home": 0.427,
+        "lambda_away": 4.0,
+        "p_home": 0.0131,
+        "p_draw": 0.0431,
+        "p_away": 0.9438,
+        "expected_score": "0-3",
+        "p_home_advance": null
+      },
+      "adjusted": null,
+      "odds": {
+        "source": "bettingodds.com/oddschecker (21/2, 5/1, 2/7); DK ENG -450 [prefill sweep 2026-06-11]",
+        "decimal_odds": [
+          11.5,
+          6.0,
+          1.29
+        ],
+        "overround": 0.0288,
+        "p_home": 0.0845,
+        "p_draw": 0.162,
+        "p_away": 0.7535,
+        "fetched_at": "2026-06-11T18:16:50Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-11T20:11:34Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        }
+      ]
+    },
+    {
+      "match_id": "M069",
+      "created_at": "2026-06-11T18:07:51Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 1982,
+        "elo_away": 1989,
+        "home_adv_applied": 0,
+        "lambda_home": 1.285,
+        "lambda_away": 1.356,
+        "p_home": 0.3528,
+        "p_draw": 0.2613,
+        "p_away": 0.3859,
+        "expected_score": "1-1",
+        "p_home_advance": null
+      },
+      "adjusted": null,
+      "odds": {
+        "source": "Polymarket (28/29/47%), 1/p [prefill sweep 2026-06-11]",
+        "decimal_odds": [
+          3.57,
+          3.45,
+          2.13
+        ],
+        "overround": 0.0395,
+        "p_home": 0.2695,
+        "p_draw": 0.2789,
+        "p_away": 0.4516,
+        "fetched_at": "2026-06-11T18:16:50Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-11T20:11:34Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        }
+      ]
+    },
+    {
+      "match_id": "M070",
+      "created_at": "2026-06-11T18:07:51Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 1652,
+        "elo_away": 1714,
+        "home_adv_applied": 0,
+        "lambda_home": 1.04,
+        "lambda_away": 1.675,
+        "p_home": 0.2353,
+        "p_draw": 0.2427,
+        "p_away": 0.522,
+        "expected_score": "1-1",
+        "p_home_advance": null
+      },
+      "adjusted": null,
+      "odds": {
+        "source": "Polymarket (41/30/33%), ESPN/DK ML consistent [prefill sweep 2026-06-11]",
+        "decimal_odds": [
+          2.44,
+          3.33,
+          3.03
+        ],
+        "overround": 0.0402,
+        "p_home": 0.394,
+        "p_draw": 0.2887,
+        "p_away": 0.3173,
+        "fetched_at": "2026-06-11T18:16:50Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-11T20:11:34Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        }
+      ]
+    },
+    {
+      "match_id": "M071",
+      "created_at": "2026-06-11T18:07:51Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 1772,
+        "elo_away": 1830,
+        "home_adv_applied": 0,
+        "lambda_home": 1.057,
+        "lambda_away": 1.649,
+        "p_home": 0.2431,
+        "p_draw": 0.245,
+        "p_away": 0.5119,
+        "expected_score": "1-1",
+        "p_home_advance": null
+      },
+      "adjusted": null,
+      "odds": {
+        "source": "Polymarket (26/32/45%), ESPN/DK ML consistent [prefill sweep 2026-06-11]",
+        "decimal_odds": [
+          3.85,
+          3.13,
+          2.22
+        ],
+        "overround": 0.0297,
+        "p_home": 0.2523,
+        "p_draw": 0.3103,
+        "p_away": 0.4374,
+        "fetched_at": "2026-06-11T18:16:50Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-11T20:11:34Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        }
+      ]
+    },
+    {
+      "match_id": "M072",
+      "created_at": "2026-06-11T18:07:51Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 1680,
+        "elo_away": 2115,
+        "home_adv_applied": 0,
+        "lambda_home": 0.249,
+        "lambda_away": 4.0,
+        "p_home": 0.0063,
+        "p_draw": 0.0325,
+        "p_away": 0.9612,
+        "expected_score": "0-3",
+        "p_home_advance": null
+      },
+      "adjusted": null,
+      "odds": {
+        "source": "sportytrader best-of-bookmaker (decimal) [prefill sweep 2026-06-11]",
+        "decimal_odds": [
+          17.0,
+          7.6,
+          1.2
+        ],
+        "overround": 0.0237,
+        "p_home": 0.0575,
+        "p_draw": 0.1285,
+        "p_away": 0.814,
+        "fetched_at": "2026-06-11T18:16:50Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-11T20:11:34Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        }
+      ]
+    }
+  ]
+}
