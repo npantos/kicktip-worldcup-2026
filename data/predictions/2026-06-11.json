@@ -1,0 +1,148 @@
+{
+  "match_date": "2026-06-11",
+  "predictions": [
+    {
+      "match_id": "M001",
+      "created_at": "2026-06-11T14:19:23Z",
+      "locked_at": "2026-06-11T14:21:14Z",
+      "model": {
+        "elo_home": 1875,
+        "elo_away": 1517,
+        "home_adv_applied": 100,
+        "lambda_home": 4.0,
+        "lambda_away": 0.228,
+        "p_home": 0.9631,
+        "p_draw": 0.0313,
+        "p_away": 0.0056,
+        "expected_score": "3-0",
+        "p_home_advance": null
+      },
+      "adjusted": {
+        "p_home": 0.66,
+        "p_draw": 0.21,
+        "p_away": 0.13,
+        "predicted_score": "2-0",
+        "p_home_advance": null,
+        "reasoning": "Model (96%) is overconfident from a clipped-lambda Elo gap; market consensus (~64/22/15) is the better anchor. Kept a small premium above market for Mexico: Azteca opener with full home crowd, settled Aguirre side, and South Africa travelling without Morena and Nkota. Tempered by opening-match caginess (2010 MEX-RSA opener ended 1-1) and Mexico missing first-choice GK Malagon and Marcel Ruiz. 2-0 is the modal market-consistent scoreline.",
+        "factors": [
+          {
+            "type": "venue",
+            "team": "MEX",
+            "direction": "for",
+            "weight": "strong",
+            "note": "Estadio Azteca opener, host nation"
+          },
+          {
+            "type": "injury",
+            "team": "MEX",
+            "direction": "against",
+            "weight": "mild",
+            "note": "GK Malagon and Marcel Ruiz out injured; Rangel starts"
+          },
+          {
+            "type": "injury",
+            "team": "RSA",
+            "direction": "against",
+            "weight": "mild",
+            "note": "Morena and Nkota left at home; Modiba back in training"
+          },
+          {
+            "type": "model_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Elo baseline 96% far above market 64%; anchored to market"
+          }
+        ],
+        "news_sources": [
+          "https://www.sportsmole.co.uk/football/mexico/injury-news/team-news/mexico-vs-south-africa-injury-suspension-list-predicted-xis_598872.html",
+          "https://www.cbssports.com/soccer/news/mexico-vs-south-africa-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-opener/",
+          "https://www.rotowire.com/soccer/article/mexico-vs-south-africa-preview-predicted-lineups-team-news-world-cup-preview-117405"
+        ]
+      },
+      "odds": {
+        "source": "bet365 (via web search, espn/cbs consensus)",
+        "decimal_odds": [
+          1.48,
+          4.33,
+          6.5
+        ],
+        "overround": 0.0605,
+        "p_home": 0.6371,
+        "p_draw": 0.2178,
+        "p_away": 0.1451,
+        "fetched_at": "2026-06-11T14:20:01Z"
+      },
+      "external": [],
+      "posted_to": []
+    },
+    {
+      "match_id": "M002",
+      "created_at": "2026-06-11T14:19:23Z",
+      "locked_at": "2026-06-11T14:21:14Z",
+      "model": {
+        "elo_home": 1758,
+        "elo_away": 1740,
+        "home_adv_applied": 0,
+        "lambda_home": 1.414,
+        "lambda_away": 1.232,
+        "p_home": 0.4124,
+        "p_draw": 0.2599,
+        "p_away": 0.3277,
+        "expected_score": "1-1",
+        "p_home_advance": null
+      },
+      "adjusted": {
+        "p_home": 0.34,
+        "p_draw": 0.3,
+        "p_away": 0.36,
+        "predicted_score": "1-1",
+        "p_home_advance": null,
+        "reasoning": "Near coin-flip per both model (41/26/33) and market (36/30/34). Tilted slightly toward Czechia and the draw versus the model: South Korea arrive in poor form (0-4 vs Ivory Coast, 0-1 vs Austria) with defensive fragility against physical sides, which is exactly the Czech profile (Schick 7 goals in last 11 starts). Korea unbeaten qualifying and Son remain real, so no bigger swing. With a flat distribution, 1-1 is the highest-probability single scoreline.",
+        "factors": [
+          {
+            "type": "form",
+            "team": "KOR",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Back-to-back friendly defeats (0-4 CIV, 0-1 AUT), defensive issues"
+          },
+          {
+            "type": "form",
+            "team": "CZE",
+            "direction": "for",
+            "weight": "mild",
+            "note": "Schick scoring form; physical profile matches KOR weakness"
+          },
+          {
+            "type": "injury",
+            "team": "CZE",
+            "direction": "against",
+            "weight": "mild",
+            "note": "Kuchta (ankle) doubtful as sub option"
+          }
+        ],
+        "news_sources": [
+          "https://www.rotowire.com/soccer/article/south-korea-vs-czechia-preview-prediction-lineups-odds-2026-world-cup-group-a-117538",
+          "https://www.espn.com/soccer/story/_/id/49009977/fifa-world-cup-2026-south-korea-vs-czechia-kickoff-how-watch-stats-team-news",
+          "https://sports.yahoo.com/articles/south-korea-vs-czech-republic-154505312.html"
+        ]
+      },
+      "odds": {
+        "source": "bet365 (via web search, oddschecker consensus)",
+        "decimal_odds": [
+          2.62,
+          3.1,
+          2.75
+        ],
+        "overround": 0.0679,
+        "p_home": 0.3574,
+        "p_draw": 0.3021,
+        "p_away": 0.3405,
+        "fetched_at": "2026-06-11T14:20:01Z"
+      },
+      "external": [],
+      "posted_to": []
+    }
+  ]
+}

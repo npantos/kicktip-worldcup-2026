@@ -1,0 +1,485 @@
+{
+  "snapshot_date": "2026-06-11",
+  "teams": [
+    {
+      "id": "CZE",
+      "name": "Czech Republic",
+      "group": "A",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1740,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "MEX",
+      "name": "Mexico",
+      "group": "A",
+      "is_host": true,
+      "fifa_rank": null,
+      "elo_initial": 1875,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONCACAF"
+    },
+    {
+      "id": "RSA",
+      "name": "South Africa",
+      "group": "A",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1517,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "KOR",
+      "name": "South Korea",
+      "group": "A",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1758,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "BIH",
+      "name": "Bosnia & Herzegovina",
+      "group": "B",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1595,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "CAN",
+      "name": "Canada",
+      "group": "B",
+      "is_host": true,
+      "fifa_rank": null,
+      "elo_initial": 1788,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONCACAF"
+    },
+    {
+      "id": "QAT",
+      "name": "Qatar",
+      "group": "B",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1421,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "SUI",
+      "name": "Switzerland",
+      "group": "B",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1891,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "BRA",
+      "name": "Brazil",
+      "group": "C",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1991,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "id": "HAI",
+      "name": "Haiti",
+      "group": "C",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1548,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONCACAF"
+    },
+    {
+      "id": "MAR",
+      "name": "Morocco",
+      "group": "C",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1827,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "SCO",
+      "name": "Scotland",
+      "group": "C",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1782,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "AUS",
+      "name": "Australia",
+      "group": "D",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1777,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "PAR",
+      "name": "Paraguay",
+      "group": "D",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1834,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "id": "TUR",
+      "name": "Turkey",
+      "group": "D",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1911,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "USA",
+      "name": "USA",
+      "group": "D",
+      "is_host": true,
+      "fifa_rank": null,
+      "elo_initial": 1726,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONCACAF"
+    },
+    {
+      "id": "CUW",
+      "name": "Curaçao",
+      "group": "E",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1434,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONCACAF"
+    },
+    {
+      "id": "ECU",
+      "name": "Ecuador",
+      "group": "E",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1938,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "id": "GER",
+      "name": "Germany",
+      "group": "E",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1932,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "CIV",
+      "name": "Ivory Coast",
+      "group": "E",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1695,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "JPN",
+      "name": "Japan",
+      "group": "F",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1906,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "NED",
+      "name": "Netherlands",
+      "group": "F",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1948,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "SWE",
+      "name": "Sweden",
+      "group": "F",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1712,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "TUN",
+      "name": "Tunisia",
+      "group": "F",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1628,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "BEL",
+      "name": "Belgium",
+      "group": "G",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1894,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "EGY",
+      "name": "Egypt",
+      "group": "G",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1696,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "IRN",
+      "name": "Iran",
+      "group": "G",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1772,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "NZL",
+      "name": "New Zealand",
+      "group": "G",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1562,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "OFC"
+    },
+    {
+      "id": "CPV",
+      "name": "Cape Verde",
+      "group": "H",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1578,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "KSA",
+      "name": "Saudi Arabia",
+      "group": "H",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1576,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "ESP",
+      "name": "Spain",
+      "group": "H",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 2157,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "URU",
+      "name": "Uruguay",
+      "group": "H",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1892,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "id": "FRA",
+      "name": "France",
+      "group": "I",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 2063,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "IRQ",
+      "name": "Iraq",
+      "group": "I",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1607,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "NOR",
+      "name": "Norway",
+      "group": "I",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1914,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "SEN",
+      "name": "Senegal",
+      "group": "I",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1860,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "ALG",
+      "name": "Algeria",
+      "group": "J",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1772,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "ARG",
+      "name": "Argentina",
+      "group": "J",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 2115,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "id": "AUT",
+      "name": "Austria",
+      "group": "J",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1830,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "JOR",
+      "name": "Jordan",
+      "group": "J",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1680,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "COL",
+      "name": "Colombia",
+      "group": "K",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1982,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONMEBOL"
+    },
+    {
+      "id": "COD",
+      "name": "DR Congo",
+      "group": "K",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1652,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "POR",
+      "name": "Portugal",
+      "group": "K",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1989,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "UZB",
+      "name": "Uzbekistan",
+      "group": "K",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1714,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "AFC"
+    },
+    {
+      "id": "CRO",
+      "name": "Croatia",
+      "group": "L",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1912,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "ENG",
+      "name": "England",
+      "group": "L",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 2024,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "UEFA"
+    },
+    {
+      "id": "GHA",
+      "name": "Ghana",
+      "group": "L",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1510,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CAF"
+    },
+    {
+      "id": "PAN",
+      "name": "Panama",
+      "group": "L",
+      "is_host": false,
+      "fifa_rank": null,
+      "elo_initial": 1730,
+      "elo_source": "eloratings.net World.tsv fetched 2026-06-11",
+      "confederation": "CONCACAF"
+    }
+  ]
+}

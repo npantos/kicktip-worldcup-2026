@@ -1,0 +1,161 @@
+{
+  "comment": "R32 slots use 1X/2X (group winner/runner-up) and 3ABCDF-style sets for best thirds. Third-place allocation: FIFA publishes a fixed lookup; we use a deterministic bipartite matching over the allowed sets (see lib/wc2026.py), which always yields a feasible assignment and avoids same-group rematches.",
+  "r32_slots": [
+    {
+      "match_id": "M073",
+      "home_slot": "2A",
+      "away_slot": "2B"
+    },
+    {
+      "match_id": "M074",
+      "home_slot": "1E",
+      "away_slot": "3ABCDF"
+    },
+    {
+      "match_id": "M075",
+      "home_slot": "1F",
+      "away_slot": "2C"
+    },
+    {
+      "match_id": "M076",
+      "home_slot": "1C",
+      "away_slot": "2F"
+    },
+    {
+      "match_id": "M077",
+      "home_slot": "1I",
+      "away_slot": "3CDFGH"
+    },
+    {
+      "match_id": "M078",
+      "home_slot": "2E",
+      "away_slot": "2I"
+    },
+    {
+      "match_id": "M079",
+      "home_slot": "1A",
+      "away_slot": "3CEFHI"
+    },
+    {
+      "match_id": "M080",
+      "home_slot": "1L",
+      "away_slot": "3EHIJK"
+    },
+    {
+      "match_id": "M081",
+      "home_slot": "1D",
+      "away_slot": "3BEFIJ"
+    },
+    {
+      "match_id": "M082",
+      "home_slot": "1G",
+      "away_slot": "3AEHIJ"
+    },
+    {
+      "match_id": "M083",
+      "home_slot": "2K",
+      "away_slot": "2L"
+    },
+    {
+      "match_id": "M084",
+      "home_slot": "1H",
+      "away_slot": "2J"
+    },
+    {
+      "match_id": "M085",
+      "home_slot": "1B",
+      "away_slot": "3EFGIJ"
+    },
+    {
+      "match_id": "M086",
+      "home_slot": "1J",
+      "away_slot": "2H"
+    },
+    {
+      "match_id": "M087",
+      "home_slot": "1K",
+      "away_slot": "3DEIJL"
+    },
+    {
+      "match_id": "M088",
+      "home_slot": "2D",
+      "away_slot": "2G"
+    }
+  ],
+  "third_slot_sets": {
+    "M074": "3ABCDF",
+    "M077": "3CDFGH",
+    "M079": "3CEFHI",
+    "M080": "3EHIJK",
+    "M081": "3BEFIJ",
+    "M082": "3AEHIJ",
+    "M085": "3EFGIJ",
+    "M087": "3DEIJL"
+  },
+  "progression": {
+    "M089": {
+      "home": "W074",
+      "away": "W077"
+    },
+    "M090": {
+      "home": "W073",
+      "away": "W075"
+    },
+    "M091": {
+      "home": "W076",
+      "away": "W078"
+    },
+    "M092": {
+      "home": "W079",
+      "away": "W080"
+    },
+    "M093": {
+      "home": "W083",
+      "away": "W084"
+    },
+    "M094": {
+      "home": "W081",
+      "away": "W082"
+    },
+    "M095": {
+      "home": "W086",
+      "away": "W088"
+    },
+    "M096": {
+      "home": "W085",
+      "away": "W087"
+    },
+    "M097": {
+      "home": "W089",
+      "away": "W090"
+    },
+    "M098": {
+      "home": "W093",
+      "away": "W094"
+    },
+    "M099": {
+      "home": "W091",
+      "away": "W092"
+    },
+    "M100": {
+      "home": "W095",
+      "away": "W096"
+    },
+    "M101": {
+      "home": "W097",
+      "away": "W098"
+    },
+    "M102": {
+      "home": "W099",
+      "away": "W100"
+    },
+    "M103": {
+      "home": "L101",
+      "away": "L102"
+    },
+    "M104": {
+      "home": "W101",
+      "away": "W102"
+    }
+  }
+}
