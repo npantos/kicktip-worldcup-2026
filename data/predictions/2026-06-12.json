@@ -1,0 +1,105 @@
+{
+  "match_date": "2026-06-12",
+  "predictions": [
+    {
+      "match_id": "M003",
+      "created_at": "2026-06-11T15:32:28Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 1788,
+        "elo_away": 1595,
+        "home_adv_applied": 100,
+        "lambda_home": 4.0,
+        "lambda_away": 0.429,
+        "p_home": 0.9438,
+        "p_draw": 0.0431,
+        "p_away": 0.0131,
+        "expected_score": "3-0",
+        "p_home_advance": null
+      },
+      "adjusted": null,
+      "odds": {
+        "source": "bet365 via web search (oddschecker/espn consensus), Kalshi 54/26/21",
+        "decimal_odds": [
+          1.8,
+          3.8,
+          4.2
+        ],
+        "overround": 0.0568,
+        "p_home": 0.5257,
+        "p_draw": 0.249,
+        "p_away": 0.2253,
+        "fetched_at": "2026-06-11T15:33:42Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-11T15:35:11Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Pre-fill of matchday 1: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kickgeist",
+          "match_id": "sm_19609154",
+          "pick": "home",
+          "posted_at": "2026-06-11T15:35:11Z",
+          "confirmed_via": "predict_match response",
+          "note": "Argmax outcome on odds track."
+        }
+      ]
+    },
+    {
+      "match_id": "M004",
+      "created_at": "2026-06-11T15:32:28Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 1726,
+        "elo_away": 1834,
+        "home_adv_applied": 100,
+        "lambda_home": 1.28,
+        "lambda_away": 1.361,
+        "p_home": 0.3505,
+        "p_draw": 0.2612,
+        "p_away": 0.3883,
+        "expected_score": "1-1",
+        "p_home_advance": null
+      },
+      "adjusted": null,
+      "odds": {
+        "source": "bet365 via web search (covers/espn/betmgm consensus), Kalshi 50/29/23",
+        "decimal_odds": [
+          2.0,
+          3.4,
+          3.75
+        ],
+        "overround": 0.0608,
+        "p_home": 0.4713,
+        "p_draw": 0.2773,
+        "p_away": 0.2514,
+        "fetched_at": "2026-06-11T15:33:42Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-11T15:35:11Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Pre-fill of matchday 1: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kickgeist",
+          "match_id": "sm_19609133",
+          "pick": "home",
+          "posted_at": "2026-06-11T15:35:11Z",
+          "confirmed_via": "predict_match response",
+          "note": "Argmax outcome on odds track."
+        }
+      ]
+    }
+  ]
+}

@@ -35,6 +35,17 @@ def is_locked(pred):
     return pred.get("locked_at") and pred["locked_at"] <= now_utc()
 
 
+def round_probs(ph, pd, pa, places=4):
+    """Round a probability triple so the stored values still sum to exactly 1.
+
+    Independent rounding can drift the sum by ~1e-4, which validate.py rejects;
+    the residual is folded into the largest component."""
+    vals = [round(v, places) for v in (ph, pd, pa)]
+    i = vals.index(max(vals))
+    vals[i] = round(vals[i] + (1.0 - sum(vals)), places)
+    return vals
+
+
 def model_block(fixture, ratings):
     home, away = fixture["home"], fixture["away"]
     if home is None or away is None:
@@ -45,11 +56,12 @@ def model_block(fixture, ratings):
     matrix = poisson.score_matrix(lh, la)
     ph, pd, pa = poisson.outcome_probs(matrix)
     mh, ma = poisson.modal_score(matrix, tiebreak_home=lh >= la)
+    rph, rpd, rpa = round_probs(ph, pd, pa)
     blk = {
         "elo_home": round(rh, 1), "elo_away": round(ra, 1),
         "home_adv_applied": bonus,
         "lambda_home": round(lh, 3), "lambda_away": round(la, 3),
-        "p_home": round(ph, 4), "p_draw": round(pd, 4), "p_away": round(pa, 4),
+        "p_home": rph, "p_draw": rpd, "p_away": rpa,
         "expected_score": f"{mh}-{ma}",
         "p_home_advance": None,
     }
@@ -110,11 +122,12 @@ def cmd_set_odds(date, payload):
             continue
         oh, od, oa = item["odds"]
         ph, pd, pa = oddslib.implied_probs(oh, od, oa)
+        rph, rpd, rpa = round_probs(ph, pd, pa)
         p["odds"] = {
             "source": item.get("source", "unknown"),
             "decimal_odds": [oh, od, oa],
             "overround": round(oddslib.overround(oh, od, oa), 4),
-            "p_home": round(ph, 4), "p_draw": round(pd, 4), "p_away": round(pa, 4),
+            "p_home": rph, "p_draw": rpd, "p_away": rpa,
             "fetched_at": now_utc(),
         }
         print(f"{item['match_id']}: market {ph:.0%}/{pd:.0%}/{pa:.0%} "
