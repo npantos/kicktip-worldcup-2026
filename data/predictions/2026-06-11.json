@@ -74,7 +74,15 @@
         "fetched_at": "2026-06-11T14:20:01Z"
       },
       "external": [],
-      "posted_to": []
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-11T15:09:00Z",
+          "confirmed_via": "get_bets readback"
+        }
+      ]
     },
     {
       "match_id": "M002",
@@ -142,7 +150,15 @@
         "fetched_at": "2026-06-11T14:20:01Z"
       },
       "external": [],
-      "posted_to": []
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:1",
+          "posted_at": "2026-06-11T15:09:00Z",
+          "confirmed_via": "get_bets readback"
+        }
+      ]
     }
   ]
 }

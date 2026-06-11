@@ -52,3 +52,4 @@ under `reports/`. All scripts are stdlib-only Python 3: `python3 scripts/<name>.
 - `data/predictions/YYYY-MM-DD.json` — per-day predictions, 4 tracks (model/adjusted/odds/external)
 - `data/accuracy/ledger.json` — per-match scoring + running totals per track
 - `data/simulations/sim_YYYY-MM-DD.json` — Monte Carlo outputs
+  
