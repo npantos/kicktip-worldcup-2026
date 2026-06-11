@@ -33,9 +33,14 @@ under `reports/`. All scripts are stdlib-only Python 3: `python3 scripts/<name>.
    to 1, predicted score, reasoning, factors with source URLs). Stay within ±10pp of the model
    unless evidence is strong; if you stray far from the `odds` track, say why in `reasoning`.
    Set `locked_at` to now (must be before the earliest kickoff).
-9. **Post picks**: Kicktipp MCP `place_bets` with the adjusted predicted scores; read back with
-   `get_bets` to confirm. Then Kickgeist `predict_match` (H/D/A). Record both in the
-   prediction's `posted_to` list. Never post a match twice.
+9. **Post picks**: run `python3 scripts/optimal_score.py --date TODAY` and bet the EP-max
+   scoreline on the adjusted track (expected points under `data/kicktipp_rules.json` — this
+   may differ from `predicted_score`). Kicktipp MCP `place_bets`; read back with `get_bets`
+   to confirm. Then Kickgeist `predict_match` with the argmax outcome (H/D/A) of the adjusted
+   track. Record both in the prediction's `posted_to` list, including the actual bet placed.
+   Never post a match twice by accident; a deliberate pre-kickoff re-bet (e.g. after a
+   platform scoring change) is allowed — mark the old entry `superseded_by` and add the new
+   one with a `note`.
 10. **Simulate**: `python3 scripts/simulate.py -n 10000`
 11. **Digest**: `python3 scripts/daily_digest.py --date TODAY`
 12. **Commit**: `git add -A && git commit -m "Matchday YYYY-MM-DD update"`

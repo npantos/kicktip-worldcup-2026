@@ -1,0 +1,16 @@
+{
+  "community": "xcentric-ominimo",
+  "points": {
+    "win": {
+      "tendency": 2,
+      "goal_diff": 3,
+      "exact": 6
+    },
+    "draw": {
+      "tendency": 2,
+      "exact": 6
+    }
+  },
+  "effective_from": "2026-06-11",
+  "note": "Community rule change announced 2026-06-11. Draws have no goal-difference tier: a non-exact draw pick earns only tendency points. Used by scripts/optimal_score.py to choose Kicktipp bets; unrelated to the repo's internal 3/1/+1 accuracy metric."
+}
