@@ -1,0 +1,24 @@
+{
+  "posted_at": "2026-06-11T15:42:00Z",
+  "platform": "kicktipp",
+  "community": "xcentric-ominimo",
+  "confirmed_via": "get_bonus_questions readback",
+  "basis": "sim_2026-06-11.json (N=10000) + bookmaker Golden Boot odds",
+  "answers": [
+    {"question": "Which team will be World Champion?", "answer": "Spain", "sim_p": 0.489},
+    {"question": "Which team will produce the highest goal scorer?", "answer": "France", "note": "Mbappé bookmaker Golden Boot favorite (~16%); FRA 62.7% to reach SF"},
+    {"question": "Which team will win group A?", "answer": "Mexico", "sim_p": 0.842},
+    {"question": "Which team will win group B?", "answer": "Switzerland", "sim_p": 0.725},
+    {"question": "Which team will win group C?", "answer": "Brazil", "sim_p": 0.852},
+    {"question": "Which team will win group D?", "answer": "Türkiye", "sim_p": 0.699},
+    {"question": "Which team will win group E?", "answer": "Ecuador", "sim_p": 0.512, "note": "coin-flip vs Germany 0.480"},
+    {"question": "Which team will win group F?", "answer": "Netherlands", "sim_p": 0.613},
+    {"question": "Which team will win group G?", "answer": "Belgium", "sim_p": 0.796},
+    {"question": "Which team will win group H?", "answer": "Spain", "sim_p": 0.945},
+    {"question": "Which team will win group I?", "answer": "France", "sim_p": 0.831},
+    {"question": "Which team will win group J?", "answer": "Argentina", "sim_p": 0.981},
+    {"question": "Which team will win group K?", "answer": "Portugal", "sim_p": 0.518, "note": "coin-flip vs Colombia 0.479"},
+    {"question": "Which team will win group L?", "answer": "England", "sim_p": 0.778},
+    {"question": "Who will reach the semi-finals?", "answer": ["Spain", "Argentina", "France", "England"], "sim_p": [0.826, 0.734, 0.627, 0.356]}
+  ]
+}
