@@ -4,7 +4,7 @@
     {
       "match_id": "M005",
       "created_at": "2026-06-11T15:32:28Z",
-      "locked_at": null,
+      "locked_at": "2026-06-13T11:55:50Z",
       "model": {
         "elo_home": 1421,
         "elo_away": 1891,
@@ -17,7 +17,42 @@
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.06,
+        "p_draw": 0.13,
+        "p_away": 0.81,
+        "predicted_score": "0-2",
+        "p_home_advance": null,
+        "reasoning": "Market has Switzerland ~80% (bet365 SUI -334, draw +450, Qatar +850; Kalshi 7/14/81); the model's 96% is overconfident, so anchored to market with a small further nudge to Switzerland. Both squads are injury-free, but Qatar are scoreless in their last 283 minutes and face a full-strength, defensively stout Swiss back line (Kobel; Widmer, Akanji, Elvedi, Rodriguez) with Xhaka and Freuler controlling midfield and Embolo/Amdouni up top. Qatar are still chasing a first-ever World Cup win. Switzerland win-to-nil is the central case.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 96% vs market ~80%; anchored to market"
+          },
+          {
+            "type": "form",
+            "team": "QAT",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Scoreless in last 283 minutes; no World Cup win in history"
+          },
+          {
+            "type": "squad",
+            "team": "SUI",
+            "direction": "for",
+            "weight": "mild",
+            "note": "No injuries; first-choice defense (Akanji, Elvedi, Rodriguez, Kobel) plus Xhaka"
+          }
+        ],
+        "news_sources": [
+          "https://www.squawka.com/us/news/world-cup/match-preview-qatar-vs-switzerland-06-13-26-world-cup-2026/",
+          "https://www.covers.com/world-cup/qatar-vs-switzerland-prediction-picks-odds-saturday-6-13-2026",
+          "https://www.racingpost.com/sport/football-tips/world-cup-2026/qatar-vs-switzerland-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-a3Es28q4twWR/"
+        ]
+      },
       "odds": {
         "source": "pinnacle/espn via web search (Qatar 15/1, draw 6/1, SUI 23/100)",
         "decimal_odds": [
@@ -40,13 +75,21 @@
           "posted_at": "2026-06-11T15:35:11Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 1: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-13T11:55:50Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Posted on adjusted track after match-day research (injuries/lineups/odds); EP-max scoreline unchanged from the odds-track pre-fill. Prediction locked."
         }
       ]
     },
     {
       "match_id": "M006",
       "created_at": "2026-06-11T15:32:28Z",
-      "locked_at": null,
+      "locked_at": "2026-06-13T11:55:50Z",
       "model": {
         "elo_home": 1991,
         "elo_away": 1827,
@@ -59,7 +102,42 @@
         "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.56,
+        "p_draw": 0.25,
+        "p_away": 0.19,
+        "predicted_score": "2-0",
+        "p_home_advance": null,
+        "reasoning": "Held near the market (~57% Brazil). Brazil are without Neymar (grade-two calf) plus pre-tournament absentees Militao, Rodrygo and Estevao, but the attack is still loaded under Ancelotti (Vinicius, Raphinha operating centrally, Matheus Cunha, Igor Thiago). Crucially Morocco -- a genuine dark horse who eliminated Spain and Portugal in 2022 -- lose first-choice CB Nayef Aguerd (groin) and winger Ezzalzouli (knee) for the tournament, with Mazraoui (shoulder) a late doubt, weakening a back line facing Brazil's pace. Slight pro-Brazil lean from Morocco's defensive injuries is offset by opening-match caginess; deliberately not straying from market.",
+        "factors": [
+          {
+            "type": "injury",
+            "team": "BRA",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Neymar (calf) out; Militao/Rodrygo/Estevao also absent"
+          },
+          {
+            "type": "injury",
+            "team": "MAR",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Aguerd (groin) and Ezzalzouli (knee) out for tournament; Mazraoui (shoulder) doubt"
+          },
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 76% vs market ~57%; anchored to market"
+          }
+        ],
+        "news_sources": [
+          "https://www.rotowire.com/soccer/article/brazil-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117816",
+          "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/preview/brazil-vs-morocco-prediction-team-news-lineups_598948.html",
+          "https://www.espn.com/soccer/story/_/id/49026946/fifa-world-cup-2026-brazil-vs-morocco-kickoff-how-watch-stats-team-news"
+        ]
+      },
       "odds": {
         "source": "web search consensus (Brazil 8/11, draw 29/10, Morocco 23/5)",
         "decimal_odds": [
@@ -82,13 +160,21 @@
           "posted_at": "2026-06-11T15:35:11Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 1: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-13T11:55:50Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Posted on adjusted track after match-day research (injuries/lineups/odds); EP-max scoreline unchanged from the odds-track pre-fill. Prediction locked."
         }
       ]
     },
     {
       "match_id": "M007",
       "created_at": "2026-06-11T15:32:28Z",
-      "locked_at": null,
+      "locked_at": "2026-06-13T11:55:50Z",
       "model": {
         "elo_home": 1548,
         "elo_away": 1782,
@@ -101,7 +187,42 @@
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.16,
+        "p_draw": 0.24,
+        "p_away": 0.6,
+        "predicted_score": "0-1",
+        "p_home_advance": null,
+        "reasoning": "Anchored to market (~63% Scotland; bet365 SCO -188). The model's 88% is too high. Scotland lose Billy Gilmour (knee) from midfield, though McTominay is fit (his absence was precautionary) and McKenna is in the predicted XI. Haiti carry no key injuries and set up as a compact, well-organized block -- exactly the puzzle Scotland have historically struggled to break down, converting chances inconsistently at major tournaments. Draw nudged up slightly versus market. Scotland to win a grind (0-1 / 1-2).",
+        "factors": [
+          {
+            "type": "injury",
+            "team": "SCO",
+            "direction": "against",
+            "weight": "mild",
+            "note": "Billy Gilmour (knee) out; McTominay fit (precaution)"
+          },
+          {
+            "type": "style",
+            "team": "HAI",
+            "direction": "for",
+            "weight": "mild",
+            "note": "Compact organized block; Scotland weak at breaking down low blocks"
+          },
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 88% vs market ~63%; anchored to market, draw nudged up"
+          }
+        ],
+        "news_sources": [
+          "https://www.rotowire.com/soccer/article/haiti-vs-scotland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117818",
+          "https://www.sportsmole.co.uk/football/haiti/world-cup-2026/preview/haiti-vs-scotland-prediction-team-news-lineups_598953.html",
+          "https://www.covers.com/world-cup/haiti-vs-scotland-prediction-picks-odds-saturday-6-13-2026"
+        ]
+      },
       "odds": {
         "source": "web search consensus (Haiti +550, draw +350, Scotland -180)",
         "decimal_odds": [
@@ -124,13 +245,21 @@
           "posted_at": "2026-06-11T15:35:11Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 1: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-13T11:55:50Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Posted on adjusted track after match-day research (injuries/lineups/odds); EP-max scoreline unchanged from the odds-track pre-fill. Prediction locked."
         }
       ]
     },
     {
       "match_id": "M008",
       "created_at": "2026-06-11T15:32:28Z",
-      "locked_at": null,
+      "locked_at": "2026-06-13T11:55:50Z",
       "model": {
         "elo_home": 1777,
         "elo_away": 1911,
@@ -143,7 +272,42 @@
         "expected_score": "0-2",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.24,
+        "p_draw": 0.28,
+        "p_away": 0.48,
+        "predicted_score": "1-2",
+        "p_home_advance": null,
+        "reasoning": "Anchored to market (~52% Turkey; Kalshi 18/26/58). The model's 70% overstates Turkey. Turkey are likely without Kenan Yildiz (calf; training individually), which trims their attacking ceiling, though Arda Guler is fit and set to start. Australia have no injury doubts and are well-drilled under Popovic -- capable of an uncomfortable first hour and nicking one. Turkey's quality (Guler, Calhanoglu, set pieces) should tell, but by a single goal. Lifted the draw and Australia slightly versus a market that may not have fully priced Yildiz's absence.",
+        "factors": [
+          {
+            "type": "injury",
+            "team": "TUR",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Kenan Yildiz (calf) likely out; Guler fit and starts"
+          },
+          {
+            "type": "form",
+            "team": "AUS",
+            "direction": "for",
+            "weight": "mild",
+            "note": "No injury doubts; organized under Popovic"
+          },
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "moderate",
+            "note": "Model 70% vs market ~52%; anchored to market, nudged for Yildiz"
+          }
+        ],
+        "news_sources": [
+          "https://www.rotowire.com/soccer/article/australia-vs-turkey-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-117953",
+          "https://www.sportsmole.co.uk/football/australia/world-cup/team-news/australia-vs-turkey-injury-suspension-list-predicted-xis_599006.html",
+          "https://www.covers.com/world-cup/turkey-vs-australia-prediction-picks-odds-sunday-6-14-2026"
+        ]
+      },
       "odds": {
         "source": "bet365 via web search (AUS +350, draw +250, TUR -125), Kalshi 18/26/58",
         "decimal_odds": [
@@ -166,6 +330,14 @@
           "posted_at": "2026-06-11T15:35:11Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 1: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-13T11:55:50Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Posted on adjusted track after match-day research (injuries/lineups/odds); EP-max scoreline unchanged from the odds-track pre-fill. Prediction locked."
         }
       ]
     }

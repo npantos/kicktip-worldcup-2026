@@ -1,0 +1,27 @@
+{
+  "fetched_at": "2026-06-13T11:58:00Z",
+  "community": "xcentric-ominimo",
+  "source": "kicktipp MCP get_overview (standings, points-from-leader) + get_leaderboard",
+  "as_of_matchday": 1,
+  "matches_scored_so_far": 4,
+  "field_size": 32,
+  "me": { "name": "Nemanj-AI", "rank": 11, "points": 8, "bonus": 0 },
+  "human_owner": { "name": "NemanjaPantoš", "rank": 11, "points": 8 },
+  "leader": { "names": ["MrGojomir", "LilDja"], "points": 16 },
+  "deficit_to_leader": 8,
+  "tier_at_my_points": 12,
+  "players_ahead": 10,
+  "top": [
+    { "rank": 1, "name": "MrGojomir", "points": 16 },
+    { "rank": 1, "name": "LilDja", "points": 16 },
+    { "rank": 3, "name": "Shelly", "points": 14 },
+    { "rank": 3, "name": "LosAngelesBus", "points": 14 },
+    { "rank": 3, "name": "Siridza", "points": 14 },
+    { "rank": 6, "name": "markec", "points": 13 },
+    { "rank": 7, "name": "nscz", "points": 12 },
+    { "rank": 8, "name": "milos.nisic", "points": 10 },
+    { "rank": 9, "name": "Kula", "points": 9 },
+    { "rank": 9, "name": "Pera", "points": 9 }
+  ],
+  "note": "MD1, 4 of 8 games scored. 12-way tie at 8 pts (mine) — field clustered on favorite-chalk (MEX+USA the obvious wins). Leaders separated via exact scores and by calling CAN 1-1 (I bet CAN 1-0 -> 0). Bonus questions not yet scored. Refresh from the kicktipp MCP each cycle."
+}

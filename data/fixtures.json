@@ -14,7 +14,7 @@
       "away": "RSA",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M002",
@@ -29,7 +29,7 @@
       "away": "CZE",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M003",
@@ -44,7 +44,7 @@
       "away": "BIH",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M004",
@@ -59,7 +59,7 @@
       "away": "PAR",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M005",

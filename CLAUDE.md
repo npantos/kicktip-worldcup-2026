@@ -33,11 +33,17 @@ under `reports/`. All scripts are stdlib-only Python 3: `python3 scripts/<name>.
    to 1, predicted score, reasoning, factors with source URLs). Stay within ±10pp of the model
    unless evidence is strong; if you stray far from the `odds` track, say why in `reasoning`.
    Set `locked_at` to now (must be before the earliest kickoff).
-9. **Post picks**: run `python3 scripts/optimal_score.py --date TODAY` and bet the EP-max
-   scoreline on the adjusted track (expected points under `data/kicktipp_rules.json` — this
-   may differ from `predicted_score`). Kicktipp MCP `place_bets`; read back with `get_bets`
-   to confirm. Then Kickgeist `predict_match` with the argmax outcome (H/D/A) of the adjusted
-   track. Record both in the prediction's `posted_to` list, including the actual bet placed.
+9. **Post picks** — winning the Kicktipp league `xcentric-ominimo` (maximize P(finish 1st),
+   not per-match points) is the objective. Run `python3 scripts/optimal_score.py --date TODAY`
+   for the EP-max scoreline on the adjusted track (expected points under
+   `data/kicktipp_rules.json` — may differ from `predicted_score`). Then refresh
+   `data/league/standings.json` from the kicktipp MCP (`get_overview` / `get_leaderboard`) and
+   run `python3 scripts/contest_strategy.py --date TODAY`: bet its **EP-max** pick in
+   ACCUMULATE mode, its **variance-seeking** pick in LEAN_VARIANCE/CATCH_UP (trailing, late
+   season), or its **variance-averse** pick in PROTECT (leading, late season). Place via
+   Kicktipp MCP `place_bets`; read back with `get_bets` to confirm. Kickgeist `predict_match`
+   (argmax H/D/A) is optional — the human plays Kicktipp only. Record in the prediction's
+   `posted_to` list, including the actual bet placed.
    Never post a match twice by accident; a deliberate pre-kickoff re-bet (e.g. after a
    platform scoring change) is allowed — mark the old entry `superseded_by` and add the new
    one with a `note`.
@@ -57,4 +63,5 @@ under `reports/`. All scripts are stdlib-only Python 3: `python3 scripts/<name>.
 - `data/predictions/YYYY-MM-DD.json` — per-day predictions, 4 tracks (model/adjusted/odds/external)
 - `data/accuracy/ledger.json` — per-match scoring + running totals per track
 - `data/simulations/sim_YYYY-MM-DD.json` — Monte Carlo outputs
+- `data/league/standings.json` — current Kicktipp league standing; drives `scripts/contest_strategy.py` (bet mode by deficit + matches left)
   

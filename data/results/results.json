@@ -1,0 +1,93 @@
+{
+  "updated_at": "2026-06-13T11:43:32Z",
+  "results": [
+    {
+      "match_id": "M001",
+      "stage": "group",
+      "group": "A",
+      "home": "MEX",
+      "away": "RSA",
+      "home_goals": 2,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-11T19:00:00Z",
+      "notes": [
+        "Quinones early; Jimenez 2nd half; 3 red cards (2 RSA, 1 MEX)"
+      ],
+      "reconciliation": {
+        "sources": [
+          "CNN/CBS/Sky/CBC consensus",
+          "ESPN"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-13T11:43:32Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M002",
+      "stage": "group",
+      "group": "A",
+      "home": "KOR",
+      "away": "CZE",
+      "home_goals": 2,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-12T02:00:00Z",
+      "notes": [
+        "Krejci 58 (CZE); Hwang In-beom 66; Oh Hyeon-gyu 80 winner"
+      ],
+      "reconciliation": {
+        "sources": [
+          "CNN/CBS/Sky/CBC consensus",
+          "ESPN"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-13T11:43:32Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M003",
+      "stage": "group",
+      "group": "B",
+      "home": "CAN",
+      "away": "BIH",
+      "home_goals": 1,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-12T19:00:00Z",
+      "notes": [
+        "Larin equalizer; first mens WC match on Canadian soil"
+      ],
+      "reconciliation": {
+        "sources": [
+          "CNN/CBS/Sky/CBC consensus",
+          "ESPN"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-13T11:43:32Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M004",
+      "stage": "group",
+      "group": "D",
+      "home": "USA",
+      "away": "PAR",
+      "home_goals": 4,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-13T01:00:00Z",
+      "notes": [
+        "Balogun x2; Bobadilla OG; Reyna; PAR scored 73"
+      ],
+      "reconciliation": {
+        "sources": [
+          "CNN/CBS/Sky/CBC consensus",
+          "ESPN"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-13T11:43:32Z",
+        "status": "confirmed"
+      }
+    }
+  ]
+}

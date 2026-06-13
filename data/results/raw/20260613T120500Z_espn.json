@@ -1,0 +1,36 @@
+{
+  "fetched_at": "2026-06-13T12:05:00Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760415/south-africa-mexico",
+    "https://www.espn.com/soccer/match/_/gameId/760414/a4-a3",
+    "https://www.espn.com/soccer/story/_/id/49031240/mexico-south-africa-live-world-cup-2026"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M001",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "Quinones early; Jimenez 2nd half; 3 red cards (2 RSA, 1 MEX)"
+    },
+    {
+      "match_id": "M002",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "Krejci 58 (CZE); Hwang In-beom 66; Oh Hyeon-gyu 80 winner"
+    },
+    {
+      "match_id": "M003",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "Larin equalizer; first mens WC match on Canadian soil"
+    },
+    {
+      "match_id": "M004",
+      "home_goals": 4,
+      "away_goals": 1,
+      "note": "Balogun x2; Bobadilla OG; Reyna; PAR scored 73"
+    }
+  ]
+}
