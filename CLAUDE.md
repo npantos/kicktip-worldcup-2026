@@ -16,6 +16,12 @@ under `reports/`. All scripts are stdlib-only Python 3: `python3 scripts/<name>.
 
 ## Daily cycle (run each morning, again before first kickoff if news warrants)
 
+**Orchestrate with `python3 scripts/daily.py`** — `--phase status` prints the day's to-do
+(played-but-unrecorded, disputed, today's lock/bet state); the default `--phase all` runs the
+deterministic backbone (steps 2-6, 10-12) and halts at the agent gates (fetch / odds+adjust /
+bet) below with exact instructions. Use `--phase bet` for the step-9 pick. The steps below are
+what it runs and where you take over.
+
 1. **Fetch results** (yesterday + any finished today):
    - `python3 scripts/fetch_results.py --date YESTERDAY` (APIs → raw snapshots)
    - Web-search final scores (FIFA/BBC/ESPN) and/or use wc26-mcp tools; write a snapshot via
