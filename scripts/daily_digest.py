@@ -11,7 +11,8 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from lib import store
+from lib import store, poisson
+from optimal_score import fit_lambdas, rank_scorelines
 
 
 def match_day(kickoff_utc):
@@ -21,6 +22,27 @@ def match_day(kickoff_utc):
 
 def pct(x):
     return f"{x:.0%}" if isinstance(x, (int, float)) else "—"
+
+
+def placed_bet(pred):
+    """The active (non-superseded) Kicktipp bet recorded on a prediction, or None."""
+    for e in reversed(pred.get("posted_to", [])):
+        if e.get("platform") == "kicktipp" and not e.get("superseded_by"):
+            return e.get("bet")
+    return None
+
+
+def epmax_bet(blk, rules):
+    """EP-max scoreline + its expected Kicktipp points for one track block.
+
+    Uses the model track's stored lambdas; for tracks without lambdas (adjusted,
+    odds) it fits them to the outcome probabilities, exactly like optimal_score.py.
+    This is the points-maximizing bet, which may differ from the modal scoreline."""
+    lh, la = blk.get("lambda_home"), blk.get("lambda_away")
+    if lh is None or la is None:
+        lh, la = fit_lambdas(blk["p_home"], blk["p_draw"], blk["p_away"])
+    ep, h, a = rank_scorelines(poisson.score_matrix(lh, la), rules)[0]
+    return f"{h}:{a}", ep
 
 
 def main():
@@ -36,6 +58,7 @@ def main():
     ledger = store.load("data/accuracy/ledger.json", default={"matches": [], "totals": {}})
     ledger_by_id = {m["match_id"]: m for m in ledger.get("matches", [])}
     hist = store.load("data/elo/ratings_history.json", default={"updates": []})
+    rules = store.load("data/kicktipp_rules.json")
 
     def name(tid):
         return teams[tid]["name"] if tid in teams else (tid or "?")
@@ -54,22 +77,28 @@ def main():
         L.append(f"### {mid} · {name(fx.get('home'))} vs {name(fx.get('away'))}"
                  f" — {ko} (Group {fx.get('group','?')})")
         L.append("")
-        L.append("| Track | Home | Draw | Away | Score |")
-        L.append("|---|---|---|---|---|")
+        L.append("| Track | Home | Draw | Away | Likely score | EP-max bet (pts) |")
+        L.append("|---|---|---|---|---|---|")
         for tname, key in (("Model", "model"), ("Adjusted", "adjusted"),
                            ("Odds", "odds")):
             blk = p.get(key)
             if blk and blk.get("p_home") is not None:
                 sc = blk.get("predicted_score") or blk.get("expected_score") or "—"
+                bet_sc, ep = epmax_bet(blk, rules)
                 star = " **(pick)**" if key == "adjusted" else ""
                 L.append(f"| {tname}{star} | {pct(blk['p_home'])} | {pct(blk['p_draw'])} "
-                         f"| {pct(blk['p_away'])} | {sc} |")
+                         f"| {pct(blk['p_away'])} | {sc} | {bet_sc} ({ep:.2f}) |")
         r = results.get(mid)
         if r:
             st = r["reconciliation"]["status"]
-            L.append(f"| **Actual** | | | | **{r['home_goals']}-{r['away_goals']}** ({st}) |")
+            L.append(f"| **Actual** | | | | **{r['home_goals']}-{r['away_goals']}** ({st}) | |")
         L.append("")
+        bet = placed_bet(p)
         led = ledger_by_id.get(mid)
+        scored = bool(led and led.get("bet") and "kicktipp_points" in led["bet"])
+        if bet and not scored:
+            L.append(f"**Kicktipp bet placed:** {bet}")
+            L.append("")
         if led and led.get("bet"):
             b = led["bet"]
             bits = []

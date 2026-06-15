@@ -39,7 +39,16 @@
           "bet": "3:0",
           "posted_at": "2026-06-11T18:01:27Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 2: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 2: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-14T12:14:08Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "3:0",
+          "posted_at": "2026-06-14T12:14:08Z",
+          "confirmed_via": "place_bets + get_today_matches readback",
+          "note": "Re-placed via Kicktipp MCP on match day: platform was showing the default 0:0 (the 2026-06-11 pre-fill bet had not landed). Re-submitted EP-max 3:0 (ACCUMULATE mode); readback confirmed 3:0."
         }
       ]
     },
