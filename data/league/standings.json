@@ -1,27 +1,81 @@
 {
-  "fetched_at": "2026-06-13T11:58:00Z",
+  "fetched_at": "2026-06-15T08:05:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview (standings, points-from-leader) + get_leaderboard",
-  "as_of_matchday": 1,
+  "source": "kicktipp MCP get_overview (standings) + get_leaderboard (matchday 2)",
+  "as_of_matchday": 2,
   "matches_scored_so_far": 4,
   "field_size": 32,
-  "me": { "name": "Nemanj-AI", "rank": 11, "points": 8, "bonus": 0 },
-  "human_owner": { "name": "NemanjaPantoš", "rank": 11, "points": 8 },
-  "leader": { "names": ["MrGojomir", "LilDja"], "points": 16 },
+  "me": {
+    "name": "Nemanj-AI",
+    "rank": 8,
+    "points": 18,
+    "bonus": 0
+  },
+  "human_owner": {
+    "name": "NemanjaPanto\u0161",
+    "rank": 14,
+    "points": 14
+  },
+  "leader": {
+    "names": [
+      "MrGojomir"
+    ],
+    "points": 26
+  },
   "deficit_to_leader": 8,
-  "tier_at_my_points": 12,
-  "players_ahead": 10,
+  "tier_at_my_points": 2,
+  "players_ahead": 7,
   "top": [
-    { "rank": 1, "name": "MrGojomir", "points": 16 },
-    { "rank": 1, "name": "LilDja", "points": 16 },
-    { "rank": 3, "name": "Shelly", "points": 14 },
-    { "rank": 3, "name": "LosAngelesBus", "points": 14 },
-    { "rank": 3, "name": "Siridza", "points": 14 },
-    { "rank": 6, "name": "markec", "points": 13 },
-    { "rank": 7, "name": "nscz", "points": 12 },
-    { "rank": 8, "name": "milos.nisic", "points": 10 },
-    { "rank": 9, "name": "Kula", "points": 9 },
-    { "rank": 9, "name": "Pera", "points": 9 }
+    {
+      "rank": 1,
+      "name": "MrGojomir",
+      "points": 26
+    },
+    {
+      "rank": 2,
+      "name": "LosAngelesBus",
+      "points": 23
+    },
+    {
+      "rank": 3,
+      "name": "LilDja",
+      "points": 22
+    },
+    {
+      "rank": 4,
+      "name": "nscz",
+      "points": 22
+    },
+    {
+      "rank": 5,
+      "name": "markec",
+      "points": 21
+    },
+    {
+      "rank": 6,
+      "name": "bojan_ni\u0161i\u0107",
+      "points": 20
+    },
+    {
+      "rank": 7,
+      "name": "Shelly",
+      "points": 20
+    },
+    {
+      "rank": 8,
+      "name": "ljubomir",
+      "points": 18
+    },
+    {
+      "rank": 8,
+      "name": "Nemanj-AI",
+      "points": 18
+    },
+    {
+      "rank": 10,
+      "name": "milos.nisic",
+      "points": 17
+    }
   ],
-  "note": "MD1, 4 of 8 games scored. 12-way tie at 8 pts (mine) — field clustered on favorite-chalk (MEX+USA the obvious wins). Leaders separated via exact scores and by calling CAN 1-1 (I bet CAN 1-0 -> 0). Bonus questions not yet scored. Refresh from the kicktipp MCP each cycle."
+  "note": "MD2: MD1 fully scored (Nemanj-AI ended 14), MD2 4 of 8 games scored (M009-M012) -> +4, total 18, rank 8/32. Leader MrGojomir 26 (deficit 8). Very early (maxMatchday 2, ~60 group games left) -> ACCUMULATE/EP-max. Human owner plays separate account NemanjaPanto\u0161 (rank 14, 14 pts). Bonus not yet scored."
 }

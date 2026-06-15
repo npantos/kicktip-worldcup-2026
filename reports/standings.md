@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-14 12:07 UTC. Based on confirmed results only._
+_Updated 2026-06-15 07:55 UTC. Based on confirmed results only._
 
 ## Group A
 
@@ -17,44 +17,44 @@ _Updated 2026-06-14 12:07 UTC. Based on confirmed results only._
 |---|------|---|---|---|---|----|----|----|-----|
 | 1 | Bosnia & Herzegovina † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
 | 2 | Canada † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 3 | Qatar † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 4 | Switzerland † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
+| 3 | Qatar † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
+| 4 | Switzerland † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
 
 ## Group C
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Brazil † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 2 | Haiti † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 3 | Morocco † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 4 | Scotland † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
+| 1 | Scotland | 1 | 1 | 0 | 0 | 1 | 0 | +1 | 3 |
+| 2 | Brazil † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
+| 3 | Morocco † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
+| 4 | Haiti | 1 | 0 | 0 | 1 | 0 | 1 | -1 | 0 |
 
 ## Group D
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
 | 1 | USA | 1 | 1 | 0 | 0 | 4 | 1 | +3 | 3 |
-| 2 | Australia † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 3 | Turkey † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
+| 2 | Australia | 1 | 1 | 0 | 0 | 2 | 0 | +2 | 3 |
+| 3 | Turkey | 1 | 0 | 0 | 1 | 0 | 2 | -2 | 0 |
 | 4 | Paraguay | 1 | 0 | 0 | 1 | 1 | 4 | -3 | 0 |
 
 ## Group E
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Ivory Coast † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 2 | Curaçao † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 3 | Ecuador † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 4 | Germany † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
+| 1 | Germany | 1 | 1 | 0 | 0 | 7 | 1 | +6 | 3 |
+| 2 | Ivory Coast | 1 | 1 | 0 | 0 | 1 | 0 | +1 | 3 |
+| 3 | Ecuador | 1 | 0 | 0 | 1 | 0 | 1 | -1 | 0 |
+| 4 | Curaçao | 1 | 0 | 0 | 1 | 1 | 7 | -6 | 0 |
 
 ## Group F
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Japan † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 2 | Netherlands † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 3 | Sweden † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 4 | Tunisia † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
+| 1 | Sweden | 1 | 1 | 0 | 0 | 5 | 1 | +4 | 3 |
+| 2 | Japan † | 1 | 0 | 1 | 0 | 2 | 2 | +0 | 1 |
+| 3 | Netherlands † | 1 | 0 | 1 | 0 | 2 | 2 | +0 | 1 |
+| 4 | Tunisia | 1 | 0 | 0 | 1 | 1 | 5 | -4 | 0 |
 
 ## Group G
 
@@ -114,17 +114,17 @@ _Updated 2026-06-14 12:07 UTC. Based on confirmed results only._
 
 | # | Team | Grp | P | GD | GF | Pts |
 |---|------|-----|---|----|----|-----|
-| 1 | Qatar † | B | 0 | +0 | 0 | 0 |
-| 2 | Morocco † | C | 0 | +0 | 0 | 0 |
-| 3 | Turkey † | D | 0 | +0 | 0 | 0 |
-| 4 | Ecuador † | E | 0 | +0 | 0 | 0 |
-| 5 | Sweden † | F | 0 | +0 | 0 | 0 |
-| 6 | Iran † | G | 0 | +0 | 0 | 0 |
-| 7 | Saudi Arabia † | H | 0 | +0 | 0 | 0 |
-| 8 | Norway † | I | 0 | +0 | 0 | 0 | ← cutoff
-| 9 | Austria † | J | 0 | +0 | 0 | 0 |
-| 10 | Portugal † | K | 0 | +0 | 0 | 0 |
-| 11 | Ghana † | L | 0 | +0 | 0 | 0 |
-| 12 | Czech Republic | A | 1 | -1 | 1 | 0 |
+| 1 | Netherlands † | F | 1 | +0 | 2 | 1 |
+| 2 | Qatar † | B | 1 | +0 | 1 | 1 |
+| 3 | Morocco † | C | 1 | +0 | 1 | 1 |
+| 4 | Iran † | G | 0 | +0 | 0 | 0 |
+| 5 | Saudi Arabia † | H | 0 | +0 | 0 | 0 |
+| 6 | Norway † | I | 0 | +0 | 0 | 0 |
+| 7 | Austria † | J | 0 | +0 | 0 | 0 |
+| 8 | Portugal † | K | 0 | +0 | 0 | 0 | ← cutoff
+| 9 | Ghana † | L | 0 | +0 | 0 | 0 |
+| 10 | Czech Republic | A | 1 | -1 | 1 | 0 |
+| 11 | Ecuador | E | 1 | -1 | 0 | 0 |
+| 12 | Turkey | D | 1 | -2 | 0 | 0 |
 
 _† order among tied teams depends on fair play points / drawing of lots (not tracked) — shown alphabetically._

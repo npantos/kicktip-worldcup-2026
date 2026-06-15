@@ -1,0 +1,56 @@
+{
+  "fetched_at": "2026-06-15T08:02:00Z",
+  "source": "FOX Sports / FIFA",
+  "urls": [
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-qatar-vs-switzerland-jun-13-2026-game-boxscore-647621",
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-brazil-vs-morocco-jun-13-2026-game-boxscore-647622",
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-australia-vs-turkiye-jun-14-2026-game-boxscore-647620",
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-germany-vs-curacao-jun-14-2026-game-boxscore-647624",
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-netherlands-vs-japan-jun-14-2026-game-boxscore-647625",
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-ivory-coast-vs-ecuador-jun-14-2026-game-boxscore-647626",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021474"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M005",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "match_id": "M006",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "match_id": "M007",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "match_id": "M008",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "match_id": "M009",
+      "home_goals": 7,
+      "away_goals": 1
+    },
+    {
+      "match_id": "M010",
+      "home_goals": 2,
+      "away_goals": 2
+    },
+    {
+      "match_id": "M011",
+      "home_goals": 1,
+      "away_goals": 0
+    },
+    {
+      "match_id": "M012",
+      "home_goals": 5,
+      "away_goals": 1
+    }
+  ]
+}

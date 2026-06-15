@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T12:07:02Z",
+  "updated_at": "2026-06-15T07:55:05Z",
   "results": [
     {
       "match_id": "M001",
@@ -19,7 +19,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-14T12:07:02Z",
+        "reconciled_at": "2026-06-15T07:55:05Z",
         "status": "confirmed"
       }
     },
@@ -41,7 +41,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-14T12:07:02Z",
+        "reconciled_at": "2026-06-15T07:55:05Z",
         "status": "confirmed"
       }
     },
@@ -63,7 +63,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-14T12:07:02Z",
+        "reconciled_at": "2026-06-15T07:55:05Z",
         "status": "confirmed"
       }
     },
@@ -85,7 +85,183 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-14T12:07:02Z",
+        "reconciled_at": "2026-06-15T07:55:05Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M005",
+      "stage": "group",
+      "group": "B",
+      "home": "QAT",
+      "away": "SUI",
+      "home_goals": 1,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-13T19:00:00Z",
+      "notes": [
+        "Embolo pen 17 (SUI); Khoukhi 90+4 (QAT) — Qatar's first-ever WC point"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "FOX Sports / FIFA"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-15T07:55:05Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M006",
+      "stage": "group",
+      "group": "C",
+      "home": "BRA",
+      "away": "MAR",
+      "home_goals": 1,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-13T22:00:00Z",
+      "notes": [
+        "Saibari 21 (MAR); Vinicius Jr equalizer (BRA)"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "FOX Sports / FIFA"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-15T07:55:05Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M007",
+      "stage": "group",
+      "group": "C",
+      "home": "HAI",
+      "away": "SCO",
+      "home_goals": 0,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-14T01:00:00Z",
+      "notes": [
+        "McGinn 28 (SCO) — Scotland's first WC win since 1990"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "FOX Sports / FIFA"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-15T07:55:05Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M008",
+      "stage": "group",
+      "group": "D",
+      "home": "AUS",
+      "away": "TUR",
+      "home_goals": 2,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-14T04:00:00Z",
+      "notes": [
+        "Australia 2-0 Turkiye"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "FOX Sports / FIFA"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-15T07:55:05Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M009",
+      "stage": "group",
+      "group": "E",
+      "home": "GER",
+      "away": "CUW",
+      "home_goals": 7,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-14T17:00:00Z",
+      "notes": [
+        "GER: Nmecha 6, Schlotterbeck 38, Havertz 45+5 pen, Musiala 47, Brown 68, Undav 78, Havertz 88; CUW: Comenecia 21"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "FOX Sports / FIFA"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-15T07:55:05Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M010",
+      "stage": "group",
+      "group": "F",
+      "home": "NED",
+      "away": "JPN",
+      "home_goals": 2,
+      "away_goals": 2,
+      "kickoff_utc": "2026-06-14T20:00:00Z",
+      "notes": [
+        "NED: Van Dijk 50, Summerville 64; JPN: Nakamura 57, Kamada 89 late equalizer"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "FOX Sports / FIFA"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-15T07:55:05Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M011",
+      "stage": "group",
+      "group": "E",
+      "home": "CIV",
+      "away": "ECU",
+      "home_goals": 1,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-14T23:00:00Z",
+      "notes": [
+        "Amad Diallo 90 winner (CIV); Ecuador hit woodwork 3x"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "FOX Sports / FIFA"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-15T07:55:05Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M012",
+      "stage": "group",
+      "group": "F",
+      "home": "SWE",
+      "away": "TUN",
+      "home_goals": 5,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-15T02:00:00Z",
+      "notes": [
+        "SWE: Ayari x2, Isak, Gyokeres, Svanberg; TUN: Rekik"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "FOX Sports / FIFA"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-15T07:55:05Z",
         "status": "confirmed"
       }
     }

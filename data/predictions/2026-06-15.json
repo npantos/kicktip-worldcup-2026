@@ -4,7 +4,7 @@
     {
       "match_id": "M013",
       "created_at": "2026-06-11T17:59:08Z",
-      "locked_at": null,
+      "locked_at": "2026-06-15T08:02:00Z",
       "model": {
         "elo_home": 2157,
         "elo_away": 1578,
@@ -17,19 +17,54 @@
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.89,
+        "p_draw": 0.08,
+        "p_away": 0.03,
+        "predicted_score": "3-0",
+        "p_home_advance": null,
+        "reasoning": "Anchored to the market (bet365 ESP -1000/draw +1100/CPV +3100 -> de-vig ~89/8/3; the model's 97% is overconfident, consistent with MD1 calibration where the odds track beat the model on Brier 0.63 vs 0.86). Spain are a tournament-favorite-tier side; Cape Verde are World Cup debutants. No relevant injuries on either side in the tracker. Spain win-to-nil, scoring freely, is the central case; a clean multi-goal win is most likely.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 97% vs market 89%; anchored to market (MD1 Brier model 0.86 > odds 0.63)"
+          },
+          {
+            "type": "squad",
+            "team": "CPV",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "World Cup debutants; large quality gap vs Spain"
+          },
+          {
+            "type": "squad",
+            "team": "ESP",
+            "direction": "for",
+            "weight": "mild",
+            "note": "No injuries; elite depth across the pitch"
+          }
+        ],
+        "news_sources": [
+          "https://www.espn.com/soccer/odds/_/gameId/760428",
+          "https://www.foxsports.com/stories/soccer/2026-world-cup-spain-cape-verde-odds-prediction-picks",
+          "https://www.covers.com/world-cup/spain-vs-cape-verde-prediction-picks-odds-monday-6-15-2026"
+        ]
+      },
       "odds": {
-        "source": "constructed from Kalshi 91% ESP + SportsCasting supercomputer 86/10/4 (no direct 1x2 published)",
+        "source": "bet365/ESPN BB via web search 2026-06-15 (ESP -1000, draw +1100, CPV +3100)",
         "decimal_odds": [
           1.1,
-          11.0,
-          27.0
+          12.0,
+          32.0
         ],
-        "overround": 0.037,
-        "p_home": 0.8766,
-        "p_draw": 0.0877,
-        "p_away": 0.0357,
-        "fetched_at": "2026-06-11T18:00:36Z"
+        "overround": 0.0237,
+        "p_home": 0.8881,
+        "p_draw": 0.0814,
+        "p_away": 0.0305,
+        "fetched_at": "2026-06-15T07:58:07Z"
       },
       "external": [],
       "posted_to": [
@@ -40,13 +75,22 @@
           "posted_at": "2026-06-11T18:01:27Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 2: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "3:0",
+          "posted_at": "2026-06-15T08:06:00Z",
+          "confirmed_via": "get_bets + get_today_matches readback",
+          "kind": "matchday-confirmation",
+          "note": "Match-day verification (matchday 2): the 2026-06-11 pre-fill bet is confirmed live on the platform via get_bets + get_today_matches readback (NOT sitting at default 0:0). League mode ACCUMULATE (contest_strategy urgency 0.022, ~60 group games left) -> bet EP-max on the adjusted track, which equals the placed bet, so no re-bet was made. No place_bets call this cycle."
         }
       ]
     },
     {
       "match_id": "M014",
       "created_at": "2026-06-11T17:59:08Z",
-      "locked_at": null,
+      "locked_at": "2026-06-15T08:02:00Z",
       "model": {
         "elo_home": 1894,
         "elo_away": 1696,
@@ -59,19 +103,54 @@
         "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.57,
+        "p_draw": 0.25,
+        "p_away": 0.18,
+        "predicted_score": "1-0",
+        "p_home_advance": null,
+        "reasoning": "Anchored to the market (bet365 BEL -150/draw +280/EGY +400 -> de-vig ~56/25/19; Kalshi 61/24/17); the model's 83% over-favours Belgium, in line with the MD1 finding that the odds track is better calibrated than the model. Belgium are favourites with De Bruyne, Doku and Trossard, but Lukaku is short of match fitness after an injury-hit Napoli season and Debast is likely out, blunting the attack. Egypt with Salah are a live counter-attacking threat. Goal markets lean slightly Under 2.5, pointing to a controlled, narrow Belgium win rather than a rout.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 83% vs market 56%; anchored to market (MD1 Brier model 0.86 > odds 0.63)"
+          },
+          {
+            "type": "injury",
+            "team": "BEL",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Lukaku short of match fitness; Debast likely out"
+          },
+          {
+            "type": "threat",
+            "team": "EGY",
+            "direction": "for",
+            "weight": "mild",
+            "note": "Salah a genuine counter-attacking threat keeps draw/away live"
+          }
+        ],
+        "news_sources": [
+          "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/belgium-vs-egypt-odds-prediction-061526-217172",
+          "https://www.dimers.com/bet-hub/swc/schedule/2026_1_bel_egy",
+          "https://www.sportsgambler.com/betting-tips/football/belgium-vs-egypt-prediction-lineups-odds-2026-06-15/"
+        ]
+      },
       "odds": {
-        "source": "bet365 via web search (BEL -150, draw +280, EGY +400), Kalshi 60/25/18",
+        "source": "bet365 via web search 2026-06-15 (BEL -150, draw +280, EGY +400); Kalshi 61/24/17",
         "decimal_odds": [
-          1.67,
+          1.6667,
           3.8,
           5.0
         ],
-        "overround": 0.062,
-        "p_home": 0.5639,
-        "p_draw": 0.2478,
-        "p_away": 0.1883,
-        "fetched_at": "2026-06-11T18:00:36Z"
+        "overround": 0.0631,
+        "p_home": 0.5644,
+        "p_draw": 0.2475,
+        "p_away": 0.1881,
+        "fetched_at": "2026-06-15T07:58:07Z"
       },
       "external": [],
       "posted_to": [
@@ -82,13 +161,22 @@
           "posted_at": "2026-06-11T18:01:27Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 2: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-15T08:06:00Z",
+          "confirmed_via": "get_bets + get_today_matches readback",
+          "kind": "matchday-confirmation",
+          "note": "Match-day verification (matchday 2): the 2026-06-11 pre-fill bet is confirmed live on the platform via get_bets + get_today_matches readback (NOT sitting at default 0:0). League mode ACCUMULATE (contest_strategy urgency 0.022, ~60 group games left) -> bet EP-max on the adjusted track, which equals the placed bet, so no re-bet was made. No place_bets call this cycle."
         }
       ]
     },
     {
       "match_id": "M015",
       "created_at": "2026-06-11T17:59:08Z",
-      "locked_at": null,
+      "locked_at": "2026-06-15T08:02:00Z",
       "model": {
         "elo_home": 1576,
         "elo_away": 1892,
@@ -101,19 +189,54 @@
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "web search consensus (KSA +625, draw +333, URU -225)",
-        "decimal_odds": [
-          7.25,
-          4.33,
-          1.44
+      "adjusted": {
+        "p_home": 0.15,
+        "p_draw": 0.22,
+        "p_away": 0.63,
+        "predicted_score": "0-1",
+        "p_home_advance": null,
+        "reasoning": "Anchored to the market (bet365 URU -200/draw +333/KSA +525 -> de-vig ~15/22/63; Kalshi 12/21/68); the model's 95% Uruguay over-states the favourite, consistent with MD1 calibration. Uruguay (Nunez, Valverde, Bentancur, Ugarte) are clearly stronger, but Saudi Arabia set up defensively and the market prices a real chance of a low-scoring, tight game. Forecast thunderstorms / heavy rain and humidity in Miami plus an Under-2.5 lean point to a managed 1-0 / 2-0 type win rather than a blowout.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 95% vs market 63%; anchored to market (MD1 Brier model 0.86 > odds 0.63)"
+          },
+          {
+            "type": "weather",
+            "team": null,
+            "direction": null,
+            "weight": "moderate",
+            "note": "Miami thunderstorms/rain + humidity favour a lower-scoring, scrappier game"
+          },
+          {
+            "type": "squad",
+            "team": "URU",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Clear quality edge (Nunez, Valverde, Bentancur) but Saudi defensive setup caps margin"
+          }
         ],
-        "overround": 0.0633,
-        "p_home": 0.1297,
-        "p_draw": 0.2172,
-        "p_away": 0.6531,
-        "fetched_at": "2026-06-11T18:00:36Z"
+        "news_sources": [
+          "https://www.racingpost.com/sport/football-tips/world-cup-2026/saudi-arabia-vs-uruguay-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-ad5p50X6jjZM/",
+          "https://onefootball.com/en/news/saudi-arabia-vs-uruguay-prediction-world-cup-2026-preview-best-bets-42999459",
+          "https://www.sportsgambler.com/betting-tips/football/saudi-arabia-vs-uruguay-prediction-lineups-odds-2026-06-15/"
+        ]
+      },
+      "odds": {
+        "source": "bet365 via web search 2026-06-15 (KSA +525, draw +333, URU -200); Kalshi 12/21/68",
+        "decimal_odds": [
+          6.25,
+          4.33,
+          1.5
+        ],
+        "overround": 0.0576,
+        "p_home": 0.1513,
+        "p_draw": 0.2184,
+        "p_away": 0.6303,
+        "fetched_at": "2026-06-15T07:58:07Z"
       },
       "external": [],
       "posted_to": [
@@ -124,13 +247,22 @@
           "posted_at": "2026-06-11T18:01:27Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 2: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-15T08:06:00Z",
+          "confirmed_via": "get_bets + get_today_matches readback",
+          "kind": "matchday-confirmation",
+          "note": "Match-day verification (matchday 2): the 2026-06-11 pre-fill bet is confirmed live on the platform via get_bets + get_today_matches readback (NOT sitting at default 0:0). League mode ACCUMULATE (contest_strategy urgency 0.022, ~60 group games left) -> bet EP-max on the adjusted track, which equals the placed bet, so no re-bet was made. No place_bets call this cycle."
         }
       ]
     },
     {
       "match_id": "M016",
       "created_at": "2026-06-11T17:59:08Z",
-      "locked_at": null,
+      "locked_at": "2026-06-15T08:02:00Z",
       "model": {
         "elo_home": 1772,
         "elo_away": 1562,
@@ -143,19 +275,54 @@
         "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "web search consensus (IRN -118, draw +240, NZL +333)",
-        "decimal_odds": [
-          1.85,
-          3.4,
-          4.33
+      "adjusted": {
+        "p_home": 0.51,
+        "p_draw": 0.27,
+        "p_away": 0.22,
+        "predicted_score": "1-0",
+        "p_home_advance": null,
+        "reasoning": "Anchored to the market (bet365 IRN -118/draw +250/NZL +320 -> de-vig ~51/27/22; consensus 54/27/21); the model's 85% over-favours Iran, in line with MD1 calibration. Iran's World Cup experience and Taremi's quality make them rightful favourites, but New Zealand are organised and the draw is well priced. The total is set at 2.5 with the Under heavily favoured (-175), so a narrow 1-0 Iran win is the central case.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 85% vs market 51%; anchored to market (MD1 Brier model 0.86 > odds 0.63)"
+          },
+          {
+            "type": "form",
+            "team": "IRN",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "WC experience + Taremi quality; rightful favourite"
+          },
+          {
+            "type": "goals",
+            "team": null,
+            "direction": null,
+            "weight": "moderate",
+            "note": "Under 2.5 heavily favoured (-175); low-scoring lean"
+          }
         ],
-        "overround": 0.0656,
-        "p_home": 0.5073,
-        "p_draw": 0.276,
-        "p_away": 0.2167,
-        "fetched_at": "2026-06-11T18:00:36Z"
+        "news_sources": [
+          "https://www.dimers.com/bet-hub/swc/schedule/2026_1_irn_nzl",
+          "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/iran-vs-new-zealand-odds-prediction-061626-217181",
+          "https://thesportsrush.com/iran-v-new-zealand-predictions/"
+        ]
+      },
+      "odds": {
+        "source": "bet365 via web search 2026-06-15 (IRN -118, draw +250, NZL +320); consensus 54/27/21",
+        "decimal_odds": [
+          1.8475,
+          3.5,
+          4.2
+        ],
+        "overround": 0.0651,
+        "p_home": 0.5082,
+        "p_draw": 0.2683,
+        "p_away": 0.2235,
+        "fetched_at": "2026-06-15T07:58:07Z"
       },
       "external": [],
       "posted_to": [
@@ -166,6 +333,15 @@
           "posted_at": "2026-06-11T18:01:27Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 2: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-15T08:06:00Z",
+          "confirmed_via": "get_bets + get_today_matches readback",
+          "kind": "matchday-confirmation",
+          "note": "Match-day verification (matchday 2): the 2026-06-11 pre-fill bet is confirmed live on the platform via get_bets + get_today_matches readback (NOT sitting at default 0:0). League mode ACCUMULATE (contest_strategy urgency 0.022, ~60 group games left) -> bet EP-max on the adjusted track, which equals the placed bet, so no re-bet was made. No place_bets call this cycle."
         }
       ]
     }

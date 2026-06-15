@@ -1,0 +1,64 @@
+{
+  "fetched_at": "2026-06-15T08:00:00Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760420/switzerland-qatar",
+    "https://www.espn.com/soccer/match/_/gameId/760419/morocco-brazil",
+    "https://www.espn.co.uk/football/match/_/gameId/760418/scotland-haiti",
+    "https://www.espn.com/soccer/match/_/gameId/760421/turkiye-australia",
+    "https://www.espn.com/soccer/match/_/gameId/760422/curacao-germany",
+    "https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands",
+    "https://www.espn.com/soccer/match/_/gameId/760423/ecuador-ivory-coast"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M005",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "Embolo pen 17 (SUI); Khoukhi 90+4 (QAT) — Qatar's first-ever WC point"
+    },
+    {
+      "match_id": "M006",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "Saibari 21 (MAR); Vinicius Jr equalizer (BRA)"
+    },
+    {
+      "match_id": "M007",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "McGinn 28 (SCO) — Scotland's first WC win since 1990"
+    },
+    {
+      "match_id": "M008",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "Australia 2-0 Turkiye"
+    },
+    {
+      "match_id": "M009",
+      "home_goals": 7,
+      "away_goals": 1,
+      "note": "GER: Nmecha 6, Schlotterbeck 38, Havertz 45+5 pen, Musiala 47, Brown 68, Undav 78, Havertz 88; CUW: Comenecia 21"
+    },
+    {
+      "match_id": "M010",
+      "home_goals": 2,
+      "away_goals": 2,
+      "note": "NED: Van Dijk 50, Summerville 64; JPN: Nakamura 57, Kamada 89 late equalizer"
+    },
+    {
+      "match_id": "M011",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "Amad Diallo 90 winner (CIV); Ecuador hit woodwork 3x"
+    },
+    {
+      "match_id": "M012",
+      "home_goals": 5,
+      "away_goals": 1,
+      "note": "SWE: Ayari x2, Isak, Gyokeres, Svanberg; TUN: Rekik"
+    }
+  ]
+}
