@@ -194,7 +194,7 @@
       "away": "CPV",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M014",
@@ -209,7 +209,7 @@
       "away": "EGY",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M015",
@@ -224,7 +224,7 @@
       "away": "URU",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M016",
@@ -239,7 +239,7 @@
       "away": "NZL",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M017",

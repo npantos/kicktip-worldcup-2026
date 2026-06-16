@@ -169,6 +169,62 @@
       "r_away_after": 1585.1,
       "delta_home": 42.91,
       "g_multiplier": 1.875
+    },
+    {
+      "match_id": "M013",
+      "applied_at": "2026-06-16T11:22:55Z",
+      "home": "ESP",
+      "away": "CPV",
+      "score": "0-0",
+      "home_adv_applied": 0,
+      "r_home_before": 2157,
+      "r_away_before": 1578,
+      "r_home_after": 2129.1,
+      "r_away_after": 1605.9,
+      "delta_home": -27.93,
+      "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M014",
+      "applied_at": "2026-06-16T11:22:55Z",
+      "home": "BEL",
+      "away": "EGY",
+      "score": "1-1",
+      "home_adv_applied": 0,
+      "r_home_before": 1894,
+      "r_away_before": 1696,
+      "r_home_after": 1878.5,
+      "r_away_after": 1711.5,
+      "delta_home": -15.46,
+      "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M015",
+      "applied_at": "2026-06-16T11:22:55Z",
+      "home": "KSA",
+      "away": "URU",
+      "score": "1-1",
+      "home_adv_applied": 0,
+      "r_home_before": 1576,
+      "r_away_before": 1892,
+      "r_home_after": 1597.6,
+      "r_away_after": 1870.4,
+      "delta_home": 21.63,
+      "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M016",
+      "applied_at": "2026-06-16T11:22:55Z",
+      "home": "IRN",
+      "away": "NZL",
+      "score": "2-2",
+      "home_adv_applied": 0,
+      "r_home_before": 1772,
+      "r_away_before": 1562,
+      "r_home_after": 1755.8,
+      "r_away_after": 1578.2,
+      "delta_home": -16.21,
+      "g_multiplier": 1.0
     }
   ],
   "current": {
@@ -196,14 +252,14 @@
     "NED": 1944.4,
     "SWE": 1754.9,
     "TUN": 1585.1,
-    "BEL": 1894,
-    "EGY": 1696,
-    "IRN": 1772,
-    "NZL": 1562,
-    "CPV": 1578,
-    "KSA": 1576,
-    "ESP": 2157,
-    "URU": 1892,
+    "BEL": 1878.5,
+    "EGY": 1711.5,
+    "IRN": 1755.8,
+    "NZL": 1578.2,
+    "CPV": 1605.9,
+    "KSA": 1597.6,
+    "ESP": 2129.1,
+    "URU": 1870.4,
     "FRA": 2063,
     "IRQ": 1607,
     "NOR": 1914,
@@ -221,5 +277,5 @@
     "GHA": 1510,
     "PAN": 1730
   },
-  "updated_at": "2026-06-15T07:55:11Z"
+  "updated_at": "2026-06-16T11:22:55Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T07:55:11Z",
+  "updated_at": "2026-06-16T11:22:55Z",
   "scoring": {
     "internal_metric": "3 exact / 2 correct-goal-diff / 1 tendency / 0 miss",
     "kicktipp_rules": "data/kicktipp_rules.json",
@@ -541,39 +541,239 @@
         "kicktipp_bet": "1:0",
         "kicktipp_points": 2
       }
+    },
+    {
+      "match_id": "M013",
+      "date": "2026-06-15",
+      "home": "ESP",
+      "away": "CPV",
+      "actual": "0-0",
+      "outcome": "draw",
+      "tracks": {
+        "model": {
+          "probs": [
+            0.9655,
+            0.0297,
+            0.0048
+          ],
+          "tendency_correct": false,
+          "brier": 1.8737,
+          "logloss": 3.5166,
+          "predicted_score": "3-0",
+          "internal_pts": 0
+        },
+        "adjusted": {
+          "probs": [
+            0.89,
+            0.08,
+            0.03
+          ],
+          "tendency_correct": false,
+          "brier": 1.6394,
+          "logloss": 2.5257,
+          "predicted_score": "3-0",
+          "internal_pts": 0
+        },
+        "odds": {
+          "probs": [
+            0.8881,
+            0.0814,
+            0.0305
+          ],
+          "tendency_correct": false,
+          "brier": 1.6335,
+          "logloss": 2.5084,
+          "predicted_score": null,
+          "internal_pts": null
+        }
+      },
+      "bet": {
+        "kicktipp_bet": "3:0",
+        "kicktipp_points": 0
+      }
+    },
+    {
+      "match_id": "M014",
+      "date": "2026-06-15",
+      "home": "BEL",
+      "away": "EGY",
+      "actual": "1-1",
+      "outcome": "draw",
+      "tracks": {
+        "model": {
+          "probs": [
+            0.8268,
+            0.1176,
+            0.0556
+          ],
+          "tendency_correct": false,
+          "brier": 1.4653,
+          "logloss": 2.1405,
+          "predicted_score": "2-0",
+          "internal_pts": 0
+        },
+        "adjusted": {
+          "probs": [
+            0.57,
+            0.25,
+            0.18
+          ],
+          "tendency_correct": false,
+          "brier": 0.9198,
+          "logloss": 1.3863,
+          "predicted_score": "1-0",
+          "internal_pts": 0
+        },
+        "odds": {
+          "probs": [
+            0.5644,
+            0.2475,
+            0.1881
+          ],
+          "tendency_correct": false,
+          "brier": 0.9202,
+          "logloss": 1.3963,
+          "predicted_score": null,
+          "internal_pts": null
+        }
+      },
+      "bet": {
+        "kicktipp_bet": "1:0",
+        "kicktipp_points": 0
+      }
+    },
+    {
+      "match_id": "M015",
+      "date": "2026-06-15",
+      "home": "KSA",
+      "away": "URU",
+      "actual": "1-1",
+      "outcome": "draw",
+      "tracks": {
+        "model": {
+          "probs": [
+            0.0116,
+            0.041,
+            0.9474
+          ],
+          "tendency_correct": false,
+          "brier": 1.8174,
+          "logloss": 3.1942,
+          "predicted_score": "0-3",
+          "internal_pts": 0
+        },
+        "adjusted": {
+          "probs": [
+            0.15,
+            0.22,
+            0.63
+          ],
+          "tendency_correct": false,
+          "brier": 1.0278,
+          "logloss": 1.5141,
+          "predicted_score": "0-1",
+          "internal_pts": 0
+        },
+        "odds": {
+          "probs": [
+            0.1513,
+            0.2184,
+            0.6303
+          ],
+          "tendency_correct": false,
+          "brier": 1.0311,
+          "logloss": 1.5214,
+          "predicted_score": null,
+          "internal_pts": null
+        }
+      },
+      "bet": {
+        "kicktipp_bet": "0:1",
+        "kicktipp_points": 0
+      }
+    },
+    {
+      "match_id": "M016",
+      "date": "2026-06-15",
+      "home": "IRN",
+      "away": "NZL",
+      "actual": "2-2",
+      "outcome": "draw",
+      "tracks": {
+        "model": {
+          "probs": [
+            0.8469,
+            0.1059,
+            0.0472
+          ],
+          "tendency_correct": false,
+          "brier": 1.5189,
+          "logloss": 2.2453,
+          "predicted_score": "2-0",
+          "internal_pts": 0
+        },
+        "adjusted": {
+          "probs": [
+            0.51,
+            0.27,
+            0.22
+          ],
+          "tendency_correct": false,
+          "brier": 0.8414,
+          "logloss": 1.3093,
+          "predicted_score": "1-0",
+          "internal_pts": 0
+        },
+        "odds": {
+          "probs": [
+            0.5082,
+            0.2683,
+            0.2235
+          ],
+          "tendency_correct": false,
+          "brier": 0.8436,
+          "logloss": 1.3156,
+          "predicted_score": null,
+          "internal_pts": null
+        }
+      },
+      "bet": {
+        "kicktipp_bet": "1:0",
+        "kicktipp_points": 0
+      }
     }
   ],
   "totals": {
     "by_track": {
       "model": {
-        "n": 12,
+        "n": 16,
         "tendency_correct": 5,
         "internal_pts": 5,
-        "n_scored": 12,
-        "brier_sum": 10.3387,
-        "logloss_sum": 18.2255,
-        "brier_avg": 0.8616,
-        "logloss_avg": 1.5188
+        "n_scored": 16,
+        "brier_sum": 17.014,
+        "logloss_sum": 29.322,
+        "brier_avg": 1.0634,
+        "logloss_avg": 1.8326
       },
       "adjusted": {
-        "n": 6,
+        "n": 10,
         "tendency_correct": 2,
         "internal_pts": 6,
-        "n_scored": 6,
-        "brier_sum": 4.2902,
-        "logloss_sum": 6.8588,
-        "brier_avg": 0.715,
-        "logloss_avg": 1.1431
+        "n_scored": 10,
+        "brier_sum": 8.7186,
+        "logloss_sum": 13.5943,
+        "brier_avg": 0.8719,
+        "logloss_avg": 1.3594
       },
       "odds": {
-        "n": 12,
+        "n": 16,
         "tendency_correct": 6,
         "internal_pts": 0,
         "n_scored": 0,
-        "brier_sum": 7.6025,
-        "logloss_sum": 12.3662,
-        "brier_avg": 0.6335,
-        "logloss_avg": 1.0305
+        "brier_sum": 12.0308,
+        "logloss_sum": 19.108,
+        "brier_avg": 0.7519,
+        "logloss_avg": 1.1942
       },
       "external": {
         "n": 0,
@@ -587,9 +787,9 @@
       }
     },
     "kicktipp": {
-      "n": 12,
+      "n": 16,
       "points": 18,
-      "max_possible": 72
+      "max_possible": 96
     },
     "kickgeist": {
       "n": 4,

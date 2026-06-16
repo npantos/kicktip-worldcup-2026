@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-15 07:55 UTC. Based on confirmed results only._
+_Updated 2026-06-16 11:22 UTC. Based on confirmed results only._
 
 ## Group A
 
@@ -60,19 +60,19 @@ _Updated 2026-06-15 07:55 UTC. Based on confirmed results only._
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Belgium † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 2 | Egypt † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 3 | Iran † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 4 | New Zealand † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
+| 1 | Iran † | 1 | 0 | 1 | 0 | 2 | 2 | +0 | 1 |
+| 2 | New Zealand † | 1 | 0 | 1 | 0 | 2 | 2 | +0 | 1 |
+| 3 | Belgium † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
+| 4 | Egypt † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
 
 ## Group H
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Cape Verde † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 2 | Spain † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 3 | Saudi Arabia † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
-| 4 | Uruguay † | 0 | 0 | 0 | 0 | 0 | 0 | +0 | 0 |
+| 1 | Saudi Arabia † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
+| 2 | Uruguay † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
+| 3 | Cape Verde † | 1 | 0 | 1 | 0 | 0 | 0 | +0 | 1 |
+| 4 | Spain † | 1 | 0 | 1 | 0 | 0 | 0 | +0 | 1 |
 
 ## Group I
 
@@ -117,8 +117,8 @@ _Updated 2026-06-15 07:55 UTC. Based on confirmed results only._
 | 1 | Netherlands † | F | 1 | +0 | 2 | 1 |
 | 2 | Qatar † | B | 1 | +0 | 1 | 1 |
 | 3 | Morocco † | C | 1 | +0 | 1 | 1 |
-| 4 | Iran † | G | 0 | +0 | 0 | 0 |
-| 5 | Saudi Arabia † | H | 0 | +0 | 0 | 0 |
+| 4 | Belgium † | G | 1 | +0 | 1 | 1 |
+| 5 | Cape Verde † | H | 1 | +0 | 0 | 1 |
 | 6 | Norway † | I | 0 | +0 | 0 | 0 |
 | 7 | Austria † | J | 0 | +0 | 0 | 0 |
 | 8 | Portugal † | K | 0 | +0 | 0 | 0 | ← cutoff

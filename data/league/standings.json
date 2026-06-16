@@ -1,81 +1,43 @@
 {
-  "fetched_at": "2026-06-15T08:05:00Z",
+  "fetched_at": "2026-06-16T11:25:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview (standings) + get_leaderboard (matchday 2)",
+  "source": "kicktipp MCP get_overview (standings view) [matchday 2 fully scored]",
   "as_of_matchday": 2,
-  "matches_scored_so_far": 4,
+  "matches_scored_so_far": 16,
   "field_size": 32,
   "me": {
     "name": "Nemanj-AI",
-    "rank": 8,
+    "rank": 11,
     "points": 18,
     "bonus": 0
   },
   "human_owner": {
-    "name": "NemanjaPanto\u0161",
-    "rank": 14,
+    "name": "NemanjaPantoš",
+    "rank": 17,
     "points": 14
   },
   "leader": {
     "names": [
-      "MrGojomir"
+      "markec"
     ],
-    "points": 26
+    "points": 29
   },
-  "deficit_to_leader": 8,
+  "deficit_to_leader": 11,
   "tier_at_my_points": 2,
-  "players_ahead": 7,
+  "players_ahead": 10,
   "top": [
-    {
-      "rank": 1,
-      "name": "MrGojomir",
-      "points": 26
-    },
-    {
-      "rank": 2,
-      "name": "LosAngelesBus",
-      "points": 23
-    },
-    {
-      "rank": 3,
-      "name": "LilDja",
-      "points": 22
-    },
-    {
-      "rank": 4,
-      "name": "nscz",
-      "points": 22
-    },
-    {
-      "rank": 5,
-      "name": "markec",
-      "points": 21
-    },
-    {
-      "rank": 6,
-      "name": "bojan_ni\u0161i\u0107",
-      "points": 20
-    },
-    {
-      "rank": 7,
-      "name": "Shelly",
-      "points": 20
-    },
-    {
-      "rank": 8,
-      "name": "ljubomir",
-      "points": 18
-    },
-    {
-      "rank": 8,
-      "name": "Nemanj-AI",
-      "points": 18
-    },
-    {
-      "rank": 10,
-      "name": "milos.nisic",
-      "points": 17
-    }
+    {"rank": 1, "name": "markec", "points": 29},
+    {"rank": 2, "name": "MrGojomir", "points": 28},
+    {"rank": 3, "name": "LilDja", "points": 24},
+    {"rank": 4, "name": "LosAngelesBus", "points": 23},
+    {"rank": 5, "name": "bojan_nišić", "points": 22},
+    {"rank": 5, "name": "nscz", "points": 22},
+    {"rank": 7, "name": "Kula", "points": 21},
+    {"rank": 8, "name": "ljubomir", "points": 20},
+    {"rank": 8, "name": "Shelly", "points": 20},
+    {"rank": 10, "name": "Dalibor89", "points": 19},
+    {"rank": 11, "name": "Kosta", "points": 18},
+    {"rank": 11, "name": "Nemanj-AI", "points": 18}
   ],
-  "note": "MD2: MD1 fully scored (Nemanj-AI ended 14), MD2 4 of 8 games scored (M009-M012) -> +4, total 18, rank 8/32. Leader MrGojomir 26 (deficit 8). Very early (maxMatchday 2, ~60 group games left) -> ACCUMULATE/EP-max. Human owner plays separate account NemanjaPanto\u0161 (rank 14, 14 pts). Bonus not yet scored."
+  "note": "MD2 now fully scored (M009-M016): the four MD2-closing games M013-M016 all drew (ESP-CPV 0-0, BEL-EGY 1-1, KSA-URU 1-1, IRN-NZL 2-2). Nemanj-AI stayed on 18 pts but slid to rank 11/32 (tied with Kosta) as others gained; leader is now markec on 29 (deficit 11, up from 8). Still very early (maxMatchday 2, ~84 group+KO games left) -> ACCUMULATE/EP-max. Human owner plays separate account NemanjaPantoš (rank 17, 14 pts)."
 }

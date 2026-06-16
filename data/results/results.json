@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T07:55:05Z",
+  "updated_at": "2026-06-16T11:22:48Z",
   "results": [
     {
       "match_id": "M001",
@@ -19,7 +19,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -41,7 +41,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -63,7 +63,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -85,7 +85,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -107,7 +107,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -129,7 +129,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -151,7 +151,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -173,7 +173,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -195,7 +195,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -217,7 +217,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -239,7 +239,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     },
@@ -261,7 +261,99 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-15T07:55:05Z",
+        "reconciled_at": "2026-06-16T11:22:48Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M013",
+      "stage": "group",
+      "group": "H",
+      "home": "ESP",
+      "away": "CPV",
+      "home_goals": 0,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-15T16:00:00Z",
+      "notes": [
+        "Cape Verde hold European champions Spain; Vozinha brilliant late saves, Torres hit crossbar; ESP 27 shots, 7 on target",
+        "FOX Sports: ESP 0-0 CPV"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "fox-fifa-aljazeera-si-consensus"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-16T11:22:48Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M014",
+      "stage": "group",
+      "group": "G",
+      "home": "BEL",
+      "away": "EGY",
+      "home_goals": 1,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-15T19:00:00Z",
+      "notes": [
+        "Emam Ashour 1st-half opener (EGY); Mohamed Hany own goal equalizer for BEL seconds after Lukaku came on",
+        "SI: BEL 1-1 EGY"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "fox-fifa-aljazeera-si-consensus"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-16T11:22:48Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M015",
+      "stage": "group",
+      "group": "H",
+      "home": "KSA",
+      "away": "URU",
+      "home_goals": 1,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-15T22:00:00Z",
+      "notes": [
+        "Abdulelah Al-Amri rebound off Muslera (KSA); Maximiliano Araujo header equalizer (URU)",
+        "FIFA match centre: KSA 1-1 URU"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "fox-fifa-aljazeera-si-consensus"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-16T11:22:48Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M016",
+      "stage": "group",
+      "group": "G",
+      "home": "IRN",
+      "away": "NZL",
+      "home_goals": 2,
+      "away_goals": 2,
+      "kickoff_utc": "2026-06-16T01:00:00Z",
+      "notes": [
+        "FIFA/Al Jazeera: IRN 2-2 NZL",
+        "Rezaeian 32, Mohebbi 64 (IRN); Elijah Just 7 & 54 (NZL)"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "fox-fifa-aljazeera-si-consensus"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-16T11:22:48Z",
         "status": "confirmed"
       }
     }

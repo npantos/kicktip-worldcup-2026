@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-16T11:21:00Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760428/cape-verde-spain",
+    "https://www.espn.com/soccer/match/_/gameId/760426/egypt-belgium",
+    "https://www.espn.com/soccer/match/_/gameId/760429/uruguay-saudi-arabia",
+    "https://www.espn.com/soccer/match/_/gameId/760427/new-zealand-iran"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M013",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "Cape Verde hold European champions Spain; Vozinha brilliant late saves, Torres hit crossbar; ESP 27 shots, 7 on target"
+    },
+    {
+      "match_id": "M014",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "Emam Ashour 1st-half opener (EGY); Mohamed Hany own goal equalizer for BEL seconds after Lukaku came on"
+    },
+    {
+      "match_id": "M015",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "Abdulelah Al-Amri rebound off Muslera (KSA); Maximiliano Araujo header equalizer (URU)"
+    },
+    {
+      "match_id": "M016",
+      "home_goals": 2,
+      "away_goals": 2,
+      "note": "Rezaeian 32, Mohebbi 64 (IRN); Elijah Just 7 & 54 (NZL)"
+    }
+  ]
+}

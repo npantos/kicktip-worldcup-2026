@@ -4,7 +4,7 @@
     {
       "match_id": "M017",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-16T11:35:00Z",
       "model": {
         "elo_home": 2063,
         "elo_away": 1860,
@@ -17,7 +17,42 @@
         "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.64,
+        "p_draw": 0.21,
+        "p_away": 0.15,
+        "p_home_advance": null,
+        "predicted_score": "1-0",
+        "reasoning": "Anchored to the market (bet365 FRA -225 / draw +350 / SEN +550 -> de-vig ~65/21/14). The model's 84% France is overconfident, consistent with MD1-MD2 calibration where the odds track beat the model on Brier (0.75 vs 1.06). France are at full strength (Mbappe, Dembele, Olise, Doue; Saliba over a minor knock), but Senegal are a serious side -- top of their qualifying group undefeated, with Mane, Sarr, Jackson, Koulibaly and Mendy, and a history of troubling France (2002). A narrow France win is the central case; this is no gimme.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 84% vs market 65%; anchored to market (MD1-MD2 Brier odds 0.75 < model 1.06)"
+          },
+          {
+            "type": "squad",
+            "team": "FRA",
+            "direction": "for",
+            "weight": "mild",
+            "note": "Full-strength attack (Mbappe/Dembele/Olise/Doue); Saliba fit after minor knock"
+          },
+          {
+            "type": "squad",
+            "team": "SEN",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Undefeated atop qualifying; pace & physicality (Mane/Sarr/Jackson); 2002 precedent"
+          }
+        ],
+        "news_sources": [
+          "https://www.goal.com/en/news/france-senegal-world-cup-preview/blt57c148cbbe5bd343",
+          "https://www.si.com/soccer/france-vs-senegal-world-cup-preview-predictions-lineups-6-16-26",
+          "https://www.covers.com/world-cup/france-vs-senegal-prediction-picks-odds-tuesday-6-16-2026"
+        ]
+      },
       "odds": {
         "source": "bet365 via web search (FRA -225, draw +350, SEN +550) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -40,13 +75,21 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 3: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-16T11:35:00Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-16): matchday research done and adjusted block locked; adjusted-track EP-max under data/kicktipp_rules.json equals the standing pre-fill, and contest_strategy is in ACCUMULATE mode (rank 11/32, deficit 11, 56 group games left -> bet EP-max). Pre-fill bet stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M018",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-16T11:35:00Z",
       "model": {
         "elo_home": 1607,
         "elo_away": 1914,
@@ -59,7 +102,42 @@
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.07,
+        "p_draw": 0.14,
+        "p_away": 0.79,
+        "p_home_advance": null,
+        "predicted_score": "0-2",
+        "reasoning": "Anchored to the market (NOR -475 / draw +600 / IRQ +1300 -> de-vig ~79/14/7), a touch sharper toward Norway than the 2026-06-11 pre-fill (then 0.77) as the line firmed. Haaland is fit and finally getting his World Cup debut behind a Norway side that won every qualifier; Iraq land as clear underdogs against one of Europe's most dangerous attacks. The model's 95% is even more extreme than the market. Norway to win comfortably, scoring 2+, is the central case.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 95% vs market 79%; anchored to market (odds track outperforming on Brier)"
+          },
+          {
+            "type": "squad",
+            "team": "NOR",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Haaland fit & WC debut; perfect qualifying record; elite attacking threat"
+          },
+          {
+            "type": "form",
+            "team": "IRQ",
+            "direction": "against",
+            "weight": "mild",
+            "note": "Clear underdog; needs a disciplined low-block to stay in it"
+          }
+        ],
+        "news_sources": [
+          "https://sports.yahoo.com/articles/iraq-vs-norway-picks-predictions-142115269.html",
+          "https://www.espn.com/soccer/odds/_/gameId/760430",
+          "https://www.covers.com/world-cup/norway-vs-iraq-prediction-picks-odds-tuesday-6-16-2026"
+        ]
+      },
       "odds": {
         "source": "bet365 via oddsshark/web search (IRQ +1100, draw +525, NOR -450) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -82,13 +160,21 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 3: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-16T11:35:00Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-16): matchday research done and adjusted block locked; adjusted-track EP-max under data/kicktipp_rules.json equals the standing pre-fill, and contest_strategy is in ACCUMULATE mode (rank 11/32, deficit 11, 56 group games left -> bet EP-max). Pre-fill bet stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M019",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-16T11:35:00Z",
       "model": {
         "elo_home": 2115,
         "elo_away": 1772,
@@ -101,7 +187,42 @@
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.66,
+        "p_draw": 0.21,
+        "p_away": 0.13,
+        "p_home_advance": null,
+        "predicted_score": "2-0",
+        "reasoning": "Anchored to the market (ARG -239 / draw +350 / ALG +600 -> de-vig ~66/21/13). Messi passed his late hamstring scare -- Scaloni played down the fears, Messi featured vs Iceland and is expected to start, with Emi Martinez and J. Alvarez also fit. Reigning champions and overwhelming favourites. Algeria's plan is a disciplined, defensive low block, which caps Argentina's goal output and keeps the draw live -- hence holding the market line rather than the model's 95%. Argentina win, likely 2-0, is the central case.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 95% vs market 66%; anchored to market (odds track beat model on Brier MD1-MD2)"
+          },
+          {
+            "type": "squad",
+            "team": "ARG",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Messi fit & expected to start; Martinez & Alvarez fit; reigning champions, deep squad"
+          },
+          {
+            "type": "tactics",
+            "team": "ALG",
+            "direction": "against",
+            "weight": "mild",
+            "note": "Disciplined defensive approach -> low-scoring game, keeps draw in play"
+          }
+        ],
+        "news_sources": [
+          "https://www.espn.com/soccer/story/_/id/49059251/argentina-vs-algeria-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+          "https://www.espn.com/soccer/story/_/id/49075716/argentina-calm-lionel-messi-emiliano-martinez-julian-alvarez-fit-ahead-algeria",
+          "https://worldsoccertalk.com/world-cup/report-messi-included-in-scalonis-unprecedented-lineup-for-argentinas-world-cup-opener-vs-algeria/"
+        ]
+      },
       "odds": {
         "source": "bet365 via squawka/web search (ARG -239, draw +350, ALG +600) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -124,13 +245,21 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 3: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-16T11:35:00Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-16): matchday research done and adjusted block locked; adjusted-track EP-max under data/kicktipp_rules.json equals the standing pre-fill, and contest_strategy is in ACCUMULATE mode (rank 11/32, deficit 11, 56 group games left -> bet EP-max). Pre-fill bet stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M020",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-16T11:35:00Z",
       "model": {
         "elo_home": 1830,
         "elo_away": 1680,
@@ -143,7 +272,42 @@
         "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.71,
+        "p_draw": 0.18,
+        "p_away": 0.11,
+        "p_home_advance": null,
+        "predicted_score": "2-0",
+        "reasoning": "Anchored to the market (AUT -300 / draw +425 / JOR +750 -> de-vig ~71/18/11), which lines up almost exactly with Opta's supercomputer (AUT 70.3 / draw 16.9 / JOR 12.9). Here the model (73%) and market agree, so little adjustment needed. Austria are on a five-game unbeaten run (incl. 5-1 over Ghana) and return to the World Cup after 28 years; Jordan are debutants and winless in their last five (lost 4-1 to Switzerland, 0-2 to Colombia). Austria to control and win 2-0 is the central case, though Jordan can keep it respectable.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 73% ~= market 71% ~= Opta 70.3% -- consensus, minimal adjustment"
+          },
+          {
+            "type": "form",
+            "team": "AUT",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Five-game unbeaten run incl. 5-1 vs Ghana, 1-0 vs South Korea & Tunisia"
+          },
+          {
+            "type": "form",
+            "team": "JOR",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "WC debutants; winless in last five (4-1 loss to Switzerland, 0-2 to Colombia)"
+          }
+        ],
+        "news_sources": [
+          "https://sports.yahoo.com/articles/austria-vs-jordan-picks-predictions-141729026.html",
+          "https://theanalyst.com/articles/austria-vs-jordan-prediction-world-cup-2026-match-preview",
+          "https://www.sportsmole.co.uk/football/austria/world-cup-2026/preview/austria-vs-jordan-prediction-team-news-lineups_599171.html"
+        ]
+      },
       "odds": {
         "source": "US books via Sportscasting/LegalSportsReport (AUT -300, draw +425, JOR +750) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -166,6 +330,14 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 3: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-16T11:35:00Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-16): matchday research done and adjusted block locked; adjusted-track EP-max under data/kicktipp_rules.json equals the standing pre-fill, and contest_strategy is in ACCUMULATE mode (rank 11/32, deficit 11, 56 group games left -> bet EP-max). Pre-fill bet stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     }
