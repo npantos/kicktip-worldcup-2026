@@ -1,0 +1,65 @@
+{
+  "fetched_at": "2026-06-18T11:49:00Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760432/senegal-france",
+    "https://www.espn.com/soccer/match/_/gameId/760430/norway-iraq",
+    "https://www.espn.com/soccer/match/_/gameId/760433/algeria-argentina",
+    "https://www.espn.com/soccer/match/_/gameId/760431/jordan-austria",
+    "https://www.espn.com/soccer/match/_/gameId/760435/congo-dr-portugal",
+    "https://www.espn.com/soccer/match/_/gameId/760437/croatia-england",
+    "https://www.espn.com/soccer/match/_/gameId/760434/panama-ghana",
+    "https://www.espn.co.uk/football/match/_/gameId/760436/colombia-uzbekistan"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M017",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "Mbappe x2 (record 58th FRA goal) + Barcola; Ibrahim Mbaye (SEN)"
+    },
+    {
+      "match_id": "M018",
+      "home_goals": 1,
+      "away_goals": 4,
+      "note": "Haaland 29,43 + Ostigard 76 + Hussein OG 90+6 (NOR); Aymen Hussein 39 (IRQ)"
+    },
+    {
+      "match_id": "M019",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "Messi hat-trick 17,60,76 (equals Klose's 16 WC goals)"
+    },
+    {
+      "match_id": "M020",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "Schmid 20, Al-Arab OG 76, Arnautovic pen 90+12 (AUT); Olwan 50 (JOR's first WC goal)"
+    },
+    {
+      "match_id": "M021",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "Joao Neves 6 (POR); Wissa 45 (COD's first-ever WC goal & point)"
+    },
+    {
+      "match_id": "M022",
+      "home_goals": 4,
+      "away_goals": 2,
+      "note": "Kane x2, Bellingham, Rashford (ENG); Baturina, Musa (CRO)"
+    },
+    {
+      "match_id": "M023",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "Yirenkyi 90+5 late winner (GHA)"
+    },
+    {
+      "match_id": "M024",
+      "home_goals": 1,
+      "away_goals": 3,
+      "note": "Munoz 40, Diaz 65, Campaz 90+9 (COL); Fayzullayev 60 (UZB)"
+    }
+  ]
+}

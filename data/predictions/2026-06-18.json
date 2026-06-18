@@ -4,32 +4,67 @@
     {
       "match_id": "M025",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-18T11:59:00Z",
       "model": {
-        "elo_home": 1740,
-        "elo_away": 1517,
+        "elo_home": 1711.6,
+        "elo_away": 1511.0,
         "home_adv_applied": 0,
-        "lambda_home": 3.106,
-        "lambda_away": 0.561,
-        "p_home": 0.867,
-        "p_draw": 0.0937,
-        "p_away": 0.0393,
-        "expected_score": "3-0",
+        "lambda_home": 2.85,
+        "lambda_away": 0.611,
+        "p_home": 0.8313,
+        "p_draw": 0.115,
+        "p_away": 0.0537,
+        "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "US books via CBS/web search (CZE -110, draw +210, RSA +260) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          1.91,
-          3.1,
-          3.6
+      "adjusted": {
+        "p_home": 0.58,
+        "p_draw": 0.25,
+        "p_away": 0.17,
+        "p_home_advance": null,
+        "predicted_score": "1-0",
+        "reasoning": "Anchored to the market (bet365 CZE -143 / draw +280 / RSA +400 -> de-vig ~56/25/19), nudged a touch further toward Czechia: South Africa had Themba Zwane and Sphephelo Sithole both sent off on matchday one and are suspended here, forcing a reshape. The model's 83% is far too high -- this is a tight must-win (both lost MD1: CZE 1-2 to South Korea, RSA 0-2 to Mexico). Czechia have the cleaner spine (Schick, Krejci set-pieces) but the analyst lean is goals-light / Under 2.5, so a narrow 1-0 Czechia is the central case.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 83% vs market 56%; anchored to market (odds track best on Brier 0.62 vs 0.87)"
+          },
+          {
+            "type": "suspension",
+            "team": "RSA",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Zwane & Sithole both red-carded MD1 -> suspended; forces a 4-2-3-1 reshape"
+          },
+          {
+            "type": "squad",
+            "team": "CZE",
+            "direction": "for",
+            "weight": "mild",
+            "note": "Settled spine, Schick goal threat, Krejci set-piece danger"
+          }
         ],
-        "overround": 0.1239,
-        "p_home": 0.4658,
-        "p_draw": 0.287,
-        "p_away": 0.2472,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.squawka.com/us/news/world-cup/match-preview-czech-republic-vs-south-africa-06-18-26-world-cup-2026/",
+          "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/czech-republic-v-south-africa-predictions",
+          "https://www.espn.com/soccer/match/_/gameId/760438/south-africa-czechia"
+        ]
+      },
+      "odds": {
+        "source": "bet365 via web search (CZE -143, draw +280, RSA +400) [refresh 2026-06-18; RSA missing Zwane+Sithole, both red-carded MD1]",
+        "decimal_odds": [
+          1.7,
+          3.8,
+          5.0
+        ],
+        "overround": 0.0514,
+        "p_home": 0.5595,
+        "p_draw": 0.2503,
+        "p_away": 0.1902,
+        "fetched_at": "2026-06-18T11:52:25Z"
       },
       "external": [],
       "posted_to": [
@@ -40,26 +75,69 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-18T12:05:00Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-18): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy in ACCUMULATE (rank 7/34, deficit 12, 48 group games left). Pre-fill stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M026",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-18T11:59:00Z",
       "model": {
-        "elo_home": 1891,
-        "elo_away": 1595,
+        "elo_home": 1864.8,
+        "elo_away": 1615.6,
         "home_adv_applied": 0,
-        "lambda_home": 4.0,
-        "lambda_away": 0.424,
-        "p_home": 0.9442,
-        "p_draw": 0.0429,
-        "p_away": 0.0129,
+        "lambda_home": 3.435,
+        "lambda_away": 0.507,
+        "p_home": 0.9024,
+        "p_draw": 0.0712,
+        "p_away": 0.0264,
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.57,
+        "p_draw": 0.26,
+        "p_away": 0.17,
+        "p_home_advance": null,
+        "predicted_score": "1-0",
+        "reasoning": "Anchored to the market (bet365 SUI -175; Kalshi 61/24/16 -> ~58/25/18), with the draw nudged up a touch: Bosnia are unbeaten in nine and have drawn each of their last six (an exact 1-1 in five of those), and both these sides drew their openers 1-1 (SUI outshot Qatar 26-6 but only scored via an Embolo pen). Switzerland are clear favourites and the better side, so a narrow 1-0 Swiss win is the central case, but the live draw is well-priced. Model's 90% is overconfident.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 90% vs market 58%; anchored to market"
+          },
+          {
+            "type": "form",
+            "team": "BIH",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Unbeaten in 9; drew last 6 (1-1 in 5 of 6) -> elevated draw probability"
+          },
+          {
+            "type": "squad",
+            "team": "SUI",
+            "direction": "for",
+            "weight": "mild",
+            "note": "Dominated Qatar 26-6 on shots in opener; deeper, higher-rated side"
+          }
+        ],
+        "news_sources": [
+          "https://www.foxsports.com/stories/soccer/2026-world-cup-switzerland-bosnia-and-herzegovina-odds-prediction-picks",
+          "https://www.skysports.com/football/news/12098/13543085/world-cup-2026-group-b-guide-fixtures-schedule-standings-and-odds-for-canada-bosnia-herzegovina-qatar-and-switzerland",
+          "https://www.espn.com/soccer/odds/_/gameId/760439"
+        ]
+      },
       "odds": {
         "source": "US books via CBS/web search (SUI -185, draw +260, BIH +400) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -82,38 +160,81 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-18T12:05:00Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-18): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy in ACCUMULATE (rank 7/34, deficit 12, 48 group games left). Pre-fill stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M027",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-18T11:59:00Z",
       "model": {
-        "elo_home": 1788,
-        "elo_away": 1421,
+        "elo_home": 1767.4,
+        "elo_away": 1447.2,
         "home_adv_applied": 100,
         "lambda_home": 4.0,
-        "lambda_away": 0.22,
-        "p_home": 0.9637,
-        "p_draw": 0.0309,
-        "p_away": 0.0054,
+        "lambda_away": 0.263,
+        "p_home": 0.9598,
+        "p_draw": 0.0334,
+        "p_away": 0.0068,
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "sportytrader best-of-market (CAN 1.36 Betsson, draw 5.48, QAT 12.1); FanDuel CAN -320 [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          1.36,
-          5.48,
-          12.1
+      "adjusted": {
+        "p_home": 0.75,
+        "p_draw": 0.17,
+        "p_away": 0.08,
+        "p_home_advance": null,
+        "predicted_score": "1-0",
+        "reasoning": "Anchored to the market (Canada -357 / draw +475 / Qatar +975 -> de-vig ~75/17/8). Canada are clear home favourites at BC Place, ranked 30th to Qatar's 56th, but both sides drew their openers 1-1 and both are built on defensive discipline, so a tense, low-scoring affair is expected. A narrow 1-0 Canada win is the central case; the model's 96% massively overstates a tight group game.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 96% vs market 75%; anchored to market"
+          },
+          {
+            "type": "context",
+            "team": null,
+            "direction": null,
+            "weight": "moderate",
+            "note": "Both drew MD1 1-1; defensive sides, knockout implications -> low-scoring expected"
+          },
+          {
+            "type": "venue",
+            "team": "CAN",
+            "direction": "for",
+            "weight": "mild",
+            "note": "Home at BC Place Vancouver; higher-ranked (30 vs 56)"
+          }
         ],
-        "overround": 0.0004,
-        "p_home": 0.735,
-        "p_draw": 0.1824,
-        "p_away": 0.0826,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.covers.com/world-cup/canada-vs-qatar-prediction-picks-odds-thursday-6-18-2026",
+          "https://www.espn.com/soccer/odds/_/gameId/760440",
+          "https://www.racingpost.com/sport/football-tips/world-cup-2026/canada-vs-qatar-betting-tips-predictions-team-news-odds-bet-builder-acVXW4O79F8N/"
+        ]
+      },
+      "odds": {
+        "source": "canadasportsbetting best-of-market (CAN -357, draw +475, QAT +975) [refresh 2026-06-18]",
+        "decimal_odds": [
+          1.28,
+          5.75,
+          10.75
+        ],
+        "overround": 0.0482,
+        "p_home": 0.7454,
+        "p_draw": 0.1659,
+        "p_away": 0.0887,
+        "fetched_at": "2026-06-18T11:52:25Z"
       },
       "external": [],
       "posted_to": [
@@ -123,39 +244,83 @@
           "bet": "1:0",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-18T12:05:00Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-18T12:05:00Z",
+          "confirmed_via": "place_bets + get_today_matches readback",
+          "note": "Pre-kickoff re-bet: supersedes the 2026-06-11 pre-fill 1:0. Canada's line firmed since the pre-fill (CAN ~1.36 -> 1.28), lifting lambda_home so the adjusted-track EP-max scoreline moves up to 2:0 (EP 2.191 vs 1:0 2.173). ACCUMULATE mode -> bet EP-max. Placed and verified live via readback."
         }
       ]
     },
     {
       "match_id": "M028",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-18T11:59:00Z",
       "model": {
-        "elo_home": 1875,
-        "elo_away": 1758,
+        "elo_home": 1881.0,
+        "elo_away": 1786.4,
         "home_adv_applied": 100,
-        "lambda_home": 3.036,
-        "lambda_away": 0.574,
-        "p_home": 0.858,
-        "p_draw": 0.0992,
-        "p_away": 0.0428,
-        "expected_score": "3-0",
+        "lambda_home": 2.786,
+        "lambda_away": 0.626,
+        "p_home": 0.8208,
+        "p_draw": 0.121,
+        "p_away": 0.0582,
+        "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "oddschecker fractional via web search (MEX 17/20, draw 13/5, KOR 19/5) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          1.85,
-          3.6,
-          4.8
+      "adjusted": {
+        "p_home": 0.49,
+        "p_draw": 0.28,
+        "p_away": 0.23,
+        "p_home_advance": null,
+        "predicted_score": "1-1",
+        "reasoning": "Anchored to the market (bet365 MEX -106 / draw +230 / KOR +333; Kalshi 50/28/26 -> ~49/29/22) -- this is close to a coin-flip, not the model's 82% Mexico. Both teams won their openers (MEX 2-0 over South Africa, KOR a 2-1 comeback over Czechia) so the winner all but seals the group. Mexico are home in Guadalajara but Cesar Montes is suspended after his red card vs South Africa, and South Korea (Son, Hwang In-beom) are live and in form. A tight 1-1 is the central case, with Mexico a marginal favourite.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 82% vs market 49%; line moved toward KOR since pre-fill; anchored to market"
+          },
+          {
+            "type": "suspension",
+            "team": "MEX",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Cesar Montes suspended (red card vs RSA) -> weakened central defence"
+          },
+          {
+            "type": "squad",
+            "team": "KOR",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "In form (2-1 comeback win over Czechia); Son Heung-min & Hwang In-beom dangerous"
+          }
         ],
-        "overround": 0.0267,
-        "p_home": 0.5265,
-        "p_draw": 0.2706,
-        "p_away": 0.2029,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.goal.com/en/news/mexico-south-korea-world-cup-preview/blt8005f425257b98f0",
+          "https://www.espn.com/soccer/story/_/id/49079638/mexico-vs-south-korea-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups",
+          "https://www.espn.com/soccer/match/_/gameId/760441/south-korea-mexico"
+        ]
+      },
+      "odds": {
+        "source": "bet365 via web search (MEX -106, draw +230, KOR +333) [refresh 2026-06-18; Montes suspended, line moved toward KOR]",
+        "decimal_odds": [
+          1.94,
+          3.3,
+          4.33
+        ],
+        "overround": 0.0494,
+        "p_home": 0.4911,
+        "p_draw": 0.2888,
+        "p_away": 0.2201,
+        "fetched_at": "2026-06-18T11:52:25Z"
       },
       "external": [],
       "posted_to": [
@@ -166,6 +331,14 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-18T12:05:00Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-18): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy in ACCUMULATE (rank 7/34, deficit 12, 48 group games left). Pre-fill stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     }

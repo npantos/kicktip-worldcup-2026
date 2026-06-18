@@ -1,0 +1,65 @@
+{
+  "fetched_at": "2026-06-18T11:50:00Z",
+  "source": "fifa-fox-aljazeera-nbc-consensus",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021490",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021488",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021496",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021498",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021502",
+    "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/england-v-croatia-fifa-world-cup-wednesday-17-june-2026-match-centre",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021510",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021504"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M017",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "FIFA: FRA 3-1 SEN"
+    },
+    {
+      "match_id": "M018",
+      "home_goals": 1,
+      "away_goals": 4,
+      "note": "FIFA: IRQ 1-4 NOR"
+    },
+    {
+      "match_id": "M019",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "FIFA/Al Jazeera: ARG 3-0 ALG"
+    },
+    {
+      "match_id": "M020",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "FIFA: AUT 3-1 JOR"
+    },
+    {
+      "match_id": "M021",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "FIFA: POR 1-1 COD"
+    },
+    {
+      "match_id": "M022",
+      "home_goals": 4,
+      "away_goals": 2,
+      "note": "England FA / NBC: ENG 4-2 CRO"
+    },
+    {
+      "match_id": "M023",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "FIFA/Al Jazeera: GHA 1-0 PAN"
+    },
+    {
+      "match_id": "M024",
+      "home_goals": 1,
+      "away_goals": 3,
+      "note": "FIFA/VAVEL: UZB 1-3 COL"
+    }
+  ]
+}

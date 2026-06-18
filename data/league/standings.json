@@ -1,43 +1,41 @@
 {
-  "fetched_at": "2026-06-16T11:25:00Z",
+  "fetched_at": "2026-06-18T11:55:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview (standings view) [matchday 2 fully scored]",
-  "as_of_matchday": 2,
-  "matches_scored_so_far": 16,
-  "field_size": 32,
+  "source": "kicktipp MCP get_overview (standings view) [matchday 3 fully scored]",
+  "as_of_matchday": 3,
+  "matches_scored_so_far": 24,
+  "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
-    "rank": 11,
-    "points": 18,
+    "rank": 7,
+    "points": 37,
     "bonus": 0
   },
   "human_owner": {
     "name": "NemanjaPantoš",
-    "rank": 17,
-    "points": 14
+    "rank": 11,
+    "points": 35
   },
   "leader": {
     "names": [
-      "markec"
+      "LilDja"
     ],
-    "points": 29
+    "points": 49
   },
-  "deficit_to_leader": 11,
+  "deficit_to_leader": 12,
   "tier_at_my_points": 2,
-  "players_ahead": 10,
+  "players_ahead": 6,
   "top": [
-    {"rank": 1, "name": "markec", "points": 29},
-    {"rank": 2, "name": "MrGojomir", "points": 28},
-    {"rank": 3, "name": "LilDja", "points": 24},
-    {"rank": 4, "name": "LosAngelesBus", "points": 23},
-    {"rank": 5, "name": "bojan_nišić", "points": 22},
-    {"rank": 5, "name": "nscz", "points": 22},
-    {"rank": 7, "name": "Kula", "points": 21},
-    {"rank": 8, "name": "ljubomir", "points": 20},
-    {"rank": 8, "name": "Shelly", "points": 20},
-    {"rank": 10, "name": "Dalibor89", "points": 19},
-    {"rank": 11, "name": "Kosta", "points": 18},
-    {"rank": 11, "name": "Nemanj-AI", "points": 18}
+    {"rank": 1, "name": "LilDja", "points": 49},
+    {"rank": 2, "name": "markec", "points": 44},
+    {"rank": 3, "name": "MrGojomir", "points": 43},
+    {"rank": 4, "name": "LosAngelesBus", "points": 40},
+    {"rank": 5, "name": "ljubomir", "points": 39},
+    {"rank": 6, "name": "burkam11", "points": 38},
+    {"rank": 7, "name": "nscz", "points": 37},
+    {"rank": 7, "name": "Nemanj-AI", "points": 37},
+    {"rank": 9, "name": "Kula", "points": 36},
+    {"rank": 9, "name": "Pera", "points": 36}
   ],
-  "note": "MD2 now fully scored (M009-M016): the four MD2-closing games M013-M016 all drew (ESP-CPV 0-0, BEL-EGY 1-1, KSA-URU 1-1, IRN-NZL 2-2). Nemanj-AI stayed on 18 pts but slid to rank 11/32 (tied with Kosta) as others gained; leader is now markec on 29 (deficit 11, up from 8). Still very early (maxMatchday 2, ~84 group+KO games left) -> ACCUMULATE/EP-max. Human owner plays separate account NemanjaPantoš (rank 17, 14 pts)."
+  "note": "MD3 fully scored (M017-M024). Strong day for Nemanj-AI: +19 pts (tendencies hit on FRA/NOR/ARG/AUT/ENG/COL wins, exact 1-0 on GHA-PAN; only miss was POR-COD 1-1 vs our 2:0). Jumped rank 11 -> 7/34 (tied with nscz, 37 pts). Leader now LilDja on 49 (deficit 12). Field grew to 34 (new joiners). Still early-mid group stage (maxMatchday 3, ~44 group games + KO left) -> ACCUMULATE/EP-max. Human owner NemanjaPantoš rank 11, 35 pts."
 }

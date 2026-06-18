@@ -254,7 +254,7 @@
       "away": "SEN",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M018",
@@ -269,7 +269,7 @@
       "away": "NOR",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M019",
@@ -284,7 +284,7 @@
       "away": "ALG",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M020",
@@ -299,7 +299,7 @@
       "away": "JOR",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M021",
@@ -314,7 +314,7 @@
       "away": "COD",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M022",
@@ -329,7 +329,7 @@
       "away": "CRO",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M023",
@@ -344,7 +344,7 @@
       "away": "PAN",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M024",
@@ -359,7 +359,7 @@
       "away": "COL",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M025",
