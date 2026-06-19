@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-19T09:23:00Z",
+  "source": "fifa-skysports-vavel-nbc-consensus",
+  "urls": [
+    "https://www.skysports.com/football/czech-republic-vs-south-africa/549790",
+    "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/549791",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/canada-qatar-match-report-highlights",
+    "https://www.vavel.com/en-us/soccer/1263650-mexico-vs-south-korea-live-score-2026-fifa-world-cup.html"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M025",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "Sky Sports: CZE 1-1 RSA (Mokoena pen)"
+    },
+    {
+      "match_id": "M026",
+      "home_goals": 4,
+      "away_goals": 1,
+      "note": "Sky Sports/VAVEL: SUI 4-1 BIH"
+    },
+    {
+      "match_id": "M027",
+      "home_goals": 6,
+      "away_goals": 0,
+      "note": "FIFA/CBC: CAN 6-0 QAT"
+    },
+    {
+      "match_id": "M028",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "VAVEL/NBC/CBS: MEX 1-0 KOR (Romo 50). Note: one stray CBS headline said 3-2 but conflicts with the same outlet's 1-0 match report; consensus is 1-0"
+    }
+  ]
+}

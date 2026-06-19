@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T11:50:23Z",
+  "updated_at": "2026-06-19T09:39:44Z",
   "results": [
     {
       "match_id": "M001",
@@ -19,7 +19,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -41,7 +41,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -63,7 +63,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -85,7 +85,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -107,7 +107,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -129,7 +129,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -151,7 +151,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -173,7 +173,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -195,7 +195,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -217,7 +217,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -239,7 +239,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -261,7 +261,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -284,7 +284,7 @@
           "fox-fifa-aljazeera-si-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -307,7 +307,7 @@
           "fox-fifa-aljazeera-si-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -330,7 +330,7 @@
           "fox-fifa-aljazeera-si-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -353,7 +353,7 @@
           "fox-fifa-aljazeera-si-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -376,7 +376,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -399,7 +399,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -422,7 +422,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -445,7 +445,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -468,7 +468,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -491,7 +491,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -514,7 +514,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     },
@@ -537,7 +537,99 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-18T11:50:23Z",
+        "reconciled_at": "2026-06-19T09:39:44Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M025",
+      "stage": "group",
+      "group": "A",
+      "home": "CZE",
+      "away": "RSA",
+      "home_goals": 1,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-18T16:00:00Z",
+      "notes": [
+        "Sadilek 6 (CZE, earliest goal of WC so far); Mokoena pen 83 (RSA) after Sulc handball -> Bafana's first point",
+        "Sky Sports: CZE 1-1 RSA (Mokoena pen)"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "fifa-skysports-vavel-nbc-consensus"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-19T09:39:44Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M026",
+      "stage": "group",
+      "group": "B",
+      "home": "SUI",
+      "away": "BIH",
+      "home_goals": 4,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-18T19:00:00Z",
+      "notes": [
+        "Manzambi x2, Vargas, Xhaka pen (SUI); Mahmic late consolation (BIH) -- all 5 goals after the 2nd-half hydration break",
+        "Sky Sports/VAVEL: SUI 4-1 BIH"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "fifa-skysports-vavel-nbc-consensus"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-19T09:39:44Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M027",
+      "stage": "group",
+      "group": "B",
+      "home": "CAN",
+      "away": "QAT",
+      "home_goals": 6,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-18T22:00:00Z",
+      "notes": [
+        "FIFA/CBC: CAN 6-0 QAT",
+        "Jonathan David hat-trick + Larin + Saliba + Manai OG; record CONCACAF WC win, co-hosts' first WC victory"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "fifa-skysports-vavel-nbc-consensus"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-19T09:39:44Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M028",
+      "stage": "group",
+      "group": "A",
+      "home": "MEX",
+      "away": "KOR",
+      "home_goals": 1,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-19T01:00:00Z",
+      "notes": [
+        "Luis Romo 50 (capitalising on Kim Seung-gyu blunder); Mexico clinch Group A & first to knockouts",
+        "VAVEL/NBC/CBS: MEX 1-0 KOR (Romo 50). Note: one stray CBS headline said 3-2 but conflicts with the same outlet's 1-0 match report; consensus is 1-0"
+      ],
+      "reconciliation": {
+        "sources": [
+          "ESPN",
+          "fifa-skysports-vavel-nbc-consensus"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-19T09:39:44Z",
         "status": "confirmed"
       }
     }

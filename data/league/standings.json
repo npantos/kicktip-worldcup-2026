@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-06-18T11:55:00Z",
+  "fetched_at": "2026-06-19T09:42:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview (standings view) [matchday 3 fully scored]",
-  "as_of_matchday": 3,
-  "matches_scored_so_far": 24,
+  "source": "kicktipp MCP get_overview (standings view) [matchday 4 fully scored; bonus round scored]",
+  "as_of_matchday": 4,
+  "matches_scored_so_far": 28,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
-    "rank": 7,
-    "points": 37,
-    "bonus": 0
+    "rank": 3,
+    "points": 51,
+    "bonus": 4
   },
   "human_owner": {
     "name": "NemanjaPantoš",
-    "rank": 11,
-    "points": 35
+    "rank": 7,
+    "points": 46
   },
   "leader": {
     "names": [
       "LilDja"
     ],
-    "points": 49
+    "points": 60
   },
-  "deficit_to_leader": 12,
-  "tier_at_my_points": 2,
-  "players_ahead": 6,
+  "deficit_to_leader": 9,
+  "tier_at_my_points": 1,
+  "players_ahead": 2,
   "top": [
-    {"rank": 1, "name": "LilDja", "points": 49},
-    {"rank": 2, "name": "markec", "points": 44},
-    {"rank": 3, "name": "MrGojomir", "points": 43},
-    {"rank": 4, "name": "LosAngelesBus", "points": 40},
-    {"rank": 5, "name": "ljubomir", "points": 39},
-    {"rank": 6, "name": "burkam11", "points": 38},
-    {"rank": 7, "name": "nscz", "points": 37},
-    {"rank": 7, "name": "Nemanj-AI", "points": 37},
-    {"rank": 9, "name": "Kula", "points": 36},
-    {"rank": 9, "name": "Pera", "points": 36}
+    {"rank": 1, "name": "LilDja", "points": 60},
+    {"rank": 2, "name": "MrGojomir", "points": 55},
+    {"rank": 3, "name": "Nemanj-AI", "points": 51},
+    {"rank": 4, "name": "markec", "points": 50},
+    {"rank": 5, "name": "LosAngelesBus", "points": 50},
+    {"rank": 6, "name": "ljubomir", "points": 47},
+    {"rank": 7, "name": "NemanjaPantoš", "points": 46},
+    {"rank": 7, "name": "burkam11", "points": 46},
+    {"rank": 9, "name": "BB", "points": 45},
+    {"rank": 10, "name": "bojan_nišić", "points": 44}
   ],
-  "note": "MD3 fully scored (M017-M024). Strong day for Nemanj-AI: +19 pts (tendencies hit on FRA/NOR/ARG/AUT/ENG/COL wins, exact 1-0 on GHA-PAN; only miss was POR-COD 1-1 vs our 2:0). Jumped rank 11 -> 7/34 (tied with nscz, 37 pts). Leader now LilDja on 49 (deficit 12). Field grew to 34 (new joiners). Still early-mid group stage (maxMatchday 3, ~44 group games + KO left) -> ACCUMULATE/EP-max. Human owner NemanjaPantoš rank 11, 35 pts."
+  "note": "MD4 fully scored (M025-M028) + bonus round scored (+4 for Nemanj-AI). Big day: MEX-KOR exact 1:0 hit, plus CAN-QAT & SUI-BIH tendencies -> +14 pts. Jumped rank 7 -> 3/34, sole occupant of 51 pts. Leader LilDja 60, MrGojomir 55 -> deficit 9, only 2 players ahead. Still mid-group-stage (maxMatchday 4, ~40 group games + KO left) -> ACCUMULATE/EP-max. Human owner NemanjaPantoš rank 7, 46 pts."
 }

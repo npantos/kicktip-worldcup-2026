@@ -4,32 +4,67 @@
     {
       "match_id": "M029",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-19T09:40:38Z",
       "model": {
-        "elo_home": 1726,
-        "elo_away": 1777,
+        "elo_home": 1779.7,
+        "elo_away": 1838.5,
         "home_adv_applied": 100,
-        "lambda_home": 1.593,
-        "lambda_away": 1.094,
-        "p_home": 0.4893,
-        "p_draw": 0.2496,
-        "p_away": 0.2611,
+        "lambda_home": 1.546,
+        "lambda_away": 1.127,
+        "p_home": 0.4697,
+        "p_draw": 0.2531,
+        "p_away": 0.2772,
         "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "DraftKings via topendsports (USA -135, draw +300, AUS +350) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          1.74,
-          4.0,
-          4.5
+      "adjusted": {
+        "p_home": 0.6,
+        "p_draw": 0.22,
+        "p_away": 0.18,
+        "p_home_advance": null,
+        "predicted_score": "2-1",
+        "reasoning": "Anchored to the market (USA -165 / draw +340 / AUS +410 -> de-vig ~59/22/19), which firmed toward the USA from the -135 pre-fill after a statement opener: the USA swarmed Paraguay 4-1 (their biggest WC margin) and Pochettino has a full, in-form attack (Pulisic confirmed fit, Balogun, McKennie, Reyna, Tillman) at home in Seattle. Australia were efficient in a 2-0 win over Turkiye but Toure is a calf doubt. The baseline model's 47% understated the hosts; market ~60% is the better read. A 2-1 USA win is the central case.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 47% vs market 59%; line firmed to USA -165; anchored to market"
+          },
+          {
+            "type": "form",
+            "team": "USA",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "4-1 demolition of Paraguay (biggest WC margin); Pulisic fit, full attack, home in Seattle"
+          },
+          {
+            "type": "injury",
+            "team": "AUS",
+            "direction": "against",
+            "weight": "mild",
+            "note": "Toure a calf-cramp doubt; otherwise unchanged XI after a solid 2-0 over Turkiye"
+          }
         ],
-        "overround": 0.0469,
-        "p_home": 0.5489,
-        "p_draw": 0.2388,
-        "p_away": 0.2123,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.espn.com/soccer/story/_/id/49093966/fifa-world-cup-2026-usmnt-vs-australia-channel-how-watch-kickoff-live-stream-referee-predicted-lineups",
+          "https://www.fanduel.com/research/usa-vs-australia-lineups-predictions-availability-and-best-bets-for-world-cup-2026-june-19",
+          "https://www.foxsports.com/soccer/fifa-world-cup-men-united-states-vs-australia-jun-19-2026-game-boxscore-647645"
+        ]
+      },
+      "odds": {
+        "source": "bet365/DraftKings via ESPN+FanDuel (USA -165, draw +340, AUS +410) [refresh 2026-06-19; USA 4-1 MD1, Pulisic fit]",
+        "decimal_odds": [
+          1.61,
+          4.4,
+          5.1
+        ],
+        "overround": 0.0445,
+        "p_home": 0.5947,
+        "p_draw": 0.2176,
+        "p_away": 0.1877,
+        "fetched_at": "2026-06-19T09:41:11Z"
       },
       "external": [],
       "posted_to": [
@@ -40,38 +75,81 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-19T09:43:19Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-19): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy in ACCUMULATE (rank 3/34, deficit 9, 44 group games left -> bet EP-max). Pre-fill stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M030",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-19T09:40:38Z",
       "model": {
-        "elo_home": 1782,
-        "elo_away": 1827,
+        "elo_home": 1794.4,
+        "elo_away": 1840.2,
         "home_adv_applied": 0,
-        "lambda_home": 1.111,
-        "lambda_away": 1.569,
-        "p_home": 0.2693,
-        "p_draw": 0.2515,
-        "p_away": 0.4792,
+        "lambda_home": 1.107,
+        "lambda_away": 1.574,
+        "p_home": 0.2676,
+        "p_draw": 0.2511,
+        "p_away": 0.4813,
         "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "bet365 via kickoff.co.uk (SCO 3/1, draw 23/10, MAR 19/20) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          4.0,
-          3.3,
-          1.95
+      "adjusted": {
+        "p_home": 0.23,
+        "p_draw": 0.27,
+        "p_away": 0.5,
+        "p_home_advance": null,
+        "predicted_score": "1-1",
+        "reasoning": "Anchored to the market (Morocco -130 / draw +272 / Scotland +320 -> de-vig ~53/25/22), with the draw nudged up slightly. Morocco are the form side -- unbeaten in 30 and fresh off an impressive 1-1 with Brazil -- and are clear favourites. But Scotland sit top of Group C after beating Haiti 1-0, are defensively organised and need only a point to be in a commanding position, which argues for a tight, low-scoring game and a live draw. A 1-1 draw is the central case, with Morocco the most likely winner if it breaks.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Market ~53% Morocco; anchored to market (away favourite)"
+          },
+          {
+            "type": "form",
+            "team": "MAR",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Unbeaten in last 30; held Brazil 1-1 in opener -- legitimate dark horse"
+          },
+          {
+            "type": "tactics",
+            "team": "SCO",
+            "direction": null,
+            "weight": "moderate",
+            "note": "Top of group after 1-0 over Haiti; defensively set, needs only a point -> draw live"
+          }
         ],
-        "overround": 0.0659,
-        "p_home": 0.2346,
-        "p_draw": 0.2843,
-        "p_away": 0.4811,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://sports.yahoo.com/articles/scotland-vs-morocco-picks-predictions-140309697.html",
+          "https://www.covers.com/world-cup/morocco-vs-scotland-prediction-picks-odds-friday-6-19-2026",
+          "https://www.espn.com/soccer/odds/_/gameId/760445"
+        ]
+      },
+      "odds": {
+        "source": "moneyline via Yahoo/covers (SCO +320, draw +272, MAR -130) [refresh 2026-06-19; MAR unbeaten 30, drew Brazil]",
+        "decimal_odds": [
+          4.2,
+          3.72,
+          1.77
+        ],
+        "overround": 0.0719,
+        "p_home": 0.2221,
+        "p_draw": 0.2508,
+        "p_away": 0.5271,
+        "fetched_at": "2026-06-19T09:41:11Z"
       },
       "external": [],
       "posted_to": [
@@ -82,26 +160,69 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-19T09:43:19Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-19): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy in ACCUMULATE (rank 3/34, deficit 9, 44 group games left -> bet EP-max). Pre-fill stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M031",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-19T09:40:38Z",
       "model": {
-        "elo_home": 1991,
-        "elo_away": 1548,
+        "elo_home": 1977.8,
+        "elo_away": 1535.6,
         "home_adv_applied": 0,
         "lambda_home": 4.0,
-        "lambda_away": 0.241,
+        "lambda_away": 0.242,
         "p_home": 0.9618,
         "p_draw": 0.0321,
         "p_away": 0.0061,
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.88,
+        "p_draw": 0.08,
+        "p_away": 0.04,
+        "p_home_advance": null,
+        "predicted_score": "3-0",
+        "reasoning": "Anchored to the market (Brazil -1400 / draw +900 / Haiti +1850 -> de-vig ~88/8/4). Brazil were held 1-1 by Morocco in their opener and will want a statement; Haiti lost 1-0 to Scotland and have won just one of their last five. Neymar is ruled out but Vinicius Jr leads a still-overwhelming attack, and the H2H is lopsided (7-1, 6-0). A comfortable multi-goal Brazil win, around 3-0, is the central case; the model's 96% slightly overstates it but the market agrees Brazil are heavy favourites.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 96% vs market 88%; anchored to market"
+          },
+          {
+            "type": "squad",
+            "team": "BRA",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Vinicius Jr leads; even without Neymar, vastly superior; will chase goals after 1-1 vs Morocco"
+          },
+          {
+            "type": "form",
+            "team": "HAI",
+            "direction": "against",
+            "weight": "mild",
+            "note": "Lost 1-0 to Scotland; one win in last five; huge quality gap"
+          }
+        ],
+        "news_sources": [
+          "https://www.goal.com/en/news/brazil-haiti-world-cup-preview/blte15b62338e20169d",
+          "https://www.espn.com/soccer/story/_/id/49097937/brazil-haiti-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+          "https://www.squawka.com/us/news/world-cup/match-preview-brazil-vs-haiti-06-19-26-world-cup-2026/"
+        ]
+      },
       "odds": {
         "source": "oddschecker US 3-way moneyline (BRA -1400, draw +900, HAI +1850) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -124,26 +245,69 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "3:0",
+          "posted_at": "2026-06-19T09:43:19Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-19): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy in ACCUMULATE (rank 3/34, deficit 9, 44 group games left -> bet EP-max). Pre-fill stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M032",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-19T09:40:38Z",
       "model": {
-        "elo_home": 1911,
-        "elo_away": 1834,
+        "elo_home": 1849.5,
+        "elo_away": 1780.3,
         "home_adv_applied": 0,
-        "lambda_home": 1.774,
-        "lambda_away": 0.982,
-        "p_home": 0.5597,
-        "p_draw": 0.2329,
-        "p_away": 0.2074,
-        "expected_score": "1-0",
+        "lambda_home": 1.722,
+        "lambda_away": 1.012,
+        "p_home": 0.5401,
+        "p_draw": 0.2382,
+        "p_away": 0.2217,
+        "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.46,
+        "p_draw": 0.28,
+        "p_away": 0.26,
+        "p_home_advance": null,
+        "predicted_score": "1-0",
+        "reasoning": "Anchored to the market (Turkiye +105 / draw +250 / Paraguay +233 -> roughly 46/28/26), a touch below the model's 54%. Both sides lost their openers (Turkiye 0-2 to Australia, Paraguay 1-4 to USA) so this is effectively must-win for both. Turkiye have the edge in individual quality -- Akturkoglu (five qualifying goals) off the left -- and will press; Paraguay will sit deep and counter. Turkiye are narrow favourites, so a tight 1-0 home win is the central case, though the draw is well in play.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 54% vs market 46%; anchored to market (near coin-flip three-way)"
+          },
+          {
+            "type": "squad",
+            "team": "TUR",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Superior final-third quality; Akturkoglu led qualifying scoring (5)"
+          },
+          {
+            "type": "context",
+            "team": null,
+            "direction": null,
+            "weight": "mild",
+            "note": "Both lost MD1 -> must-win; Paraguay likely deep-block-and-counter raises draw odds"
+          }
+        ],
+        "news_sources": [
+          "https://sports.yahoo.com/articles/turkey-vs-paraguay-picks-predictions-133324032.html",
+          "https://www.sportsmole.co.uk/football/turkey/world-cup-2026/preview/turkey-vs-paraguay-prediction-team-news-lineups_599370.html",
+          "https://www.rotowire.com/soccer/article/turkey-vs-paraguay-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-118661"
+        ]
+      },
       "odds": {
         "source": "oddschecker US 3-way moneyline (TUR +110, draw +200, PAR +210) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -166,6 +330,14 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 4: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-19T09:43:19Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-19): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy in ACCUMULATE (rank 3/34, deficit 9, 44 group games left -> bet EP-max). Pre-fill stands unchanged; verified live via get_bets. Not a re-bet."
         }
       ]
     }

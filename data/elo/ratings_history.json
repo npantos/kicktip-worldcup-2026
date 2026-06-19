@@ -337,17 +337,73 @@
       "r_away_after": 1997.9,
       "delta_home": -15.85,
       "g_multiplier": 1.5
+    },
+    {
+      "match_id": "M025",
+      "applied_at": "2026-06-19T09:39:49Z",
+      "home": "CZE",
+      "away": "RSA",
+      "score": "1-1",
+      "home_adv_applied": 0,
+      "r_home_before": 1711.6,
+      "r_away_before": 1511.0,
+      "r_home_after": 1696.0,
+      "r_away_after": 1526.6,
+      "delta_home": -15.62,
+      "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M026",
+      "applied_at": "2026-06-19T09:39:49Z",
+      "home": "SUI",
+      "away": "BIH",
+      "score": "4-1",
+      "home_adv_applied": 0,
+      "r_home_before": 1864.8,
+      "r_away_before": 1615.6,
+      "r_home_after": 1885.0,
+      "r_away_after": 1595.4,
+      "delta_home": 20.2,
+      "g_multiplier": 1.75
+    },
+    {
+      "match_id": "M027",
+      "applied_at": "2026-06-19T09:39:49Z",
+      "home": "CAN",
+      "away": "QAT",
+      "score": "6-0",
+      "home_adv_applied": 100,
+      "r_home_before": 1767.4,
+      "r_away_before": 1447.2,
+      "r_home_after": 1777.8,
+      "r_away_after": 1436.8,
+      "delta_home": 10.42,
+      "g_multiplier": 2.125
+    },
+    {
+      "match_id": "M028",
+      "applied_at": "2026-06-19T09:39:49Z",
+      "home": "MEX",
+      "away": "KOR",
+      "score": "1-0",
+      "home_adv_applied": 100,
+      "r_home_before": 1881.0,
+      "r_away_before": 1786.4,
+      "r_home_after": 1895.8,
+      "r_away_after": 1771.6,
+      "delta_home": 14.76,
+      "g_multiplier": 1.0
     }
   ],
   "current": {
-    "CZE": 1711.6,
-    "MEX": 1881.0,
-    "RSA": 1511.0,
-    "KOR": 1786.4,
-    "BIH": 1615.6,
-    "CAN": 1767.4,
-    "QAT": 1447.2,
-    "SUI": 1864.8,
+    "CZE": 1696.0,
+    "MEX": 1895.8,
+    "RSA": 1526.6,
+    "KOR": 1771.6,
+    "BIH": 1595.4,
+    "CAN": 1777.8,
+    "QAT": 1436.8,
+    "SUI": 1885.0,
     "BRA": 1977.8,
     "HAI": 1535.6,
     "MAR": 1840.2,
@@ -389,5 +445,5 @@
     "GHA": 1556.8,
     "PAN": 1683.2
   },
-  "updated_at": "2026-06-18T11:50:28Z"
+  "updated_at": "2026-06-19T09:39:49Z"
 }

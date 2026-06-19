@@ -374,7 +374,7 @@
       "away": "RSA",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M026",
@@ -389,7 +389,7 @@
       "away": "BIH",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M027",
@@ -404,7 +404,7 @@
       "away": "QAT",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M028",
@@ -419,7 +419,7 @@
       "away": "KOR",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M029",

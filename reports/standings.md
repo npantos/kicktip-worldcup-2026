@@ -1,24 +1,24 @@
 # Group standings
 
-_Updated 2026-06-18 11:50 UTC. Based on confirmed results only._
+_Updated 2026-06-19 09:39 UTC. Based on confirmed results only._
 
 ## Group A
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Mexico | 1 | 1 | 0 | 0 | 2 | 0 | +2 | 3 |
-| 2 | South Korea | 1 | 1 | 0 | 0 | 2 | 1 | +1 | 3 |
-| 3 | Czech Republic | 1 | 0 | 0 | 1 | 1 | 2 | -1 | 0 |
-| 4 | South Africa | 1 | 0 | 0 | 1 | 0 | 2 | -2 | 0 |
+| 1 | Mexico | 2 | 2 | 0 | 0 | 3 | 0 | +3 | 6 |
+| 2 | South Korea | 2 | 1 | 0 | 1 | 2 | 2 | +0 | 3 |
+| 3 | Czech Republic | 2 | 0 | 1 | 1 | 2 | 3 | -1 | 1 |
+| 4 | South Africa | 2 | 0 | 1 | 1 | 1 | 3 | -2 | 1 |
 
 ## Group B
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Bosnia & Herzegovina † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 2 | Canada † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 3 | Qatar † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 4 | Switzerland † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
+| 1 | Canada | 2 | 1 | 1 | 0 | 7 | 1 | +6 | 4 |
+| 2 | Switzerland | 2 | 1 | 1 | 0 | 5 | 2 | +3 | 4 |
+| 3 | Bosnia & Herzegovina | 2 | 0 | 1 | 1 | 2 | 5 | -3 | 1 |
+| 4 | Qatar | 2 | 0 | 1 | 1 | 1 | 7 | -6 | 1 |
 
 ## Group C
 
@@ -115,12 +115,12 @@ _Updated 2026-06-18 11:50 UTC. Based on confirmed results only._
 | # | Team | Grp | P | GD | GF | Pts |
 |---|------|-----|---|----|----|-----|
 | 1 | Netherlands † | F | 1 | +0 | 2 | 1 |
-| 2 | Qatar † | B | 1 | +0 | 1 | 1 |
-| 3 | Morocco † | C | 1 | +0 | 1 | 1 |
-| 4 | Belgium † | G | 1 | +0 | 1 | 1 |
-| 5 | Portugal † | K | 1 | +0 | 1 | 1 |
-| 6 | Cape Verde † | H | 1 | +0 | 0 | 1 |
-| 7 | Czech Republic | A | 1 | -1 | 1 | 0 |
+| 2 | Morocco † | C | 1 | +0 | 1 | 1 |
+| 3 | Belgium † | G | 1 | +0 | 1 | 1 |
+| 4 | Portugal † | K | 1 | +0 | 1 | 1 |
+| 5 | Cape Verde † | H | 1 | +0 | 0 | 1 |
+| 6 | Czech Republic | A | 2 | -1 | 2 | 1 |
+| 7 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 |
 | 8 | Ecuador † | E | 1 | -1 | 0 | 0 | ← cutoff
 | 9 | Panama † | L | 1 | -1 | 0 | 0 |
 | 10 | Senegal † | I | 1 | -2 | 1 | 0 |

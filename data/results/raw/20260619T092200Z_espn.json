@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-19T09:22:00Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760438/south-africa-czechia",
+    "https://www.espn.com/soccer/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+    "https://www.espn.com/soccer/match/_/gameId/760440/qatar-canada",
+    "https://www.espn.com/soccer/match/_/gameId/760441/south-korea-mexico"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M025",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "Sadilek 6 (CZE, earliest goal of WC so far); Mokoena pen 83 (RSA) after Sulc handball -> Bafana's first point"
+    },
+    {
+      "match_id": "M026",
+      "home_goals": 4,
+      "away_goals": 1,
+      "note": "Manzambi x2, Vargas, Xhaka pen (SUI); Mahmic late consolation (BIH) -- all 5 goals after the 2nd-half hydration break"
+    },
+    {
+      "match_id": "M027",
+      "home_goals": 6,
+      "away_goals": 0,
+      "note": "Jonathan David hat-trick + Larin + Saliba + Manai OG; record CONCACAF WC win, co-hosts' first WC victory"
+    },
+    {
+      "match_id": "M028",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "Luis Romo 50 (capitalising on Kim Seung-gyu blunder); Mexico clinch Group A & first to knockouts"
+    }
+  ]
+}
