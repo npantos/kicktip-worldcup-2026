@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-20T08:27:00Z",
+  "source": "fifa-foxsports-vavel-nbc-consensus",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021462",
+    "https://www.vavel.com/en-us/soccer/1263860-scotland-vs-morocco-live-score-2026-fifa-world-cup.html",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021457",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021460"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M029",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "FIFA/NESN: USA 2-0 AUS"
+    },
+    {
+      "match_id": "M030",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "VAVEL/FOX: SCO 0-1 MAR (Saibari)"
+    },
+    {
+      "match_id": "M031",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "FIFA/NBC: BRA 3-0 HAI"
+    },
+    {
+      "match_id": "M032",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "FIFA/VAVEL: TUR 0-1 PAR (Galarza)"
+    }
+  ]
+}

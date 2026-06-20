@@ -4,20 +4,55 @@
     {
       "match_id": "M033",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-20T08:28:00Z",
       "model": {
-        "elo_home": 1948,
-        "elo_away": 1712,
+        "elo_home": 1944.4,
+        "elo_away": 1754.9,
         "home_adv_applied": 0,
-        "lambda_home": 3.265,
-        "lambda_away": 0.534,
-        "p_home": 0.8855,
-        "p_draw": 0.0821,
-        "p_away": 0.0324,
-        "expected_score": "3-0",
+        "lambda_home": 2.732,
+        "lambda_away": 0.638,
+        "p_home": 0.8117,
+        "p_draw": 0.1261,
+        "p_away": 0.0622,
+        "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.57,
+        "p_draw": 0.24,
+        "p_away": 0.19,
+        "p_home_advance": null,
+        "predicted_score": "2-1",
+        "reasoning": "Anchored to the market (bet365 NED -150 -> de-vig ~58/24/18), with a slight nudge toward Sweden. Netherlands only drew Japan 2-2 in their opener and goalkeeper Verbruggen is questionable, while Sweden arrive on a high after thumping Tunisia 5-1 (Isak goal + assist). The Dutch are still rightful favourites with Gakpo leading the line, but this is no formality -- both teams should score. A 2-1 Netherlands win is the central case; the model's 81% is too high.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 81% vs market 58%; anchored to market"
+          },
+          {
+            "type": "form",
+            "team": "SWE",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "5-1 demolition of Tunisia in opener; Isak in form"
+          },
+          {
+            "type": "injury",
+            "team": "NED",
+            "direction": "against",
+            "weight": "mild",
+            "note": "GK Verbruggen questionable; only drew Japan 2-2 in opener"
+          }
+        ],
+        "news_sources": [
+          "https://www.squawka.com/us/news/world-cup/match-preview-netherlands-vs-sweden-06-20-26-world-cup-2026/",
+          "https://www.espn.com/soccer/story/_/id/49105032/netherlands-vs-sweden-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups",
+          "https://www.covers.com/world-cup/netherlands-vs-sweden-prediction-picks-odds-saturday-6-20-2026"
+        ]
+      },
       "odds": {
         "source": "oddschecker fractional (NED 4/6, draw 3/1, SWE 9/2) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -40,38 +75,81 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-20T08:31:26Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-20): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy ACCUMULATE (rank 2/34, deficit 5, 40 group games left -> bet EP-max). Pre-fill stands unchanged; verified live. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M034",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-20T08:28:00Z",
       "model": {
-        "elo_home": 1932,
-        "elo_away": 1695,
+        "elo_home": 1938.9,
+        "elo_away": 1743.1,
         "home_adv_applied": 0,
-        "lambda_home": 3.278,
-        "lambda_away": 0.532,
-        "p_home": 0.8868,
-        "p_draw": 0.0813,
-        "p_away": 0.0319,
-        "expected_score": "3-0",
+        "lambda_home": 2.798,
+        "lambda_away": 0.623,
+        "p_home": 0.8229,
+        "p_draw": 0.1198,
+        "p_away": 0.0573,
+        "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "oddschecker fractional (GER 11/20, draw 17/5, CIV 5/1) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          1.55,
-          4.4,
-          6.0
+      "adjusted": {
+        "p_home": 0.61,
+        "p_draw": 0.22,
+        "p_away": 0.17,
+        "p_home_advance": null,
+        "predicted_score": "2-0",
+        "reasoning": "Anchored to the market (GER -180 / draw +350 / CIV +450 -> de-vig ~61/21/17). Germany opened with a 7-1 demolition of Curacao off 26 shots and are clear favourites, but Ivory Coast are level on points after a well-drilled 1-0 defensive win over Ecuador, so this is tougher than the scoreline of Germany's opener suggests. A controlled 2-0 Germany win is the central case; the model's 82% overstates it against an organised CIV side.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 82% vs market 61%; anchored to market"
+          },
+          {
+            "type": "form",
+            "team": "GER",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "7-1 vs Curacao off 26 shots; rampant attack"
+          },
+          {
+            "type": "tactics",
+            "team": "CIV",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Well-drilled defensive 1-0 win over Ecuador; level on points, hard to break down"
+          }
         ],
-        "overround": 0.0391,
-        "p_home": 0.6209,
-        "p_draw": 0.2187,
-        "p_away": 0.1604,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.lineups.com/betting/germany-vs-ivory-coast-world-cup-match-preview-picks-odds-for-saturday-june-20-2026/",
+          "https://www.covers.com/world-cup/germany-vs-ivory-coast-prediction-picks-odds-saturday-6-20-2026",
+          "https://www.squawka.com/us/news/world-cup/match-preview-germany-vs-ivory-coast-06-20-26-world-cup-2026/"
+        ]
+      },
+      "odds": {
+        "source": "moneyline via covers/lineups (GER -180, draw +350, CIV +450) [refresh 2026-06-20; CIV beat Ecuador 1-0]",
+        "decimal_odds": [
+          1.56,
+          4.5,
+          5.5
+        ],
+        "overround": 0.0451,
+        "p_home": 0.6134,
+        "p_draw": 0.2126,
+        "p_away": 0.174,
+        "fetched_at": "2026-06-20T08:28:49Z"
       },
       "external": [],
       "posted_to": [
@@ -82,38 +160,81 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-20T08:31:26Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-20): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy ACCUMULATE (rank 2/34, deficit 5, 40 group games left -> bet EP-max). Pre-fill stands unchanged; verified live. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M035",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-20T08:28:00Z",
       "model": {
-        "elo_home": 1938,
-        "elo_away": 1434,
+        "elo_home": 1889.9,
+        "elo_away": 1427.1,
         "home_adv_applied": 0,
         "lambda_home": 4.0,
-        "lambda_away": 0.2,
-        "p_home": 0.9655,
-        "p_draw": 0.0297,
-        "p_away": 0.0048,
+        "lambda_away": 0.223,
+        "p_home": 0.9634,
+        "p_draw": 0.0311,
+        "p_away": 0.0055,
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "FanDuel/oddspedia via web search (ECU -500, draw +650, CUW +1200) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          1.2,
-          7.5,
-          13.0
+      "adjusted": {
+        "p_home": 0.87,
+        "p_draw": 0.09,
+        "p_away": 0.04,
+        "p_home_advance": null,
+        "predicted_score": "3-0",
+        "reasoning": "Anchored to the market (ECU 1/10 / draw +1000 / CUW +2600 -> de-vig ~88/9/4). Both lost their openers (Ecuador 0-1 to Cote d'Ivoire -- their first defeat since facing Brazil in 2024 -- and Curacao 1-7 to Germany), so this is must-win for both, and an urgent Ecuador faces a Curacao defence that has already shipped seven. A comfortable Ecuador win, three-plus goals, is the central case; the model's 96% is a touch high but the market agrees Ecuador are overwhelming.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 96% vs market 88%; anchored to market"
+          },
+          {
+            "type": "context",
+            "team": "ECU",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Must-win urgency after first loss since 2024; far superior side"
+          },
+          {
+            "type": "form",
+            "team": "CUW",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Conceded 7 to Germany in opener; leaky defence, huge quality gap"
+          }
         ],
-        "overround": 0.0436,
-        "p_home": 0.7985,
-        "p_draw": 0.1278,
-        "p_away": 0.0737,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://sports.yahoo.com/articles/ecuador-vs-curacao-predictions-picks-160000588.html",
+          "https://www.lineups.com/betting/ecuador-vs-curacao-world-cup-match-preview-picks-odds-for-saturday-june-20-2026/",
+          "https://www.covers.com/world-cup/ecuador-vs-curacao-prediction-picks-odds-saturday-6-20-2026"
+        ]
+      },
+      "odds": {
+        "source": "best-of-market via Yahoo/lineups (ECU 1/10, draw +1000, CUW +2600) [refresh 2026-06-20; ECU must-win, firmed]",
+        "decimal_odds": [
+          1.1,
+          11.0,
+          27.0
+        ],
+        "overround": 0.037,
+        "p_home": 0.8766,
+        "p_draw": 0.0877,
+        "p_away": 0.0357,
+        "fetched_at": "2026-06-20T08:28:49Z"
       },
       "external": [],
       "posted_to": [
@@ -123,39 +244,83 @@
           "bet": "2:0",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-20T08:31:26Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "3:0",
+          "posted_at": "2026-06-20T08:31:26Z",
+          "confirmed_via": "place_bets + get_bets readback",
+          "note": "Pre-kickoff re-bet: supersedes the 2026-06-11 pre-fill 2:0. Ecuador's line firmed (ECU -500 -> ~1/10) after their must-win situation, lifting lambda_home so the adjusted-track EP-max scoreline moves up to 3:0 (EP 2.288 vs 2:0 2.274). ACCUMULATE -> bet EP-max. Placed and verified live via readback."
         }
       ]
     },
     {
       "match_id": "M036",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-20T08:28:00Z",
       "model": {
-        "elo_home": 1628,
-        "elo_away": 1906,
+        "elo_home": 1585.1,
+        "elo_away": 1909.6,
         "home_adv_applied": 0,
-        "lambda_home": 0.454,
-        "lambda_away": 3.836,
-        "p_home": 0.0163,
-        "p_draw": 0.0503,
-        "p_away": 0.9334,
+        "lambda_home": 0.38,
+        "lambda_away": 4.0,
+        "p_home": 0.0111,
+        "p_draw": 0.0403,
+        "p_away": 0.9486,
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "oddschecker fractional (TUN 9/2, draw 13/5, JPN 3/4); ESPN/DK TUN +425, JPN -140 [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          5.5,
-          3.6,
-          1.75
+      "adjusted": {
+        "p_home": 0.14,
+        "p_draw": 0.23,
+        "p_away": 0.63,
+        "p_home_advance": null,
+        "predicted_score": "0-2",
+        "reasoning": "Anchored to the market (JPN -190 / draw +310 / TUN +600 -> de-vig ~63/23/14). Japan arrive with momentum after a 2-2 draw with the Netherlands (late Kamada equaliser), while Tunisia were thumped 5-1 by Sweden and sacked coach Lamouchi, bringing in Herve Renard -- a side in disarray. Japan have won all three prior meetings, scoring six and conceding none. The baseline model's 95% Japan was far too extreme; market ~63% is the right level. A 0-2 Japan win is the central case.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 95% vs market 63%; anchored to market (away favourite)"
+          },
+          {
+            "type": "form",
+            "team": "JPN",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "2-2 draw with Netherlands; 3-0 historical record vs Tunisia (6-0 agg)"
+          },
+          {
+            "type": "management",
+            "team": "TUN",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Sacked Lamouchi after 5-1 loss; Renard in mid-group -> disruption"
+          }
         ],
-        "overround": 0.031,
-        "p_home": 0.1763,
-        "p_draw": 0.2694,
-        "p_away": 0.5543,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.tntsports.co.uk/betting/tips/tunisia-vs-japan-prediction-tips-and-odds-world-cup-2026/",
+          "https://www.covers.com/world-cup/japan-vs-tunisia-prediction-picks-odds-sunday-6-21-2026",
+          "https://www.espn.com/soccer/odds/_/gameId/760449"
+        ]
+      },
+      "odds": {
+        "source": "ESPN/DK 3-way (TUN +600, draw +310, JPN -190) [refresh 2026-06-20; JPN firmed, TUN sacked coach Lamouchi -> Renard]",
+        "decimal_odds": [
+          7.0,
+          4.1,
+          1.53
+        ],
+        "overround": 0.0404,
+        "p_home": 0.1373,
+        "p_draw": 0.2344,
+        "p_away": 0.6283,
+        "fetched_at": "2026-06-20T08:28:49Z"
       },
       "external": [],
       "posted_to": [
@@ -166,6 +331,14 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-20T08:31:26Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-20): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy ACCUMULATE (rank 2/34, deficit 5, 40 group games left -> bet EP-max). Pre-fill stands unchanged; verified live. Not a re-bet."
         }
       ]
     }

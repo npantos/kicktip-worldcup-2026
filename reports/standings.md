@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-19 09:39 UTC. Based on confirmed results only._
+_Updated 2026-06-20 08:27 UTC. Based on confirmed results only._
 
 ## Group A
 
@@ -24,19 +24,19 @@ _Updated 2026-06-19 09:39 UTC. Based on confirmed results only._
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Scotland | 1 | 1 | 0 | 0 | 1 | 0 | +1 | 3 |
-| 2 | Brazil † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 3 | Morocco † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 4 | Haiti | 1 | 0 | 0 | 1 | 0 | 1 | -1 | 0 |
+| 1 | Brazil | 2 | 1 | 1 | 0 | 4 | 1 | +3 | 4 |
+| 2 | Morocco | 2 | 1 | 1 | 0 | 2 | 1 | +1 | 4 |
+| 3 | Scotland | 2 | 1 | 0 | 1 | 1 | 1 | +0 | 3 |
+| 4 | Haiti | 2 | 0 | 0 | 2 | 0 | 4 | -4 | 0 |
 
 ## Group D
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | USA | 1 | 1 | 0 | 0 | 4 | 1 | +3 | 3 |
-| 2 | Australia | 1 | 1 | 0 | 0 | 2 | 0 | +2 | 3 |
-| 3 | Turkey | 1 | 0 | 0 | 1 | 0 | 2 | -2 | 0 |
-| 4 | Paraguay | 1 | 0 | 0 | 1 | 1 | 4 | -3 | 0 |
+| 1 | USA | 2 | 2 | 0 | 0 | 6 | 1 | +5 | 6 |
+| 2 | Australia | 2 | 1 | 0 | 1 | 2 | 2 | +0 | 3 |
+| 3 | Paraguay | 2 | 1 | 0 | 1 | 2 | 4 | -2 | 3 |
+| 4 | Turkey | 2 | 0 | 0 | 2 | 0 | 3 | -3 | 0 |
 
 ## Group E
 
@@ -114,17 +114,17 @@ _Updated 2026-06-19 09:39 UTC. Based on confirmed results only._
 
 | # | Team | Grp | P | GD | GF | Pts |
 |---|------|-----|---|----|----|-----|
-| 1 | Netherlands † | F | 1 | +0 | 2 | 1 |
-| 2 | Morocco † | C | 1 | +0 | 1 | 1 |
-| 3 | Belgium † | G | 1 | +0 | 1 | 1 |
-| 4 | Portugal † | K | 1 | +0 | 1 | 1 |
-| 5 | Cape Verde † | H | 1 | +0 | 0 | 1 |
-| 6 | Czech Republic | A | 2 | -1 | 2 | 1 |
-| 7 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 |
-| 8 | Ecuador † | E | 1 | -1 | 0 | 0 | ← cutoff
-| 9 | Panama † | L | 1 | -1 | 0 | 0 |
-| 10 | Senegal † | I | 1 | -2 | 1 | 0 |
-| 11 | Jordan † | J | 1 | -2 | 1 | 0 |
-| 12 | Turkey | D | 1 | -2 | 0 | 0 |
+| 1 | Scotland | C | 2 | +0 | 1 | 3 |
+| 2 | Paraguay | D | 2 | -2 | 2 | 3 |
+| 3 | Netherlands † | F | 1 | +0 | 2 | 1 |
+| 4 | Belgium † | G | 1 | +0 | 1 | 1 |
+| 5 | Portugal † | K | 1 | +0 | 1 | 1 |
+| 6 | Cape Verde † | H | 1 | +0 | 0 | 1 |
+| 7 | Czech Republic | A | 2 | -1 | 2 | 1 |
+| 8 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 | ← cutoff
+| 9 | Ecuador † | E | 1 | -1 | 0 | 0 |
+| 10 | Panama † | L | 1 | -1 | 0 | 0 |
+| 11 | Senegal † | I | 1 | -2 | 1 | 0 |
+| 12 | Jordan † | J | 1 | -2 | 1 | 0 |
 
 _† order among tied teams depends on fair play points / drawing of lots (not tracked) — shown alphabetically._

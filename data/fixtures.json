@@ -434,7 +434,7 @@
       "away": "AUS",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M030",
@@ -449,7 +449,7 @@
       "away": "MAR",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M031",
@@ -464,7 +464,7 @@
       "away": "HAI",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M032",
@@ -479,7 +479,7 @@
       "away": "PAR",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M033",
