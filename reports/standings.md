@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-20 08:27 UTC. Based on confirmed results only._
+_Updated 2026-06-21 10:42 UTC. Based on confirmed results only._
 
 ## Group A
 
@@ -42,19 +42,19 @@ _Updated 2026-06-20 08:27 UTC. Based on confirmed results only._
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Germany | 1 | 1 | 0 | 0 | 7 | 1 | +6 | 3 |
-| 2 | Ivory Coast | 1 | 1 | 0 | 0 | 1 | 0 | +1 | 3 |
-| 3 | Ecuador | 1 | 0 | 0 | 1 | 0 | 1 | -1 | 0 |
-| 4 | Curaçao | 1 | 0 | 0 | 1 | 1 | 7 | -6 | 0 |
+| 1 | Germany | 2 | 2 | 0 | 0 | 9 | 2 | +7 | 6 |
+| 2 | Ivory Coast | 2 | 1 | 0 | 1 | 2 | 2 | +0 | 3 |
+| 3 | Ecuador | 2 | 0 | 1 | 1 | 0 | 1 | -1 | 1 |
+| 4 | Curaçao | 2 | 0 | 1 | 1 | 1 | 7 | -6 | 1 |
 
 ## Group F
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Sweden | 1 | 1 | 0 | 0 | 5 | 1 | +4 | 3 |
-| 2 | Japan † | 1 | 0 | 1 | 0 | 2 | 2 | +0 | 1 |
-| 3 | Netherlands † | 1 | 0 | 1 | 0 | 2 | 2 | +0 | 1 |
-| 4 | Tunisia | 1 | 0 | 0 | 1 | 1 | 5 | -4 | 0 |
+| 1 | Netherlands | 2 | 1 | 1 | 0 | 7 | 3 | +4 | 4 |
+| 2 | Japan | 2 | 1 | 1 | 0 | 6 | 2 | +4 | 4 |
+| 3 | Sweden | 2 | 1 | 0 | 1 | 6 | 6 | +0 | 3 |
+| 4 | Tunisia | 2 | 0 | 0 | 2 | 1 | 9 | -8 | 0 |
 
 ## Group G
 
@@ -114,16 +114,16 @@ _Updated 2026-06-20 08:27 UTC. Based on confirmed results only._
 
 | # | Team | Grp | P | GD | GF | Pts |
 |---|------|-----|---|----|----|-----|
-| 1 | Scotland | C | 2 | +0 | 1 | 3 |
-| 2 | Paraguay | D | 2 | -2 | 2 | 3 |
-| 3 | Netherlands † | F | 1 | +0 | 2 | 1 |
+| 1 | Sweden | F | 2 | +0 | 6 | 3 |
+| 2 | Scotland | C | 2 | +0 | 1 | 3 |
+| 3 | Paraguay | D | 2 | -2 | 2 | 3 |
 | 4 | Belgium † | G | 1 | +0 | 1 | 1 |
 | 5 | Portugal † | K | 1 | +0 | 1 | 1 |
 | 6 | Cape Verde † | H | 1 | +0 | 0 | 1 |
 | 7 | Czech Republic | A | 2 | -1 | 2 | 1 |
-| 8 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 | ← cutoff
-| 9 | Ecuador † | E | 1 | -1 | 0 | 0 |
-| 10 | Panama † | L | 1 | -1 | 0 | 0 |
+| 8 | Ecuador | E | 2 | -1 | 0 | 1 | ← cutoff
+| 9 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 |
+| 10 | Panama | L | 1 | -1 | 0 | 0 |
 | 11 | Senegal † | I | 1 | -2 | 1 | 0 |
 | 12 | Jordan † | J | 1 | -2 | 1 | 0 |
 

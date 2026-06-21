@@ -4,10 +4,10 @@
     {
       "match_id": "M037",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-21T10:42:57Z",
       "model": {
-        "elo_home": 2157,
-        "elo_away": 1576,
+        "elo_home": 2129.1,
+        "elo_away": 1597.6,
         "home_adv_applied": 0,
         "lambda_home": 4.0,
         "lambda_away": 0.2,
@@ -17,7 +17,42 @@
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.84,
+        "p_draw": 0.11,
+        "p_away": 0.05,
+        "p_home_advance": null,
+        "predicted_score": "2-0",
+        "reasoning": "Anchored to the market (ESP -1000 / draw +725 / KSA +1450 -> de-vig ~83/11/6). Spain were held 0-0 by Cape Verde in their opener and sit bottom of a level Group H, but de la Fuente welcomes Nico Williams and Lamine Yamal back into the XI, which should unlock the attack; Spain have beaten Saudi Arabia in all three previous meetings (9-2 agg) and KSA have lost nine straight WC games against UEFA sides. A bounce-back 2-0 Spain win is the central case; the model's 97% is a hair high but the market agrees Spain are overwhelming.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 97% vs market 83%; anchored to market"
+          },
+          {
+            "type": "lineup",
+            "team": "ESP",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Nico Williams & Lamine Yamal back in XI after the goalless opener -> sharper attack"
+          },
+          {
+            "type": "history",
+            "team": "KSA",
+            "direction": "against",
+            "weight": "mild",
+            "note": "0-3 all-time vs Spain (9-2 agg); 9 straight WC losses to UEFA teams"
+          }
+        ],
+        "news_sources": [
+          "https://www.covers.com/world-cup/spain-vs-saudi-arabia-prediction-picks-odds-sunday-6-21-2026",
+          "https://www.fanduel.com/research/spain-vs-saudi-arabia-prediction-preview-picks-lineups-and-best-bets-world-cup-2026",
+          "https://www.rotowire.com/soccer/article/spain-vs-saudi-arabia-picks-tips-odds-best-bets-2026-world-cup-group-h-119054"
+        ]
+      },
       "odds": {
         "source": "US sportsbooks via web search (ESP -1000, draw +725, KSA +1450) [prefill sweep 2026-06-11]",
         "decimal_odds": [
@@ -40,38 +75,81 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-21T10:46:11Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-21): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy ACCUMULATE (rank 4/34, deficit 6, 36 group games left -> bet EP-max). Pre-fill stands unchanged; verified live. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M038",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-21T10:42:57Z",
       "model": {
-        "elo_home": 1894,
-        "elo_away": 1772,
+        "elo_home": 1878.5,
+        "elo_away": 1755.8,
         "home_adv_applied": 0,
-        "lambda_home": 2.108,
-        "lambda_away": 0.826,
-        "p_home": 0.6695,
-        "p_draw": 0.1948,
-        "p_away": 0.1357,
+        "lambda_home": 2.114,
+        "lambda_away": 0.824,
+        "p_home": 0.6712,
+        "p_draw": 0.1941,
+        "p_away": 0.1347,
         "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "US sportsbooks via web search (BEL -275, draw +310, IRN +575) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          1.36,
-          4.1,
-          6.75
+      "adjusted": {
+        "p_home": 0.66,
+        "p_draw": 0.21,
+        "p_away": 0.13,
+        "p_home_advance": null,
+        "predicted_score": "2-0",
+        "reasoning": "Anchored to the market (BEL -230 / draw +360 / IRN +650; Kalshi 68/21/12 -> ~67/21/13). Both drew their openers (Belgium 1-1 with Egypt, Iran 2-2 with New Zealand) in a level Group G. Belgium's midfield quality (De Bruyne, Tielemans, Onana) is the difference, though Jeremy Doku misses out through illness. Iran are organised with Taremi a threat on the break. A 2-0 Belgium win is the central case; the model (67%) and market agree closely here.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "moderate",
+            "note": "Model 67% ~= market 67% -- consensus, minimal adjustment"
+          },
+          {
+            "type": "squad",
+            "team": "BEL",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Superior midfield (De Bruyne/Tielemans/Onana); deep squad"
+          },
+          {
+            "type": "injury",
+            "team": "BEL",
+            "direction": "against",
+            "weight": "mild",
+            "note": "Jeremy Doku out (illness) -- removes a key wide threat but ample cover"
+          }
         ],
-        "overround": 0.1273,
-        "p_home": 0.6522,
-        "p_draw": 0.2164,
-        "p_away": 0.1314,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.cbssports.com/soccer/news/belgium-vs-iran-world-cup-2026-preview-predictions-watch/",
+          "https://www.covers.com/world-cup/belgium-vs-iran-prediction-picks-odds-sunday-6-21-2026",
+          "https://www.espn.com/soccer/odds/_/gameId/760451"
+        ]
+      },
+      "odds": {
+        "source": "bet365/Kalshi (BEL -230, draw +360, IRN +650) [refresh 2026-06-21; Doku out ill]",
+        "decimal_odds": [
+          1.43,
+          4.6,
+          7.5
+        ],
+        "overround": 0.05,
+        "p_home": 0.666,
+        "p_draw": 0.207,
+        "p_away": 0.127,
+        "fetched_at": "2026-06-21T10:43:42Z"
       },
       "external": [],
       "posted_to": [
@@ -82,38 +160,81 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-21T10:46:11Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-21): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy ACCUMULATE (rank 4/34, deficit 6, 36 group games left -> bet EP-max). Pre-fill stands unchanged; verified live. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M039",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-21T10:42:57Z",
       "model": {
-        "elo_home": 1892,
-        "elo_away": 1578,
+        "elo_home": 1870.4,
+        "elo_away": 1605.9,
         "home_adv_applied": 0,
-        "lambda_home": 4.0,
-        "lambda_away": 0.396,
-        "p_home": 0.9471,
-        "p_draw": 0.0412,
-        "p_away": 0.0117,
+        "lambda_home": 3.643,
+        "lambda_away": 0.478,
+        "p_home": 0.9199,
+        "p_draw": 0.0596,
+        "p_away": 0.0205,
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "US sportsbooks via web search (URU -250, draw +310, CPV +525) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          1.4,
-          4.1,
-          6.25
+      "adjusted": {
+        "p_home": 0.62,
+        "p_draw": 0.24,
+        "p_away": 0.14,
+        "p_home_advance": null,
+        "predicted_score": "1-0",
+        "reasoning": "Anchored to the market (URU -200 / draw +300 / CPV +600 -> de-vig ~63/24/13), with the draw a touch elevated. Uruguay (Bielsa; Valverde, Nunez) are clear favourites and the class side, but Cape Verde just frustrated Spain to a 0-0 with a disciplined five-man low block and seven Vozinha saves -- the same approach that could keep this tight (Under 2.5 is favoured). A low-scoring 1-0 Uruguay win is the central case; the model's 92% badly overstates how easily they break a deep block.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 92% vs market 63%; anchored to market"
+          },
+          {
+            "type": "tactics",
+            "team": "CPV",
+            "direction": "against",
+            "weight": "moderate",
+            "note": "Held Spain 0-0 with a five-man low block; Vozinha 7 saves -> hard to break down"
+          },
+          {
+            "type": "squad",
+            "team": "URU",
+            "direction": "for",
+            "weight": "mild",
+            "note": "Two-time WC winner; Valverde & Nunez quality, but goals may come at a premium"
+          }
         ],
-        "overround": 0.1182,
-        "p_home": 0.6388,
-        "p_draw": 0.2181,
-        "p_away": 0.1431,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.covers.com/world-cup/uruguay--vs-cape-verde-prediction-picks-odds-sunday-6-21-2026",
+          "https://sports.yahoo.com/articles/uruguay-vs-cape-verde-prediction-155000797.html",
+          "https://www.lineups.com/betting/uruguay-vs-cape-verde-world-cup-match-preview-picks-odds-for-sunday-june-21-2026/"
+        ]
+      },
+      "odds": {
+        "source": "FanDuel 3-way (URU -200, draw +300, CPV +600) [refresh 2026-06-21; CPV deep-block respect]",
+        "decimal_odds": [
+          1.5,
+          4.0,
+          7.0
+        ],
+        "overround": 0.0595,
+        "p_home": 0.6292,
+        "p_draw": 0.236,
+        "p_away": 0.1348,
+        "fetched_at": "2026-06-21T10:43:42Z"
       },
       "external": [],
       "posted_to": [
@@ -124,38 +245,81 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-21T10:46:11Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-21): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy ACCUMULATE (rank 4/34, deficit 6, 36 group games left -> bet EP-max). Pre-fill stands unchanged; verified live. Not a re-bet."
         }
       ]
     },
     {
       "match_id": "M040",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-21T10:42:57Z",
       "model": {
-        "elo_home": 1562,
-        "elo_away": 1696,
+        "elo_home": 1578.2,
+        "elo_away": 1711.5,
         "home_adv_applied": 0,
-        "lambda_home": 0.789,
-        "lambda_away": 2.208,
-        "p_home": 0.1197,
-        "p_draw": 0.1831,
-        "p_away": 0.6972,
+        "lambda_home": 0.791,
+        "lambda_away": 2.202,
+        "p_home": 0.1206,
+        "p_draw": 0.1838,
+        "p_away": 0.6956,
         "expected_score": "0-2",
         "p_home_advance": null
       },
-      "adjusted": null,
-      "odds": {
-        "source": "US sportsbooks via web search (NZL +340, draw +230, EGY -145) [prefill sweep 2026-06-11]",
-        "decimal_odds": [
-          4.4,
-          3.3,
-          1.69
+      "adjusted": {
+        "p_home": 0.17,
+        "p_draw": 0.24,
+        "p_away": 0.59,
+        "p_home_advance": null,
+        "predicted_score": "0-1",
+        "reasoning": "Anchored to the market (EGY -167 / draw +300 / NZL +450 -> de-vig ~59/24/17). Both drew their openers in a level Group G, making this an effective six-pointer. Egypt are clear favourites: a flawless qualifying campaign (5W-1D, 9 scored 0 conceded), that defensive solidity carrying into the tournament, and Mohamed Salah (67 intl goals) the matchwinner against an ageing New Zealand back line. The model's 70% Egypt was a bit strong; market ~59% is the better read. A 0-1 Egypt win is the central case, though NZ are physical and the draw is live.",
+        "factors": [
+          {
+            "type": "market_calibration",
+            "team": null,
+            "direction": null,
+            "weight": "strong",
+            "note": "Model 70% vs market 59%; anchored to market (away favourite)"
+          },
+          {
+            "type": "squad",
+            "team": "EGY",
+            "direction": "for",
+            "weight": "moderate",
+            "note": "Salah threat; flawless qualifying defence (0 conceded), settled & solid"
+          },
+          {
+            "type": "context",
+            "team": null,
+            "direction": null,
+            "weight": "mild",
+            "note": "Six-pointer in a level group -> both motivated; NZ physical, draw well in play"
+          }
         ],
-        "overround": 0.122,
-        "p_home": 0.2026,
-        "p_draw": 0.2701,
-        "p_away": 0.5273,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "news_sources": [
+          "https://www.squawka.com/us/news/world-cup/match-preview-new-zealand-vs-egypt-06-21-26-world-cup-2026/",
+          "https://sports.yahoo.com/articles/zealand-vs-egypt-prediction-world-143500950.html",
+          "https://www.covers.com/world-cup/egypt-vs-new-zealand-prediction-picks-odds-sunday-6-21-2026"
+        ]
+      },
+      "odds": {
+        "source": "bet365 3-way (NZL +450, draw +300, EGY -167) [refresh 2026-06-21; EGY firmed, Salah]",
+        "decimal_odds": [
+          5.5,
+          4.0,
+          1.6
+        ],
+        "overround": 0.0568,
+        "p_home": 0.172,
+        "p_draw": 0.2366,
+        "p_away": 0.5914,
+        "fetched_at": "2026-06-21T10:43:42Z"
       },
       "external": [],
       "posted_to": [
@@ -166,6 +330,14 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 5: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-21T10:46:11Z",
+          "confirmed_via": "get_bets readback",
+          "note": "Daily-cycle confirmation (2026-06-21): adjusted block locked; adjusted-track EP-max equals the standing pre-fill, contest_strategy ACCUMULATE (rank 4/34, deficit 6, 36 group games left -> bet EP-max). Pre-fill stands unchanged; verified live. Not a re-bet."
         }
       ]
     }

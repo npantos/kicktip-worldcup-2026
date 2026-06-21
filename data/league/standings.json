@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-06-20T08:30:00Z",
+  "fetched_at": "2026-06-21T10:45:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview (standings view) [32 matches scored = kicktipp matchday 4]",
-  "as_of_matchday": 4,
-  "matches_scored_so_far": 32,
+  "source": "kicktipp MCP get_overview (standings view) [36 matches scored; kicktipp matchday 5 partial]",
+  "as_of_matchday": 5,
+  "matches_scored_so_far": 36,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
-    "rank": 2,
-    "points": 65,
+    "rank": 4,
+    "points": 72,
     "bonus": 4
   },
   "human_owner": {
     "name": "NemanjaPantoš",
     "rank": 7,
-    "points": 57
+    "points": 67
   },
   "leader": {
     "names": [
       "MrGojomir"
     ],
-    "points": 70
+    "points": 78
   },
-  "deficit_to_leader": 5,
-  "tier_at_my_points": 2,
-  "players_ahead": 1,
+  "deficit_to_leader": 6,
+  "tier_at_my_points": 1,
+  "players_ahead": 3,
   "top": [
-    {"rank": 1, "name": "MrGojomir", "points": 70},
-    {"rank": 2, "name": "Nemanj-AI", "points": 65},
-    {"rank": 3, "name": "LosAngelesBus", "points": 65},
-    {"rank": 4, "name": "LilDja", "points": 64},
-    {"rank": 5, "name": "markec", "points": 61},
-    {"rank": 6, "name": "ljubomir", "points": 61},
-    {"rank": 7, "name": "NemanjaPantoš", "points": 57},
-    {"rank": 7, "name": "BB", "points": 57},
-    {"rank": 9, "name": "Shelly", "points": 56},
-    {"rank": 10, "name": "Dalibor89", "points": 54}
+    {"rank": 1, "name": "MrGojomir", "points": 78},
+    {"rank": 2, "name": "LilDja", "points": 74},
+    {"rank": 3, "name": "LosAngelesBus", "points": 73},
+    {"rank": 4, "name": "Nemanj-AI", "points": 72},
+    {"rank": 5, "name": "markec", "points": 69},
+    {"rank": 6, "name": "Kula", "points": 67},
+    {"rank": 7, "name": "NemanjaPantoš", "points": 67},
+    {"rank": 7, "name": "BB", "points": 67},
+    {"rank": 9, "name": "Shelly", "points": 66},
+    {"rank": 10, "name": "ljubomir", "points": 65}
   ],
-  "note": "Through 32 matches (M001-M032; kicktipp 'matchday 4' = 8 games/MD). Two exact hits on the 06-19 slate (SCO-MAR 0:1, BRA-HAI 3:0) + USA tendency pushed Nemanj-AI to rank 2/34, 65 pts -- up from rank 3. Leader MrGojomir 70 -> deficit 5, only 1 player ahead; LosAngelesBus also 65 (we lead the tiebreak). Still ~40 group games + KO left -> ACCUMULATE/EP-max. Human owner NemanjaPantoš rank 7, 57 pts."
+  "note": "Through 36 matches (M033-M036 scored: NED 5-1, GER 2-1 [our 1:0 got tendency+GD], ECU 0-0 shock, TUN 0-4 -> +7 pts). Top is tightly bunched: MrGojomir 78, LilDja 74, LosAngelesBus 73, Nemanj-AI 72 (rank 4, deficit 6 but only 1 pt off 2nd). BONUS GAP: Nemanj-AI on bonus 4 while rivals have 8-12 (LosAngelesBus 12, LilDja 8) -- bonus questions are a points source we are under-capturing, but get_bonus_questions is currently EMPTY (none open) -- the gap is locked in from a pre-tournament bonus round; recheck when knockouts approach. Still ~36 group games + KO left -> ACCUMULATE/EP-max. Human owner NemanjaPantoš rank 7, 67 pts (bonus 12)."
 }

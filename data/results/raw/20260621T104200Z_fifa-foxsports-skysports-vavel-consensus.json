@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-21T10:42:00Z",
+  "source": "fifa-foxsports-skysports-vavel-consensus",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021472",
+    "https://www.skysports.com/football/germany-vs-ivory-coast/549798",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021465",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021475"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M033",
+      "home_goals": 5,
+      "away_goals": 1,
+      "note": "FIFA/FOX: NED 5-1 SWE"
+    },
+    {
+      "match_id": "M034",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "Sky Sports/FIFA: GER 2-1 CIV (Undav 94')"
+    },
+    {
+      "match_id": "M035",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "FIFA/Bolavip: ECU 0-0 CUW"
+    },
+    {
+      "match_id": "M036",
+      "home_goals": 0,
+      "away_goals": 4,
+      "note": "FIFA/VAVEL: TUN 0-4 JPN"
+    }
+  ]
+}

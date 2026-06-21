@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-21T10:41:00Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760447/sweden-netherlands",
+    "https://www.espn.com/soccer/match/_/gameId/760448/ivory-coast-germany",
+    "https://www.espn.com/soccer/match/_/gameId/760446/curacao-ecuador",
+    "https://www.espn.com/soccer/match/_/gameId/760449/japan-tunisia"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M033",
+      "home_goals": 5,
+      "away_goals": 1,
+      "note": "Brobbey x2 & Gakpo x2 (NED); Netherlands top Group F"
+    },
+    {
+      "match_id": "M034",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "Undav brace incl. 94' winner (GER); Kessie 30 (CIV); Germany clinch last 32"
+    },
+    {
+      "match_id": "M035",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "Goalless; Eloy Room (CUW) several key saves to deny Ecuador -- shock point for Curacao"
+    },
+    {
+      "match_id": "M036",
+      "home_goals": 0,
+      "away_goals": 4,
+      "note": "Kamada 4 (Japan's quickest-ever), Ueda 30 & 83, Ito 69 (JPN); Tunisia eliminated"
+    }
+  ]
+}
