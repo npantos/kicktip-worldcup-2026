@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-22T08:32:00Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760453/saudi-arabia-spain",
+    "https://www.espn.com/soccer/match/_/gameId/760451/iran-belgium",
+    "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+    "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M037",
+      "home_goals": 4,
+      "away_goals": 0,
+      "note": "Yamal 10, Oyarzabal x2, Al Tambakti OG (ESP); three in first half-hour; Spain back on track"
+    },
+    {
+      "match_id": "M038",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "Goalless; Ngoy (BEL) red card 66; Beiranvand 7 saves incl. point-blank stop on De Cuyper; Iran top Group G on 2 pts"
+    },
+    {
+      "match_id": "M039",
+      "home_goals": 2,
+      "away_goals": 2,
+      "note": "Araujo 44, Canobbio 45+6 (URU); Pina 21, Varela 61 (CPV) -- Cape Verde rally from 2-1 down (Muslera error)"
+    },
+    {
+      "match_id": "M040",
+      "home_goals": 1,
+      "away_goals": 3,
+      "note": "Surman 15 (NZL); Zico, Salah, Trezeguet (EGY) -- Egypt's first WC win in 92 years"
+    }
+  ]
+}

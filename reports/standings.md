@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-21 10:42 UTC. Based on confirmed results only._
+_Updated 2026-06-22 08:32 UTC. Based on confirmed results only._
 
 ## Group A
 
@@ -60,19 +60,19 @@ _Updated 2026-06-21 10:42 UTC. Based on confirmed results only._
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Iran † | 1 | 0 | 1 | 0 | 2 | 2 | +0 | 1 |
-| 2 | New Zealand † | 1 | 0 | 1 | 0 | 2 | 2 | +0 | 1 |
-| 3 | Belgium † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 4 | Egypt † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
+| 1 | Egypt | 2 | 1 | 1 | 0 | 4 | 2 | +2 | 4 |
+| 2 | Iran | 2 | 0 | 2 | 0 | 2 | 2 | +0 | 2 |
+| 3 | Belgium | 2 | 0 | 2 | 0 | 1 | 1 | +0 | 2 |
+| 4 | New Zealand | 2 | 0 | 1 | 1 | 3 | 5 | -2 | 1 |
 
 ## Group H
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Saudi Arabia † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 2 | Uruguay † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 3 | Cape Verde † | 1 | 0 | 1 | 0 | 0 | 0 | +0 | 1 |
-| 4 | Spain † | 1 | 0 | 1 | 0 | 0 | 0 | +0 | 1 |
+| 1 | Spain | 2 | 1 | 1 | 0 | 4 | 0 | +4 | 4 |
+| 2 | Uruguay | 2 | 0 | 2 | 0 | 3 | 3 | +0 | 2 |
+| 3 | Cape Verde | 2 | 0 | 2 | 0 | 2 | 2 | +0 | 2 |
+| 4 | Saudi Arabia | 2 | 0 | 1 | 1 | 1 | 5 | -4 | 1 |
 
 ## Group I
 
@@ -117,9 +117,9 @@ _Updated 2026-06-21 10:42 UTC. Based on confirmed results only._
 | 1 | Sweden | F | 2 | +0 | 6 | 3 |
 | 2 | Scotland | C | 2 | +0 | 1 | 3 |
 | 3 | Paraguay | D | 2 | -2 | 2 | 3 |
-| 4 | Belgium † | G | 1 | +0 | 1 | 1 |
-| 5 | Portugal † | K | 1 | +0 | 1 | 1 |
-| 6 | Cape Verde † | H | 1 | +0 | 0 | 1 |
+| 4 | Cape Verde | H | 2 | +0 | 2 | 2 |
+| 5 | Belgium | G | 2 | +0 | 1 | 2 |
+| 6 | Portugal † | K | 1 | +0 | 1 | 1 |
 | 7 | Czech Republic | A | 2 | -1 | 2 | 1 |
 | 8 | Ecuador | E | 2 | -1 | 0 | 1 | ← cutoff
 | 9 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 |

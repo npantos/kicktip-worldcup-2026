@@ -554,7 +554,7 @@
       "away": "KSA",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M038",
@@ -569,7 +569,7 @@
       "away": "IRN",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M039",
@@ -584,7 +584,7 @@
       "away": "CPV",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M040",
@@ -599,7 +599,7 @@
       "away": "EGY",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M041",
