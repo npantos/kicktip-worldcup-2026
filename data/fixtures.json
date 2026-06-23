@@ -614,7 +614,7 @@
       "away": "AUT",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M042",
@@ -629,7 +629,7 @@
       "away": "IRQ",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M043",
@@ -644,7 +644,7 @@
       "away": "SEN",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M044",
@@ -659,7 +659,7 @@
       "away": "ALG",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M045",

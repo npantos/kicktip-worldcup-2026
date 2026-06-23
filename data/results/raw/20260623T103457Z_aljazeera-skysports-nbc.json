@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-23T10:34:57Z",
+  "source": "AlJazeera/SkySports/NBC",
+  "urls": [
+    "https://www.aljazeera.com/sports/liveblog/2026/6/22/argentina-vs-austria-live-world-cup-2026",
+    "https://www.aljazeera.com/sports/liveblog/2026/6/22/live-france-vs-iraq-world-cup-2026",
+    "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-june-22-live-updates-rcna351129",
+    "https://www.skysports.com/football/jordan-vs-algeria/report/549809"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M041",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "Al Jazeera: Argentina 2-0 Austria"
+    },
+    {
+      "match_id": "M042",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "Al Jazeera: France 3-0 Iraq"
+    },
+    {
+      "match_id": "M043",
+      "home_goals": 3,
+      "away_goals": 2,
+      "note": "NBC: Norway 3-2 Senegal"
+    },
+    {
+      "match_id": "M044",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "Sky Sports: Jordan 1-2 Algeria, debutants eliminated"
+    }
+  ]
+}

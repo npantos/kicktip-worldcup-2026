@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-23T10:34:46Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760456/austria-argentina",
+    "https://www.espn.com/soccer/match/_/gameId/760457/iraq-france",
+    "https://www.espn.com/soccer/match/_/gameId/760454/senegal-norway",
+    "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M041",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "Messi 38, 90+5 (record 17th/18th WC goals)"
+    },
+    {
+      "match_id": "M042",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "Mbappe x2, Dembele"
+    },
+    {
+      "match_id": "M043",
+      "home_goals": 3,
+      "away_goals": 2,
+      "note": "Haaland brace; Norway through"
+    },
+    {
+      "match_id": "M044",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "Al Rashdan 36 (JOR); Benbouali 68, Gouiri 82 (ALG) comeback; Jordan eliminated"
+    }
+  ]
+}
