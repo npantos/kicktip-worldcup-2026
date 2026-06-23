@@ -4,7 +4,7 @@
     {
       "match_id": "M045",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-23T12:46:55Z",
       "model": {
         "elo_home": 1966.5,
         "elo_away": 1698.1,
@@ -17,19 +17,35 @@
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.83,
+        "p_draw": 0.12,
+        "p_away": 0.05,
+        "predicted_score": "2-0",
+        "reasoning": "Anchor to market (~0.83/0.12/0.05); trim model's 0.92 toward the book. Portugal only drew their opener 1-1 vs DR Congo and were 'underwhelming', so the model's lambda 3.7 is too hot. Ronaldo starts and Portugal need a win, but the strong Under-2.5 lean (Portugal finishing concerns + Uzbekistan's conservative 3-4-2-1 block; Uzbekistan lost 1-3 to Colombia) caps the goal expectation. Expect a controlled 2-0 type win, not a rout.",
+        "factors": [
+          {
+            "factor": "Portugal drew opener 1-1 vs DR Congo, under pressure, 'underwhelming'",
+            "source": "https://www.covers.com/world-cup/portugal-vs-uzbekistan-prediction-picks-odds-tuesday-6-23-2026"
+          },
+          {
+            "factor": "Ronaldo starts; predicted XI; Under 2.5 lean given attacking concerns",
+            "source": "https://www.espn.co.uk/football/story/_/id/49135037/fifa-world-cup-2026-portugal-vs-uzbekistan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.795/0.145/0.075), 1/p [prefill sweep 2026-06-11]",
+        "source": "Bookmaker consensus via web search 2026-06-23 (covers/OneFootball; POR -1.5 ~ -150, Under 2.5 lean)",
         "decimal_odds": [
-          1.26,
-          6.9,
-          13.33
+          1.17,
+          8.0,
+          19.0
         ],
-        "overround": 0.0136,
-        "p_home": 0.783,
-        "p_draw": 0.143,
-        "p_away": 0.074,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0323,
+        "p_home": 0.8279,
+        "p_draw": 0.1211,
+        "p_away": 0.051,
+        "fetched_at": "2026-06-23T10:40:23Z"
       },
       "external": [],
       "posted_to": [
@@ -40,13 +56,21 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 6: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-23T12:47:00Z",
+          "confirmed_via": "get_bets readback 2026-06-23",
+          "note": "Matchday-of confirmation: research-adjusted track filled and locked; EP-max == contest pick in ACCUMULATE mode (urgency 0.030, k=0) equals the 2026-06-11 prefill, so no change. Verified live on platform via get_bets; not a re-bet."
         }
       ]
     },
     {
       "match_id": "M046",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-23T12:46:55Z",
       "model": {
         "elo_home": 2055.0,
         "elo_away": 1556.8,
@@ -59,19 +83,35 @@
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.81,
+        "p_draw": 0.13,
+        "p_away": 0.06,
+        "predicted_score": "2-0",
+        "reasoning": "Nudge slightly above market (~0.78) toward the supercomputer's 85% on the strength of England's opener (4-2 vs Croatia, 2.12 xG, 20 shots). Trim model's 0.97 down because Ghana are not a pushover: they won 1-0 vs Panama with a clean sheet and sit level on points, with first in Group L at stake. England xG ~2.1 -> modal 2-0; Ghana organized enough to keep it from a blowout.",
+        "factors": [
+          {
+            "factor": "England beat Croatia 4-2 (2.12 xG, 20 shots); ~-450 favourite; supercomputer 85%",
+            "source": "https://www.sportscasting.com/news/england-vs-ghana-predictions-supercomputer-betting-picks-odds-world-cup/"
+          },
+          {
+            "factor": "Ghana won opener 1-0 vs Panama (clean sheet), level on points, first place on the line",
+            "source": "https://www.foxsports.com/stories/soccer/2026-world-cup-england-ghana-odds-prediction-picks"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.745/0.165/0.095), 1/p [prefill sweep 2026-06-11]",
+        "source": "BetOnline/BetNow via web search 2026-06-23 (ENG -450, GHA +1300)",
         "decimal_odds": [
-          1.34,
-          6.06,
-          10.53
+          1.222,
+          6.2,
+          14.0
         ],
-        "overround": 0.0063,
-        "p_home": 0.7416,
-        "p_draw": 0.164,
-        "p_away": 0.0944,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.051,
+        "p_home": 0.7785,
+        "p_draw": 0.1535,
+        "p_away": 0.068,
+        "fetched_at": "2026-06-23T10:40:23Z"
       },
       "external": [],
       "posted_to": [
@@ -82,13 +122,21 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 6: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-23T12:47:00Z",
+          "confirmed_via": "get_bets readback 2026-06-23",
+          "note": "Matchday-of confirmation: research-adjusted track filled and locked; EP-max == contest pick in ACCUMULATE mode (urgency 0.030, k=0) equals the 2026-06-11 prefill, so no change. Verified live on platform via get_bets; not a re-bet."
         }
       ]
     },
     {
       "match_id": "M047",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-23T12:46:55Z",
       "model": {
         "elo_home": 1683.2,
         "elo_away": 1881.0,
@@ -101,19 +149,35 @@
         "expected_score": "0-2",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.14,
+        "p_draw": 0.24,
+        "p_away": 0.62,
+        "predicted_score": "0-1",
+        "reasoning": "Anchor to market (Croatia ~0.63, supercomputer 64.9%); trim model's 0.83 on Croatia. Both lost openers and must win, so the loser is effectively out. Croatia are favoured but limp in (lost 3 of last 4; conceded 4 to England) while Panama at neutral Toronto are unbeaten in 4 straight after a loss. Elevated draw chance (0.24) and a strong Under-2.5 lean point to a tight Croatia 0-1 win rather than a comfortable margin.",
+        "factors": [
+          {
+            "factor": "Both lost openers, must-win; Croatia -200 fav but lost 3 of 4; supercomputer Croatia 64.9%",
+            "source": "https://www.sportscasting.com/news/croatia-vs-panama-predictions-supercomputer-betting-picks-odds/"
+          },
+          {
+            "factor": "Panama unbeaten in 4 straight when coming off a loss; Under 2.5 lean",
+            "source": "https://www.covers.com/world-cup/croatia-vs-panama-prediction-picks-odds-tuesday-6-23-2026"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.135/0.235/0.63), 1/p [prefill sweep 2026-06-11]",
+        "source": "Market consensus via web search 2026-06-23 (CRO -200, PAN +600, draw +310)",
         "decimal_odds": [
-          7.41,
-          4.26,
-          1.59
+          7.0,
+          4.1,
+          1.5
         ],
-        "overround": -0.0014,
-        "p_home": 0.1351,
-        "p_draw": 0.2351,
-        "p_away": 0.6298,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0534,
+        "p_home": 0.1356,
+        "p_draw": 0.2315,
+        "p_away": 0.6329,
+        "fetched_at": "2026-06-23T10:40:23Z"
       },
       "external": [],
       "posted_to": [
@@ -124,13 +188,21 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 6: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-23T12:47:00Z",
+          "confirmed_via": "get_bets readback 2026-06-23",
+          "note": "Matchday-of confirmation: research-adjusted track filled and locked; EP-max == contest pick in ACCUMULATE mode (urgency 0.030, k=0) equals the 2026-06-11 prefill, so no change. Verified live on platform via get_bets; not a re-bet."
         }
       ]
     },
     {
       "match_id": "M048",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-23T12:46:55Z",
       "model": {
         "elo_home": 1997.9,
         "elo_away": 1674.5,
@@ -143,19 +215,35 @@
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.62,
+        "p_draw": 0.25,
+        "p_away": 0.13,
+        "predicted_score": "1-0",
+        "reasoning": "Anchor to market (Colombia ~0.63); trim model's 0.95 sharply. Colombia won 3-1 vs Uzbekistan with Luis Diaz starring (the Feb injury note is stale - he is fit and started), so Colombia are deserved favourites. But DR Congo are a well-organised Desabre side who drew Portugal, 'have not lost by more than a single goal', and sit deep to exploit transitions; strong Under-2.5 (-155). Expect a narrow 1-0 Colombia win with a real draw risk (0.25).",
+        "factors": [
+          {
+            "factor": "Colombia won 3-1 vs Uzbekistan, Luis Diaz fit and outstanding; -195 favourite",
+            "source": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/colombia-vs-dr-congo-odds-prediction-062426-217189"
+          },
+          {
+            "factor": "DR Congo drew Portugal, resilient deep block, 'not lost by more than a single goal'; Under 2.5 -155",
+            "source": "https://www.racingpost.com/sport/football-tips/world-cup-2026/colombia-vs-dr-congo-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aJpLK9k1G604/"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.675/0.215/0.125), 1/p [prefill sweep 2026-06-11]",
+        "source": "Sports Interaction via web search 2026-06-23 (COL -195, COD +600, draw +320)",
         "decimal_odds": [
-          1.48,
-          4.65,
-          8.0
+          1.513,
+          4.2,
+          7.0
         ],
-        "overround": 0.0157,
-        "p_home": 0.6652,
-        "p_draw": 0.2117,
-        "p_away": 0.1231,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0419,
+        "p_home": 0.6344,
+        "p_draw": 0.2285,
+        "p_away": 0.1371,
+        "fetched_at": "2026-06-23T10:40:23Z"
       },
       "external": [],
       "posted_to": [
@@ -166,6 +254,14 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 6: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-23T12:47:00Z",
+          "confirmed_via": "get_bets readback 2026-06-23",
+          "note": "Matchday-of confirmation: research-adjusted track filled and locked; EP-max == contest pick in ACCUMULATE mode (urgency 0.030, k=0) equals the 2026-06-11 prefill, so no change. Verified live on platform via get_bets; not a re-bet."
         }
       ]
     }
