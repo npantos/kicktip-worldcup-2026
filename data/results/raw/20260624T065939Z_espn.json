@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-24T06:59:39Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760461/uzbekistan-portugal",
+    "https://www.espn.com/soccer/match/_/gameId/760458/ghana-england",
+    "https://www.espn.com/soccer/story/_/id/49157167/panama-croatia-live-world-cup-2026-latest-updates-commentary-score-result",
+    "https://www.espn.com/soccer/match/_/gameId/760459/congo-dr-colombia"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M045",
+      "home_goals": 5,
+      "away_goals": 0,
+      "note": "Ronaldo brace (1st to score at 6 WCs), N.Mendes, Leao, Nematov OG"
+    },
+    {
+      "match_id": "M046",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "Goalless in Boston; Ghana frustrate England; both on 4 pts"
+    },
+    {
+      "match_id": "M047",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "Budimir sub goal; Panama eliminated, Croatia alive"
+    },
+    {
+      "match_id": "M048",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "Munoz 76; Colombia to 6 pts, qualified for knockouts"
+    }
+  ]
+}

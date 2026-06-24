@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-23 10:35 UTC. Based on confirmed results only._
+_Updated 2026-06-24 07:00 UTC. Based on confirmed results only._
 
 ## Group A
 
@@ -96,19 +96,19 @@ _Updated 2026-06-23 10:35 UTC. Based on confirmed results only._
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Colombia | 1 | 1 | 0 | 0 | 3 | 1 | +2 | 3 |
-| 2 | DR Congo † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 3 | Portugal † | 1 | 0 | 1 | 0 | 1 | 1 | +0 | 1 |
-| 4 | Uzbekistan | 1 | 0 | 0 | 1 | 1 | 3 | -2 | 0 |
+| 1 | Colombia | 2 | 2 | 0 | 0 | 4 | 1 | +3 | 6 |
+| 2 | Portugal | 2 | 1 | 1 | 0 | 6 | 1 | +5 | 4 |
+| 3 | DR Congo | 2 | 0 | 1 | 1 | 1 | 2 | -1 | 1 |
+| 4 | Uzbekistan | 2 | 0 | 0 | 2 | 1 | 8 | -7 | 0 |
 
 ## Group L
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | England | 1 | 1 | 0 | 0 | 4 | 2 | +2 | 3 |
-| 2 | Ghana | 1 | 1 | 0 | 0 | 1 | 0 | +1 | 3 |
-| 3 | Panama | 1 | 0 | 0 | 1 | 0 | 1 | -1 | 0 |
-| 4 | Croatia | 1 | 0 | 0 | 1 | 2 | 4 | -2 | 0 |
+| 1 | England | 2 | 1 | 1 | 0 | 4 | 2 | +2 | 4 |
+| 2 | Ghana | 2 | 1 | 1 | 0 | 1 | 0 | +1 | 4 |
+| 3 | Croatia | 2 | 1 | 0 | 1 | 3 | 4 | -1 | 3 |
+| 4 | Panama | 2 | 0 | 0 | 2 | 0 | 2 | -2 | 0 |
 
 ## Best third-placed teams (top 8 advance)
 
@@ -116,15 +116,15 @@ _Updated 2026-06-23 10:35 UTC. Based on confirmed results only._
 |---|------|-----|---|----|----|-----|
 | 1 | Sweden | F | 2 | +0 | 6 | 3 |
 | 2 | Scotland | C | 2 | +0 | 1 | 3 |
-| 3 | Paraguay † | D | 2 | -2 | 2 | 3 |
-| 4 | Algeria † | J | 2 | -2 | 2 | 3 |
-| 5 | Cape Verde | H | 2 | +0 | 2 | 2 |
-| 6 | Belgium | G | 2 | +0 | 1 | 2 |
-| 7 | Portugal † | K | 1 | +0 | 1 | 1 |
+| 3 | Croatia | L | 2 | -1 | 3 | 3 |
+| 4 | Paraguay † | D | 2 | -2 | 2 | 3 |
+| 5 | Algeria † | J | 2 | -2 | 2 | 3 |
+| 6 | Cape Verde | H | 2 | +0 | 2 | 2 |
+| 7 | Belgium | G | 2 | +0 | 1 | 2 |
 | 8 | Czech Republic | A | 2 | -1 | 2 | 1 | ← cutoff
-| 9 | Ecuador | E | 2 | -1 | 0 | 1 |
-| 10 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 |
-| 11 | Panama | L | 1 | -1 | 0 | 0 |
+| 9 | DR Congo | K | 2 | -1 | 1 | 1 |
+| 10 | Ecuador | E | 2 | -1 | 0 | 1 |
+| 11 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 |
 | 12 | Senegal | I | 2 | -3 | 3 | 0 |
 
 _† order among tied teams depends on fair play points / drawing of lots (not tracked) — shown alphabetically._

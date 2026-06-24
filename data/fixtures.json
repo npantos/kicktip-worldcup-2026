@@ -674,7 +674,7 @@
       "away": "UZB",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M046",
@@ -689,7 +689,7 @@
       "away": "GHA",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M047",
@@ -704,7 +704,7 @@
       "away": "CRO",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M048",
@@ -719,7 +719,7 @@
       "away": "COD",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M049",

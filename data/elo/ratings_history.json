@@ -617,6 +617,62 @@
       "r_away_after": 1780.3,
       "delta_home": -21.13,
       "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M045",
+      "applied_at": "2026-06-24T07:00:30Z",
+      "home": "POR",
+      "away": "UZB",
+      "score": "5-0",
+      "home_adv_applied": 0,
+      "r_home_before": 1966.5,
+      "r_away_before": 1698.1,
+      "r_home_after": 1987.6,
+      "r_away_after": 1677.0,
+      "delta_home": 21.1,
+      "g_multiplier": 2.0
+    },
+    {
+      "match_id": "M046",
+      "applied_at": "2026-06-24T07:00:30Z",
+      "home": "ENG",
+      "away": "GHA",
+      "score": "0-0",
+      "home_adv_applied": 0,
+      "r_home_before": 2055.0,
+      "r_away_before": 1556.8,
+      "r_home_after": 2028.2,
+      "r_away_after": 1583.6,
+      "delta_home": -26.77,
+      "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M047",
+      "applied_at": "2026-06-24T07:00:30Z",
+      "home": "PAN",
+      "away": "CRO",
+      "score": "0-1",
+      "home_adv_applied": 0,
+      "r_home_before": 1683.2,
+      "r_away_before": 1881.0,
+      "r_home_after": 1668.6,
+      "r_away_after": 1895.6,
+      "delta_home": -14.55,
+      "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M048",
+      "applied_at": "2026-06-24T07:00:30Z",
+      "home": "COL",
+      "away": "COD",
+      "score": "1-0",
+      "home_adv_applied": 0,
+      "r_home_before": 1997.9,
+      "r_away_before": 1674.5,
+      "r_home_after": 2006.0,
+      "r_away_after": 1666.4,
+      "delta_home": 8.07,
+      "g_multiplier": 1.0
     }
   ],
   "current": {
@@ -660,14 +716,14 @@
     "ARG": 2143.4,
     "AUT": 1841.1,
     "JOR": 1632.2,
-    "COL": 1997.9,
-    "COD": 1674.5,
-    "POR": 1966.5,
-    "UZB": 1698.1,
-    "CRO": 1881.0,
-    "ENG": 2055.0,
-    "GHA": 1556.8,
-    "PAN": 1683.2
+    "COL": 2006.0,
+    "COD": 1666.4,
+    "POR": 1987.6,
+    "UZB": 1677.0,
+    "CRO": 1895.6,
+    "ENG": 2028.2,
+    "GHA": 1583.6,
+    "PAN": 1668.6
   },
-  "updated_at": "2026-06-23T10:35:01Z"
+  "updated_at": "2026-06-24T07:00:30Z"
 }

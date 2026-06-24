@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T10:35:01Z",
+  "updated_at": "2026-06-24T07:00:30Z",
   "results": [
     {
       "match_id": "M001",
@@ -19,7 +19,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -41,7 +41,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -63,7 +63,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -85,7 +85,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -107,7 +107,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -129,7 +129,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -151,7 +151,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -173,7 +173,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -195,7 +195,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -217,7 +217,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -239,7 +239,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -261,7 +261,7 @@
           "FOX Sports / FIFA"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -284,7 +284,7 @@
           "fox-fifa-aljazeera-si-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -307,7 +307,7 @@
           "fox-fifa-aljazeera-si-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -330,7 +330,7 @@
           "fox-fifa-aljazeera-si-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -353,7 +353,7 @@
           "fox-fifa-aljazeera-si-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -376,7 +376,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -399,7 +399,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -422,7 +422,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -445,7 +445,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -468,7 +468,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -491,7 +491,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -514,7 +514,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -537,7 +537,7 @@
           "fifa-fox-aljazeera-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -560,7 +560,7 @@
           "fifa-skysports-vavel-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -583,7 +583,7 @@
           "fifa-skysports-vavel-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -606,7 +606,7 @@
           "fifa-skysports-vavel-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -629,7 +629,7 @@
           "fifa-skysports-vavel-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -652,7 +652,7 @@
           "fifa-foxsports-vavel-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -675,7 +675,7 @@
           "fifa-foxsports-vavel-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -698,7 +698,7 @@
           "fifa-foxsports-vavel-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -721,7 +721,7 @@
           "fifa-foxsports-vavel-nbc-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -744,7 +744,7 @@
           "fifa-foxsports-skysports-vavel-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -767,7 +767,7 @@
           "fifa-foxsports-skysports-vavel-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -790,7 +790,7 @@
           "fifa-foxsports-skysports-vavel-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -813,7 +813,7 @@
           "fifa-foxsports-skysports-vavel-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -836,7 +836,7 @@
           "fifa-foxsports-aljazeera-vavel-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -859,7 +859,7 @@
           "fifa-foxsports-aljazeera-vavel-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -882,7 +882,7 @@
           "fifa-foxsports-aljazeera-vavel-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -905,7 +905,7 @@
           "fifa-foxsports-aljazeera-vavel-consensus"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -928,7 +928,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -951,7 +951,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -974,7 +974,7 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     },
@@ -997,7 +997,99 @@
           "ESPN"
         ],
         "n_sources": 2,
-        "reconciled_at": "2026-06-23T10:35:01Z",
+        "reconciled_at": "2026-06-24T07:00:30Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M045",
+      "stage": "group",
+      "group": "K",
+      "home": "POR",
+      "away": "UZB",
+      "home_goals": 5,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-23T17:00:00Z",
+      "notes": [
+        "Al Jazeera: Portugal 5-0 Uzbekistan",
+        "Ronaldo brace (1st to score at 6 WCs), N.Mendes, Leao, Nematov OG"
+      ],
+      "reconciliation": {
+        "sources": [
+          "AlJazeera/SkySports/VAVEL/NBC",
+          "ESPN"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-24T07:00:30Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M046",
+      "stage": "group",
+      "group": "L",
+      "home": "ENG",
+      "away": "GHA",
+      "home_goals": 0,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-23T20:00:00Z",
+      "notes": [
+        "Goalless in Boston; Ghana frustrate England; both on 4 pts",
+        "Sky Sports: England 0-0 Ghana, Boston"
+      ],
+      "reconciliation": {
+        "sources": [
+          "AlJazeera/SkySports/VAVEL/NBC",
+          "ESPN"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-24T07:00:30Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M047",
+      "stage": "group",
+      "group": "L",
+      "home": "PAN",
+      "away": "CRO",
+      "home_goals": 0,
+      "away_goals": 1,
+      "kickoff_utc": "2026-06-23T23:00:00Z",
+      "notes": [
+        "Budimir sub goal; Panama eliminated, Croatia alive",
+        "VAVEL/NBC: Panama 0-1 Croatia"
+      ],
+      "reconciliation": {
+        "sources": [
+          "AlJazeera/SkySports/VAVEL/NBC",
+          "ESPN"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-24T07:00:30Z",
+        "status": "confirmed"
+      }
+    },
+    {
+      "match_id": "M048",
+      "stage": "group",
+      "group": "K",
+      "home": "COL",
+      "away": "COD",
+      "home_goals": 1,
+      "away_goals": 0,
+      "kickoff_utc": "2026-06-24T02:00:00Z",
+      "notes": [
+        "Munoz 76; Colombia to 6 pts, qualified for knockouts",
+        "VAVEL: Colombia 1-0 DR Congo"
+      ],
+      "reconciliation": {
+        "sources": [
+          "AlJazeera/SkySports/VAVEL/NBC",
+          "ESPN"
+        ],
+        "n_sources": 2,
+        "reconciled_at": "2026-06-24T07:00:30Z",
         "status": "confirmed"
       }
     }

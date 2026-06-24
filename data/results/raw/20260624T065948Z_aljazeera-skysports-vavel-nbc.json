@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-24T06:59:48Z",
+  "source": "AlJazeera/SkySports/VAVEL/NBC",
+  "urls": [
+    "https://www.aljazeera.com/sports/liveblog/2026/6/23/portugal-vs-uzbekistan-live-world-cup-2026",
+    "https://www.skysports.com/football/england-vs-ghana/report/549812",
+    "https://www.vavel.com/en-us/soccer/2026/06/23/1264177-panama-vs-croatia-live-score-2026-fifa-world-cup.html",
+    "https://www.vavel.com/en-us/soccer/2026/06/24/1264183-colombia-vs-dr-congo-live-score-2026-fifa-world-cup.html"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M045",
+      "home_goals": 5,
+      "away_goals": 0,
+      "note": "Al Jazeera: Portugal 5-0 Uzbekistan"
+    },
+    {
+      "match_id": "M046",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "Sky Sports: England 0-0 Ghana, Boston"
+    },
+    {
+      "match_id": "M047",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "VAVEL/NBC: Panama 0-1 Croatia"
+    },
+    {
+      "match_id": "M048",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "VAVEL: Colombia 1-0 DR Congo"
+    }
+  ]
+}

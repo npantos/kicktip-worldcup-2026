@@ -4,32 +4,48 @@
     {
       "match_id": "M049",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-24T07:06:02Z",
       "model": {
-        "elo_home": 1595,
-        "elo_away": 1421,
+        "elo_home": 1595.4,
+        "elo_away": 1436.8,
         "home_adv_applied": 0,
-        "lambda_home": 2.574,
-        "lambda_away": 0.677,
-        "p_home": 0.7823,
-        "p_draw": 0.142,
-        "p_away": 0.0757,
+        "lambda_home": 2.426,
+        "lambda_away": 0.718,
+        "p_home": 0.751,
+        "p_draw": 0.158,
+        "p_away": 0.091,
         "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.69,
+        "p_draw": 0.19,
+        "p_away": 0.12,
+        "predicted_score": "2-0",
+        "reasoning": "Anchor to market (~0.66 Bosnia), slight nudge up. Both on 1pt and a draw eliminates BOTH, so this is a true must-win shootout. Qatar have the tournament's worst defence (7 conceded) and TWO suspensions (Madibo, Homam Ahmed); Bosnia's European-based attack (Dzeko, Demirovic) should be unleashed and may need a multi-goal margin for the best-third race. Model 0.75 is about right but I lean just under it toward the book.",
+        "factors": [
+          {
+            "factor": "Draw eliminates both; Qatar worst defence (7 conceded) + 2 suspensions",
+            "source": "https://www.covers.com/world-cup/bosnia-vs-qatar-prediction-picks-odds-wednesday-6-24-2026"
+          },
+          {
+            "factor": "Bosnia -230 favourite; Dzeko/Demirovic goal threat",
+            "source": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/bosnia-and-herzegovina-vs-qatar-odds-prediction-062426-217195"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.595/0.255/0.165), 1/p [prefill sweep 2026-06-11]",
+        "source": "BetOnline/FanDuel via web search 2026-06-24 (BIH -230, draw +380, QAT +550)",
         "decimal_odds": [
-          1.68,
-          3.92,
-          6.06
+          1.435,
+          4.8,
+          6.5
         ],
-        "overround": 0.0154,
-        "p_home": 0.5863,
-        "p_draw": 0.2512,
-        "p_away": 0.1625,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.059,
+        "p_home": 0.658,
+        "p_draw": 0.1967,
+        "p_away": 0.1453,
+        "fetched_at": "2026-06-24T07:03:39Z"
       },
       "external": [],
       "posted_to": [
@@ -40,38 +56,62 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 7: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-24T07:06:02Z",
+          "confirmed_via": "get_bets readback 2026-06-24",
+          "note": "Matchday confirmation: research-adjusted EP-max == contest pick (ACCUMULATE mode, leader, k=0) equals the prefill, so no change. Verified live via get_bets; not a re-bet."
         }
       ]
     },
     {
       "match_id": "M050",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-24T07:06:02Z",
       "model": {
-        "elo_home": 1891,
-        "elo_away": 1788,
+        "elo_home": 1885.0,
+        "elo_away": 1777.8,
         "home_adv_applied": 0,
-        "lambda_home": 1.96,
-        "lambda_away": 0.889,
-        "p_home": 0.624,
-        "p_draw": 0.2123,
-        "p_away": 0.1637,
+        "lambda_home": 1.992,
+        "lambda_away": 0.875,
+        "p_home": 0.6343,
+        "p_draw": 0.2085,
+        "p_away": 0.1572,
         "expected_score": "1-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.4,
+        "p_draw": 0.32,
+        "p_away": 0.28,
+        "predicted_score": "1-1",
+        "reasoning": "BIG trim of the model (0.63 Swiss). BOTH teams are ALREADY QUALIFIED (Kalshi 99% each) and playing only for seeding, so this is near-even: bet365 SUI +130 / draw +210 / CAN +230, traders 41/32/29. Switzerland must win to top the group (a draw is enough to qualify but Canada leads on GD +6 vs +3). With both through, draw equity is high (0.32) and a cagey or trade-off game is plausible despite BTTS lean. Anchor to market.",
+        "factors": [
+          {
+            "factor": "Both already qualified, playing for seeding; near-even market (SUI 41/draw 32/CAN 29)",
+            "source": "https://www.squawka.com/us/news/world-cup/match-preview-switzerland-vs-canada-06-24-26-world-cup-2026/"
+          },
+          {
+            "factor": "Canada lead on GD (+6 vs +3); a draw qualifies both, only a win tops the group for SUI",
+            "source": "https://www.covers.com/world-cup/canada-vs-switzerland-prediction-picks-odds-wednesday-6-24-2026"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.445/0.285/0.275), 1/p [prefill sweep 2026-06-11]",
+        "source": "bet365 via web search 2026-06-24 (SUI +130, draw +210, CAN +230; both qualified)",
         "decimal_odds": [
-          2.25,
-          3.51,
-          3.64
+          2.3,
+          3.1,
+          3.3
         ],
-        "overround": 0.0041,
-        "p_home": 0.4427,
-        "p_draw": 0.2837,
-        "p_away": 0.2736,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0604,
+        "p_home": 0.41,
+        "p_draw": 0.3042,
+        "p_away": 0.2858,
+        "fetched_at": "2026-06-24T07:03:39Z"
       },
       "external": [],
       "posted_to": [
@@ -82,38 +122,62 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 7: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-24T07:06:02Z",
+          "confirmed_via": "get_bets readback 2026-06-24",
+          "note": "Matchday confirmation: research-adjusted EP-max == contest pick (ACCUMULATE mode, leader, k=0) equals the prefill, so no change. Verified live via get_bets; not a re-bet."
         }
       ]
     },
     {
       "match_id": "M051",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-24T07:06:02Z",
       "model": {
-        "elo_home": 1827,
-        "elo_away": 1548,
+        "elo_home": 1866.3,
+        "elo_away": 1528.0,
         "home_adv_applied": 0,
-        "lambda_home": 3.851,
-        "lambda_away": 0.452,
-        "p_home": 0.9343,
-        "p_draw": 0.0497,
-        "p_away": 0.016,
+        "lambda_home": 4.0,
+        "lambda_away": 0.36,
+        "p_home": 0.9506,
+        "p_draw": 0.0391,
+        "p_away": 0.0103,
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.83,
+        "p_draw": 0.12,
+        "p_away": 0.05,
+        "predicted_score": "2-0",
+        "reasoning": "Anchor to market (Morocco ~0.83; traders 83/12/5). Morocco need only a point to guarantee progression and Regragui is expected to rotate MODESTLY while keeping structure; Haiti are eliminated but chasing a first-ever WC point. Morocco conceded once in two games vs a Haiti side shut out twice. Trim model's 0.95 toward the book; rotation caps the likely margin to ~2-0.",
+        "factors": [
+          {
+            "factor": "Morocco -550 fav, conceded once in 2 games; Haiti eliminated, shut out twice; modest rotation expected",
+            "source": "https://www.covers.com/world-cup/morocco-vs-haiti-prediction-picks-odds-wednesday-6-24-2026"
+          },
+          {
+            "factor": "El Kaabi favourite to score; Hakimi threat down the right",
+            "source": "https://www.racingpost.com/sport/football-tips/world-cup-2026/morocco-vs-haiti-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-ah7S64g5gWZJ/"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.735/0.175/0.095), 1/p [prefill sweep 2026-06-11]",
+        "source": "bet365/BetOnline via web search 2026-06-24 (MAR -550, draw +600, HAI +1400)",
         "decimal_odds": [
-          1.36,
-          5.71,
-          10.53
+          1.182,
+          7.0,
+          15.0
         ],
-        "overround": 0.0054,
-        "p_home": 0.7313,
-        "p_draw": 0.1742,
-        "p_away": 0.0945,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0555,
+        "p_home": 0.8015,
+        "p_draw": 0.1353,
+        "p_away": 0.0632,
+        "fetched_at": "2026-06-24T07:03:39Z"
       },
       "external": [],
       "posted_to": [
@@ -124,38 +188,62 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 7: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-24T07:06:02Z",
+          "confirmed_via": "get_bets readback 2026-06-24",
+          "note": "Matchday confirmation: research-adjusted EP-max == contest pick (ACCUMULATE mode, leader, k=0) equals the prefill, so no change. Verified live via get_bets; not a re-bet."
         }
       ]
     },
     {
       "match_id": "M052",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-24T07:06:02Z",
       "model": {
-        "elo_home": 1782,
-        "elo_away": 1991,
+        "elo_home": 1768.3,
+        "elo_away": 1985.4,
         "home_adv_applied": 0,
-        "lambda_home": 0.592,
-        "lambda_away": 2.944,
-        "p_home": 0.0479,
-        "p_draw": 0.1068,
-        "p_away": 0.8453,
-        "expected_score": "0-2",
+        "lambda_home": 0.574,
+        "lambda_away": 3.037,
+        "p_home": 0.0427,
+        "p_draw": 0.0991,
+        "p_away": 0.8582,
+        "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.13,
+        "p_draw": 0.19,
+        "p_away": 0.68,
+        "predicted_score": "0-2",
+        "reasoning": "Trim model (0.86 Brazil) toward market: bet365 BRA -275, supercomputer 73/20/7. Scotland MUST win to keep R32 hopes; Brazil top the group and want to win it. Brazil are without Raphinha (hamstring) but Vinicius Jr has starred and Cunha/Rayan come in; Miami heat (85F) favours Brazil over an attack-forced Scotland whose ageing full-backs (Robertson) are exposed. Brazil clear but not as dominant as Elo says; Scotland pressing opens transition goals.",
+        "factors": [
+          {
+            "factor": "Brazil -275, supercomputer 73/20/7; Scotland must win",
+            "source": "https://www.covers.com/world-cup/brazil-vs-scotland-prediction-picks-odds-wednesday-6-24-2026"
+          },
+          {
+            "factor": "Brazil without Raphinha (hamstring); Vinicius Jr starring; Miami heat favours Brazil",
+            "source": "https://www.sportscasting.com/news/scotland-vs-brazil-predictions-supercomputer-betting-picks-odds/"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.155/0.195/0.665), 1/p [prefill sweep 2026-06-11]",
+        "source": "bet365 via web search 2026-06-24 (BRA -275, draw +400, SCO +700)",
         "decimal_odds": [
-          6.45,
-          5.13,
-          1.5
+          8.0,
+          5.0,
+          1.364
         ],
-        "overround": 0.0166,
-        "p_home": 0.1525,
-        "p_draw": 0.1917,
-        "p_away": 0.6558,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0581,
+        "p_home": 0.1181,
+        "p_draw": 0.189,
+        "p_away": 0.6929,
+        "fetched_at": "2026-06-24T07:03:39Z"
       },
       "external": [],
       "posted_to": [
@@ -165,39 +253,64 @@
           "bet": "1:2",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 7: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 7: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-24T07:06:02Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-24T07:06:02Z",
+          "confirmed_via": "place_bets + get_bets readback 2026-06-24",
+          "note": "Deliberate pre-kickoff re-bet: prefill was 1:2, but research-adjusted EP-max contest pick (ACCUMULATE, k=0) is 0:1 (Brazil clean 1-0; robust on adjusted 1.943 and odds 2.006 tracks). Brazil top group, Scotland must-win and attacks but Brazil clear; Raphinha out, Vinicius starring."
         }
       ]
     },
     {
       "match_id": "M053",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-24T07:06:02Z",
       "model": {
-        "elo_home": 1740,
-        "elo_away": 1875,
+        "elo_home": 1696.0,
+        "elo_away": 1895.8,
         "home_adv_applied": 0,
-        "lambda_home": 0.786,
-        "lambda_away": 2.216,
-        "p_home": 0.1184,
-        "p_draw": 0.1821,
-        "p_away": 0.6995,
+        "lambda_home": 0.613,
+        "lambda_away": 2.842,
+        "p_home": 0.0543,
+        "p_draw": 0.1158,
+        "p_away": 0.8299,
         "expected_score": "0-2",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.27,
+        "p_draw": 0.26,
+        "p_away": 0.47,
+        "predicted_score": "1-1",
+        "reasoning": "HUGE trim of the model (0.83 Mexico) — the Elo rating ignores motivation. Mexico have ALREADY SEALED top spot in Group A; Aguirre is expected to ROTATE heavily and rest key men (e.g. Gutierrez) to avoid bookings before the R32, while Czechia MUST win. The market reflects this: Mexico only -102 (~even money), Czech +285, draw +300 -> de-vig ~0.50/0.25/0.26. Even at the Azteca (Mexico's home crowd offsets some rotation) this is close to a coin-flip with a live draw. Anchor to market.",
+        "factors": [
+          {
+            "factor": "Mexico already top Group A; Aguirre to rotate heavily, rest players to avoid bookings; Czechia must win",
+            "source": "https://www.compare.bet/news/czech-republic-vs-mexico-betting-preview-predictions-tips-and-live-odds"
+          },
+          {
+            "factor": "Near-even market: Mexico -102, Czech +285, draw +300",
+            "source": "https://www.racingpost.com/sport/football-tips/world-cup-2026/czech-republic-vs-mexico-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aVhrU9r75F2V/"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.205/0.265/0.545), 1/p [prefill sweep 2026-06-11]",
+        "source": "BetOnline/market via web search 2026-06-24 (MEX -102, draw +300, CZE +285; Mexico rotating)",
         "decimal_odds": [
-          4.88,
-          3.77,
-          1.83
+          3.85,
+          4.0,
+          1.98
         ],
-        "overround": 0.0166,
-        "p_home": 0.2016,
-        "p_draw": 0.2609,
-        "p_away": 0.5375,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0148,
+        "p_home": 0.256,
+        "p_draw": 0.2464,
+        "p_away": 0.4976,
+        "fetched_at": "2026-06-24T07:03:39Z"
       },
       "external": [],
       "posted_to": [
@@ -208,38 +321,62 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 7: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-24T07:06:02Z",
+          "confirmed_via": "get_bets readback 2026-06-24",
+          "note": "Matchday confirmation: research-adjusted EP-max == contest pick (ACCUMULATE mode, leader, k=0) equals the prefill, so no change. Verified live via get_bets; not a re-bet."
         }
       ]
     },
     {
       "match_id": "M054",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-24T07:06:02Z",
       "model": {
-        "elo_home": 1517,
-        "elo_away": 1758,
+        "elo_home": 1526.6,
+        "elo_away": 1771.6,
         "home_adv_applied": 0,
-        "lambda_home": 0.523,
-        "lambda_away": 3.328,
-        "p_home": 0.03,
-        "p_draw": 0.0779,
-        "p_away": 0.8921,
+        "lambda_home": 0.516,
+        "lambda_away": 3.38,
+        "p_home": 0.0282,
+        "p_draw": 0.0746,
+        "p_away": 0.8972,
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.17,
+        "p_draw": 0.25,
+        "p_away": 0.58,
+        "predicted_score": "0-1",
+        "reasoning": "Trim model (0.90 Korea) toward market (Korea ~0.59-0.62). Korea sit 2nd and a WIN OR DRAW both send them through, so they can play controlled; South Africa (bottom, 1pt) must win and are missing suspended Zwane + Mokoena. Korea have the quality edge against an opponent forced to over-commit, but their need-only-a-draw posture caps the goal expectation -> narrow Korea win or draw most likely.",
+        "factors": [
+          {
+            "factor": "Korea -165, a win OR draw qualifies them; South Africa must win",
+            "source": "https://www.compare.bet/news/south-africa-vs-korea-republic-betting-preview-predictions-tips-and-live-odds"
+          },
+          {
+            "factor": "South Africa missing suspended Zwane + Mokoena",
+            "source": "https://www.racingpost.com/sport/football-tips/world-cup-2026/south-africa-vs-south-korea-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-afEgA7q1q3rv/"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.225/0.28/0.505), 1/p [prefill sweep 2026-06-11]",
+        "source": "market via web search 2026-06-24 (KOR -165, draw +290, RSA +490)",
         "decimal_odds": [
-          4.44,
-          3.57,
-          1.98
+          5.9,
+          3.9,
+          1.606
         ],
-        "overround": 0.0104,
-        "p_home": 0.2229,
-        "p_draw": 0.2772,
-        "p_away": 0.4999,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0486,
+        "p_home": 0.1616,
+        "p_draw": 0.2445,
+        "p_away": 0.5939,
+        "fetched_at": "2026-06-24T07:03:39Z"
       },
       "external": [],
       "posted_to": [
@@ -250,6 +387,14 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 7: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-24T07:06:02Z",
+          "confirmed_via": "get_bets readback 2026-06-24",
+          "note": "Matchday confirmation: research-adjusted EP-max == contest pick (ACCUMULATE mode, leader, k=0) equals the prefill, so no change. Verified live via get_bets; not a re-bet."
         }
       ]
     }

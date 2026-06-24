@@ -1,81 +1,81 @@
 {
-  "fetched_at": "2026-06-23T10:45:00Z",
+  "fetched_at": "2026-06-24T07:05:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview (standings + points-from-leader) 2026-06-23; Kicktipp matchday 6 complete",
+  "source": "kicktipp MCP get_overview (standings) 2026-06-24; after MD6 scoring (repo M045-M048)",
   "as_of_matchday": 6,
-  "matches_scored_so_far": 44,
+  "matches_scored_so_far": 48,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
-    "rank": 6,
-    "points": 90,
+    "rank": 1,
+    "points": 104,
     "bonus": 8
   },
   "human_owner": {
     "name": "NemanjaPantoš",
-    "rank": 3,
-    "points": 93
+    "rank": 2,
+    "points": 103
   },
   "leader": {
     "names": [
-      "MrGojomir"
+      "Nemanj-AI"
     ],
-    "points": 95
+    "points": 104
   },
-  "deficit_to_leader": 5,
+  "deficit_to_leader": 0,
   "tier_at_my_points": 1,
-  "players_ahead": 5,
+  "players_ahead": 0,
   "top": [
     {
       "rank": 1,
-      "name": "MrGojomir",
-      "points": 95
+      "name": "Nemanj-AI",
+      "points": 104
     },
     {
       "rank": 2,
-      "name": "Kula",
-      "points": 94
+      "name": "NemanjaPantoš",
+      "points": 103
     },
     {
       "rank": 3,
-      "name": "NemanjaPantoš",
-      "points": 93
+      "name": "Shelly",
+      "points": 102
     },
     {
       "rank": 4,
-      "name": "Shelly",
-      "points": 92
+      "name": "MrGojomir",
+      "points": 102
     },
     {
       "rank": 5,
-      "name": "Stef",
-      "points": 91
+      "name": "Kula",
+      "points": 98
     },
     {
       "rank": 6,
-      "name": "Nemanj-AI",
-      "points": 90
+      "name": "Stef",
+      "points": 98
     },
     {
       "rank": 7,
       "name": "BB",
-      "points": 89
+      "points": 93
     },
     {
       "rank": 8,
-      "name": "LilDja",
-      "points": 88
+      "name": "bojan_nišić",
+      "points": 93
     },
     {
       "rank": 9,
-      "name": "markec",
-      "points": 87
+      "name": "LilDja",
+      "points": 92
     },
     {
       "rank": 10,
       "name": "LosAngelesBus",
-      "points": 86
+      "points": 92
     }
   ],
-  "note": "After Kicktipp MD6 (repo M041-M044 scored: ARG 2-0 AUT, FRA 3-0 IRQ, NOR 3-2 SEN, JOR 1-2 ALG). Extremely packed top: ranks 1-6 span just 5 pts (95-94-93-92-91-90). Slipped from rank 4 (deficit 4) to rank 6 (deficit 5); human NemanjaPantoš jumped to rank 3 (93). BONUS GAP persists: Nemanj-AI 8 vs Kula/NemanjaPantoš/Stef/BB/LilDja 12-16 -- with a rival's bonus we'd be near the lead; recheck get_bonus_questions before knockouts. ~28 group games + KO left -> low urgency -> ACCUMULATE/EP-max."
+  "note": "TOOK THE LEAD after MD6 (M045-M048): two exact hits (PAN 0-1 CRO, COL 1-0 COD = 6pts each) + POR tendency (2) + ENG 0-0 GHA miss (0) = +14 -> 104, rank 1. Edge is thin: human NemanjaPantoš 103, Shelly/MrGojomir 102. BONUS GAP still the soft spot: Nemanj-AI 8 vs most rivals 12-16 (get_bonus_questions still EMPTY 2026-06-24). ~24 group matches + KO left -> too early to PROTECT (only triggers at <=6 group games); stay ACCUMULATE/EP-max. Leading on calibration, not gambles."
 }
