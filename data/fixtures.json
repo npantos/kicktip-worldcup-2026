@@ -734,7 +734,7 @@
       "away": "QAT",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M050",
@@ -749,7 +749,7 @@
       "away": "CAN",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M051",
@@ -764,7 +764,7 @@
       "away": "HAI",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M052",
@@ -779,7 +779,7 @@
       "away": "BRA",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M053",
@@ -794,7 +794,7 @@
       "away": "MEX",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M054",
@@ -809,7 +809,7 @@
       "away": "KOR",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M055",
@@ -1090,8 +1090,8 @@
       "kickoff_utc": "2026-06-28T19:00:00Z",
       "venue_city": "Los Angeles (Inglewood)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "RSA",
+      "away": "CAN",
       "home_slot": "2A",
       "away_slot": "2B",
       "status": "scheduled"

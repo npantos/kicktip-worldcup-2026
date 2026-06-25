@@ -1,0 +1,49 @@
+{
+  "fetched_at": "2026-06-25T08:57:05Z",
+  "source": "YahooSports/Bolavip/SkySports/NBC",
+  "urls": [
+    "https://sports.yahoo.com/soccer/article/world-cup-2026-switzerland-claims-group-b-over-canada-bosnia-and-herzegovina-moves-top-among-third-place-teams-205847839.html",
+    "https://bolavip.com/en/world-cup/2026-world-cup-group-a-final-standings-updated-after-czechia-vs-mexico-and-south-africa-vs-south-korea",
+    "https://www.skysports.com/football/news/12098/13543087/world-cup-2026-group-c-guide",
+    "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-june-24-live-updates-rcna351554"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M049",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "Yahoo: Bosnia 3-1 Qatar"
+    },
+    {
+      "match_id": "M050",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "Yahoo: Switzerland 2-1 Canada"
+    },
+    {
+      "match_id": "M051",
+      "home_goals": 4,
+      "away_goals": 2,
+      "note": "SkySports: Morocco 4-2 Haiti"
+    },
+    {
+      "match_id": "M052",
+      "home_goals": 0,
+      "away_goals": 3,
+      "note": "SkySports: Scotland 0-3 Brazil"
+    },
+    {
+      "match_id": "M053",
+      "home_goals": 0,
+      "away_goals": 3,
+      "note": "Bolavip/NBC: Czechia 0-3 Mexico"
+    },
+    {
+      "match_id": "M054",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "Bolavip: South Africa 1-0 South Korea"
+    }
+  ]
+}

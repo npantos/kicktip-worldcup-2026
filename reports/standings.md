@@ -1,33 +1,33 @@
 # Group standings
 
-_Updated 2026-06-24 07:00 UTC. Based on confirmed results only._
+_Updated 2026-06-25 08:57 UTC. Based on confirmed results only._
 
 ## Group A
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Mexico | 2 | 2 | 0 | 0 | 3 | 0 | +3 | 6 |
-| 2 | South Korea | 2 | 1 | 0 | 1 | 2 | 2 | +0 | 3 |
-| 3 | Czech Republic | 2 | 0 | 1 | 1 | 2 | 3 | -1 | 1 |
-| 4 | South Africa | 2 | 0 | 1 | 1 | 1 | 3 | -2 | 1 |
+| 1 | Mexico | 3 | 3 | 0 | 0 | 6 | 0 | +6 | 9 |
+| 2 | South Africa | 3 | 1 | 1 | 1 | 2 | 3 | -1 | 4 |
+| 3 | South Korea | 3 | 1 | 0 | 2 | 2 | 3 | -1 | 3 |
+| 4 | Czech Republic | 3 | 0 | 1 | 2 | 2 | 6 | -4 | 1 |
 
 ## Group B
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Canada | 2 | 1 | 1 | 0 | 7 | 1 | +6 | 4 |
-| 2 | Switzerland | 2 | 1 | 1 | 0 | 5 | 2 | +3 | 4 |
-| 3 | Bosnia & Herzegovina | 2 | 0 | 1 | 1 | 2 | 5 | -3 | 1 |
-| 4 | Qatar | 2 | 0 | 1 | 1 | 1 | 7 | -6 | 1 |
+| 1 | Switzerland | 3 | 2 | 1 | 0 | 7 | 3 | +4 | 7 |
+| 2 | Canada | 3 | 1 | 1 | 1 | 8 | 3 | +5 | 4 |
+| 3 | Bosnia & Herzegovina | 3 | 1 | 1 | 1 | 5 | 6 | -1 | 4 |
+| 4 | Qatar | 3 | 0 | 1 | 2 | 2 | 10 | -8 | 1 |
 
 ## Group C
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Brazil | 2 | 1 | 1 | 0 | 4 | 1 | +3 | 4 |
-| 2 | Morocco | 2 | 1 | 1 | 0 | 2 | 1 | +1 | 4 |
-| 3 | Scotland | 2 | 1 | 0 | 1 | 1 | 1 | +0 | 3 |
-| 4 | Haiti | 2 | 0 | 0 | 2 | 0 | 4 | -4 | 0 |
+| 1 | Brazil | 3 | 2 | 1 | 0 | 7 | 1 | +6 | 7 |
+| 2 | Morocco | 3 | 2 | 1 | 0 | 6 | 3 | +3 | 7 |
+| 3 | Scotland | 3 | 1 | 0 | 2 | 1 | 4 | -3 | 3 |
+| 4 | Haiti | 3 | 0 | 0 | 3 | 2 | 8 | -6 | 0 |
 
 ## Group D
 
@@ -114,17 +114,17 @@ _Updated 2026-06-24 07:00 UTC. Based on confirmed results only._
 
 | # | Team | Grp | P | GD | GF | Pts |
 |---|------|-----|---|----|----|-----|
-| 1 | Sweden | F | 2 | +0 | 6 | 3 |
-| 2 | Scotland | C | 2 | +0 | 1 | 3 |
+| 1 | Bosnia & Herzegovina | B | 3 | -1 | 5 | 4 |
+| 2 | Sweden | F | 2 | +0 | 6 | 3 |
 | 3 | Croatia | L | 2 | -1 | 3 | 3 |
-| 4 | Paraguay † | D | 2 | -2 | 2 | 3 |
-| 5 | Algeria † | J | 2 | -2 | 2 | 3 |
-| 6 | Cape Verde | H | 2 | +0 | 2 | 2 |
-| 7 | Belgium | G | 2 | +0 | 1 | 2 |
-| 8 | Czech Republic | A | 2 | -1 | 2 | 1 | ← cutoff
-| 9 | DR Congo | K | 2 | -1 | 1 | 1 |
-| 10 | Ecuador | E | 2 | -1 | 0 | 1 |
-| 11 | Bosnia & Herzegovina | B | 2 | -3 | 2 | 1 |
+| 4 | South Korea | A | 3 | -1 | 2 | 3 |
+| 5 | Paraguay † | D | 2 | -2 | 2 | 3 |
+| 6 | Algeria † | J | 2 | -2 | 2 | 3 |
+| 7 | Scotland | C | 3 | -3 | 1 | 3 |
+| 8 | Cape Verde | H | 2 | +0 | 2 | 2 | ← cutoff
+| 9 | Belgium | G | 2 | +0 | 1 | 2 |
+| 10 | DR Congo | K | 2 | -1 | 1 | 1 |
+| 11 | Ecuador | E | 2 | -1 | 0 | 1 |
 | 12 | Senegal | I | 2 | -3 | 3 | 0 |
 
 _† order among tied teams depends on fair play points / drawing of lots (not tracked) — shown alphabetically._

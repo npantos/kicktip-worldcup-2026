@@ -1,0 +1,48 @@
+{
+  "fetched_at": "2026-06-25T08:56:46Z",
+  "source": "Wikipedia",
+  "urls": [
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M049",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "Wikipedia: Bosnia 3-1 Qatar"
+    },
+    {
+      "match_id": "M050",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "Wikipedia: Switzerland 2-1 Canada"
+    },
+    {
+      "match_id": "M051",
+      "home_goals": 4,
+      "away_goals": 2,
+      "note": "Wikipedia: Morocco 4-2 Haiti"
+    },
+    {
+      "match_id": "M052",
+      "home_goals": 0,
+      "away_goals": 3,
+      "note": "Wikipedia: Scotland 0-3 Brazil"
+    },
+    {
+      "match_id": "M053",
+      "home_goals": 0,
+      "away_goals": 3,
+      "note": "Wikipedia: Czechia 0-3 Mexico"
+    },
+    {
+      "match_id": "M054",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "Wikipedia: South Africa 1-0 South Korea"
+    }
+  ]
+}
