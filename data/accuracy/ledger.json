@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T08:57:16Z",
+  "updated_at": "2026-06-25T09:11:31Z",
   "scoring": {
     "internal_metric": "3 exact / 2 correct-goal-diff / 1 tendency / 0 miss",
     "kicktipp_rules": "data/kicktipp_rules.json",

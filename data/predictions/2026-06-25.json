@@ -4,7 +4,7 @@
     {
       "match_id": "M055",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-25T09:21:47Z",
       "model": {
         "elo_home": 1453.2,
         "elo_away": 1728.4,
@@ -17,19 +17,35 @@
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.06,
+        "p_draw": 0.11,
+        "p_away": 0.83,
+        "predicted_score": "0-2",
+        "reasoning": "Anchor to market (Kalshi CIV 84%). Ivory Coast (3pts, level GD) need a win — or likely just a draw — to confirm 2nd behind Germany; Curacao (debutants, 1pt, -6 GD, conceded 7) are effectively eliminated barring a huge swing in the parallel Ecuador-Germany game, so CIV are both better and more motivated. Model 93% is a touch high; market 83%-84% is the better read.",
+        "factors": [
+          {
+            "factor": "CIV need >=draw to confirm 2nd; Curacao eliminated, -6 GD, conceded 7",
+            "source": "https://www.covers.com/world-cup/ivory-coast-vs-curacao-prediction-picks-odds-thursday-6-25-2026"
+          },
+          {
+            "factor": "Market: Curacao 6% / draw 11% / Ivory Coast 84%",
+            "source": "https://www.squawka.com/us/news/world-cup/match-preview-curacao-vs-ivory-coast-06-25-26-world-cup-2026/"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.075/0.145/0.79), 1/p [prefill sweep 2026-06-11]",
+        "source": "Kalshi traders consensus (de-vigged) via covers.com/squawka 2026-06-25",
         "decimal_odds": [
-          13.33,
-          6.9,
-          1.27
+          16.67,
+          9.09,
+          1.19
         ],
-        "overround": 0.0073,
-        "p_home": 0.0745,
-        "p_draw": 0.1439,
-        "p_away": 0.7816,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0103,
+        "p_home": 0.0594,
+        "p_draw": 0.1089,
+        "p_away": 0.8317,
+        "fetched_at": "2026-06-25T09:19:47Z"
       },
       "external": [],
       "posted_to": [
@@ -40,13 +56,22 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-25T09:25:12Z",
+          "confirmed_via": "get_bets readback 2026-06-25",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 2/34, -2, urgency 0.018): EP-max on adjusted track. Confirmed unchanged from prefill; matches EP-max."
         }
       ]
     },
     {
       "match_id": "M056",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-25T09:21:47Z",
       "model": {
         "elo_home": 1863.8,
         "elo_away": 1953.6,
@@ -59,19 +84,35 @@
         "expected_score": "0-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.21,
+        "p_draw": 0.22,
+        "p_away": 0.57,
+        "predicted_score": "0-1",
+        "reasoning": "Market and model agree (~GER 58-59%); two effects roughly cancel. Germany are already through on a perfect 6pts (7 goals vs Curacao, Havertz 2) and could rotate, which caps their win prob — but Ecuador are toothless: scoreless in both games and now without their leading creator Kendry Paez (yellow-card suspension). Ecuador must win to keep best-third hopes alive but have barely made a chance. Holding at market with a tiny nudge to the draw for German rotation.",
+        "factors": [
+          {
+            "factor": "Ecuador creator Kendry Paez suspended; Ecuador scoreless in 2 games",
+            "source": "https://www.squawka.com/us/news/world-cup/match-preview-ecuador-vs-germany-06-25-26-world-cup-2026/"
+          },
+          {
+            "factor": "Germany already through (6pts, Havertz 2 goals); market GER 59%, draw 21%, ECU 22%",
+            "source": "https://www.covers.com/world-cup/germany-vs-ecuador-prediction-picks-odds-thursday-6-25-2026"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.205/0.25/0.565), 1/p [prefill sweep 2026-06-11]",
+        "source": "Kalshi traders consensus via squawka 2026-06-25 (Paez suspended)",
         "decimal_odds": [
-          4.88,
-          4.0,
-          1.77
+          4.545,
+          4.762,
+          1.695
         ],
-        "overround": 0.0199,
-        "p_home": 0.2009,
-        "p_draw": 0.2451,
-        "p_away": 0.554,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.02,
+        "p_home": 0.2157,
+        "p_draw": 0.2059,
+        "p_away": 0.5784,
+        "fetched_at": "2026-06-25T09:19:47Z"
       },
       "external": [],
       "posted_to": [
@@ -81,14 +122,24 @@
           "bet": "0:1",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-25T09:25:12Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:2",
+          "posted_at": "2026-06-25T09:25:12Z",
+          "confirmed_via": "get_bets readback 2026-06-25",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 2/34, -2, urgency 0.018): EP-max on adjusted track. Re-bet: revised from prefill 0:1 after match-day research/odds refresh."
         }
       ]
     },
     {
       "match_id": "M057",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-25T09:21:47Z",
       "model": {
         "elo_home": 1924.6,
         "elo_away": 1726.6,
@@ -101,19 +152,35 @@
         "expected_score": "2-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.53,
+        "p_draw": 0.26,
+        "p_away": 0.21,
+        "predicted_score": "2-1",
+        "reasoning": "Big correction of the model. Model has Japan at 83% off an inflated Elo (1925); the actual market is Japan ~52-54% / draw ~27% / Sweden ~22%. Japan (4pts, level with NED on GD) need only a draw to go through, Sweden (3pts) must win, so Sweden will throw bodies forward — that opens the game (O/U 2.5 leans over) and keeps Sweden live. Anchoring to market, slight lean to Japan on form and game-state.",
+        "factors": [
+          {
+            "factor": "Defeat could eliminate either; JPN level w/ NED (draw likely enough), SWE must win; market JPN 54/draw 27/SWE 22, over 2.5",
+            "source": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/japan-vs-sweden-odds-prediction-062526-217233"
+          },
+          {
+            "factor": "Model 83% Japan is Elo-overconfident vs market ~54%",
+            "source": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/japan-v-sweden-predictions"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.475/0.28/0.27), 1/p [prefill sweep 2026-06-11]",
+        "source": "Kalshi consensus via Sports Interaction 2026-06-25 (JPN -118/draw +240/SWE +350)",
         "decimal_odds": [
-          2.11,
-          3.57,
-          3.7
+          1.852,
+          3.704,
+          4.545
         ],
-        "overround": 0.0243,
-        "p_home": 0.4626,
-        "p_draw": 0.2735,
-        "p_away": 0.2639,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.03,
+        "p_home": 0.5243,
+        "p_draw": 0.2621,
+        "p_away": 0.2136,
+        "fetched_at": "2026-06-25T09:19:47Z"
       },
       "external": [],
       "posted_to": [
@@ -124,13 +191,22 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-25T09:25:12Z",
+          "confirmed_via": "get_bets readback 2026-06-25",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 2/34, -2, urgency 0.018): EP-max on adjusted track. Confirmed unchanged from prefill; matches EP-max."
         }
       ]
     },
     {
       "match_id": "M058",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-25T09:21:47Z",
       "model": {
         "elo_home": 1570.1,
         "elo_away": 1972.7,
@@ -143,19 +219,35 @@
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.05,
+        "p_draw": 0.11,
+        "p_away": 0.84,
+        "predicted_score": "0-3",
+        "reasoning": "Anchor to market (NED ~85-88%, -750/-1000). Netherlands (top, 4pts) want the group win and goal difference; Tunisia are already eliminated, bottom on -8 GD having conceded 9. Both teams' games have gone over 3.5, so expect a comfortable multi-goal Dutch win. Model 96% trimmed slightly for minor NED rotation risk and Tunisia's nothing-to-lose freedom.",
+        "factors": [
+          {
+            "factor": "NED chasing group win & GD; Tunisia eliminated, -8 GD, conceded 9; over 3.5 lean",
+            "source": "https://www.sportsline.com/insiders/netherlands-vs-tunisia-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+          },
+          {
+            "factor": "NED -750/-1000 (~1/8); draw 7/1-9/1; Tunisia 22/1",
+            "source": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/tunisia-vs-netherlands-odds-prediction-062526-217229"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket mid 2026-06-11 (0.135/0.225/0.665), 1/p [prefill sweep 2026-06-11]",
+        "source": "FanDuel via sportsline/yahoo 2026-06-25 (NED -1000/draw +900/TUN +2200)",
         "decimal_odds": [
-          7.41,
-          4.44,
-          1.5
+          23.0,
+          10.0,
+          1.1
         ],
-        "overround": 0.0268,
-        "p_home": 0.1314,
-        "p_draw": 0.2193,
-        "p_away": 0.6493,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0526,
+        "p_home": 0.0413,
+        "p_draw": 0.095,
+        "p_away": 0.8637,
+        "fetched_at": "2026-06-25T09:19:47Z"
       },
       "external": [],
       "posted_to": [
@@ -165,14 +257,24 @@
           "bet": "0:1",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-25T09:25:12Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-25T09:25:12Z",
+          "confirmed_via": "get_bets readback 2026-06-25",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 2/34, -2, urgency 0.018): EP-max on adjusted track. Re-bet: revised from prefill 0:1 after match-day research/odds refresh."
         }
       ]
     },
     {
       "match_id": "M059",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-25T09:21:47Z",
       "model": {
         "elo_home": 1816.2,
         "elo_away": 1798.8,
@@ -185,19 +287,35 @@
         "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.33,
+        "p_draw": 0.42,
+        "p_away": 0.25,
+        "predicted_score": "1-1",
+        "reasoning": "Key qualification-scenario correction. Both on 3pts, but Australia sit 2nd on goal difference, so a DRAW sends Australia through and eliminates Paraguay — Australia are happy to sit, Paraguay must chase but have lost suspended creator Almiron and scored just twice. Market prices the draw at 43% (PAR 33 / AUS 24); model and the stale prefill odds both badly underweight the draw (~26-29%). Anchoring to the live market: low-scoring, draw-heavy.",
+        "factors": [
+          {
+            "factor": "Draw sends Australia through on GD & eliminates Paraguay; PAR must win",
+            "source": "https://www.skysports.com/football/news/12098/13543088/world-cup-2026-group-d-guide-fixtures-schedule-standings-and-odds-for-usa-paraguay-australia-and-turkey"
+          },
+          {
+            "factor": "Paraguay creator Almiron suspended; only 2 goals scored; market draw 43%",
+            "source": "https://sports.yahoo.com/articles/paraguay-vs-australia-predictions-picks-192900747.html"
+          }
+        ]
+      },
       "odds": {
-        "source": "Betfair fractional via betting.betfair.com (11/10, 9/4, 5/2) [prefill sweep 2026-06-11]",
+        "source": "Kalshi consensus via compare.bet/Yahoo 2026-06-25 (bet365 PAR+190/draw+120/AUS+290; Almiron susp)",
         "decimal_odds": [
-          2.1,
-          3.25,
-          3.5
+          3.03,
+          2.326,
+          4.167
         ],
-        "overround": 0.0696,
-        "p_home": 0.4452,
-        "p_draw": 0.2877,
-        "p_away": 0.2671,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": -0.0001,
+        "p_home": 0.3301,
+        "p_draw": 0.4299,
+        "p_away": 0.24,
+        "fetched_at": "2026-06-25T09:19:47Z"
       },
       "external": [],
       "posted_to": [
@@ -207,14 +325,24 @@
           "bet": "1:0",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-25T09:25:12Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:0",
+          "posted_at": "2026-06-25T09:25:12Z",
+          "confirmed_via": "get_bets readback 2026-06-25",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 2/34, -2, urgency 0.018): EP-max on adjusted track. Re-bet: revised from prefill 1:0 after match-day research/odds refresh."
         }
       ]
     },
     {
       "match_id": "M060",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-25T09:21:47Z",
       "model": {
         "elo_home": 1813.6,
         "elo_away": 1819.4,
@@ -227,19 +355,35 @@
         "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.27,
+        "p_draw": 0.25,
+        "p_away": 0.48,
+        "predicted_score": "1-1",
+        "reasoning": "USA (top, 6pts, +5) already won the group and Pochettino is expected to rotate heavily, resting Pulisic and Balogun before the R32 — so trim USA below the market's 52-53%. Turkey are eliminated and scoreless in two games but create chances; nominal hosts and free of pressure. Net: USA still favoured but a scrappy, tighter game than the model's read; bump Turkey and the draw for the rotation. Stays close to the live market (USA 52 / draw 23 / TUR 26).",
+        "factors": [
+          {
+            "factor": "USA through & top; Pochettino rotating heavily, resting Pulisic & Balogun; Turkey eliminated, scoreless in 2",
+            "source": "https://www.cbssports.com/soccer/news/usmnt-turkiye-odds-prediction-time-2026-world-cup-picks-best-bets/"
+          },
+          {
+            "factor": "Market still favors USA ~52-53% (Turkey 26/draw 23) despite rotation; FanDuel USA -110",
+            "source": "https://www.fanduel.com/research/us-vs-turkey-prediction-lineups-preview-picks-and-best-bets-world-cup-2026-group-d"
+          }
+        ]
+      },
       "odds": {
-        "source": "bet365 via johnnybet.com (decimal) [prefill sweep 2026-06-11]",
+        "source": "Kalshi consensus via FanDuel research 2026-06-25 (USA -110/draw +310/TUR +260; USA rotating)",
         "decimal_odds": [
-          2.5,
-          2.7,
-          3.4
+          3.846,
+          4.348,
+          1.887
         ],
-        "overround": 0.0645,
-        "p_home": 0.3758,
-        "p_draw": 0.3479,
-        "p_away": 0.2763,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0199,
+        "p_home": 0.2549,
+        "p_draw": 0.2255,
+        "p_away": 0.5196,
+        "fetched_at": "2026-06-25T09:19:47Z"
       },
       "external": [],
       "posted_to": [
@@ -249,7 +393,17 @@
           "bet": "1:0",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 8: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-25T09:25:12Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-25T09:25:12Z",
+          "confirmed_via": "get_bets readback 2026-06-25",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 2/34, -2, urgency 0.018): EP-max on adjusted track. Re-bet: revised from prefill 1:0 after match-day research/odds refresh."
         }
       ]
     }
