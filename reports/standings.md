@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-25 09:11 UTC. Based on confirmed results only._
+_Updated 2026-06-26 08:45 UTC. Based on confirmed results only._
 
 ## Group A
 
@@ -33,28 +33,28 @@ _Updated 2026-06-25 09:11 UTC. Based on confirmed results only._
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | USA | 2 | 2 | 0 | 0 | 6 | 1 | +5 | 6 |
-| 2 | Australia | 2 | 1 | 0 | 1 | 2 | 2 | +0 | 3 |
-| 3 | Paraguay | 2 | 1 | 0 | 1 | 2 | 4 | -2 | 3 |
-| 4 | Turkey | 2 | 0 | 0 | 2 | 0 | 3 | -3 | 0 |
+| 1 | USA | 3 | 2 | 0 | 1 | 8 | 4 | +4 | 6 |
+| 2 | Australia | 3 | 1 | 1 | 1 | 2 | 2 | +0 | 4 |
+| 3 | Paraguay | 3 | 1 | 1 | 1 | 2 | 4 | -2 | 4 |
+| 4 | Turkey | 3 | 1 | 0 | 2 | 3 | 5 | -2 | 3 |
 
 ## Group E
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Germany | 2 | 2 | 0 | 0 | 9 | 2 | +7 | 6 |
-| 2 | Ivory Coast | 2 | 1 | 0 | 1 | 2 | 2 | +0 | 3 |
-| 3 | Ecuador | 2 | 0 | 1 | 1 | 0 | 1 | -1 | 1 |
-| 4 | Curaçao | 2 | 0 | 1 | 1 | 1 | 7 | -6 | 1 |
+| 1 | Germany | 3 | 2 | 0 | 1 | 10 | 4 | +6 | 6 |
+| 2 | Ivory Coast | 3 | 2 | 0 | 1 | 4 | 2 | +2 | 6 |
+| 3 | Ecuador | 3 | 1 | 1 | 1 | 2 | 2 | +0 | 4 |
+| 4 | Curaçao | 3 | 0 | 1 | 2 | 1 | 9 | -8 | 1 |
 
 ## Group F
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Netherlands | 2 | 1 | 1 | 0 | 7 | 3 | +4 | 4 |
-| 2 | Japan | 2 | 1 | 1 | 0 | 6 | 2 | +4 | 4 |
-| 3 | Sweden | 2 | 1 | 0 | 1 | 6 | 6 | +0 | 3 |
-| 4 | Tunisia | 2 | 0 | 0 | 2 | 1 | 9 | -8 | 0 |
+| 1 | Netherlands | 3 | 2 | 1 | 0 | 10 | 4 | +6 | 7 |
+| 2 | Japan | 3 | 1 | 2 | 0 | 7 | 3 | +4 | 5 |
+| 3 | Sweden | 3 | 1 | 1 | 1 | 7 | 7 | +0 | 4 |
+| 4 | Tunisia | 3 | 0 | 0 | 3 | 2 | 12 | -10 | 0 |
 
 ## Group G
 
@@ -114,17 +114,17 @@ _Updated 2026-06-25 09:11 UTC. Based on confirmed results only._
 
 | # | Team | Grp | P | GD | GF | Pts |
 |---|------|-----|---|----|----|-----|
-| 1 | Bosnia & Herzegovina | B | 3 | -1 | 5 | 4 |
-| 2 | Sweden | F | 2 | +0 | 6 | 3 |
-| 3 | Croatia | L | 2 | -1 | 3 | 3 |
-| 4 | South Korea | A | 3 | -1 | 2 | 3 |
-| 5 | Paraguay † | D | 2 | -2 | 2 | 3 |
-| 6 | Algeria † | J | 2 | -2 | 2 | 3 |
-| 7 | Scotland | C | 3 | -3 | 1 | 3 |
-| 8 | Cape Verde | H | 2 | +0 | 2 | 2 | ← cutoff
-| 9 | Belgium | G | 2 | +0 | 1 | 2 |
-| 10 | DR Congo | K | 2 | -1 | 1 | 1 |
-| 11 | Ecuador | E | 2 | -1 | 0 | 1 |
+| 1 | Sweden | F | 3 | +0 | 7 | 4 |
+| 2 | Ecuador | E | 3 | +0 | 2 | 4 |
+| 3 | Bosnia & Herzegovina | B | 3 | -1 | 5 | 4 |
+| 4 | Paraguay | D | 3 | -2 | 2 | 4 |
+| 5 | Croatia | L | 2 | -1 | 3 | 3 |
+| 6 | South Korea | A | 3 | -1 | 2 | 3 |
+| 7 | Algeria | J | 2 | -2 | 2 | 3 |
+| 8 | Scotland | C | 3 | -3 | 1 | 3 | ← cutoff
+| 9 | Cape Verde | H | 2 | +0 | 2 | 2 |
+| 10 | Belgium | G | 2 | +0 | 1 | 2 |
+| 11 | DR Congo | K | 2 | -1 | 1 | 1 |
 | 12 | Senegal | I | 2 | -3 | 3 | 0 |
 
 _† order among tied teams depends on fair play points / drawing of lots (not tracked) — shown alphabetically._

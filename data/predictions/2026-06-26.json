@@ -4,32 +4,48 @@
     {
       "match_id": "M061",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-26T08:49:24Z",
       "model": {
-        "elo_home": 1914,
-        "elo_away": 2063,
+        "elo_home": 1951.6,
+        "elo_away": 2090.1,
         "home_adv_applied": 0,
-        "lambda_home": 0.745,
-        "lambda_away": 2.338,
-        "p_home": 0.1015,
-        "p_draw": 0.1679,
-        "p_away": 0.7306,
+        "lambda_home": 0.776,
+        "lambda_away": 2.246,
+        "p_home": 0.114,
+        "p_draw": 0.1786,
+        "p_away": 0.7074,
         "expected_score": "0-2",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.24,
+        "p_draw": 0.21,
+        "p_away": 0.55,
+        "predicted_score": "1-2",
+        "reasoning": "Both already through; only a Norway win changes placings (France tops the group otherwise). France are favoured (-160) but this is a dead-ish seeding game and they are disrupted: Deschamps has flown home after his mother's death (assistant Stephan in charge) and is likely to rest Saliba, while Norway have Haaland (4 goals already) and a concrete incentive to win for top spot. Nudged a touch toward Norway/draw from market (FRA 58%); model's 71% France ignores the rotation and stakes.",
+        "factors": [
+          {
+            "factor": "Both qualified; only a NOR win changes placings (FRA tops otherwise); FRA -160",
+            "source": "https://sports.yahoo.com/articles/norway-vs-france-2026-world-224339568.html"
+          },
+          {
+            "factor": "Deschamps absent (bereavement), asst Stephan in charge, may rest Saliba; Norway Ryerson doubtful; Haaland 4 goals",
+            "source": "https://www.football365.com/match-preview/norway-v-france-prediction-preview"
+          }
+        ]
+      },
       "odds": {
-        "source": "oddschecker US (+300/+230/-135) [prefill sweep 2026-06-11]",
+        "source": "FanDuel/Yahoo 2026-06-26 (FRA -160/draw +350/NOR +360); both qualified, FRA resting Saliba, Deschamps absent",
         "decimal_odds": [
-          4.0,
-          3.3,
-          1.74
+          4.6,
+          4.5,
+          1.625
         ],
-        "overround": 0.1277,
-        "p_home": 0.2217,
-        "p_draw": 0.2687,
-        "p_away": 0.5096,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.055,
+        "p_home": 0.2061,
+        "p_draw": 0.2106,
+        "p_away": 0.5833,
+        "fetched_at": "2026-06-26T08:48:16Z"
       },
       "external": [],
       "posted_to": [
@@ -39,39 +55,65 @@
           "bet": "0:1",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-26T08:51:29Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:2",
+          "posted_at": "2026-06-26T08:51:29Z",
+          "confirmed_via": "get_bets readback 2026-06-26",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 1/34, lead +4, leading but rem_grp=12>6 so not yet PROTECT): EP-max on adjusted track. Re-bet: revised from prefill 0:1 after match-day research/odds refresh."
         }
       ]
     },
     {
       "match_id": "M062",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-26T08:49:24Z",
       "model": {
-        "elo_home": 1860,
-        "elo_away": 1607,
+        "elo_home": 1816.4,
+        "elo_away": 1585.9,
         "home_adv_applied": 0,
-        "lambda_home": 3.485,
-        "lambda_away": 0.5,
-        "p_home": 0.907,
-        "p_draw": 0.0682,
-        "p_away": 0.0248,
+        "lambda_home": 3.197,
+        "lambda_away": 0.545,
+        "p_home": 0.8779,
+        "p_draw": 0.0869,
+        "p_away": 0.0352,
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.74,
+        "p_draw": 0.17,
+        "p_away": 0.09,
+        "predicted_score": "2-0",
+        "reasoning": "Senegal (0pts) can still sneak into the last 32 as a best third-placed team with a big win, so they are motivated to pile on goals against an outclassed, eliminated Iraq; Senegal are -375/-450. Anchoring to market (SEN ~73-80%); trimmed slightly below the model's 88% for the loss of first-choice keeper Edouard Mendy (knee). Expect Senegal to chase a multi-goal margin.",
+        "factors": [
+          {
+            "factor": "Both can only reach KO via a win; Senegal's big-win path to best-third; Iraq outclassed",
+            "source": "https://www.covers.com/world-cup/senegal-vs-iraq-prediction-picks-odds-friday-6-26-2026"
+          },
+          {
+            "factor": "Senegal -375/-450, FanDuel 3-1 Senegal; Senegal lost GK Mendy to knee injury",
+            "source": "https://www.sportsline.com/insiders/senegal-vs-iraq-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+          }
+        ]
+      },
       "odds": {
-        "source": "oddschecker US (-250/+300/+525) [prefill sweep 2026-06-11]",
+        "source": "FanDuel/SportsLine 2026-06-26 (SEN -375..-450/IRQ +900..+1200); both need win for best-third, SEN missing GK Mendy",
         "decimal_odds": [
-          1.4,
-          4.0,
-          6.25
+          1.25,
+          5.0,
+          11.0
         ],
-        "overround": 0.1243,
-        "p_home": 0.6353,
-        "p_draw": 0.2224,
-        "p_away": 0.1423,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0909,
+        "p_home": 0.7334,
+        "p_draw": 0.1833,
+        "p_away": 0.0833,
+        "fetched_at": "2026-06-26T08:48:16Z"
       },
       "external": [],
       "posted_to": [
@@ -81,39 +123,65 @@
           "bet": "1:0",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-26T08:51:29Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-26T08:51:29Z",
+          "confirmed_via": "get_bets readback 2026-06-26",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 1/34, lead +4, leading but rem_grp=12>6 so not yet PROTECT): EP-max on adjusted track. Re-bet: revised from prefill 1:0 after match-day research/odds refresh."
         }
       ]
     },
     {
       "match_id": "M063",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-26T08:49:24Z",
       "model": {
-        "elo_home": 1578,
-        "elo_away": 1576,
+        "elo_home": 1625.2,
+        "elo_away": 1592.6,
         "home_adv_applied": 0,
-        "lambda_home": 1.33,
-        "lambda_away": 1.31,
-        "p_home": 0.3739,
-        "p_draw": 0.2616,
-        "p_away": 0.3645,
+        "lambda_home": 1.496,
+        "lambda_away": 1.165,
+        "p_home": 0.4484,
+        "p_draw": 0.2562,
+        "p_away": 0.2954,
         "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.4,
+        "p_draw": 0.26,
+        "p_away": 0.34,
+        "predicted_score": "2-1",
+        "reasoning": "A true must-win shootout: a draw is no good to either side (Cape Verde 3rd on 2pts, Saudi Arabia 4th on 1pt). Market reads it as a slight edge to debutants Cape Verde, who have looked the more cohesive side; over 2.5 and BTTS are natural as neither can sit. Holding at market (CPV 40 / draw 27 / KSA 33), in line with the model.",
+        "factors": [
+          {
+            "factor": "Draw eliminates both; CPV (2pts) and KSA (1pt) must win; over2.5 + BTTS",
+            "source": "https://www.squawka.com/us/news/world-cup/match-preview-cape-verde-vs-saudi-arabia-06-26-26-world-cup-2026/"
+          },
+          {
+            "factor": "bet365 CPV +135 / draw +250 / KSA +190; Kalshi CPV 38 / draw 29 / KSA 35",
+            "source": "https://www.skysports.com/football/news/12098/13543099/world-cup-2026-group-h-guide-fixtures-schedule-standings-and-odds-for-spain-cape-verde-saudi-arabia-and-uruguay"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket (38/29/36%), ESPN/DK ML consistent [prefill sweep 2026-06-11]",
+        "source": "bet365/Kalshi 2026-06-26 (CPV +135/draw +250/KSA +190); draw no good to either, over2.5+BTTS",
         "decimal_odds": [
-          2.63,
-          3.45,
-          2.78
+          2.35,
+          3.5,
+          2.9
         ],
-        "overround": 0.0298,
-        "p_home": 0.3692,
-        "p_draw": 0.2815,
-        "p_away": 0.3493,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0561,
+        "p_home": 0.403,
+        "p_draw": 0.2705,
+        "p_away": 0.3265,
+        "fetched_at": "2026-06-26T08:48:16Z"
       },
       "external": [],
       "posted_to": [
@@ -124,38 +192,63 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-26T08:51:29Z",
+          "confirmed_via": "get_bets readback 2026-06-26",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 1/34, lead +4, leading but rem_grp=12>6 so not yet PROTECT): EP-max on adjusted track. Confirmed unchanged from prefill; matches EP-max."
         }
       ]
     },
     {
       "match_id": "M064",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-26T08:49:24Z",
       "model": {
-        "elo_home": 1892,
-        "elo_away": 2157,
+        "elo_home": 1851.1,
+        "elo_away": 2134.1,
         "home_adv_applied": 0,
-        "lambda_home": 0.477,
-        "lambda_away": 3.65,
-        "p_home": 0.0204,
-        "p_draw": 0.0592,
-        "p_away": 0.9204,
+        "lambda_home": 0.446,
+        "lambda_away": 3.911,
+        "p_home": 0.0149,
+        "p_draw": 0.0471,
+        "p_away": 0.938,
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.14,
+        "p_draw": 0.23,
+        "p_away": 0.63,
+        "predicted_score": "0-2",
+        "reasoning": "Spain top the group, have not conceded a goal all tournament, and need only a point to finish first; Uruguay must chase but are missing Araujo (calf) and their first-choice attack. Spain lose Pedri to suspension but have the depth to absorb it. Anchor to market (ESP ~64-65%); model's 94% is far too high given Spain may manage the game once a point looks safe. Value sits on Uruguay failing to score.",
+        "factors": [
+          {
+            "factor": "Spain need only a point to top, 0 conceded all tournament; Uruguay must get a result",
+            "source": "https://www.squawka.com/us/news/world-cup/match-preview-uruguay-vs-spain-06-26-26-world-cup-2026/"
+          },
+          {
+            "factor": "Pedri suspended (2nd yellow); Araujo out (calf); bet365 ESP -209, Kalshi URU 13/draw 23/ESP 65",
+            "source": "https://www.rotowire.com/soccer/article/uruguay-vs-spain-picks-tips-odds-best-bets-2026-world-cup-group-h-119769"
+          }
+        ]
+      },
       "odds": {
-        "source": "oddschecker US (+375/+260/-175) [prefill sweep 2026-06-11]",
+        "source": "bet365/Kalshi 2026-06-26 (ESP -209/draw +320/URU +600); Pedri susp, Araujo out, ESP 0 conceded",
         "decimal_odds": [
-          4.75,
-          3.6,
-          1.57
+          7.0,
+          4.2,
+          1.478
         ],
-        "overround": 0.1252,
-        "p_home": 0.1871,
-        "p_draw": 0.2469,
-        "p_away": 0.566,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0575,
+        "p_home": 0.1351,
+        "p_draw": 0.2251,
+        "p_away": 0.6398,
+        "fetched_at": "2026-06-26T08:48:16Z"
       },
       "external": [],
       "posted_to": [
@@ -166,38 +259,63 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-26T08:51:29Z",
+          "confirmed_via": "get_bets readback 2026-06-26",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 1/34, lead +4, leading but rem_grp=12>6 so not yet PROTECT): EP-max on adjusted track. Confirmed unchanged from prefill; matches EP-max."
         }
       ]
     },
     {
       "match_id": "M065",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-26T08:49:24Z",
       "model": {
-        "elo_home": 1696,
-        "elo_away": 1772,
+        "elo_home": 1740.0,
+        "elo_away": 1766.0,
         "home_adv_applied": 0,
-        "lambda_home": 0.986,
-        "lambda_away": 1.767,
-        "p_home": 0.2092,
-        "p_draw": 0.2336,
-        "p_away": 0.5572,
-        "expected_score": "0-1",
+        "lambda_home": 1.195,
+        "lambda_away": 1.459,
+        "p_home": 0.3098,
+        "p_draw": 0.2582,
+        "p_away": 0.432,
+        "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.38,
+        "p_draw": 0.36,
+        "p_away": 0.26,
+        "predicted_score": "1-1",
+        "reasoning": "Egypt (4pts) need only a draw to seal top spot; Iran (2pts, two draws) must win but are a defensive, low-scoring side (5-at-the-back, 2 conceded in 2). Both defences miserly, so a tight, low-scoring game with a high draw chance is the likely script. Market makes Egypt a slight favourite with a very live draw (EGY ~39 / draw ~36); I side with that over the model, which wrongly favours Iran (43%). Salah is the X-factor for Egypt.",
+        "factors": [
+          {
+            "factor": "Egypt need only a draw to top; Iran must win but defensive/low-scoring; tight low-scoring expected",
+            "source": "https://www.sportsline.com/insiders/egypt-vs-iran-odds-predictions-time-2026-world-cup-picks-from-elite-soccer-expert/"
+          },
+          {
+            "factor": "FanDuel EGY +145 / draw +165 / IRN +280; Egypt Fathy & Abdelmaguid out, Iran Cheshmi out",
+            "source": "https://www.covers.com/world-cup/egypt-vs-iran-prediction-picks-odds-friday-6-26-2026"
+          }
+        ]
+      },
       "odds": {
-        "source": "worldfootball26.com (decimal, bookmaker unspecified) [prefill sweep 2026-06-11]",
+        "source": "FanDuel 2026-06-26 (EGY +145/draw +165/IRN +280); EGY needs draw to top, IRN must win, both miserly",
         "decimal_odds": [
-          2.32,
-          2.97,
-          3.52
+          2.45,
+          2.65,
+          3.8
         ],
-        "overround": 0.0518,
-        "p_home": 0.4098,
-        "p_draw": 0.3201,
-        "p_away": 0.2701,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0487,
+        "p_home": 0.3893,
+        "p_draw": 0.3598,
+        "p_away": 0.2509,
+        "fetched_at": "2026-06-26T08:48:16Z"
       },
       "external": [],
       "posted_to": [
@@ -207,39 +325,65 @@
           "bet": "1:0",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-26T08:51:29Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:0",
+          "posted_at": "2026-06-26T08:51:29Z",
+          "confirmed_via": "get_bets readback 2026-06-26",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 1/34, lead +4, leading but rem_grp=12>6 so not yet PROTECT): EP-max on adjusted track. Re-bet: revised from prefill 1:0 after match-day research/odds refresh."
         }
       ]
     },
     {
       "match_id": "M066",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-26T08:49:24Z",
       "model": {
-        "elo_home": 1562,
-        "elo_away": 1894,
+        "elo_home": 1549.7,
+        "elo_away": 1868.3,
         "home_adv_applied": 0,
-        "lambda_home": 0.369,
+        "lambda_home": 0.389,
         "lambda_away": 4.0,
-        "p_home": 0.0107,
-        "p_draw": 0.0396,
-        "p_away": 0.9497,
+        "p_home": 0.0114,
+        "p_draw": 0.0408,
+        "p_away": 0.9478,
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.06,
+        "p_draw": 0.13,
+        "p_away": 0.81,
+        "predicted_score": "0-2",
+        "reasoning": "Belgium are overwhelming favourites (-525, Kalshi 83%) and, on 2pts after two draws, likely need the win themselves to advance — so they are both far stronger and fully motivated. New Zealand (1pt, 3-1 loss to Egypt) must also go for it but have won one of their last 13 and kept no clean sheets. Anchor to market; model's 95% trimmed marginally.",
+        "factors": [
+          {
+            "factor": "Belgium must-win heavy favourite (-525); unbeaten last 13; NZL must win but poor form",
+            "source": "https://www.squawka.com/us/news/world-cup/match-preview-new-zealand-vs-belgium-06-26-26-world-cup-2026/"
+          },
+          {
+            "factor": "Kalshi NZL 6 / draw 13 / BEL 83; BEL on 2pts (two draws) may need the win to qualify",
+            "source": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/new-zealand-vs-belgium-odds-prediction-062726-217260"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket (9/16/77%), DK ML NZ +900/BEL -340 consistent [prefill sweep 2026-06-11]",
+        "source": "Kalshi/SportsInteraction 2026-06-26 (BEL -525/draw +600/NZL +1400); BEL must-win heavy fav",
         "decimal_odds": [
-          11.11,
-          6.25,
-          1.3
+          15.0,
+          7.0,
+          1.19
         ],
-        "overround": 0.0192,
-        "p_home": 0.0883,
-        "p_draw": 0.157,
-        "p_away": 0.7547,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0499,
+        "p_home": 0.0635,
+        "p_draw": 0.1361,
+        "p_away": 0.8004,
+        "fetched_at": "2026-06-26T08:48:16Z"
       },
       "external": [],
       "posted_to": [
@@ -250,6 +394,15 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 9: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-26T08:51:29Z",
+          "confirmed_via": "get_bets readback 2026-06-26",
+          "mode": "ACCUMULATE",
+          "note": "ACCUMULATE mode (rank 1/34, lead +4, leading but rem_grp=12>6 so not yet PROTECT): EP-max on adjusted track. Confirmed unchanged from prefill; matches EP-max."
         }
       ]
     }
