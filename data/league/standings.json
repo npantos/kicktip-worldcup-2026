@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-06-26T08:50:00Z",
+  "fetched_at": "2026-06-27T10:25:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview (points-from-leader) 2026-06-26; after platform MD8 (repo through M060)",
-  "as_of_matchday": 8,
-  "matches_scored_so_far": 60,
+  "source": "kicktipp MCP get_overview (points-from-leader) 2026-06-27; after platform MD9 (repo through M066)",
+  "as_of_matchday": 9,
+  "matches_scored_so_far": 66,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
     "rank": 1,
-    "points": 143,
-    "bonus": 20
+    "points": 169,
+    "bonus": 32
   },
   "human_owner": {
     "name": "NemanjaPantoš",
     "rank": 2,
-    "points": 139
+    "points": 160
   },
   "leader": {
     "names": [
       "Nemanj-AI"
     ],
-    "points": 143
+    "points": 169
   },
   "deficit_to_leader": 0,
   "tier_at_my_points": 1,
   "players_ahead": 0,
   "top": [
-    {"rank": 1, "name": "Nemanj-AI", "points": 143, "bonus": 20},
-    {"rank": 2, "name": "NemanjaPantoš", "points": 139, "bonus": 28},
-    {"rank": 3, "name": "LosAngelesBus", "points": 131, "bonus": 28},
-    {"rank": 4, "name": "Shelly", "points": 131, "bonus": 20},
-    {"rank": 5, "name": "Stef", "points": 130, "bonus": 28},
-    {"rank": 6, "name": "MrGojomir", "points": 128, "bonus": 16},
-    {"rank": 7, "name": "bojan_nišić", "points": 125, "bonus": 24},
-    {"rank": 8, "name": "LilDja", "points": 124, "bonus": 20},
-    {"rank": 9, "name": "Kula", "points": 123, "bonus": 28},
-    {"rank": 10, "name": "ljubomir", "points": 123, "bonus": 28}
+    {"rank": 1, "name": "Nemanj-AI", "points": 169, "bonus": 32},
+    {"rank": 2, "name": "NemanjaPantoš", "points": 160, "bonus": 40},
+    {"rank": 3, "name": "Shelly", "points": 158, "bonus": 32},
+    {"rank": 4, "name": "LosAngelesBus", "points": 157, "bonus": 40},
+    {"rank": 5, "name": "LilDja", "points": 150, "bonus": 32},
+    {"rank": 6, "name": "Stef", "points": 150, "bonus": 40},
+    {"rank": 7, "name": "ljubomir", "points": 149, "bonus": 40},
+    {"rank": 8, "name": "BB", "points": 148, "bonus": 40},
+    {"rank": 9, "name": "Kula", "points": 146, "bonus": 40},
+    {"rank": 10, "name": "MrGojomir", "points": 146, "bonus": 28}
   ],
-  "note": "RETOOK THE LEAD after MD8 (M055-M060): two exact hits (CIV 0:2, PAR-AUS 0:0 = 6 each) + TUN-NED goal-diff (3) -> +15 match pts, jumped 124->143 and led the matchday; human NemanjaPantoš 126->139 (-4 to us). Lead is thin (4 over human, 12 over 3rd). ~12 group matches + entire knockout stage left -> too early to PROTECT (only at rem_grp<=6): urgency 0 -> ACCUMULATE / EP-max. BONUS GAP persists: Nemanj-AI 20 vs human 28, LosAngelesBus/Stef/Kula/ljubomir 28 (-8) -- the soft spot; chase via get_bonus_questions when populated."
+  "note": "Lead EXTENDED to +9 after MD9 (M061-M066): +14 match pts (exact URU-ESP 0:1 + 4 tendencies) and led the matchday again. Now 169 vs human 160, Shelly 158, LosAngelesBus 157. CAUTION ON MODE: today (M067-M072) ends the GROUP stage, so contest_strategy's `rem_grp<=6` PROTECT trigger fires -- but the ENTIRE knockout stage (~32 matches) still remains, so the season is NOT actually late. With ~38 matches and large variance left, EP-max still maximises P(rank 1); the tiny PROTECT k=0.3 tilt is near-harmless but I lean EP-max where they differ. BONUS GAP persists: 32 vs the 40-club (human, LosAngelesBus, Stef, ljubomir, BB, Kula = 40) -- still the soft spot."
 }

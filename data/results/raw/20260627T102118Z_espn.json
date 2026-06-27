@@ -1,0 +1,51 @@
+{
+  "fetched_at": "2026-06-27T10:21:18Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760475/france-norway",
+    "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal",
+    "https://www.espn.com/soccer/match/_/gameId/760478/saudi-arabia-cape-verde",
+    "https://www.espn.com/soccer/match/_/gameId/760479/spain-uruguay",
+    "https://www.espn.com/soccer/match/_/gameId/760476/iran-egypt",
+    "https://www.espn.com/soccer/report/_/gameId/760477"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M061",
+      "home_goals": 1,
+      "away_goals": 4,
+      "note": "ESPN: Norway 1-4 France (Dembele hat-trick); FRA win all 3"
+    },
+    {
+      "match_id": "M062",
+      "home_goals": 5,
+      "away_goals": 0,
+      "note": "ESPN: Senegal 5-0 Iraq (10-man); SEN keep best-third hopes"
+    },
+    {
+      "match_id": "M063",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "ESPN: Cape Verde 0-0 Saudi Arabia; CPV through 2nd, KSA out"
+    },
+    {
+      "match_id": "M064",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "ESPN: Uruguay 0-1 Spain (Baena 42, Muslera error); URU out"
+    },
+    {
+      "match_id": "M065",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "ESPN: Egypt 1-1 Iran (Saber; Rezaeian); Iran late winner VAR-disallowed; EGY 2nd"
+    },
+    {
+      "match_id": "M066",
+      "home_goals": 1,
+      "away_goals": 5,
+      "note": "ESPN: New Zealand 1-5 Belgium; BEL top Group G"
+    }
+  ]
+}

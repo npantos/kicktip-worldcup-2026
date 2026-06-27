@@ -4,32 +4,48 @@
     {
       "match_id": "M067",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-27T10:24:40Z",
       "model": {
-        "elo_home": 1912,
-        "elo_away": 1510,
+        "elo_home": 1895.6,
+        "elo_away": 1583.6,
         "home_adv_applied": 0,
         "lambda_home": 4.0,
-        "lambda_away": 0.282,
-        "p_home": 0.9581,
-        "p_draw": 0.0345,
-        "p_away": 0.0074,
+        "lambda_away": 0.399,
+        "p_home": 0.9467,
+        "p_draw": 0.0414,
+        "p_away": 0.0119,
         "expected_score": "3-0",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.51,
+        "p_draw": 0.32,
+        "p_away": 0.17,
+        "predicted_score": "1-0",
+        "reasoning": "Croatia (3pts) must win to be sure of going through; Ghana (4pts) advance with a draw and have built their group on defending — two clean sheets under Queiroz — so they will sit deep for the point that qualifies them. Croatia have looked laboured and over-reliant on a 40-year-old Modric. Market makes Croatia a modest favourite (-131, ~54%) with a very live draw (~29%); I nudge the draw up a touch for Ghana's game plan. Model's 95% Croatia is wildly overconfident. Low-scoring (under 2.5).",
+        "factors": [
+          {
+            "factor": "CRO must win; GHA (4pts) advance on a draw and defend deep (2 clean sheets); under 2.5",
+            "source": "https://www.covers.com/world-cup/croatia-vs-ghana-prediction-picks-odds-saturday-6-27-2026"
+          },
+          {
+            "factor": "Croatia -131, Kalshi CRO 55 / draw 29 / GHA 17; CRO laboured, reliant on Modric",
+            "source": "https://www.squawka.com/us/news/world-cup/match-preview-croatia-vs-ghana-06-27-26-world-cup-2026/"
+          }
+        ]
+      },
       "odds": {
-        "source": "worldfootball26.com (-134/+275/+410); Betfair similar [prefill sweep 2026-06-11]",
+        "source": "Kalshi/covers 2026-06-27 (CRO -131; CRO 55/draw 29/GHA 17); CRO must win, GHA through on draw, under2.5",
         "decimal_odds": [
-          1.75,
-          3.75,
-          5.1
+          1.82,
+          3.45,
+          5.88
         ],
-        "overround": 0.0342,
-        "p_home": 0.5525,
-        "p_draw": 0.2579,
-        "p_away": 0.1896,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0094,
+        "p_home": 0.5443,
+        "p_draw": 0.2872,
+        "p_away": 0.1685,
+        "fetched_at": "2026-06-27T10:23:49Z"
       },
       "external": [],
       "posted_to": [
@@ -40,38 +56,63 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-27T10:26:52Z",
+          "confirmed_via": "get_bets readback 2026-06-27",
+          "mode": "PROTECT(==EP-max)",
+          "note": "PROTECT mode per contest_strategy (rank 1/34, lead +9, group stage ends today so rem_grp=6 trips PROTECT) but k=0.3 tilt makes the PROTECT pick == EP-max here; 32 knockout matches still scheduled so EP-max remains right. Confirmed unchanged from prefill; matches EP-max/PROTECT."
         }
       ]
     },
     {
       "match_id": "M068",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-27T10:24:40Z",
       "model": {
-        "elo_home": 1730,
-        "elo_away": 2024,
+        "elo_home": 1668.6,
+        "elo_away": 2028.2,
         "home_adv_applied": 0,
-        "lambda_home": 0.427,
+        "lambda_home": 0.332,
         "lambda_away": 4.0,
-        "p_home": 0.0131,
-        "p_draw": 0.0431,
-        "p_away": 0.9438,
+        "p_home": 0.0092,
+        "p_draw": 0.0374,
+        "p_away": 0.9534,
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.07,
+        "p_draw": 0.13,
+        "p_away": 0.8,
+        "predicted_score": "0-3",
+        "reasoning": "England (4pts) are through and want the win to confirm top and a favourable knockout route; Panama (0pts, no goals) are eliminated. England are -600 and beat Panama 6-1 at the 2018 World Cup. Anchor to market (~82%); marginal trim below the model's 95% for the small chance England ease off once first place is in hand. Expect a comfortable multi-goal win.",
+        "factors": [
+          {
+            "factor": "England through, want top for favourable route; Panama eliminated, 0 goals",
+            "source": "https://www.sportsline.com/insiders/panama-vs-england-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+          },
+          {
+            "factor": "England -600/-599; prediction 3-0; Eng 6-1 Panama at 2018 WC",
+            "source": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/panama-vs-england-odds-prediction-062726-217262"
+          }
+        ]
+      },
       "odds": {
-        "source": "bettingodds.com/oddschecker (21/2, 5/1, 2/7); DK ENG -450 [prefill sweep 2026-06-11]",
+        "source": "SportsInteraction/SportsLine 2026-06-27 (ENG -600/draw +600..700/PAN +1200..1400); ENG through wants top, PAN out",
         "decimal_odds": [
-          11.5,
-          6.0,
-          1.29
+          15.0,
+          7.0,
+          1.167
         ],
-        "overround": 0.0288,
-        "p_home": 0.0845,
-        "p_draw": 0.162,
-        "p_away": 0.7535,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0664,
+        "p_home": 0.0625,
+        "p_draw": 0.134,
+        "p_away": 0.8035,
+        "fetched_at": "2026-06-27T10:23:49Z"
       },
       "external": [],
       "posted_to": [
@@ -82,38 +123,63 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-27T10:26:52Z",
+          "confirmed_via": "get_bets readback 2026-06-27",
+          "mode": "PROTECT(==EP-max)",
+          "note": "PROTECT mode per contest_strategy (rank 1/34, lead +9, group stage ends today so rem_grp=6 trips PROTECT) but k=0.3 tilt makes the PROTECT pick == EP-max here; 32 knockout matches still scheduled so EP-max remains right. Confirmed unchanged from prefill; matches EP-max/PROTECT."
         }
       ]
     },
     {
       "match_id": "M069",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-27T10:24:40Z",
       "model": {
-        "elo_home": 1982,
-        "elo_away": 1989,
+        "elo_home": 2006.0,
+        "elo_away": 1987.6,
         "home_adv_applied": 0,
-        "lambda_home": 1.285,
-        "lambda_away": 1.356,
-        "p_home": 0.3528,
-        "p_draw": 0.2613,
-        "p_away": 0.3859,
+        "lambda_home": 1.417,
+        "lambda_away": 1.23,
+        "p_home": 0.4133,
+        "p_draw": 0.2599,
+        "p_away": 0.3268,
         "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.27,
+        "p_draw": 0.27,
+        "p_away": 0.46,
+        "predicted_score": "1-1",
+        "reasoning": "Both already qualified: Colombia (6pts) take top with a draw, Portugal (4pts) must win to claim first and a kinder draw. Market makes Portugal a slight favourite (-115, ~51%) on their greater attacking quality (Ronaldo, Joao Neves, Leao); I give Colombia a little back for a Miami pseudo-home crowd and two wins from two. Several previews call it a cagey 1-1. Sits between the market (POR-leaning) and the model (which over-favours Colombia at home).",
+        "factors": [
+          {
+            "factor": "COL top with a draw; POR must win for first; cagey 1-1 projected",
+            "source": "https://sports.yahoo.com/articles/colombia-vs-portugal-2026-world-175220712.html"
+          },
+          {
+            "factor": "Portugal -115 / draw +270 / Colombia +300; POR's Araujo questionable; COL fully fit",
+            "source": "https://www.rotowire.com/soccer/article/colombia-vs-portugal-picks-tips-odds-best-bets-2026-world-cup-group-k-119923"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket (28/29/47%), 1/p [prefill sweep 2026-06-11]",
+        "source": "FanDuel/Yahoo 2026-06-27 (POR -115/draw +270/COL +300); both through, POR needs win to top, Araujo doubt",
         "decimal_odds": [
-          3.57,
-          3.45,
-          2.13
+          4.0,
+          3.7,
+          1.87
         ],
-        "overround": 0.0395,
-        "p_home": 0.2695,
-        "p_draw": 0.2789,
-        "p_away": 0.4516,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.055,
+        "p_home": 0.237,
+        "p_draw": 0.2562,
+        "p_away": 0.5068,
+        "fetched_at": "2026-06-27T10:23:49Z"
       },
       "external": [],
       "posted_to": [
@@ -124,38 +190,63 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-27T10:26:52Z",
+          "confirmed_via": "get_bets readback 2026-06-27",
+          "mode": "PROTECT(==EP-max)",
+          "note": "PROTECT mode per contest_strategy (rank 1/34, lead +9, group stage ends today so rem_grp=6 trips PROTECT) but k=0.3 tilt makes the PROTECT pick == EP-max here; 32 knockout matches still scheduled so EP-max remains right. Confirmed unchanged from prefill; matches EP-max/PROTECT."
         }
       ]
     },
     {
       "match_id": "M070",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-27T10:24:40Z",
       "model": {
-        "elo_home": 1652,
-        "elo_away": 1714,
+        "elo_home": 1666.4,
+        "elo_away": 1677.0,
         "home_adv_applied": 0,
-        "lambda_home": 1.04,
-        "lambda_away": 1.675,
-        "p_home": 0.2353,
-        "p_draw": 0.2427,
-        "p_away": 0.522,
+        "lambda_home": 1.267,
+        "lambda_away": 1.375,
+        "p_home": 0.3445,
+        "p_draw": 0.261,
+        "p_away": 0.3945,
         "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.5,
+        "p_draw": 0.26,
+        "p_away": 0.24,
+        "predicted_score": "1-0",
+        "reasoning": "DR Congo (1pt) must win to keep alive any best-third hope and have looked the better side (drew Portugal, pushed Colombia); Uzbekistan (0pts) are eliminated and have shipped eight goals in two games. Market makes DR Congo a slight favourite (-115); the model perversely leans Uzbekistan, so I side with the book and game-state. Totals near even, so a tight low-scoring Congo win is likeliest.",
+        "factors": [
+          {
+            "factor": "DR Congo must win (held Portugal, pushed Colombia); Uzbekistan eliminated, conceded 8",
+            "source": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/dr-congo-vs-uzbekistan-odds-prediction-062726-217266"
+          },
+          {
+            "factor": "DR Congo -115 / draw +285 / Uzbekistan +310; totals near even",
+            "source": "https://www.espn.com/soccer/odds/_/gameId/760482"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket (41/30/33%), ESPN/DK ML consistent [prefill sweep 2026-06-11]",
+        "source": "ESPN/BetOnline/SportsInteraction 2026-06-27 (COD -115/draw +285/UZB +310); COD must win, UZB out (conceded 8)",
         "decimal_odds": [
-          2.44,
-          3.33,
-          3.03
+          1.87,
+          3.85,
+          4.1
         ],
-        "overround": 0.0402,
-        "p_home": 0.394,
-        "p_draw": 0.2887,
-        "p_away": 0.3173,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0384,
+        "p_home": 0.515,
+        "p_draw": 0.2501,
+        "p_away": 0.2349,
+        "fetched_at": "2026-06-27T10:23:49Z"
       },
       "external": [],
       "posted_to": [
@@ -166,38 +257,63 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-27T10:26:52Z",
+          "confirmed_via": "get_bets readback 2026-06-27",
+          "mode": "PROTECT(==EP-max)",
+          "note": "PROTECT mode per contest_strategy (rank 1/34, lead +9, group stage ends today so rem_grp=6 trips PROTECT) but k=0.3 tilt makes the PROTECT pick == EP-max here; 32 knockout matches still scheduled so EP-max remains right. Confirmed unchanged from prefill; matches EP-max/PROTECT."
         }
       ]
     },
     {
       "match_id": "M071",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-27T10:24:40Z",
       "model": {
-        "elo_home": 1772,
-        "elo_away": 1830,
+        "elo_home": 1780.3,
+        "elo_away": 1841.1,
         "home_adv_applied": 0,
-        "lambda_home": 1.057,
-        "lambda_away": 1.649,
-        "p_home": 0.2431,
-        "p_draw": 0.245,
-        "p_away": 0.5119,
+        "lambda_home": 1.045,
+        "lambda_away": 1.667,
+        "p_home": 0.2376,
+        "p_draw": 0.2434,
+        "p_away": 0.519,
         "expected_score": "1-1",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.24,
+        "p_draw": 0.43,
+        "p_away": 0.33,
+        "predicted_score": "1-1",
+        "reasoning": "Runner-up decider: Austria (2nd, GD 0) advance with a draw or win, Algeria (3rd, GD -2) must win to be certain. Austria are content to play for the point that qualifies them, so the market prices a very high draw (~43%, draw just +120) — and Austria's squad depth (Sabitzer, Laimer, Alaba) edges the win market over Algeria. The model badly underweights the draw (24%); I anchor to the live market, mirroring the qualification dynamic that produced the Paraguay-Australia 0-0.",
+        "factors": [
+          {
+            "factor": "Draw sends Austria through on GD & eliminates Algeria; ALG must win",
+            "source": "https://www.skysports.com/football/news/12098/13543105/world-cup-2026-group-j-guide-fixtures-schedule-standings-and-odds-for-argentina-algeria-austria-and-jordan"
+          },
+          {
+            "factor": "Austria +190 / draw +120 / Algeria +300; Austria depth (Sabitzer/Laimer/Alaba) edges it",
+            "source": "https://www.sportsline.com/insiders/algeria-vs-austria-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+          }
+        ]
+      },
       "odds": {
-        "source": "Polymarket (26/32/45%), ESPN/DK ML consistent [prefill sweep 2026-06-11]",
+        "source": "Sky/SportsLine 2026-06-27 (AUT +190/draw +120/ALG +300); draw sends AUT through on GD, ALG must win",
         "decimal_odds": [
-          3.85,
-          3.13,
-          2.22
+          4.0,
+          2.2,
+          2.9
         ],
-        "overround": 0.0297,
-        "p_home": 0.2523,
-        "p_draw": 0.3103,
-        "p_away": 0.4374,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0494,
+        "p_home": 0.2382,
+        "p_draw": 0.4332,
+        "p_away": 0.3286,
+        "fetched_at": "2026-06-27T10:23:49Z"
       },
       "external": [],
       "posted_to": [
@@ -207,39 +323,65 @@
           "bet": "0:1",
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
-          "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+          "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention.",
+          "superseded_by": "2026-06-27T10:26:52Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:0",
+          "posted_at": "2026-06-27T10:26:52Z",
+          "confirmed_via": "get_bets readback 2026-06-27",
+          "mode": "PROTECT(==EP-max)",
+          "note": "PROTECT mode per contest_strategy (rank 1/34, lead +9, group stage ends today so rem_grp=6 trips PROTECT) but k=0.3 tilt makes the PROTECT pick == EP-max here; 32 knockout matches still scheduled so EP-max remains right. Re-bet: revised from prefill 0:1 (high-draw scenario, draw qualifies Austria)."
         }
       ]
     },
     {
       "match_id": "M072",
       "created_at": "2026-06-11T18:07:51Z",
-      "locked_at": null,
+      "locked_at": "2026-06-27T10:24:40Z",
       "model": {
-        "elo_home": 1680,
-        "elo_away": 2115,
+        "elo_home": 1632.2,
+        "elo_away": 2143.4,
         "home_adv_applied": 0,
-        "lambda_home": 0.249,
+        "lambda_home": 0.2,
         "lambda_away": 4.0,
-        "p_home": 0.0063,
-        "p_draw": 0.0325,
-        "p_away": 0.9612,
+        "p_home": 0.0048,
+        "p_draw": 0.0297,
+        "p_away": 0.9655,
         "expected_score": "0-3",
         "p_home_advance": null
       },
-      "adjusted": null,
+      "adjusted": {
+        "p_home": 0.08,
+        "p_draw": 0.14,
+        "p_away": 0.78,
+        "predicted_score": "0-2",
+        "reasoning": "Argentina (6pts) have already secured top spot, so this is a dead rubber and Scaloni is likely to rest Messi (5 goals in 2) ahead of the knockouts, with Lautaro the primary threat. Jordan (0pts) are eliminated. Argentina remain heavy favourites (-550) even rotated — their intensity rarely drops under Scaloni — so anchor to market (~80%); model's 97% is too high given the rotation. Comfortable but not blowout.",
+        "factors": [
+          {
+            "factor": "Argentina through & top -> dead rubber; Scaloni may rest Messi (5 goals in 2); Jordan eliminated",
+            "source": "https://www.squawka.com/us/news/world-cup/match-preview-jordan-vs-argentina-06-27-26-world-cup-2026/"
+          },
+          {
+            "factor": "Argentina -550 / draw +650 / Jordan +1200 (1/5)",
+            "source": "https://www.covers.com/world-cup/argentina-vs-jordan-prediction-picks-odds-saturday-6-27-2026"
+          }
+        ]
+      },
       "odds": {
-        "source": "sportytrader best-of-bookmaker (decimal) [prefill sweep 2026-06-11]",
+        "source": "bet365/covers 2026-06-27 (ARG -550/draw +650/JOR +1200); ARG through & top, Scaloni may rest Messi",
         "decimal_odds": [
-          17.0,
-          7.6,
-          1.2
+          13.0,
+          7.5,
+          1.182
         ],
-        "overround": 0.0237,
-        "p_home": 0.0575,
-        "p_draw": 0.1285,
-        "p_away": 0.814,
-        "fetched_at": "2026-06-11T18:16:50Z"
+        "overround": 0.0563,
+        "p_home": 0.0728,
+        "p_draw": 0.1262,
+        "p_away": 0.801,
+        "fetched_at": "2026-06-27T10:23:49Z"
       },
       "external": [],
       "posted_to": [
@@ -250,6 +392,15 @@
           "posted_at": "2026-06-11T20:11:34Z",
           "confirmed_via": "get_bets readback",
           "note": "Pre-fill of matchday 10: EP-max scoreline on the odds track under data/kicktipp_rules.json (2/3/6 scoring); adjusted block pending match-day research, bet may be revised before kickoff per the re-bet convention."
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:2",
+          "posted_at": "2026-06-27T10:26:52Z",
+          "confirmed_via": "get_bets readback 2026-06-27",
+          "mode": "PROTECT(==EP-max)",
+          "note": "PROTECT mode per contest_strategy (rank 1/34, lead +9, group stage ends today so rem_grp=6 trips PROTECT) but k=0.3 tilt makes the PROTECT pick == EP-max here; 32 knockout matches still scheduled so EP-max remains right. Confirmed unchanged from prefill; matches EP-max/PROTECT."
         }
       ]
     }

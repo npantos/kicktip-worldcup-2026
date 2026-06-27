@@ -1,0 +1,51 @@
+{
+  "fetched_at": "2026-06-27T10:21:18Z",
+  "source": "FIFA/FOXSports/SkySports/AlJazeera",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021489",
+    "https://www.aljazeera.com/sports/2026/6/26/senegal-score-5-0-win-over-10-man-iraq-keep-world-cup-knockout-hopes-alive",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021485",
+    "https://www.skysports.com/football/news/12098/13556686/world-cup-2026-uruguay-0-1-spain-alex-baena-goal-after-fernando-muslera-error-sends-marcelo-bielsas-team-out",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021479",
+    "https://www.deccanchronicle.com/fifa-world-cup-2026/fifa-world-cup-2026-new-zealand-vs-belgium-at-vancouver-1966586"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M061",
+      "home_goals": 1,
+      "away_goals": 4,
+      "note": "FIFA: Norway 1-4 France"
+    },
+    {
+      "match_id": "M062",
+      "home_goals": 5,
+      "away_goals": 0,
+      "note": "AlJazeera: Senegal 5-0 Iraq"
+    },
+    {
+      "match_id": "M063",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "FIFA: Cape Verde 0-0 Saudi Arabia"
+    },
+    {
+      "match_id": "M064",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "Sky/FIFA: Uruguay 0-1 Spain"
+    },
+    {
+      "match_id": "M065",
+      "home_goals": 1,
+      "away_goals": 1,
+      "note": "FIFA/AlJazeera: Egypt 1-1 Iran (VAR offside on Iran late goal)"
+    },
+    {
+      "match_id": "M066",
+      "home_goals": 1,
+      "away_goals": 5,
+      "note": "Deccan/ESPN: New Zealand 1-5 Belgium"
+    }
+  ]
+}

@@ -914,7 +914,7 @@
       "away": "FRA",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M062",
@@ -929,7 +929,7 @@
       "away": "IRQ",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M063",
@@ -944,7 +944,7 @@
       "away": "KSA",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M064",
@@ -959,7 +959,7 @@
       "away": "ESP",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M065",
@@ -974,7 +974,7 @@
       "away": "IRN",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M066",
@@ -989,7 +989,7 @@
       "away": "BEL",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M067",
@@ -1165,8 +1165,8 @@
       "kickoff_utc": "2026-06-30T17:00:00Z",
       "venue_city": "Dallas (Arlington)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "CIV",
+      "away": "NOR",
       "home_slot": "2E",
       "away_slot": "2I",
       "status": "scheduled"
@@ -1315,8 +1315,8 @@
       "kickoff_utc": "2026-07-03T18:00:00Z",
       "venue_city": "Dallas (Arlington)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "AUS",
+      "away": "EGY",
       "home_slot": "2D",
       "away_slot": "2G",
       "status": "scheduled"

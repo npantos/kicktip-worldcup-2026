@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-26 08:45 UTC. Based on confirmed results only._
+_Updated 2026-06-27 10:21 UTC. Based on confirmed results only._
 
 ## Group A
 
@@ -60,28 +60,28 @@ _Updated 2026-06-26 08:45 UTC. Based on confirmed results only._
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Egypt | 2 | 1 | 1 | 0 | 4 | 2 | +2 | 4 |
-| 2 | Iran | 2 | 0 | 2 | 0 | 2 | 2 | +0 | 2 |
-| 3 | Belgium | 2 | 0 | 2 | 0 | 1 | 1 | +0 | 2 |
-| 4 | New Zealand | 2 | 0 | 1 | 1 | 3 | 5 | -2 | 1 |
+| 1 | Belgium | 3 | 1 | 2 | 0 | 6 | 2 | +4 | 5 |
+| 2 | Egypt | 3 | 1 | 2 | 0 | 5 | 3 | +2 | 5 |
+| 3 | Iran | 3 | 0 | 3 | 0 | 3 | 3 | +0 | 3 |
+| 4 | New Zealand | 3 | 0 | 1 | 2 | 4 | 10 | -6 | 1 |
 
 ## Group H
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | Spain | 2 | 1 | 1 | 0 | 4 | 0 | +4 | 4 |
-| 2 | Uruguay | 2 | 0 | 2 | 0 | 3 | 3 | +0 | 2 |
-| 3 | Cape Verde | 2 | 0 | 2 | 0 | 2 | 2 | +0 | 2 |
-| 4 | Saudi Arabia | 2 | 0 | 1 | 1 | 1 | 5 | -4 | 1 |
+| 1 | Spain | 3 | 2 | 1 | 0 | 5 | 0 | +5 | 7 |
+| 2 | Cape Verde | 3 | 0 | 3 | 0 | 2 | 2 | +0 | 3 |
+| 3 | Uruguay | 3 | 0 | 2 | 1 | 3 | 4 | -1 | 2 |
+| 4 | Saudi Arabia | 3 | 0 | 2 | 1 | 1 | 5 | -4 | 2 |
 
 ## Group I
 
 | # | Team | P | W | D | L | GF | GA | GD | Pts |
 |---|------|---|---|---|---|----|----|----|-----|
-| 1 | France | 2 | 2 | 0 | 0 | 6 | 1 | +5 | 6 |
-| 2 | Norway | 2 | 2 | 0 | 0 | 7 | 3 | +4 | 6 |
-| 3 | Senegal | 2 | 0 | 0 | 2 | 3 | 6 | -3 | 0 |
-| 4 | Iraq | 2 | 0 | 0 | 2 | 1 | 7 | -6 | 0 |
+| 1 | France | 3 | 3 | 0 | 0 | 10 | 2 | +8 | 9 |
+| 2 | Norway | 3 | 2 | 0 | 1 | 8 | 7 | +1 | 6 |
+| 3 | Senegal | 3 | 1 | 0 | 2 | 8 | 6 | +2 | 3 |
+| 4 | Iraq | 3 | 0 | 0 | 3 | 1 | 12 | -11 | 0 |
 
 ## Group J
 
@@ -118,13 +118,13 @@ _Updated 2026-06-26 08:45 UTC. Based on confirmed results only._
 | 2 | Ecuador | E | 3 | +0 | 2 | 4 |
 | 3 | Bosnia & Herzegovina | B | 3 | -1 | 5 | 4 |
 | 4 | Paraguay | D | 3 | -2 | 2 | 4 |
-| 5 | Croatia | L | 2 | -1 | 3 | 3 |
-| 6 | South Korea | A | 3 | -1 | 2 | 3 |
-| 7 | Algeria | J | 2 | -2 | 2 | 3 |
-| 8 | Scotland | C | 3 | -3 | 1 | 3 | ← cutoff
-| 9 | Cape Verde | H | 2 | +0 | 2 | 2 |
-| 10 | Belgium | G | 2 | +0 | 1 | 2 |
-| 11 | DR Congo | K | 2 | -1 | 1 | 1 |
-| 12 | Senegal | I | 2 | -3 | 3 | 0 |
+| 5 | Senegal | I | 3 | +2 | 8 | 3 |
+| 6 | Iran | G | 3 | +0 | 3 | 3 |
+| 7 | Croatia | L | 2 | -1 | 3 | 3 |
+| 8 | South Korea | A | 3 | -1 | 2 | 3 | ← cutoff
+| 9 | Algeria | J | 2 | -2 | 2 | 3 |
+| 10 | Scotland | C | 3 | -3 | 1 | 3 |
+| 11 | Uruguay | H | 3 | -1 | 3 | 2 |
+| 12 | DR Congo | K | 2 | -1 | 1 | 1 |
 
 _† order among tied teams depends on fair play points / drawing of lots (not tracked) — shown alphabetically._
