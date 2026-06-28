@@ -1,0 +1,51 @@
+{
+  "fetched_at": "2026-06-28T07:25:09Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/report/_/gameId/760480",
+    "https://www.espn.com/soccer/match/_/gameId/760485/england-panama",
+    "https://www.espn.com/soccer/match/_/gameId/760481",
+    "https://www.espn.com/soccer/report/_/gameId/760482",
+    "https://www.espn.com/soccer/match/_/gameId/760484/austria-algeria",
+    "https://www.espn.com/soccer/match/_/gameId/760483/argentina-jordan"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M067",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "ESPN: Croatia 2-1 Ghana (Sucic, Vlasic 83); both groups L top2 set"
+    },
+    {
+      "match_id": "M068",
+      "home_goals": 0,
+      "away_goals": 2,
+      "note": "ESPN: Panama 0-2 England (Bellingham, Kane); ENG top Group L"
+    },
+    {
+      "match_id": "M069",
+      "home_goals": 0,
+      "away_goals": 0,
+      "note": "ESPN: Colombia 0-0 Portugal; COL top, POR 2nd (Sanchez goal VAR-offside)"
+    },
+    {
+      "match_id": "M070",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "ESPN: DR Congo 3-1 Uzbekistan (Wissa 2, Mayele; Shomurodov)"
+    },
+    {
+      "match_id": "M071",
+      "home_goals": 3,
+      "away_goals": 3,
+      "note": "ESPN: Algeria 3-3 Austria; both advance, Iran eliminated"
+    },
+    {
+      "match_id": "M072",
+      "home_goals": 1,
+      "away_goals": 3,
+      "note": "ESPN: Jordan 1-3 Argentina (Lo Celso, Lautaro pen, Messi off bench)"
+    }
+  ]
+}

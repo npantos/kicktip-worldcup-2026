@@ -1004,7 +1004,7 @@
       "away": "GHA",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M068",
@@ -1019,7 +1019,7 @@
       "away": "ENG",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M069",
@@ -1034,7 +1034,7 @@
       "away": "POR",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M070",
@@ -1049,7 +1049,7 @@
       "away": "UZB",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M071",
@@ -1064,7 +1064,7 @@
       "away": "AUT",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M072",
@@ -1079,7 +1079,7 @@
       "away": "ARG",
       "home_slot": null,
       "away_slot": null,
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M073",
@@ -1105,8 +1105,8 @@
       "kickoff_utc": "2026-06-29T20:30:00Z",
       "venue_city": "Boston (Foxborough)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "GER",
+      "away": "PAR",
       "home_slot": "1E",
       "away_slot": "3ABCDF",
       "status": "scheduled"
@@ -1150,8 +1150,8 @@
       "kickoff_utc": "2026-06-30T21:00:00Z",
       "venue_city": "New York/New Jersey (East Rutherford)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "FRA",
+      "away": "SWE",
       "home_slot": "1I",
       "away_slot": "3CDFGH",
       "status": "scheduled"
@@ -1180,8 +1180,8 @@
       "kickoff_utc": "2026-07-01T01:00:00Z",
       "venue_city": "Mexico City",
       "venue_country": "MEX",
-      "home": null,
-      "away": null,
+      "home": "MEX",
+      "away": "ECU",
       "home_slot": "1A",
       "away_slot": "3CEFHI",
       "status": "scheduled"
@@ -1195,8 +1195,8 @@
       "kickoff_utc": "2026-07-01T16:00:00Z",
       "venue_city": "Atlanta",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "ENG",
+      "away": "COD",
       "home_slot": "1L",
       "away_slot": "3EHIJK",
       "status": "scheduled"
@@ -1210,8 +1210,8 @@
       "kickoff_utc": "2026-07-02T00:00:00Z",
       "venue_city": "San Francisco Bay Area (Santa Clara)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "USA",
+      "away": "BIH",
       "home_slot": "1D",
       "away_slot": "3BEFIJ",
       "status": "scheduled"
@@ -1225,8 +1225,8 @@
       "kickoff_utc": "2026-07-01T20:00:00Z",
       "venue_city": "Seattle",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "BEL",
+      "away": "ALG",
       "home_slot": "1G",
       "away_slot": "3AEHIJ",
       "status": "scheduled"
@@ -1240,8 +1240,8 @@
       "kickoff_utc": "2026-07-02T23:00:00Z",
       "venue_city": "Toronto",
       "venue_country": "CAN",
-      "home": null,
-      "away": null,
+      "home": "POR",
+      "away": "CRO",
       "home_slot": "2K",
       "away_slot": "2L",
       "status": "scheduled"
@@ -1255,8 +1255,8 @@
       "kickoff_utc": "2026-07-02T19:00:00Z",
       "venue_city": "Los Angeles (Inglewood)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "ESP",
+      "away": "AUT",
       "home_slot": "1H",
       "away_slot": "2J",
       "status": "scheduled"
@@ -1270,8 +1270,8 @@
       "kickoff_utc": "2026-07-03T03:00:00Z",
       "venue_city": "Vancouver",
       "venue_country": "CAN",
-      "home": null,
-      "away": null,
+      "home": "SUI",
+      "away": "SEN",
       "home_slot": "1B",
       "away_slot": "3EFGIJ",
       "status": "scheduled"
@@ -1285,8 +1285,8 @@
       "kickoff_utc": "2026-07-03T22:00:00Z",
       "venue_city": "Miami (Miami Gardens)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "ARG",
+      "away": "CPV",
       "home_slot": "1J",
       "away_slot": "2H",
       "status": "scheduled"
@@ -1300,8 +1300,8 @@
       "kickoff_utc": "2026-07-04T01:30:00Z",
       "venue_city": "Kansas City",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "COL",
+      "away": "GHA",
       "home_slot": "1K",
       "away_slot": "3DEIJL",
       "status": "scheduled"

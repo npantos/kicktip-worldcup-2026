@@ -1,0 +1,64 @@
+{
+  "match_date": "2026-06-28",
+  "predictions": [
+    {
+      "match_id": "M073",
+      "created_at": "2026-06-28T07:25:42Z",
+      "locked_at": "2026-06-28T07:26:55Z",
+      "model": {
+        "elo_home": 1574.8,
+        "elo_away": 1756.8,
+        "home_adv_applied": 0,
+        "lambda_home": 0.657,
+        "lambda_away": 2.654,
+        "p_home": 0.0685,
+        "p_draw": 0.1338,
+        "p_away": 0.7977,
+        "expected_score": "0-2",
+        "p_home_advance": 0.1159
+      },
+      "adjusted": {
+        "p_home": 0.18,
+        "p_draw": 0.29,
+        "p_away": 0.53,
+        "predicted_score": "0-1",
+        "reasoning": "First-ever knockout match for both. Market makes Canada a modest favourite (-140, ~55%) with a very live draw (~28%) — nothing like the model's 80%, which over-trusts the Elo gap. Reasons to stay cautious: it's a tense first knockout, both sides are low-scoring (Under 2.5; South Africa have not scored more than one in any game), and Canada are without Alphonso Davies (hamstring) and Ismael Kone (broken leg, out for the tournament), blunting their attack and transition. Anchor to market: Canada edge a tight, low-scoring game.",
+        "factors": [
+          {
+            "factor": "Canada -140 / draw +250 / RSA +450; Canada -310 to advance; Under 2.5 lean",
+            "source": "https://www.cbssports.com/soccer/news/canada-vs-south-africa-odds-prediction-time-2026-world-cup-round-of-32-picks/"
+          },
+          {
+            "factor": "Canada without Davies (hamstring) and Kone (broken leg); RSA never scored >1 in a game",
+            "source": "https://www.espn.com/soccer/story/_/id/49185213/south-africa-vs-canada-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FanDuel/CBS/SportsLine 2026-06-28 (CAN -140/draw +250/RSA +450); R32, under 2.5, CAN missing Davies+Kone",
+        "decimal_odds": [
+          5.5,
+          3.5,
+          1.714
+        ],
+        "overround": 0.051,
+        "p_home": 0.173,
+        "p_draw": 0.2719,
+        "p_away": 0.5551,
+        "fetched_at": "2026-06-28T07:26:55Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-28T07:28:49Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "First R32 KO. PROTECT label (rank 1/34, lead +12, rem_grp=0) but k=0.3 => pick==EP-max; ~32 KO matches remain so EP-max still right. 0:1 is a Canada win (valid under KO scoring; platform shows draw odds 0.00)."
+        }
+      ]
+    }
+  ]
+}
