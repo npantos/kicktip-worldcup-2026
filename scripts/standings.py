@@ -75,7 +75,8 @@ def fill_knockout_slots():
         _, thirds_ranked = compute_tables()
         advancing = [r["group"] for r in thirds_ranked[:8]]
         bt = store.load("data/bracket_template.json")
-        thirds_assignment = wc2026.allocate_thirds(advancing, bt["third_slot_sets"])
+        thirds_assignment = wc2026.allocate_thirds(
+            advancing, bt["third_slot_sets"], bt.get("third_assignment_override"))
 
     changed = 0
 

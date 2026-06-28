@@ -92,6 +92,17 @@
     "M085": "3EFGIJ",
     "M087": "3DEIJL"
   },
+  "third_assignment_override_comment": "Official allocation as used by the Kicktipp platform for the advancing thirds {B,D,E,F,I,J,K,L}. Our generic matcher (lib/wc2026.allocate_thirds) yields a feasible matching but picked ALG->M082 / SEN->M085, whereas the official table assigns SEN(I)->M082 (Belgium) and ALG(J)->M085 (Switzerland). Pinned here so repo fixtures match the platform we bet on.",
+  "third_assignment_override": {
+    "M074": "D",
+    "M077": "F",
+    "M079": "E",
+    "M080": "K",
+    "M081": "B",
+    "M082": "I",
+    "M085": "J",
+    "M087": "L"
+  },
   "progression": {
     "M089": {
       "home": "W074",

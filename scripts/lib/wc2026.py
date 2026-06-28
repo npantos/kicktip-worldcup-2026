@@ -112,25 +112,37 @@ def rank_thirds(third_rows, rng=None):
     return out
 
 
-def allocate_thirds(advancing_groups, third_slot_sets):
+def allocate_thirds(advancing_groups, third_slot_sets, forced=None):
     """Assign 8 advancing third-place groups to the 8 R32 third-slots.
 
     third_slot_sets: {match_id: '3ABCDF', ...} (allowed groups per slot).
-    Returns {match_id: group} via backtracking perfect matching; deterministic
-    (slots tried most-constrained-first, groups in ranking order given).
-    FIFA's official allocation table would give one specific matching; any
-    feasible matching keeps the bracket valid (no same-group rematch by
-    construction of the slot sets).
+    forced: optional {match_id: group} pinning specific slots to a known
+    allocation. Our generic backtracker only guarantees *a* feasible matching;
+    FIFA's official lookup table picks one specific matching, which can differ.
+    When the platform (Kicktipp) bracket is known, pass it here so the repo
+    matches reality. Pinned entries are validated (group must be advancing and
+    allowed by the slot set); the remaining slots are backtracked as before.
+    Returns {match_id: group}.
     """
-    slots = sorted(third_slot_sets.items(),
-                   key=lambda kv: (len(set(kv[1][1:]) & set(advancing_groups)), kv[0]))
-    assignment = {}
+    advset = list(advancing_groups)
+    forced = {m: g for m, g in (forced or {}).items() if m in third_slot_sets}
+    for m, g in forced.items():
+        if g not in advset or g not in third_slot_sets[m][1:]:
+            raise ValueError(f"invalid forced third allocation {m}->{g} "
+                             f"(advancing={advset}, set={third_slot_sets[m]})")
+    if len(set(forced.values())) != len(forced):
+        raise ValueError(f"forced third allocation has duplicate groups: {forced}")
+
+    open_slots = {m: s for m, s in third_slot_sets.items() if m not in forced}
+    slots = sorted(open_slots.items(),
+                   key=lambda kv: (len(set(kv[1][1:]) & set(advset)), kv[0]))
+    assignment = dict(forced)
 
     def backtrack(i, remaining):
         if i == len(slots):
             return True
         match_id, slot_set = slots[i]
-        for g in advancing_groups:  # ranking order = priority
+        for g in advset:  # ranking order = priority
             if g in remaining and g in slot_set[1:]:
                 assignment[match_id] = g
                 if backtrack(i + 1, remaining - {g}):
@@ -138,7 +150,7 @@ def allocate_thirds(advancing_groups, third_slot_sets):
                 del assignment[match_id]
         return False
 
-    if not backtrack(0, set(advancing_groups)):
+    if not backtrack(0, set(advset) - set(forced.values())):
         raise ValueError(f"no feasible third-place allocation for {advancing_groups}")
     return assignment
 

@@ -1,0 +1,170 @@
+{
+  "match_date": "2026-07-02",
+  "predictions": [
+    {
+      "match_id": "M083",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 1989.2,
+        "elo_away": 1904.1,
+        "home_adv_applied": 0,
+        "lambda_home": 1.83,
+        "lambda_away": 0.952,
+        "p_home": 0.58,
+        "p_draw": 0.2269,
+        "p_away": 0.1931,
+        "expected_score": "1-0",
+        "p_home_advance": 0.711
+      },
+      "adjusted": {
+        "p_home": 0.43,
+        "p_draw": 0.3,
+        "p_away": 0.27,
+        "predicted_score": "1-1",
+        "reasoning": "Two heavyweights: Portugal (Ronaldo, J.Neves) modest favourites (+130), Croatia (Modric) dangerous. High draw (~30%); several previews call a 1-1 / penalties. Anchor to market.",
+        "factors": [
+          {
+            "factor": "Portugal +130 / draw +220 / Croatia +260; POR -163 to advance; NBC 1-1 (CRO on pens)",
+            "source": "https://www.sportsbettingdime.com/news/soccer/portugal-vs-croatia-odds-for-knockout-stage-round-of-32/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "sportsbettingdime 2026-06-27 (POR +130/draw +220/CRO +260); high draw, both strong",
+        "decimal_odds": [
+          2.3,
+          3.2,
+          3.6
+        ],
+        "overround": 0.0251,
+        "p_home": 0.4241,
+        "p_draw": 0.3049,
+        "p_away": 0.271,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    },
+    {
+      "match_id": "M084",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 2143.9,
+        "elo_away": 1835.9,
+        "home_adv_applied": 0,
+        "lambda_home": 4.0,
+        "lambda_away": 0.405,
+        "p_home": 0.9462,
+        "p_draw": 0.0417,
+        "p_away": 0.0121,
+        "expected_score": "3-0",
+        "p_home_advance": 0.9748
+      },
+      "adjusted": {
+        "p_home": 0.73,
+        "p_draw": 0.19,
+        "p_away": 0.08,
+        "predicted_score": "2-0",
+        "reasoning": "Spain already beat Austria 2-0 in the group and conceded no goals across the group stage; they are -330 and -1200 to advance. Anchor to market, just under the model's 95%.",
+        "factors": [
+          {
+            "factor": "Spain -330 / draw +390 / Austria +1100; Spain beat AUT 2-0 in group, 0 conceded",
+            "source": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FanDuel 2026-06-27 (ESP -330/draw +390/AUT +1100); Spain beat AUT 2-0 in group, 0 conceded",
+        "decimal_odds": [
+          1.303,
+          4.9,
+          12.0
+        ],
+        "overround": 0.0549,
+        "p_home": 0.7275,
+        "p_draw": 0.1935,
+        "p_away": 0.079,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    },
+    {
+      "match_id": "M085",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 1906.0,
+        "elo_away": 1785.5,
+        "home_adv_applied": 0,
+        "lambda_home": 2.096,
+        "lambda_away": 0.831,
+        "p_home": 0.666,
+        "p_draw": 0.1962,
+        "p_away": 0.1378,
+        "expected_score": "2-0",
+        "p_home_advance": 0.7849
+      },
+      "adjusted": {
+        "p_home": 0.58,
+        "p_draw": 0.25,
+        "p_away": 0.17,
+        "predicted_score": "1-0",
+        "reasoning": "Switzerland (won Group A) favoured at -155 over an Algeria side that came through a draining 3-3 with Austria. Anchor to market, a touch under the model.",
+        "factors": [
+          {
+            "factor": "Switzerland -155 / draw +300 / Algeria +440; SUI -340 to advance",
+            "source": "https://www.aljazeera.com/sports/2026/6/27/fifa-world-cup-2026-saturday-schedule-round-of-32-standings-predictions"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FanDuel 2026-06-27 (SUI -155/draw +300/ALG +440); Algeria drained from 3-3",
+        "decimal_odds": [
+          1.645,
+          4.0,
+          5.4
+        ],
+        "overround": 0.0431,
+        "p_home": 0.5828,
+        "p_draw": 0.2397,
+        "p_away": 0.1775,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    }
+  ]
+}

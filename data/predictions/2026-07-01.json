@@ -1,0 +1,170 @@
+{
+  "match_date": "2026-07-01",
+  "predictions": [
+    {
+      "match_id": "M080",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 2038.3,
+        "elo_away": 1712.8,
+        "home_adv_applied": 0,
+        "lambda_home": 4.0,
+        "lambda_away": 0.379,
+        "p_home": 0.9488,
+        "p_draw": 0.0402,
+        "p_away": 0.011,
+        "expected_score": "3-0",
+        "p_home_advance": 0.9764
+      },
+      "adjusted": {
+        "p_home": 0.75,
+        "p_draw": 0.17,
+        "p_away": 0.08,
+        "predicted_score": "2-0",
+        "reasoning": "England topped Group L and are heavy favourites (-360) against a DR Congo side that qualified as a best third. Anchor to market; trim the model's 95% only for knockout variance.",
+        "factors": [
+          {
+            "factor": "England -360 / draw +440 / DR Congo +1100",
+            "source": "https://www.sportsbettingdime.com/news/soccer/opening-odds-england-vs-dr-congo-round-of-32-moneyline-total-odds-advance/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FanDuel 2026-06-27 (ENG -360/draw +440/COD +1100)",
+        "decimal_odds": [
+          1.278,
+          5.4,
+          12.0
+        ],
+        "overround": 0.051,
+        "p_home": 0.7445,
+        "p_draw": 0.1762,
+        "p_away": 0.0793,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    },
+    {
+      "match_id": "M081",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 1788.9,
+        "elo_away": 1621.2,
+        "home_adv_applied": 100,
+        "lambda_home": 3.688,
+        "lambda_away": 0.473,
+        "p_home": 0.9232,
+        "p_draw": 0.0573,
+        "p_away": 0.0195,
+        "expected_score": "3-0",
+        "p_home_advance": 0.9623
+      },
+      "adjusted": {
+        "p_home": 0.7,
+        "p_draw": 0.2,
+        "p_away": 0.1,
+        "predicted_score": "2-0",
+        "reasoning": "USA won Group D and play at home in Santa Clara; Bosnia qualified as a best third and lean on 40-year-old Dzeko. Market (-280) makes the USA clear but not overwhelming favourites; anchor there, below the model's 92%.",
+        "factors": [
+          {
+            "factor": "USA -280 / draw +380 / BIH +800; USA home, Bosnia 3rd-place qualifier, Dzeko 40",
+            "source": "https://www.sportsbettingdime.com/news/soccer/opening-odds-for-usa-vs-bosnia-herzegovina-usmnt-sizable-favorite/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FanDuel 2026-06-27 (USA -280/draw +380/BIH +800); USA home Santa Clara; Dzeko 40",
+        "decimal_odds": [
+          1.357,
+          4.8,
+          9.0
+        ],
+        "overround": 0.0564,
+        "p_home": 0.6976,
+        "p_draw": 0.1972,
+        "p_away": 0.1052,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    },
+    {
+      "match_id": "M082",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 1883.8,
+        "elo_away": 1841.6,
+        "home_adv_applied": 0,
+        "lambda_home": 1.552,
+        "lambda_away": 1.123,
+        "p_home": 0.4722,
+        "p_draw": 0.2527,
+        "p_away": 0.2751,
+        "expected_score": "1-1",
+        "p_home_advance": 0.6086
+      },
+      "adjusted": {
+        "p_home": 0.46,
+        "p_draw": 0.3,
+        "p_away": 0.24,
+        "predicted_score": "1-1",
+        "reasoning": "Belgium are only modest favourites (+105) after an underwhelming group (two draws, five points), and Senegal are a strong third-place side (beat 10-man Iraq 5-0). Tight game, high draw; anchor to market.",
+        "factors": [
+          {
+            "factor": "Belgium +105 / draw +220 / Senegal +290; Belgium -194 to advance",
+            "source": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-belgium-senegal-to-play-in-seattles-round-of-32-match/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FanDuel 2026-06-28 (BEL +105/draw +220/SEN +290); Belgium modest fav, Senegal strong",
+        "decimal_odds": [
+          2.05,
+          3.2,
+          3.9
+        ],
+        "overround": 0.0567,
+        "p_home": 0.4617,
+        "p_draw": 0.2957,
+        "p_away": 0.2426,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    }
+  ]
+}

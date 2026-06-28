@@ -1,0 +1,170 @@
+{
+  "match_date": "2026-06-30",
+  "predictions": [
+    {
+      "match_id": "M077",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 2122.7,
+        "elo_away": 1742.1,
+        "home_adv_applied": 0,
+        "lambda_home": 4.0,
+        "lambda_away": 0.306,
+        "p_home": 0.9558,
+        "p_draw": 0.0359,
+        "p_away": 0.0083,
+        "expected_score": "3-0",
+        "p_home_advance": 0.9806
+      },
+      "adjusted": {
+        "p_home": 0.74,
+        "p_draw": 0.17,
+        "p_away": 0.09,
+        "predicted_score": "2-0",
+        "reasoning": "France won all three group games conceding just two, and are tournament favourites; Sweden scraped through. Market (-330) is clear; I trim the model's 96% only for knockout variance. France by a multi-goal margin most likely.",
+        "factors": [
+          {
+            "factor": "France -330; perfect group (9pts, 2 conceded), tournament favourite",
+            "source": "https://sports.betmgm.com/en/blog/world-cup/france-vs-sweden-prediction-odds-preview-world-cup-june-30-bm16/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FanDuel 2026-06-27 (FRA -330/draw +475/SWE +900); France perfect group, 2 conceded",
+        "decimal_odds": [
+          1.303,
+          5.75,
+          10.0
+        ],
+        "overround": 0.0414,
+        "p_home": 0.737,
+        "p_draw": 0.167,
+        "p_away": 0.096,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:0",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    },
+    {
+      "match_id": "M078",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 1743.7,
+        "elo_away": 1919.0,
+        "home_adv_applied": 0,
+        "lambda_home": 0.674,
+        "lambda_away": 2.587,
+        "p_home": 0.0745,
+        "p_draw": 0.1407,
+        "p_away": 0.7848,
+        "expected_score": "0-2",
+        "p_home_advance": 0.1248
+      },
+      "adjusted": {
+        "p_home": 0.26,
+        "p_draw": 0.27,
+        "p_away": 0.47,
+        "predicted_score": "1-2",
+        "reasoning": "Norway are the favourites here (-/+105) with Haaland (4 goals already) and were rested for the France dead-rubber; Ivory Coast lack a top-class striker. Norway's games have been high-scoring (5+ goals each). Anchor to market: Norway edge it, draw live.",
+        "factors": [
+          {
+            "factor": "Norway +105 favourite, -180 to advance; Haaland rested vs France; CIV no elite striker",
+            "source": "https://sports.betmgm.com/en/blog/world-cup/norway-vs-ivory-coast-prediction-odds-preview-world-cup-june-30-bm16/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "DK/BetMGM 2026-06-27 (NOR +105/draw +250/CIV +265); Norway (Haaland) favored away",
+        "decimal_odds": [
+          3.65,
+          3.5,
+          2.05
+        ],
+        "overround": 0.0475,
+        "p_home": 0.2616,
+        "p_draw": 0.2728,
+        "p_away": 0.4656,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    },
+    {
+      "match_id": "M079",
+      "created_at": "2026-06-28T07:46:47Z",
+      "locked_at": "2026-06-28T07:48:33Z",
+      "model": {
+        "elo_home": 1921.0,
+        "elo_away": 1901.4,
+        "home_adv_applied": 100,
+        "lambda_home": 2.089,
+        "lambda_away": 0.834,
+        "p_home": 0.6639,
+        "p_draw": 0.1971,
+        "p_away": 0.139,
+        "expected_score": "2-0",
+        "p_home_advance": 0.7831
+      },
+      "adjusted": {
+        "p_home": 0.48,
+        "p_draw": 0.29,
+        "p_away": 0.23,
+        "predicted_score": "1-0",
+        "reasoning": "Mexico won Group A with nine points and have not conceded; they get altitude/home advantage in Mexico City and extra rest, while Ecuador have been toothless (scoreless run, struggled vs Germany/Ivory Coast). Nudge Mexico just above market on the home/defence edge.",
+        "factors": [
+          {
+            "factor": "Mexico +110 home, 9pts & 0 conceded, MexicoCity altitude; Ecuador attacking struggles",
+            "source": "https://sports.betmgm.com/en/blog/world-cup/mexico-vs-ecuador-prediction-odds-preview-world-cup-june-30-bm16/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FanDuel 2026-06-30 (MEX +110/draw +220/ECU +270); Mexico home/altitude, not conceded; Ecuador toothless",
+        "decimal_odds": [
+          2.1,
+          3.2,
+          3.7
+        ],
+        "overround": 0.059,
+        "p_home": 0.4497,
+        "p_draw": 0.2951,
+        "p_away": 0.2552,
+        "fetched_at": "2026-06-28T07:47:12Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-28T07:50:22Z",
+          "confirmed_via": "get_bets readback 2026-06-28",
+          "mode": "PROTECT(==EP-max)",
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+        }
+      ]
+    }
+  ]
+}
