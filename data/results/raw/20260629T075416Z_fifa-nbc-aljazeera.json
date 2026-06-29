@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-06-29T07:54:16Z",
+  "source": "FIFA/NBC/AlJazeera",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021518",
+    "https://www.nbcnews.com/sports/soccer/live-blog/canada-south-africa-world-cup-2026-live-updates-rcna352096"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M073",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "FIFA/NBC: South Africa 0-1 Canada (95th min winner)"
+    }
+  ]
+}

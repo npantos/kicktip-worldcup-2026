@@ -1009,15 +1009,29 @@
       "r_away_after": 2147.9,
       "delta_home": -4.51,
       "g_multiplier": 1.5
+    },
+    {
+      "match_id": "M073",
+      "applied_at": "2026-06-29T07:54:30Z",
+      "home": "RSA",
+      "away": "CAN",
+      "score": "0-1",
+      "home_adv_applied": 0,
+      "r_home_before": 1574.8,
+      "r_away_before": 1756.8,
+      "r_home_after": 1559.2,
+      "r_away_after": 1772.4,
+      "delta_home": -15.58,
+      "g_multiplier": 1.0
     }
   ],
   "current": {
     "CZE": 1670.8,
     "MEX": 1921.0,
-    "RSA": 1574.8,
+    "RSA": 1559.2,
     "KOR": 1723.4,
     "BIH": 1621.2,
-    "CAN": 1756.8,
+    "CAN": 1772.4,
     "QAT": 1411.0,
     "SUI": 1906.0,
     "BRA": 2008.8,
@@ -1061,5 +1075,5 @@
     "GHA": 1575.1,
     "PAN": 1658.5
   },
-  "updated_at": "2026-06-28T07:25:23Z"
+  "updated_at": "2026-06-29T07:54:30Z"
 }

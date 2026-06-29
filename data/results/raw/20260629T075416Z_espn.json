@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-06-29T07:54:16Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/report/_/gameId/760486"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M073",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "ESPN: South Africa 0-1 Canada (Eustaquio 95). Canada first to R16"
+    }
+  ]
+}
