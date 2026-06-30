@@ -1,0 +1,38 @@
+{
+  "fetched_at": "2026-06-30T08:01:18Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760489/paraguay-germany",
+    "https://www.espn.com/soccer/report/_/gameId/760487",
+    "https://www.espn.com/soccer/story/_/id/49220087/netherlands-morocco-live-world-cup-2026"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M074",
+      "home_goals": 1,
+      "away_goals": 1,
+      "penalties": [
+        3,
+        4
+      ],
+      "note": "ESPN: Germany 1-1 Paraguay (Enciso 42; Havertz). Paraguay win 4-3 on pens; Germany OUT"
+    },
+    {
+      "match_id": "M075",
+      "home_goals": 1,
+      "away_goals": 1,
+      "penalties": [
+        2,
+        3
+      ],
+      "note": "ESPN: Netherlands 1-1 Morocco (Gakpo 72; Diop 91). Morocco win 3-2 on pens; NED OUT"
+    },
+    {
+      "match_id": "M076",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "ESPN: Brazil 2-1 Japan (Casemiro 56, Martinelli 90+5; Sano 29). Regulation win"
+    }
+  ]
+}

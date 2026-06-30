@@ -1109,7 +1109,7 @@
       "away": "PAR",
       "home_slot": "1E",
       "away_slot": "3ABCDF",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M075",
@@ -1124,7 +1124,7 @@
       "away": "MAR",
       "home_slot": "1F",
       "away_slot": "2C",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M076",
@@ -1139,7 +1139,7 @@
       "away": "JPN",
       "home_slot": "1C",
       "away_slot": "2F",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M077",
@@ -1345,8 +1345,8 @@
       "kickoff_utc": "2026-07-04T17:00:00Z",
       "venue_city": "Houston",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "CAN",
+      "away": "MAR",
       "home_slot": "W073",
       "away_slot": "W075",
       "status": "scheduled"

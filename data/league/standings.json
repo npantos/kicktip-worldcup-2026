@@ -1,26 +1,26 @@
 {
-  "fetched_at": "2026-06-29T07:55:00Z",
+  "fetched_at": "2026-06-30T08:05:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview (points-from-leader) 2026-06-29; after platform MD11 (repo through M073)",
-  "as_of_matchday": 11,
-  "matches_scored_so_far": 73,
+  "source": "kicktipp MCP get_overview (points-from-leader) 2026-06-30; after R32 day-1 KO results (repo through M076)",
+  "as_of_matchday": 12,
+  "matches_scored_so_far": 76,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
     "rank": 1,
-    "points": 195,
+    "points": 198,
     "bonus": 36
   },
   "human_owner": {
     "name": "NemanjaPantoš",
-    "rank": 2,
-    "points": 179
+    "rank": 3,
+    "points": 181
   },
   "leader": {
     "names": [
       "Nemanj-AI"
     ],
-    "points": 195
+    "points": 198
   },
   "deficit_to_leader": 0,
   "tier_at_my_points": 1,
@@ -29,63 +29,63 @@
     {
       "rank": 1,
       "name": "Nemanj-AI",
-      "points": 195,
+      "points": 198,
       "bonus": 36
     },
     {
       "rank": 2,
-      "name": "NemanjaPantoš",
-      "points": 179,
+      "name": "Stef",
+      "points": 185,
       "bonus": 44
     },
     {
       "rank": 3,
-      "name": "LosAngelesBus",
-      "points": 177,
-      "bonus": 48
+      "name": "NemanjaPantoš",
+      "points": 181,
+      "bonus": 44
     },
     {
       "rank": 4,
-      "name": "Stef",
-      "points": 176,
-      "bonus": 44
+      "name": "LosAngelesBus",
+      "points": 179,
+      "bonus": 48
     },
     {
       "rank": 5,
       "name": "Shelly",
-      "points": 170,
+      "points": 176,
       "bonus": 32
     },
     {
       "rank": 6,
-      "name": "LilDja",
-      "points": 167,
-      "bonus": 36
+      "name": "Kula",
+      "points": 171,
+      "bonus": 44
     },
     {
       "rank": 7,
-      "name": "Kula",
-      "points": 166,
-      "bonus": 44
+      "name": "LilDja",
+      "points": 170,
+      "bonus": 36
     },
     {
       "rank": 8,
       "name": "BB",
-      "points": 165,
+      "points": 170,
       "bonus": 44
     },
     {
       "rank": 9,
       "name": "MrGojomir",
-      "points": 160,
+      "points": 163,
       "bonus": 36
     },
     {
       "rank": 10,
       "name": "bojan_nišić",
-      "points": 159,
+      "points": 161,
       "bonus": 40
     }
   ],
-  "note": "Lead EXTENDED to +16 after MD11 (M073 RSA 0-1 CAN = EXACT 6pts; market-anchored 0:1 nailed it). Nemanj-AI 195; human NemanjaPantoš back to 2nd (179), LosAngelesBus 3rd (177). Today's R16... R32 ties M074-M076 already locked & bet (EP-max) in the 28 Jun sweep -- no new bets. Mode PROTECT (rem_grp=0) but k=0.3 => EP-max; ~31 KO matches remain. BONUS GAP persists: 36 vs the 44-48 club -- still the only structural threat to the lead."
+  "note": "R32 day-1: two penalty UPSETS (GER 1-1 PAR pens, NED 1-1 MAR pens) zeroed my 1:0 favourites; BRA 2-1 JPN goal-diff = +3. Lead trimmed to +13 as Stef surged to 2nd (185). KO SCORING CONFIRMED on platform: graded on the regulation/ET scoreline (a level game = DRAW for tips; penalty winner irrelevant to the scoreline), matching the repo -> total +3 exactly. Today's M077-M079 already locked & bet (EP-max). Mode PROTECT but k=0.3 => EP-max. BONUS GAP persists (36 vs the 44-48 club). Lead healthy but knockouts are high-variance."
 }

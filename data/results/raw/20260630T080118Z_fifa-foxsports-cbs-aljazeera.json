@@ -1,0 +1,38 @@
+{
+  "fetched_at": "2026-06-30T08:01:18Z",
+  "source": "FIFA/FOXSports/CBS/AlJazeera",
+  "urls": [
+    "https://www.aljazeera.com/sports/2026/6/29/paraguay-shock-germany-in-shootout-win-for-one-of-all-time-world-cup-upsets",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021516",
+    "https://www.cbssports.com/soccer/news/netherlands-vs-morocco-world-cup-2026-updates-live-score-result/live/"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M074",
+      "home_goals": 1,
+      "away_goals": 1,
+      "penalties": [
+        3,
+        4
+      ],
+      "note": "AlJazeera/CBS: Germany 1-1 Paraguay, PAR 4-3 pens"
+    },
+    {
+      "match_id": "M075",
+      "home_goals": 1,
+      "away_goals": 1,
+      "penalties": [
+        2,
+        3
+      ],
+      "note": "CBS/ESPN: Netherlands 1-1 Morocco, MAR 3-2 pens (Saibari winning pen)"
+    },
+    {
+      "match_id": "M076",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "FIFA/FOX: Brazil 2-1 Japan"
+    }
+  ]
+}
