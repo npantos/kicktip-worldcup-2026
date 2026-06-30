@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T08:01:32Z",
+  "updated_at": "2026-06-30T08:29:00Z",
   "scoring": {
     "internal_metric": "3 exact / 2 correct-goal-diff / 1 tendency / 0 miss",
     "kicktipp_rules": "data/kicktipp_rules.json",
@@ -3599,8 +3599,8 @@
       "date": "2026-06-29",
       "home": "GER",
       "away": "PAR",
-      "actual": "1-1",
-      "outcome": "draw",
+      "actual": "1-1 (pens 3-4 -> 1-2)",
+      "outcome": "away",
       "tracks": {
         "model": {
           "probs": [
@@ -3609,8 +3609,8 @@
             0.1663
           ],
           "tendency_correct": false,
-          "brier": 1.0303,
-          "logloss": 1.5432,
+          "brier": 1.1251,
+          "logloss": 1.794,
           "predicted_score": "1-0",
           "internal_pts": 0
         },
@@ -3621,8 +3621,8 @@
             0.11
           ],
           "tendency_correct": false,
-          "brier": 1.1582,
-          "logloss": 1.6607,
+          "brier": 1.3182,
+          "logloss": 2.2073,
           "predicted_score": "2-0",
           "internal_pts": 0
         },
@@ -3633,8 +3633,8 @@
             0.106
           ],
           "tendency_correct": false,
-          "brier": 1.1605,
-          "logloss": 1.6565,
+          "brier": 1.3301,
+          "logloss": 2.2443,
           "predicted_score": null,
           "internal_pts": null
         }
@@ -3649,8 +3649,8 @@
       "date": "2026-06-29",
       "home": "NED",
       "away": "MAR",
-      "actual": "1-1",
-      "outcome": "draw",
+      "actual": "1-1 (pens 2-3 -> 1-2)",
+      "outcome": "away",
       "tracks": {
         "model": {
           "probs": [
@@ -3659,8 +3659,8 @@
             0.1632
           ],
           "tendency_correct": false,
-          "brier": 1.038,
-          "logloss": 1.5512,
+          "brier": 1.1356,
+          "logloss": 1.8128,
           "predicted_score": "1-0",
           "internal_pts": 0
         },
@@ -3671,8 +3671,8 @@
             0.26
           ],
           "tendency_correct": false,
-          "brier": 0.7512,
-          "logloss": 1.204,
+          "brier": 0.8312,
+          "logloss": 1.3471,
           "predicted_score": "1-0",
           "internal_pts": 0
         },
@@ -3683,8 +3683,8 @@
             0.2656
           ],
           "tendency_correct": false,
-          "brier": 0.7728,
-          "logloss": 1.2389,
+          "brier": 0.821,
+          "logloss": 1.3258,
           "predicted_score": null,
           "internal_pts": null
         }
@@ -3702,30 +3702,30 @@
         "tendency_correct": 45,
         "internal_pts": 69,
         "n_scored": 76,
-        "brier_sum": 44.2777,
-        "logloss_sum": 78.2233,
-        "brier_avg": 0.5826,
-        "logloss_avg": 1.0293
+        "brier_sum": 44.4701,
+        "logloss_sum": 78.7357,
+        "brier_avg": 0.5851,
+        "logloss_avg": 1.036
       },
       "adjusted": {
         "n": 66,
         "tendency_correct": 43,
         "internal_pts": 70,
         "n_scored": 66,
-        "brier_sum": 32.5952,
-        "logloss_sum": 55.3403,
-        "brier_avg": 0.4939,
-        "logloss_avg": 0.8385
+        "brier_sum": 32.8352,
+        "logloss_sum": 56.0299,
+        "brier_avg": 0.4975,
+        "logloss_avg": 0.8489
       },
       "odds": {
         "n": 76,
         "tendency_correct": 50,
         "internal_pts": 0,
         "n_scored": 0,
-        "brier_sum": 37.8015,
-        "logloss_sum": 64.0341,
-        "brier_avg": 0.4974,
-        "logloss_avg": 0.8426
+        "brier_sum": 38.0193,
+        "logloss_sum": 64.7088,
+        "brier_avg": 0.5003,
+        "logloss_avg": 0.8514
       },
       "external": {
         "n": 0,

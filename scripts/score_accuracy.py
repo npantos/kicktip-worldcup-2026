@@ -52,6 +52,23 @@ def outcome(gh, ga):
     return "home" if gh > ga else ("draw" if gh == ga else "away")
 
 
+def applied_result(r):
+    """Scoreline applied for tip grading. This community's rule is 'after
+    penalties': a knockout decided on penalties counts as a one-goal win for the
+    shootout winner (e.g. 1-1, away wins pens -> applied 1-2). Penalties only
+    appear when level after extra time, so the loser's tally is unchanged and the
+    winner gets +1. Group/regulation results pass through unchanged."""
+    gh, ga = r["home_goals"], r["away_goals"]
+    pen = r.get("penalties")
+    if pen:
+        ph, pa = pen
+        if ph > pa:
+            gh += 1
+        elif pa > ph:
+            ga += 1
+    return gh, ga
+
+
 def internal_points(pred, act):
     """3 exact / 2 correct-goal-diff / 1 tendency / 0 miss."""
     ph, pa = pred
@@ -137,15 +154,18 @@ def main():
 
     for r in confirmed:
         gh, ga = r["home_goals"], r["away_goals"]
-        act = (gh, ga)
-        act_out = outcome(gh, ga)
+        act = applied_result(r)          # 'after penalties' rule for KO ties
+        act_out = outcome(*act)
         oneh = [1.0 if o == act_out else 0.0 for o in OUTCOMES]
         pred = preds.get(r["match_id"])
+        disp = f"{gh}-{ga}"
+        if r.get("penalties") and act != (gh, ga):
+            disp = f"{gh}-{ga} (pens {r['penalties'][0]}-{r['penalties'][1]} -> {act[0]}-{act[1]})"
         rec = {
             "match_id": r["match_id"],
             "date": match_day(r["kickoff_utc"]) if r.get("kickoff_utc") else None,
             "home": r["home"], "away": r["away"],
-            "actual": f"{gh}-{ga}", "outcome": act_out,
+            "actual": disp, "outcome": act_out,
             "tracks": {}, "bet": None,
         }
         if pred:

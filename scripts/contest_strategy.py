@@ -53,13 +53,21 @@ def points(bet, outcome, rules):
     return win["tendency"]
 
 
-def ep_sigma(matrix, bet, rules):
+def ep_sigma(matrix, bet, rules, knockout=False):
+    """Expected points and sigma for a bet. knockout=True applies the 'after
+    penalties' rule: a level scoreline (h, h) resolves 50/50 to (h+1, h) or
+    (h, h+1) -- a one-goal win for the shootout winner, never a draw."""
     e = e2 = 0.0
     for h, row in enumerate(matrix):
         for a, p in enumerate(row):
-            pts = points(bet, (h, a), rules)
-            e += p * pts
-            e2 += p * pts * pts
+            if knockout and h == a:
+                outs = [((h + 1, a), 0.5 * p), ((h, a + 1), 0.5 * p)]
+            else:
+                outs = [((h, a), p)]
+            for out, w in outs:
+                pts = points(bet, out, rules)
+                e += w * pts
+                e2 += w * pts * pts
     return e, max(0.0, e2 - e * e) ** 0.5
 
 
@@ -97,11 +105,11 @@ def objective(ep, sigma, mode, k):
     return ep
 
 
-def best_bets(matrix, rules, mode, k, top=4):
+def best_bets(matrix, rules, mode, k, top=4, knockout=False):
     rows = []
     for h in range(MAX_CANDIDATE_GOALS + 1):
         for a in range(MAX_CANDIDATE_GOALS + 1):
-            ep, sig = ep_sigma(matrix, (h, a), rules)
+            ep, sig = ep_sigma(matrix, (h, a), rules, knockout)
             rows.append((objective(ep, sig, mode, k), ep, sig, h, a))
     rows.sort(key=lambda r: -r[0])
     return rows[:top]
@@ -156,11 +164,13 @@ def main():
             continue
         lh, la = fit_lambdas(ph, pd, pa)
         matrix = poisson.score_matrix(lh, la)
-        epmax = best_bets(matrix, rules, "ACCUMULATE", 0.0, 1)[0]
-        contest = best_bets(matrix, rules, st["mode"], st["k"], args.top)
+        ko = fx.get("stage") not in (None, "group")
+        epmax = best_bets(matrix, rules, "ACCUMULATE", 0.0, 1, ko)[0]
+        contest = best_bets(matrix, rules, st["mode"], st["k"], args.top, ko)
         cb = contest[0]
         differs = "" if (cb[3], cb[4]) == (epmax[3], epmax[4]) else "   <-- differs from EP-max"
-        print(f"\n{mid} {fx.get('home')} vs {fx.get('away')} [{name}]")
+        ko_tag = "  [KO: after-pens]" if ko else ""
+        print(f"\n{mid} {fx.get('home')} vs {fx.get('away')} [{name}]{ko_tag}")
         print(f"  EP-max : {epmax[3]}:{epmax[4]}  (EP {epmax[1]:.3f}, sigma {epmax[2]:.2f})")
         print(f"  contest: {cb[3]}:{cb[4]}  (EP {cb[1]:.3f}, sigma {cb[2]:.2f}, obj {cb[0]:.3f}){differs}")
         alts = "  ".join(f"{h}:{a}[EP{ep:.2f} s{sig:.2f}]" for _, ep, sig, h, a in contest)

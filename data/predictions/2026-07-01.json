@@ -52,7 +52,17 @@
           "posted_at": "2026-06-28T07:50:22Z",
           "confirmed_via": "get_bets readback 2026-06-28",
           "mode": "PROTECT(==EP-max)",
-          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market."
+          "note": "R32 pre-bet sweep (whole round biddable). PROTECT mode (rank 1/34, lead +12, rem_grp=0) but k=0.3 => contest pick == EP-max on adjusted track; ~32 KO matches remain so EP-max is right. Winner-scoreline (KO; platform draw odds 0.00). Anchored to de-vigged market.",
+          "superseded_by": "2026-06-30T08:30:47Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-06-30T08:30:47Z",
+          "confirmed_via": "get_bets readback 2026-06-30",
+          "mode": "PROTECT(==EP-max, KO after-pens)",
+          "note": "Re-bet 2:0 -> 1:0 after fixing KO scoring to the community's 'after penalties' rule (a level game resolves to a 1-goal win for the shootout winner). Under the corrected EP model 1:0 beats 2:0 for strong favourites (0-0->pens becomes an exact 1-0). Pre-kickoff, prediction unchanged."
         }
       ]
     },
