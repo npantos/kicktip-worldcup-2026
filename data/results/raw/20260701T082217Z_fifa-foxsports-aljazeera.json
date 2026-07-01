@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-07-01T08:22:17Z",
+  "source": "FIFA/FOXSports/AlJazeera",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021523",
+    "https://www.aljazeera.com/sports/liveblog/2026/6/30/ivory-coast-vs-norway-live-fifa-world-cup-2026",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021520"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M077",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "FIFA/FOX: France 3-0 Sweden"
+    },
+    {
+      "match_id": "M078",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "AlJazeera: Norway beat Ivory Coast 2-1 (i.e. CIV 1-2 NOR)"
+    },
+    {
+      "match_id": "M079",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "FIFA: Mexico 2-0 Ecuador"
+    }
+  ]
+}

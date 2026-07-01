@@ -1,6 +1,6 @@
 # Group standings
 
-_Updated 2026-06-30 08:01 UTC. Based on confirmed results only._
+_Updated 2026-07-01 08:22 UTC. Based on confirmed results only._
 
 ## Group A
 

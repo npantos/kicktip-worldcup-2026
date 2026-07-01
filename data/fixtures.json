@@ -1154,7 +1154,7 @@
       "away": "SWE",
       "home_slot": "1I",
       "away_slot": "3CDFGH",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M078",
@@ -1169,7 +1169,7 @@
       "away": "NOR",
       "home_slot": "2E",
       "away_slot": "2I",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M079",
@@ -1184,7 +1184,7 @@
       "away": "ECU",
       "home_slot": "1A",
       "away_slot": "3CEFHI",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M080",
@@ -1330,8 +1330,8 @@
       "kickoff_utc": "2026-07-04T21:00:00Z",
       "venue_city": "Philadelphia",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "PAR",
+      "away": "FRA",
       "home_slot": "W074",
       "away_slot": "W077",
       "status": "scheduled"
@@ -1360,8 +1360,8 @@
       "kickoff_utc": "2026-07-05T20:00:00Z",
       "venue_city": "New York/New Jersey (East Rutherford)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "BRA",
+      "away": "NOR",
       "home_slot": "W076",
       "away_slot": "W078",
       "status": "scheduled"

@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-07-01T08:22:17Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760492/sweden-france",
+    "https://www.espn.com/soccer/match/_/gameId/760490/norway-ivory-coast",
+    "https://www.espn.com/soccer/match/_/gameId/760491/ecuador-mexico"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M077",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "ESPN: France 3-0 Sweden (Mbappe x2, Barcola)"
+    },
+    {
+      "match_id": "M078",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "ESPN: Ivory Coast 1-2 Norway (Nusa, Haaland 86; Amad 74). Regulation"
+    },
+    {
+      "match_id": "M079",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "ESPN: Mexico 2-0 Ecuador (Quinones, Jimenez)"
+    }
+  ]
+}
