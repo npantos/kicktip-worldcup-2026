@@ -1,26 +1,26 @@
 {
-  "fetched_at": "2026-07-01T08:25:00Z",
+  "fetched_at": "2026-07-02T09:55:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview 2026-07-01; after R32 day-2 (repo through M079)",
-  "as_of_matchday": 13,
-  "matches_scored_so_far": 79,
+  "source": "kicktipp MCP get_overview 2026-07-02; after R32 day-3 (repo through M082)",
+  "as_of_matchday": 14,
+  "matches_scored_so_far": 82,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
     "rank": 1,
-    "points": 205,
+    "points": 213,
     "bonus": 36
   },
   "human_owner": {
     "name": "NemanjaPantoš",
     "rank": 3,
-    "points": 195
+    "points": 202
   },
   "leader": {
     "names": [
       "Nemanj-AI"
     ],
-    "points": 205
+    "points": 213
   },
   "deficit_to_leader": 0,
   "tier_at_my_points": 1,
@@ -29,63 +29,63 @@
     {
       "rank": 1,
       "name": "Nemanj-AI",
-      "points": 205,
+      "points": 213,
       "bonus": 36
     },
     {
       "rank": 2,
       "name": "Stef",
-      "points": 199,
+      "points": 206,
       "bonus": 44
     },
     {
       "rank": 3,
       "name": "NemanjaPantoš",
-      "points": 195,
+      "points": 202,
       "bonus": 44
     },
     {
       "rank": 4,
       "name": "LosAngelesBus",
-      "points": 185,
+      "points": 192,
       "bonus": 48
     },
     {
       "rank": 5,
       "name": "Shelly",
-      "points": 184,
+      "points": 189,
       "bonus": 32
     },
     {
       "rank": 6,
       "name": "BB",
-      "points": 180,
+      "points": 185,
       "bonus": 44
     },
     {
       "rank": 7,
-      "name": "Kula",
-      "points": 175,
-      "bonus": 44
+      "name": "LilDja",
+      "points": 184,
+      "bonus": 36
     },
     {
       "rank": 8,
-      "name": "LilDja",
-      "points": 174,
+      "name": "MrGojomir",
+      "points": 183,
       "bonus": 36
     },
     {
       "rank": 9,
-      "name": "MrGojomir",
-      "points": 173,
-      "bonus": 36
+      "name": "Kula",
+      "points": 180,
+      "bonus": 44
     },
     {
       "rank": 10,
-      "name": "Raca",
-      "points": 169,
-      "bonus": 44
+      "name": "djomla",
+      "points": 175,
+      "bonus": 40
     }
   ],
-  "note": "R32 day-2: all favourites won in regulation -> AI safe picks +7 (FRA 3-0 tend 2, CIV 1-2 NOR goal-diff 3, MEX 2-0 tend 2). But Stef & human BOTH +14 by hitting the higher-scoring exacts, so LEAD NARROWED to +6 over Stef (human 3rd, -10). EP-max still correct: chasers' exacts were +variance/-EV, expected to regress; with 16 KO matches left a +6 lead favours max-EP over variance-cover. Today M080-M082 bet (ENG/USA/BEL all 1:0, ENG corrected from 2:0). BONUS GAP (36 vs 44-48) is the structural drag as chasers keep match-pace."
+  "note": "R32 day-3: AI +8 (ENG 2-1 goal-diff 3, BEL 3-2 SEN AET goal-diff 3, USA 2-0 tend 2). Lead HELD at +7 over Stef (206); human 3rd (202) -- chasers matched (+7) but didn't close. Note ENG re-bet 1:0 got goal-diff 3 (a 2:0 would've been exact 6 as ENG won 2-1) -- variance, EP-max still right. BEL-SEN decided in ET (3-2, no shootout). R16 filling: Mexico-England, USA-Belgium set (Balogun suspended for USA). Today M083-M085 bet (POR/ESP/SUI 1:0). ~13 KO matches left; BONUS GAP (36 vs 44-48) still the structural drag."
 }

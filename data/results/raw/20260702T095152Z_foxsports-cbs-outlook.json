@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-07-02T09:51:52Z",
+  "source": "FOXSports/CBS/Outlook",
+  "urls": [
+    "https://www.foxsports.com/soccer/fifa-world-cup-men-belgium-vs-senegal-jul-01-2026-game-boxscore-607911",
+    "https://www.cbsnews.com/news/world-cup-us-bosnia-herzegovina-round-of-32/",
+    "https://www.outlookindia.com/sports/football/england-vs-dr-congo-live-score-fifa-world-cup-2026-round-of-32-eng-v-cod-updates-atlanta-stadium-highlights"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M080",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "Outlook: England 2-1 DR Congo (Kane brace)"
+    },
+    {
+      "match_id": "M081",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "CBS: USA 2-0 Bosnia"
+    },
+    {
+      "match_id": "M082",
+      "home_goals": 3,
+      "away_goals": 2,
+      "note": "FOX: Belgium 3-2 Senegal AET (biggest comeback of the WC)"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-07-02T09:51:52Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760494/bosnia-herzegovina-united-states",
+    "https://www.espn.com/soccer/match/_/gameId/760493/senegal-belgium",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-england-dr-congo-round-32-score-lineups-live-updates"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M080",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "ENG 2-1 COD (Kane 75,86; Cipenga 7). Regulation"
+    },
+    {
+      "match_id": "M081",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "USA 2-0 BIH (Balogun, Tillman 82; Balogun red -> susp vs BEL)"
+    },
+    {
+      "match_id": "M082",
+      "home_goals": 3,
+      "away_goals": 2,
+      "note": "BEL 3-2 SEN AET (Tielemans pen 125; SEN led 2-0 via Diarra, Sarr). Decided in ET, no shootout"
+    }
+  ]
+}

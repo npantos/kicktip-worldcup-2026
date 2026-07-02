@@ -1199,7 +1199,7 @@
       "away": "COD",
       "home_slot": "1L",
       "away_slot": "3EHIJK",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M081",
@@ -1214,7 +1214,7 @@
       "away": "BIH",
       "home_slot": "1D",
       "away_slot": "3BEFIJ",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M082",
@@ -1229,7 +1229,7 @@
       "away": "SEN",
       "home_slot": "1G",
       "away_slot": "3AEHIJ",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M083",
@@ -1375,8 +1375,8 @@
       "kickoff_utc": "2026-07-06T00:00:00Z",
       "venue_city": "Mexico City",
       "venue_country": "MEX",
-      "home": null,
-      "away": null,
+      "home": "MEX",
+      "away": "ENG",
       "home_slot": "W079",
       "away_slot": "W080",
       "status": "scheduled"
@@ -1405,8 +1405,8 @@
       "kickoff_utc": "2026-07-07T00:00:00Z",
       "venue_city": "Seattle",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "USA",
+      "away": "BEL",
       "home_slot": "W081",
       "away_slot": "W082",
       "status": "scheduled"
