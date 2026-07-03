@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-07-03T08:47:08Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760497/austria-spain",
+    "https://www.espn.com/soccer/story/_/id/49251703/portugal-croatia-live-world-cup-2026",
+    "https://www.espn.com/soccer/story/_/id/49253886/switzerland-algeria-live-world-cup-2026"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M084",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "ESPN: Spain 3-0 Austria (Oyarzabal x2, Porro)"
+    },
+    {
+      "match_id": "M083",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "ESPN: Portugal 2-1 Croatia (Ronaldo pen, Ramos 94; Perisic 53). CRO late equaliser VAR-disallowed. Regulation"
+    },
+    {
+      "match_id": "M085",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "ESPN: Switzerland 2-0 Algeria (Embolo 10, Ndoye 46)"
+    }
+  ]
+}

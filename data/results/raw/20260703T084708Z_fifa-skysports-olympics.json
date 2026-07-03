@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-07-03T08:47:08Z",
+  "source": "FIFA/SkySports/Olympics",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021519",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-portugal-vs-croatia-round-32-score-lineups-live-updates",
+    "https://www.skysports.com/football/switzerland-vs-algeria/549848"
+  ],
+  "method": "web-search",
+  "results": [
+    {
+      "match_id": "M084",
+      "home_goals": 3,
+      "away_goals": 0,
+      "note": "FIFA: Spain 3-0 Austria"
+    },
+    {
+      "match_id": "M083",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "FIFA/Olympics: Portugal 2-1 Croatia"
+    },
+    {
+      "match_id": "M085",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "FIFA/Sky: Switzerland 2-0 Algeria"
+    }
+  ]
+}

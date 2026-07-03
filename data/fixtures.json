@@ -1244,7 +1244,7 @@
       "away": "CRO",
       "home_slot": "2K",
       "away_slot": "2L",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M084",
@@ -1259,7 +1259,7 @@
       "away": "AUT",
       "home_slot": "1H",
       "away_slot": "2J",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M085",
@@ -1274,7 +1274,7 @@
       "away": "ALG",
       "home_slot": "1B",
       "away_slot": "3EFGIJ",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M086",
@@ -1390,8 +1390,8 @@
       "kickoff_utc": "2026-07-06T19:00:00Z",
       "venue_city": "Dallas (Arlington)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "POR",
+      "away": "ESP",
       "home_slot": "W083",
       "away_slot": "W084",
       "status": "scheduled"
