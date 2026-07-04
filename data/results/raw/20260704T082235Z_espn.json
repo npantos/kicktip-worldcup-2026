@@ -1,0 +1,24 @@
+{
+  "fetched_at": "2026-07-04T08:22:35Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760500/cape-verde-argentina",
+    "https://www.espn.com/soccer/report/_/gameId/760500",
+    "https://www.espn.com/soccer/story/_/id/49262158/colombia-ghana-live-world-cup-2026-latest-updates-commentary-score-result"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M086",
+      "home_goals": 3,
+      "away_goals": 2,
+      "note": "AET. 1-1 after 90 (Messi 29; D.Duarte 59). ET: L.Martinez 103, Lopes Cabral, Borges OG 111. ESPN: Argentina 3-2 Cape Verde"
+    },
+    {
+      "match_id": "M087",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "Regulation. Arias 14. ESPN: Colombia 1-0 Ghana"
+    }
+  ]
+}

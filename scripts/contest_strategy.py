@@ -53,15 +53,27 @@ def points(bet, outcome, rules):
     return win["tendency"]
 
 
+# Shootout (winner, loser) scores; graded result = 120' goals + shootout goals
+# (platform-verified: GER-PAR 4:5, NED-MAR 3:4, AUS-EGY 3:5). Margins ~50/30/20.
+PENS_SCORES = [
+    ((3, 2), 0.20), ((4, 3), 0.16), ((5, 4), 0.09), ((6, 5), 0.05),
+    ((4, 2), 0.13), ((5, 3), 0.05), ((3, 1), 0.12),
+    ((4, 1), 0.08), ((3, 0), 0.07), ((5, 1), 0.05),
+]
+
+
 def ep_sigma(matrix, bet, rules, knockout=False):
     """Expected points and sigma for a bet. knockout=True applies the 'after
-    penalties' rule: a level scoreline (h, h) resolves 50/50 to (h+1, h) or
-    (h, h+1) -- a one-goal win for the shootout winner, never a draw."""
+    penalties' rule: a level scoreline (h, h) never stands -- it is graded as
+    120' goals plus shootout goals, (h+pw, h+pl), winner side 50/50."""
     e = e2 = 0.0
     for h, row in enumerate(matrix):
         for a, p in enumerate(row):
             if knockout and h == a:
-                outs = [((h + 1, a), 0.5 * p), ((h, a + 1), 0.5 * p)]
+                outs = []
+                for (pw, pl), q in PENS_SCORES:
+                    outs.append(((h + pw, a + pl), 0.5 * p * q))
+                    outs.append(((h + pl, a + pw), 0.5 * p * q))
             else:
                 outs = [((h, a), p)]
             for out, w in outs:

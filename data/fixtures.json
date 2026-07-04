@@ -1289,7 +1289,7 @@
       "away": "CPV",
       "home_slot": "1J",
       "away_slot": "2H",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M087",
@@ -1304,7 +1304,7 @@
       "away": "GHA",
       "home_slot": "1K",
       "away_slot": "3DEIJL",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M088",
@@ -1319,7 +1319,7 @@
       "away": "EGY",
       "home_slot": "2D",
       "away_slot": "2G",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M089",
@@ -1420,8 +1420,8 @@
       "kickoff_utc": "2026-07-07T16:00:00Z",
       "venue_city": "Atlanta",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "ARG",
+      "away": "EGY",
       "home_slot": "W086",
       "away_slot": "W088",
       "status": "scheduled"
@@ -1435,8 +1435,8 @@
       "kickoff_utc": "2026-07-07T20:00:00Z",
       "venue_city": "Vancouver",
       "venue_country": "CAN",
-      "home": null,
-      "away": null,
+      "home": "SUI",
+      "away": "COL",
       "home_slot": "W085",
       "away_slot": "W087",
       "status": "scheduled"

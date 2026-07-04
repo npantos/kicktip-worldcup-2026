@@ -1,0 +1,119 @@
+{
+  "match_date": "2026-07-06",
+  "predictions": [
+    {
+      "match_id": "M093",
+      "created_at": "2026-07-04T08:29:52Z",
+      "locked_at": "2026-07-04T09:05:00Z",
+      "model": {
+        "elo_home": 2012.0,
+        "elo_away": 2159.1,
+        "home_adv_applied": 0,
+        "lambda_home": 0.751,
+        "lambda_away": 2.321,
+        "p_home": 0.1037,
+        "p_draw": 0.1698,
+        "p_away": 0.7265,
+        "expected_score": "0-2",
+        "p_home_advance": 0.1675
+      },
+      "adjusted": {
+        "p_home": 0.21,
+        "p_draw": 0.26,
+        "p_away": 0.53,
+        "predicted_score": "1-2",
+        "reasoning": "Iberian derby: market has Spain only ~51% vs the model's 73% — large gap, trusted the market (knockout variance, Portugal beat Croatia and won their group). R16 pre-bet sweep 2026-07-04 (whole round biddable): anchored to the de-vigged market per the tournament-long calibration edge of the odds track over the Elo model, with a small tilt toward the model. Matchday-morning research may re-bet via posted_to; prediction locked at sweep time (R32 sweep precedent).",
+        "factors": [
+          {
+            "factor": "FOX: ESP -115 / X +260 / POR +310 (de-vig 23/26/51)",
+            "source": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FOX r16 odds 2026-07-04 (ESP -115, X +260, POR +310)",
+        "decimal_odds": [
+          4.1,
+          3.6,
+          1.87
+        ],
+        "overround": 0.0564,
+        "p_home": 0.2309,
+        "p_draw": 0.2629,
+        "p_away": 0.5062,
+        "fetched_at": "2026-07-04T08:31:04Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-07-04T09:12:00Z",
+          "confirmed_via": "get_bets readback 2026-07-04",
+          "mode": "PROTECT(==EP-max, KO after-pens corrected)",
+          "note": "R16 pre-bet sweep (whole round biddable), R32-sweep precedent. PROTECT mode (rank 1/34, lead +13, rem_grp=0), k=0.3. EP under CORRECTED after-pens rule (pens graded as 120' goals + shootout goals; verified vs platform 2026-07-04). Matchday-morning research may re-bet. EP 2.07; adjusted 21/26/53."
+        }
+      ]
+    },
+    {
+      "match_id": "M094",
+      "created_at": "2026-07-04T08:29:52Z",
+      "locked_at": "2026-07-04T09:05:00Z",
+      "model": {
+        "elo_home": 1804.8,
+        "elo_away": 1910.2,
+        "home_adv_applied": 100,
+        "lambda_home": 1.293,
+        "lambda_away": 1.348,
+        "p_home": 0.3566,
+        "p_draw": 0.2614,
+        "p_away": 0.382,
+        "expected_score": "1-1",
+        "p_home_advance": 0.4859
+      },
+      "adjusted": {
+        "p_home": 0.35,
+        "p_draw": 0.28,
+        "p_away": 0.37,
+        "predicted_score": "1-2",
+        "reasoning": "True coinflip: market USA 36/BEL 35, model BEL 38/USA 36 — home crowd vs Belgium's edge in talent; kept flat with a hair toward Belgium per the model tie-break. R16 pre-bet sweep 2026-07-04 (whole round biddable): anchored to the de-vigged market per the tournament-long calibration edge of the odds track over the Elo model, with a small tilt toward the model. Matchday-morning research may re-bet via posted_to; prediction locked at sweep time (R32 sweep precedent).",
+        "factors": [
+          {
+            "factor": "FOX: USA +165 / X +230 / BEL +170 (de-vig 36/29/35)",
+            "source": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
+          },
+          {
+            "factor": "Yahoo r16 best-bets preview (USA-Belgium among featured coinflips)",
+            "source": "https://sports.yahoo.com/soccer/betting/article/world-cup-round-of-16-picks-predictions-best-bets-for-every-match-including-brazil-norway-and-us-belgium-194041100.html"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FOX r16 odds 2026-07-04 (USA +165, X +230, BEL +170)",
+        "decimal_odds": [
+          2.65,
+          3.3,
+          2.7
+        ],
+        "overround": 0.0508,
+        "p_home": 0.3591,
+        "p_draw": 0.2884,
+        "p_away": 0.3525,
+        "fetched_at": "2026-07-04T08:31:04Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-07-04T09:12:00Z",
+          "confirmed_via": "get_bets readback 2026-07-04",
+          "mode": "PROTECT(==EP-max, KO after-pens corrected)",
+          "note": "R16 pre-bet sweep (whole round biddable), R32-sweep precedent. PROTECT mode (rank 1/34, lead +13, rem_grp=0), k=0.3. EP under CORRECTED after-pens rule (pens graded as 120' goals + shootout goals; verified vs platform 2026-07-04). Matchday-morning research may re-bet. EP 1.65; adjusted 35/28/37 (coinflip, model tie-break BEL)."
+        }
+      ]
+    }
+  ]
+}

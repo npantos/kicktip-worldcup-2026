@@ -1,0 +1,115 @@
+{
+  "match_date": "2026-07-07",
+  "predictions": [
+    {
+      "match_id": "M095",
+      "created_at": "2026-07-04T08:29:52Z",
+      "locked_at": "2026-07-04T09:05:00Z",
+      "model": {
+        "elo_home": 2150.7,
+        "elo_away": 1747.2,
+        "home_adv_applied": 0,
+        "lambda_home": 4.0,
+        "lambda_away": 0.281,
+        "p_home": 0.9582,
+        "p_draw": 0.0344,
+        "p_away": 0.0074,
+        "expected_score": "3-0",
+        "p_home_advance": 0.982
+      },
+      "adjusted": {
+        "p_home": 0.75,
+        "p_draw": 0.17,
+        "p_away": 0.08,
+        "predicted_score": "2-0",
+        "reasoning": "Model 96% Argentina vs market ~71% (ARG -290) — Egypt's deep block and shootout resilience (eliminated Australia after 1-1) justify respecting the market; anchored 75% (cf. M086 precedent). R16 pre-bet sweep 2026-07-04 (whole round biddable): anchored to the de-vigged market per the tournament-long calibration edge of the odds track over the Elo model, with a small tilt toward the model. Matchday-morning research may re-bet via posted_to; prediction locked at sweep time (R32 sweep precedent).",
+        "factors": [
+          {
+            "factor": "FOX: ARG -290 / X +390 / EGY +850 (de-vig 71/19/10)",
+            "source": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
+          }
+        ]
+      },
+      "odds": {
+        "source": "FOX r16 odds 2026-07-04 (ARG -290, X +390, EGY +850)",
+        "decimal_odds": [
+          1.345,
+          4.9,
+          9.5
+        ],
+        "overround": 0.0528,
+        "p_home": 0.7062,
+        "p_draw": 0.1938,
+        "p_away": 0.1,
+        "fetched_at": "2026-07-04T08:31:04Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-07-04T09:12:00Z",
+          "confirmed_via": "get_bets readback 2026-07-04",
+          "mode": "PROTECT(contest pick; EP-max 2:0 by 0.001)",
+          "note": "R16 pre-bet sweep (whole round biddable), R32-sweep precedent. PROTECT mode (rank 1/34, lead +13, rem_grp=0), k=0.3. EP under CORRECTED after-pens rule (pens graded as 120' goals + shootout goals; verified vs platform 2026-07-04). Matchday-morning research may re-bet. Contest obj prefers 1:0 (EP 2.387, sigma 1.71) over EP-max 2:0 (EP 2.388, sigma 1.76); adjusted 75/17/8."
+        }
+      ]
+    },
+    {
+      "match_id": "M096",
+      "created_at": "2026-07-04T08:29:52Z",
+      "locked_at": "2026-07-04T09:05:00Z",
+      "model": {
+        "elo_home": 1936.0,
+        "elo_away": 2009.1,
+        "home_adv_applied": 0,
+        "lambda_home": 0.997,
+        "lambda_away": 1.747,
+        "p_home": 0.2145,
+        "p_draw": 0.2356,
+        "p_away": 0.5499,
+        "expected_score": "0-1",
+        "p_home_advance": 0.3164
+      },
+      "adjusted": {
+        "p_home": 0.27,
+        "p_draw": 0.28,
+        "p_away": 0.45,
+        "predicted_score": "1-2",
+        "reasoning": "Colombia favourites on market (+130, ~41%) and model (55%); Swiss beat Algeria comfortably but Colombia's spine (Arias winner vs Ghana) is stronger — set between, nearer market. R16 pre-bet sweep 2026-07-04 (whole round biddable): anchored to the de-vigged market per the tournament-long calibration edge of the odds track over the Elo model, with a small tilt toward the model. Matchday-morning research may re-bet via posted_to; prediction locked at sweep time (R32 sweep precedent).",
+        "factors": [
+          {
+            "factor": "SportsBettingDime/BetMGM: COL +130 / X +225 / SUI +210 (de-vig 30/29/41)",
+            "source": "https://www.sportsbettingdime.com/news/soccer/colombia-vs-switzerland-odds-for-round-of-16/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "SportsBettingDime/BetMGM 2026-07-04 (COL +130, X +225, SUI +210)",
+        "decimal_odds": [
+          3.1,
+          3.25,
+          2.3
+        ],
+        "overround": 0.0651,
+        "p_home": 0.3029,
+        "p_draw": 0.2889,
+        "p_away": 0.4082,
+        "fetched_at": "2026-07-04T08:31:04Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-07-04T09:12:00Z",
+          "confirmed_via": "get_bets readback 2026-07-04",
+          "mode": "PROTECT(==EP-max, KO after-pens corrected)",
+          "note": "R16 pre-bet sweep (whole round biddable), R32-sweep precedent. PROTECT mode (rank 1/34, lead +13, rem_grp=0), k=0.3. EP under CORRECTED after-pens rule (pens graded as 120' goals + shootout goals; verified vs platform 2026-07-04). Matchday-morning research may re-bet. EP 1.91; adjusted 27/28/45."
+        }
+      ]
+    }
+  ]
+}

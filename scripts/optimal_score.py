@@ -57,18 +57,31 @@ def _points(h, a, pick_h, pick_a, rules):
     return win["tendency"]
 
 
+# Shootout (winner, loser) score distribution, margins ~50% 1 / 30% 2 / 20% 3+
+# (historical WC shootouts). Platform grades pens matches as 120' goals PLUS
+# shootout goals (verified: GER-PAR 4:5, NED-MAR 3:4, AUS-EGY 3:5), so a level
+# (h, h) resolves to (h+pw, h+pl) with the winner side 50/50.
+PENS_SCORES = [
+    ((3, 2), 0.20), ((4, 3), 0.16), ((5, 4), 0.09), ((6, 5), 0.05),
+    ((4, 2), 0.13), ((5, 3), 0.05), ((3, 1), 0.12),
+    ((4, 1), 0.08), ((3, 0), 0.07), ((5, 1), 0.05),
+]
+
+
 def expected_points(matrix, pick_h, pick_a, rules, knockout=False):
     """Expected Kicktipp points for betting pick_h:pick_a, given a scoreline matrix.
 
     knockout=True applies this community's 'after penalties' rule: a level
-    scoreline (h, h) is never the final applied result -- it resolves to a
-    one-goal win for the shootout winner (50/50), i.e. (h+1, h) or (h, h+1)."""
+    scoreline (h, h) is never the final applied result -- it is graded as 120'
+    goals plus shootout goals, i.e. (h+pw, h+pl) for shootout score pw-pl with
+    each side equally likely to win the shootout."""
     ep = 0.0
     for h, row in enumerate(matrix):
         for a, p in enumerate(row):
             if knockout and h == a:
-                ep += 0.5 * p * _points(h + 1, a, pick_h, pick_a, rules)
-                ep += 0.5 * p * _points(h, a + 1, pick_h, pick_a, rules)
+                for (pw, pl), q in PENS_SCORES:
+                    ep += 0.5 * p * q * _points(h + pw, a + pl, pick_h, pick_a, rules)
+                    ep += 0.5 * p * q * _points(h + pl, a + pw, pick_h, pick_a, rules)
             else:
                 ep += p * _points(h, a, pick_h, pick_a, rules)
     return ep

@@ -32,7 +32,7 @@ def placed_bet(pred):
     return None
 
 
-def epmax_bet(blk, rules):
+def epmax_bet(blk, rules, knockout=False):
     """EP-max scoreline + its expected Kicktipp points for one track block.
 
     Uses the model track's stored lambdas; for tracks without lambdas (adjusted,
@@ -41,7 +41,7 @@ def epmax_bet(blk, rules):
     lh, la = blk.get("lambda_home"), blk.get("lambda_away")
     if lh is None or la is None:
         lh, la = fit_lambdas(blk["p_home"], blk["p_draw"], blk["p_away"])
-    ep, h, a = rank_scorelines(poisson.score_matrix(lh, la), rules)[0]
+    ep, h, a = rank_scorelines(poisson.score_matrix(lh, la), rules, knockout)[0]
     return f"{h}:{a}", ep
 
 
@@ -74,8 +74,9 @@ def main():
         mid = p["match_id"]
         fx = fixtures.get(mid, {})
         ko = fx.get("kickoff_utc", "")
+        is_ko = fx.get("stage") not in (None, "group")
         L.append(f"### {mid} · {name(fx.get('home'))} vs {name(fx.get('away'))}"
-                 f" — {ko} (Group {fx.get('group','?')})")
+                 f" — {ko} ({'KO: after-pens' if is_ko else 'Group ' + str(fx.get('group', '?'))})")
         L.append("")
         L.append("| Track | Home | Draw | Away | Likely score | EP-max bet (pts) |")
         L.append("|---|---|---|---|---|---|")
@@ -84,7 +85,7 @@ def main():
             blk = p.get(key)
             if blk and blk.get("p_home") is not None:
                 sc = blk.get("predicted_score") or blk.get("expected_score") or "—"
-                bet_sc, ep = epmax_bet(blk, rules)
+                bet_sc, ep = epmax_bet(blk, rules, is_ko)
                 star = " **(pick)**" if key == "adjusted" else ""
                 L.append(f"| {tname}{star} | {pct(blk['p_home'])} | {pct(blk['p_draw'])} "
                          f"| {pct(blk['p_away'])} | {sc} | {bet_sc} ({ep:.2f}) |")

@@ -1,26 +1,26 @@
 {
-  "fetched_at": "2026-07-03T08:50:00Z",
+  "fetched_at": "2026-07-04T08:50:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview 2026-07-03; after R32 day-4 (repo through M085)",
-  "as_of_matchday": 15,
-  "matches_scored_so_far": 85,
+  "source": "kicktipp MCP get_overview 2026-07-04; after R32 complete (repo through M088)",
+  "as_of_matchday": 16,
+  "matches_scored_so_far": 88,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
     "rank": 1,
-    "points": 220,
+    "points": 231,
     "bonus": 36
   },
   "human_owner": {
     "name": "NemanjaPantoš",
     "rank": 3,
-    "points": 210
+    "points": 216
   },
   "leader": {
     "names": [
       "Nemanj-AI"
     ],
-    "points": 220
+    "points": 231
   },
   "deficit_to_leader": 0,
   "tier_at_my_points": 1,
@@ -29,63 +29,63 @@
     {
       "rank": 1,
       "name": "Nemanj-AI",
-      "points": 220,
+      "points": 231,
       "bonus": 36
     },
     {
       "rank": 2,
       "name": "Stef",
-      "points": 212,
+      "points": 218,
       "bonus": 44
     },
     {
       "rank": 3,
       "name": "NemanjaPantoš",
-      "points": 210,
+      "points": 216,
       "bonus": 44
     },
     {
       "rank": 4,
       "name": "LosAngelesBus",
-      "points": 204,
+      "points": 209,
       "bonus": 48
     },
     {
       "rank": 5,
       "name": "Shelly",
-      "points": 197,
+      "points": 207,
       "bonus": 32
     },
     {
       "rank": 6,
       "name": "MrGojomir",
-      "points": 197,
+      "points": 204,
       "bonus": 36
     },
     {
       "rank": 7,
-      "name": "BB",
-      "points": 193,
-      "bonus": 44
-    },
-    {
-      "rank": 8,
       "name": "LilDja",
-      "points": 191,
+      "points": 198,
       "bonus": 36
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "bojan_nišić",
-      "points": 188,
+      "points": 198,
       "bonus": 40
+    },
+    {
+      "rank": 9,
+      "name": "BB",
+      "points": 195,
+      "bonus": 44
     },
     {
       "rank": 10,
       "name": "Dalibor89",
-      "points": 186,
+      "points": 194,
       "bonus": 36
     }
   ],
-  "note": "R32 day-4: AI +7 (ESP 3-0 tend 2, POR 2-1 CRO goal-diff 3, SUI 2-0 tend 2). Lead +8 over Stef (212); human 3rd (210). R32 completes today (M086-M088 bet: AUS-EGY 0:1, ARG-CPV 1:0, COL-GHA 1:0). R16 (M089-M096) not yet biddable -> pre-bet once it opens. 8 KO matches left. BONUS NOTE (corrected 2026-07-03): platform total ALREADY includes bonus (220 = 184 match + 36 bonus; verified vs score_accuracy). So the -8 bonus deficit is already baked into the +8 lead and is STATIC (bonus questions closed) -- NOT a future erosion risk. On match play alone we lead Stef +16 (184 vs 168); the lead only moves via match results from here, where our calibration edge holds."
+  "note": "R32 day-5: AI +11 on platform (231 from 220): COL-GHA 1:0 exact 6, ARG-CPV 1:0 tend+diff 3 (3-2 aet), AUS-EGY 0:1 graded 2 (see discrepancy note). Lead +13 over Stef (218); human 3rd (216). Match play alone: 195 vs 174 = +21. Bonus static (36 vs 44 baked in). R16 starts today: M090 CAN-MAR 17:00Z, M089 PAR-FRA 21:00Z. RESOLVED 2026-07-04: 1-pt internal-vs-platform gap traced to pens grading — platform grades shootout matches as 120' goals + shootout goals (GER-PAR 4:5, NED-MAR 3:4, AUS-EGY 3:5), so our 0:1 on AUS-EGY earned tendency 2, not diff 3. score_accuracy/optimal_score/contest_strategy corrected; internal now replicates platform exactly (195)."
 }

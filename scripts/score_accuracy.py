@@ -53,19 +53,17 @@ def outcome(gh, ga):
 
 
 def applied_result(r):
-    """Scoreline applied for tip grading. This community's rule is 'after
-    penalties': a knockout decided on penalties counts as a one-goal win for the
-    shootout winner (e.g. 1-1, away wins pens -> applied 1-2). Penalties only
-    appear when level after extra time, so the loser's tally is unchanged and the
-    winner gets +1. Group/regulation results pass through unchanged."""
+    """Scoreline applied for tip grading. This community's 'after penalties'
+    rule (verified against platform grading of GER-PAR 4:5, NED-MAR 3:4,
+    AUS-EGY 3:5 on MD 'Sixteenth final'): a knockout decided on penalties is
+    graded as 120' goals PLUS shootout goals (e.g. 1-1, pens 2-4 -> applied
+    3-5), so the graded goal difference equals the shootout margin, not 1.
+    Group/regulation (incl. plain AET) results pass through unchanged."""
     gh, ga = r["home_goals"], r["away_goals"]
     pen = r.get("penalties")
     if pen:
         ph, pa = pen
-        if ph > pa:
-            gh += 1
-        elif pa > ph:
-            ga += 1
+        gh, ga = gh + ph, ga + pa
     return gh, ga
 
 

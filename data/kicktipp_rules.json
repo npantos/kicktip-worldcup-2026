@@ -12,5 +12,5 @@
     }
   },
   "effective_from": "2026-06-11",
-  "note": "Community rule change announced 2026-06-11. Draws have no goal-difference tier: a non-exact draw pick earns only tendency points. Used by scripts/optimal_score.py to choose Kicktipp bets; unrelated to the repo's internal 3/1/+1 accuracy metric."
+  "note": "Community rule change announced 2026-06-11. Draws have no goal-difference tier: a non-exact draw pick earns only tendency points. Used by scripts/optimal_score.py to choose Kicktipp bets; unrelated to the repo's internal 3/1/+1 accuracy metric. KNOCKOUT (verified 2026-07-04 vs platform grading of GER-PAR 4:5, NED-MAR 3:4, AUS-EGY 3:5): a match decided on penalties is graded as 120' goals PLUS shootout goals, so graded diff = shootout margin (not always 1) and graded totals are large; exact hits on pens matches are practically unreachable. Plain-AET results grade as the 120' score."
 }

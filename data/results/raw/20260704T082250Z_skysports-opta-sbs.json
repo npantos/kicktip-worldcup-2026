@@ -1,0 +1,22 @@
+{
+  "fetched_at": "2026-07-04T08:22:50Z",
+  "source": "SkySports/Opta/SBS",
+  "urls": [
+    "https://www.skysports.com/football/news/12098/13558810/world-cup-2026-australia-1-1-egypt-2-4-on-penalties-shoot-out-drama-sends-mohamed-salah-and-co-into-last-16",
+    "https://theanalyst.com/articles/australia-vs-egypt-stats-world-cup-2026",
+    "https://www.sbs.com.au/news/article/australia-vs-egypt-results-socceroos-knocked-out/0o9brhxlb"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M088",
+      "home_goals": 1,
+      "away_goals": 1,
+      "penalties": [
+        2,
+        4
+      ],
+      "note": "Sky: Australia 1-1 Egypt (2-4 on pens). Ashour opener, Hany OG 55; Souttar+Herrington missed, Egypt perfect from spot"
+    }
+  ]
+}
