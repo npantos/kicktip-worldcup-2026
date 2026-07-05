@@ -1,0 +1,23 @@
+{
+  "fetched_at": "2026-07-05T13:31:39Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760503/france-paraguay",
+    "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M089",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "FT 90min. Mbappe pen 70. Philadelphia."
+    },
+    {
+      "match_id": "M090",
+      "home_goals": 0,
+      "away_goals": 3,
+      "note": "FT 90min. Ounahi x2, Rahimi 90+. Houston."
+    }
+  ]
+}

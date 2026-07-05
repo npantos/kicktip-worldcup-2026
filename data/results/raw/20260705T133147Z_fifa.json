@@ -1,0 +1,23 @@
+{
+  "fetched_at": "2026-07-05T13:31:47Z",
+  "source": "FIFA",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021533",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021530"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M089",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "Paraguay v France 0-1, R16 Philadelphia"
+    },
+    {
+      "match_id": "M090",
+      "home_goals": 0,
+      "away_goals": 3,
+      "note": "Canada v Morocco 0-3, R16 Houston"
+    }
+  ]
+}

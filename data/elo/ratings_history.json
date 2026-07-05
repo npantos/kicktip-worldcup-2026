@@ -1233,6 +1233,34 @@
       "r_away_after": 1570.4,
       "delta_home": 4.67,
       "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M090",
+      "applied_at": "2026-07-05T13:31:57Z",
+      "home": "CAN",
+      "away": "MAR",
+      "score": "0-3",
+      "home_adv_applied": 0,
+      "r_home_before": 1772.4,
+      "r_away_before": 1886.2,
+      "r_home_after": 1736.5,
+      "r_away_after": 1922.1,
+      "delta_home": -35.89,
+      "g_multiplier": 1.75
+    },
+    {
+      "match_id": "M089",
+      "applied_at": "2026-07-05T13:31:57Z",
+      "home": "PAR",
+      "away": "FRA",
+      "score": "0-1",
+      "home_adv_applied": 0,
+      "r_home_before": 1823.2,
+      "r_away_before": 2133.3,
+      "r_home_after": 1814.6,
+      "r_away_after": 2141.9,
+      "delta_home": -8.62,
+      "g_multiplier": 1.0
     }
   ],
   "current": {
@@ -1241,15 +1269,15 @@
     "RSA": 1559.2,
     "KOR": 1723.4,
     "BIH": 1605.3,
-    "CAN": 1772.4,
+    "CAN": 1736.5,
     "QAT": 1411.0,
     "SUI": 1936.0,
     "BRA": 2030.4,
     "HAI": 1516.8,
-    "MAR": 1886.2,
+    "MAR": 1922.1,
     "SCO": 1744.9,
     "AUS": 1795.3,
-    "PAR": 1823.2,
+    "PAR": 1814.6,
     "TUR": 1844.1,
     "USA": 1804.8,
     "CUW": 1437.9,
@@ -1268,7 +1296,7 @@
     "KSA": 1595.4,
     "ESP": 2159.1,
     "URU": 1841.3,
-    "FRA": 2133.3,
+    "FRA": 2141.9,
     "IRQ": 1560.7,
     "NOR": 1935.0,
     "SEN": 1815.2,
@@ -1285,5 +1313,5 @@
     "GHA": 1570.4,
     "PAN": 1658.5
   },
-  "updated_at": "2026-07-04T08:22:58Z"
+  "updated_at": "2026-07-05T13:31:57Z"
 }

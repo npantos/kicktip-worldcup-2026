@@ -1334,7 +1334,7 @@
       "away": "FRA",
       "home_slot": "W074",
       "away_slot": "W077",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M090",
@@ -1349,7 +1349,7 @@
       "away": "MAR",
       "home_slot": "W073",
       "away_slot": "W075",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M091",
@@ -1450,8 +1450,8 @@
       "kickoff_utc": "2026-07-09T20:00:00Z",
       "venue_city": "Boston (Foxborough)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "FRA",
+      "away": "MAR",
       "home_slot": "W089",
       "away_slot": "W090",
       "status": "scheduled"
