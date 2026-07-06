@@ -111,7 +111,17 @@
           "posted_at": "2026-07-04T09:12:00Z",
           "confirmed_via": "get_bets readback 2026-07-04",
           "mode": "PROTECT(==EP-max, KO after-pens corrected)",
-          "note": "R16 pre-bet sweep (whole round biddable), R32-sweep precedent. PROTECT mode (rank 1/34, lead +13, rem_grp=0), k=0.3. EP under CORRECTED after-pens rule (pens graded as 120' goals + shootout goals; verified vs platform 2026-07-04). Matchday-morning research may re-bet. EP 1.65; adjusted 35/28/37 (coinflip, model tie-break BEL)."
+          "note": "R16 pre-bet sweep (whole round biddable), R32-sweep precedent. PROTECT mode (rank 1/34, lead +13, rem_grp=0), k=0.3. EP under CORRECTED after-pens rule (pens graded as 120' goals + shootout goals; verified vs platform 2026-07-04). Matchday-morning research may re-bet. EP 1.65; adjusted 35/28/37 (coinflip, model tie-break BEL).",
+          "superseded_by": "2026-07-06T09:55:00Z"
+        },
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-07-06T09:55:00Z",
+          "confirmed_via": "get_bets readback 2026-07-06",
+          "mode": "PROTECT(==EP-max, market flip)",
+          "note": "Re-bet 0:1 -> 1:0 after FIFA lifted Balogun's red-card suspension (announced Sun) and the market flipped USA favourite: BetMGM to-advance BEL -115 -> USA -125; 3-way ~USA +160/BEL +165/X +225, de-vig consensus ~37/29/34 vs locked 35/28/37 (which priced Balogun out). EP at consensus: 1:0=1.676 vs 0:1=1.601; PROTECT obj 1.08 vs 1.01. Sources: cbssports.com/soccer/news/folarin-balogun-usmnt-world-cup-belgium-fifa-lifts-suspension, si.com/betting/usa-vs-belgium-odds-shift-dramatically-with-folarin-balogun-now-available-to-play, sports.yahoo.com/soccer/betting/article/world-cup-2026-odds-usmnt-opens-as-small-favorite-vs-belgium-in-round-of-16-165955306.html. Pre-kickoff (00:00Z)."
         }
       ]
     }

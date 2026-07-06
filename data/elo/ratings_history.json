@@ -1261,18 +1261,46 @@
       "r_away_after": 2141.9,
       "delta_home": -8.62,
       "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M091",
+      "applied_at": "2026-07-06T09:34:41Z",
+      "home": "BRA",
+      "away": "NOR",
+      "score": "1-2",
+      "home_adv_applied": 0,
+      "r_home_before": 2030.4,
+      "r_away_before": 1935.0,
+      "r_home_after": 1992.4,
+      "r_away_after": 1973.0,
+      "delta_home": -38.04,
+      "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M092",
+      "applied_at": "2026-07-06T09:34:41Z",
+      "home": "MEX",
+      "away": "ENG",
+      "score": "2-3",
+      "home_adv_applied": 100,
+      "r_home_before": 1951.1,
+      "r_away_before": 2046.3,
+      "r_home_after": 1920.7,
+      "r_away_after": 2076.7,
+      "delta_home": -30.41,
+      "g_multiplier": 1.0
     }
   ],
   "current": {
     "CZE": 1670.8,
-    "MEX": 1951.1,
+    "MEX": 1920.7,
     "RSA": 1559.2,
     "KOR": 1723.4,
     "BIH": 1605.3,
     "CAN": 1736.5,
     "QAT": 1411.0,
     "SUI": 1936.0,
-    "BRA": 2030.4,
+    "BRA": 1992.4,
     "HAI": 1516.8,
     "MAR": 1922.1,
     "SCO": 1744.9,
@@ -1298,7 +1326,7 @@
     "URU": 1841.3,
     "FRA": 2141.9,
     "IRQ": 1560.7,
-    "NOR": 1935.0,
+    "NOR": 1973.0,
     "SEN": 1815.2,
     "ALG": 1755.5,
     "ARG": 2150.7,
@@ -1309,9 +1337,9 @@
     "POR": 2012.0,
     "UZB": 1630.6,
     "CRO": 1881.3,
-    "ENG": 2046.3,
+    "ENG": 2076.7,
     "GHA": 1570.4,
     "PAN": 1658.5
   },
-  "updated_at": "2026-07-05T13:31:57Z"
+  "updated_at": "2026-07-06T09:34:41Z"
 }

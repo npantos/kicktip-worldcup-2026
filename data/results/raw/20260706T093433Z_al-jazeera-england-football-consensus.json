@@ -1,0 +1,23 @@
+{
+  "fetched_at": "2026-07-06T09:34:33Z",
+  "source": "Al Jazeera / England Football consensus",
+  "urls": [
+    "https://www.aljazeera.com/sports/2026/7/5/haaland-scores-twice-as-norway-stun-brazil-2-1-in-world-cup-2026-last-16",
+    "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M091",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "Norway stun Brazil 2-1 (as away side); Haaland brace"
+    },
+    {
+      "match_id": "M092",
+      "home_goals": 2,
+      "away_goals": 3,
+      "note": "Mexico 2-3 England, R16, Azteca"
+    }
+  ]
+}

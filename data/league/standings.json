@@ -1,27 +1,27 @@
 {
-  "fetched_at": "2026-07-05T13:35:00Z",
+  "fetched_at": "2026-07-06T09:40:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview 2026-07-05; after R16 day-1 (repo through M090)",
+  "source": "kicktipp MCP get_overview 2026-07-06; after R16 day-2 (repo through M092)",
   "as_of_matchday": 12,
   "matchday_numbering": "kicktipp overview index (MD12 = R16, in progress)",
-  "matches_scored_so_far": 90,
+  "matches_scored_so_far": 92,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
     "rank": 1,
-    "points": 235,
+    "points": 238,
     "bonus": 36
   },
   "human_owner": {
     "name": "NemanjaPantoš",
     "rank": 3,
-    "points": 220
+    "points": 223
   },
   "leader": {
     "names": [
       "Nemanj-AI"
     ],
-    "points": 235
+    "points": 238
   },
   "deficit_to_leader": 0,
   "tier_at_my_points": 1,
@@ -30,38 +30,38 @@
     {
       "rank": 1,
       "name": "Nemanj-AI",
-      "points": 235,
+      "points": 238,
       "bonus": 36
     },
     {
       "rank": 2,
       "name": "Stef",
-      "points": 222,
+      "points": 225,
       "bonus": 44
     },
     {
       "rank": 3,
       "name": "NemanjaPantoš",
-      "points": 220,
+      "points": 223,
       "bonus": 44
     },
     {
       "rank": 4,
-      "name": "LosAngelesBus",
-      "points": 213,
-      "bonus": 48
+      "name": "MrGojomir",
+      "points": 216,
+      "bonus": 36
     },
     {
       "rank": 5,
-      "name": "Shelly",
-      "points": 211,
-      "bonus": 32
+      "name": "LosAngelesBus",
+      "points": 215,
+      "bonus": 48
     },
     {
       "rank": 6,
-      "name": "MrGojomir",
-      "points": 208,
-      "bonus": 36
+      "name": "Shelly",
+      "points": 211,
+      "bonus": 32
     },
     {
       "rank": 7,
@@ -77,16 +77,16 @@
     },
     {
       "rank": 9,
-      "name": "BB",
-      "points": 199,
-      "bonus": 44
+      "name": "djomla",
+      "points": 202,
+      "bonus": 40
     },
     {
       "rank": 10,
-      "name": "Dalibor89",
-      "points": 196,
-      "bonus": 36
+      "name": "BB",
+      "points": 201,
+      "bonus": 44
     }
   ],
-  "note": "R16 day-1: AI +4 on platform (235 from 231): PAR-FRA bet 0:2 vs actual 0:1 = tendency 2 (0:1 would have been exact 6, but 0:2 was EP-max ex ante under corrected pens model); CAN-MAR bet 0:1 vs actual 0:3 = tendency 2. Lead stays +13 over Stef (222); human 3rd (220). Overview MD12 = 4 pts so far, matchday still open (M091 BRA-NOR, M092 MEX-ENG bet 1:0 / 0:1). QF M097 resolved: FRA vs MAR."
+  "note": "R16 day-2: AI +3 (238): BRA-NOR bet 1:0 vs 1-2 = 0 (Haaland brace 79'/88' flipped it late); MEX-ENG bet 0:1 vs 2-3 = goal-diff 3. Lead stays +13 over Stef (225); human 3rd (223, -2 to Stef). MrGojomir MD12=12 climbs to 4th (216). QF slots resolved: M097 FRA-MAR, M099 NOR-ENG. MD12 open: M093 POR-ESP, M094 USA-BEL (bet 0:1 / 0:1)."
 }

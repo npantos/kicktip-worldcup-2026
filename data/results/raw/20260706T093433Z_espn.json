@@ -1,0 +1,23 @@
+{
+  "fetched_at": "2026-07-06T09:34:33Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760504/norway-brazil",
+    "https://www.espn.com/soccer/report/_/gameId/760504"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M091",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "FT 90min. Haaland 79, 88; Neymar pen 90+. MetLife."
+    },
+    {
+      "match_id": "M092",
+      "home_goals": 2,
+      "away_goals": 3,
+      "note": "FT 90min. Bellingham x2, Kane pen; Quinones, Jimenez pen. Quansah red card. Azteca."
+    }
+  ]
+}

@@ -1364,7 +1364,7 @@
       "away": "NOR",
       "home_slot": "W076",
       "away_slot": "W078",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M092",
@@ -1379,7 +1379,7 @@
       "away": "ENG",
       "home_slot": "W079",
       "away_slot": "W080",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M093",
@@ -1480,8 +1480,8 @@
       "kickoff_utc": "2026-07-11T21:00:00Z",
       "venue_city": "Miami (Miami Gardens)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "NOR",
+      "away": "ENG",
       "home_slot": "W091",
       "away_slot": "W092",
       "status": "scheduled"
