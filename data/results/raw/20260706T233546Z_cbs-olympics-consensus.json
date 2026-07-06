@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-07-06T23:35:46Z",
+  "source": "CBS / Olympics consensus",
+  "urls": [
+    "https://www.cbssports.com/soccer/news/portugal-spain-live-updates-world-cup-2026-score-result/live/",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-portugal-vs-spain-round-16-score-lineups-live-updates"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M093",
+      "home_goals": 0,
+      "away_goals": 1,
+      "note": "Portugal 0-1 Spain, 91st-min Merino winner"
+    }
+  ]
+}

@@ -1,27 +1,27 @@
 {
-  "fetched_at": "2026-07-06T09:40:00Z",
+  "fetched_at": "2026-07-06T23:40:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview 2026-07-06; after R16 day-2 (repo through M092)",
+  "source": "kicktipp MCP get_overview 2026-07-06 late; after M093 (repo through M093)",
   "as_of_matchday": 12,
   "matchday_numbering": "kicktipp overview index (MD12 = R16, in progress)",
-  "matches_scored_so_far": 92,
+  "matches_scored_so_far": 93,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
     "rank": 1,
-    "points": 238,
+    "points": 244,
     "bonus": 36
   },
   "human_owner": {
     "name": "NemanjaPantoš",
     "rank": 3,
-    "points": 223
+    "points": 226
   },
   "leader": {
     "names": [
       "Nemanj-AI"
     ],
-    "points": 238
+    "points": 244
   },
   "deficit_to_leader": 0,
   "tier_at_my_points": 1,
@@ -30,63 +30,63 @@
     {
       "rank": 1,
       "name": "Nemanj-AI",
-      "points": 238,
+      "points": 244,
       "bonus": 36
     },
     {
       "rank": 2,
       "name": "Stef",
-      "points": 225,
+      "points": 228,
       "bonus": 44
     },
     {
       "rank": 3,
       "name": "NemanjaPantoš",
-      "points": 223,
+      "points": 226,
       "bonus": 44
     },
     {
       "rank": 4,
       "name": "MrGojomir",
-      "points": 216,
+      "points": 219,
       "bonus": 36
     },
     {
       "rank": 5,
       "name": "LosAngelesBus",
-      "points": 215,
+      "points": 217,
       "bonus": 48
     },
     {
       "rank": 6,
       "name": "Shelly",
-      "points": 211,
+      "points": 213,
       "bonus": 32
     },
     {
       "rank": 7,
-      "name": "LilDja",
-      "points": 202,
-      "bonus": 36
+      "name": "djomla",
+      "points": 208,
+      "bonus": 40
     },
     {
       "rank": 8,
       "name": "bojan_nišić",
-      "points": 202,
+      "points": 208,
       "bonus": 40
     },
     {
       "rank": 9,
-      "name": "djomla",
-      "points": 202,
-      "bonus": 40
+      "name": "BB",
+      "points": 203,
+      "bonus": 44
     },
     {
       "rank": 10,
-      "name": "BB",
-      "points": 201,
-      "bonus": 44
+      "name": "LilDja",
+      "points": 202,
+      "bonus": 36
     }
   ],
-  "note": "R16 day-2: AI +3 (238): BRA-NOR bet 1:0 vs 1-2 = 0 (Haaland brace 79'/88' flipped it late); MEX-ENG bet 0:1 vs 2-3 = goal-diff 3. Lead stays +13 over Stef (225); human 3rd (223, -2 to Stef). MrGojomir MD12=12 climbs to 4th (216). QF slots resolved: M097 FRA-MAR, M099 NOR-ENG. MD12 open: M093 POR-ESP, M094 USA-BEL (bet 0:1 / 0:1)."
+  "note": "R16 day-3 evening: POR-ESP 0:1 EXACT +6 (Merino 90+1) -> 244, lead +16 over Stef (228, +3 on the match). Human 226 (+3, likely his 1:2 variant taking goal-diff), still -2 to Stef. MrGojomir MD12=15 now 4th (219). M094 USA-BEL bet 1:0 (re-bet after Balogun reinstatement), kicks off 00:00Z; Balogun starts, Belgium bench De Bruyne AND Doku. MD12 remaining after tonight: M095 ARG-EGY, M096 SUI-COL (bet 1:0 / 0:1)."
 }
