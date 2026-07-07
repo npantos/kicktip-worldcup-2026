@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-07-06T23:40:00Z",
+  "fetched_at": "2026-07-07T10:15:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview 2026-07-06 late; after M093 (repo through M093)",
+  "source": "kicktipp MCP get_overview 2026-07-07; after M094 (repo through M094)",
   "as_of_matchday": 12,
   "matchday_numbering": "kicktipp overview index (MD12 = R16, in progress)",
-  "matches_scored_so_far": 93,
+  "matches_scored_so_far": 94,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
@@ -36,7 +36,7 @@
     {
       "rank": 2,
       "name": "Stef",
-      "points": 228,
+      "points": 230,
       "bonus": 44
     },
     {
@@ -48,7 +48,7 @@
     {
       "rank": 4,
       "name": "MrGojomir",
-      "points": 219,
+      "points": 221,
       "bonus": 36
     },
     {
@@ -60,33 +60,33 @@
     {
       "rank": 6,
       "name": "Shelly",
-      "points": 213,
+      "points": 215,
       "bonus": 32
     },
     {
       "rank": 7,
-      "name": "djomla",
+      "name": "bojan_nišić",
       "points": 208,
       "bonus": 40
     },
     {
       "rank": 8,
-      "name": "bojan_nišić",
+      "name": "djomla",
       "points": 208,
       "bonus": 40
     },
     {
       "rank": 9,
       "name": "BB",
-      "points": 203,
+      "points": 205,
       "bonus": 44
     },
     {
       "rank": 10,
       "name": "LilDja",
-      "points": 202,
+      "points": 204,
       "bonus": 36
     }
   ],
-  "note": "R16 day-3 evening: POR-ESP 0:1 EXACT +6 (Merino 90+1) -> 244, lead +16 over Stef (228, +3 on the match). Human 226 (+3, likely his 1:2 variant taking goal-diff), still -2 to Stef. MrGojomir MD12=15 now 4th (219). M094 USA-BEL bet 1:0 (re-bet after Balogun reinstatement), kicks off 00:00Z; Balogun starts, Belgium bench De Bruyne AND Doku. MD12 remaining after tonight: M095 ARG-EGY, M096 SUI-COL (bet 1:0 / 0:1)."
+  "note": "R16 day-4 morning: USA-BEL 1-4 (De Ketelaere x2, Lukaku; DDB/Doku benched and it did not matter). Re-bet 1:0 = 0 pts; the superseded 0:1 would have taken tendency 2 - market flip was real but wrong side won anyway; EV call documented, no process change. Lead grows to +14 over Stef (230, +2). Human 226, now -4 to Stef. MrGojomir MD12=17, 4th at 221 - watch him. QF set: FRA-MAR, NOR-ENG, ESP-BEL. MD12 remaining: M095 ARG-EGY 16:00Z, M096 SUI-COL 20:00Z (bet 1:0 / 0:1)."
 }

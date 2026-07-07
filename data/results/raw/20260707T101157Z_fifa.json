@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-07T10:11:57Z",
+  "source": "FIFA",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021534"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M094",
+      "home_goals": 1,
+      "away_goals": 4,
+      "note": "USA v Belgium 1-4, R16 Seattle"
+    }
+  ]
+}

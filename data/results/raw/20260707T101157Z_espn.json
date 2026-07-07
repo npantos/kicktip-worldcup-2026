@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-07T10:11:57Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760507/belgium-united-states"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M094",
+      "home_goals": 1,
+      "away_goals": 4,
+      "note": "FT 90min. De Ketelaere x2 (1H), Lukaku 90+; Tillman FK for USA. Red card controversy per ABC. Seattle."
+    }
+  ]
+}

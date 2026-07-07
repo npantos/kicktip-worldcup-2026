@@ -1303,6 +1303,20 @@
       "r_away_after": 2177.1,
       "delta_home": -18.01,
       "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M094",
+      "applied_at": "2026-07-07T10:11:57Z",
+      "home": "USA",
+      "away": "BEL",
+      "score": "1-4",
+      "home_adv_applied": 100,
+      "r_home_before": 1804.8,
+      "r_away_before": 1910.2,
+      "r_home_after": 1753.1,
+      "r_away_after": 1961.9,
+      "delta_home": -51.68,
+      "g_multiplier": 1.75
     }
   ],
   "current": {
@@ -1321,7 +1335,7 @@
     "AUS": 1795.3,
     "PAR": 1814.6,
     "TUR": 1844.1,
-    "USA": 1804.8,
+    "USA": 1753.1,
     "CUW": 1437.9,
     "ECU": 1871.3,
     "GER": 1907.5,
@@ -1330,7 +1344,7 @@
     "NED": 1972.1,
     "SWE": 1731.5,
     "TUN": 1562.0,
-    "BEL": 1910.2,
+    "BEL": 1961.9,
     "EGY": 1747.2,
     "IRN": 1763.8,
     "NZL": 1534.2,
@@ -1355,5 +1369,5 @@
     "GHA": 1570.4,
     "PAN": 1658.5
   },
-  "updated_at": "2026-07-06T23:35:47Z"
+  "updated_at": "2026-07-07T10:11:57Z"
 }

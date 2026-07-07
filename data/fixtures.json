@@ -1409,7 +1409,7 @@
       "away": "BEL",
       "home_slot": "W081",
       "away_slot": "W082",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M095",
@@ -1465,8 +1465,8 @@
       "kickoff_utc": "2026-07-10T19:00:00Z",
       "venue_city": "Los Angeles (Inglewood)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "ESP",
+      "away": "BEL",
       "home_slot": "W093",
       "away_slot": "W094",
       "status": "scheduled"
