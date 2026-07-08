@@ -1,0 +1,27 @@
+{
+  "fetched_at": "2026-07-08T09:21:21Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760509/egypt-argentina",
+    "https://www.espn.com/soccer/match/_/gameId/760508/colombia-switzerland"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M095",
+      "home_goals": 3,
+      "away_goals": 2,
+      "note": "FT 90min. Egypt led 2-0 (Ibrahim 15, Zico 67); Messi pen saved 1H; Romero 79, Messi 83, Enzo Fernandez 90+ comeback. Atlanta."
+    },
+    {
+      "match_id": "M096",
+      "home_goals": 0,
+      "away_goals": 0,
+      "penalties": [
+        4,
+        3
+      ],
+      "note": "0-0 aet; Switzerland win shootout 4-3 (Vargas winning kick; Sanchez off bar, Cucho saved). First Swiss WC shootout win. Vancouver."
+    }
+  ]
+}

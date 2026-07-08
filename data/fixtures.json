@@ -1424,7 +1424,7 @@
       "away": "EGY",
       "home_slot": "W086",
       "away_slot": "W088",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M096",
@@ -1439,7 +1439,7 @@
       "away": "COL",
       "home_slot": "W085",
       "away_slot": "W087",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M097",
@@ -1495,8 +1495,8 @@
       "kickoff_utc": "2026-07-12T01:00:00Z",
       "venue_city": "Kansas City",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "ARG",
+      "away": "SUI",
       "home_slot": "W095",
       "away_slot": "W096",
       "status": "scheduled"

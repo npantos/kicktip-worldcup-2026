@@ -1,0 +1,27 @@
+{
+  "fetched_at": "2026-07-08T09:21:21Z",
+  "source": "FIFA",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021528",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/switzerland-colombia-match-report-highlights"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M095",
+      "home_goals": 3,
+      "away_goals": 2,
+      "note": "Argentina 3-2 Egypt, R16 Atlanta"
+    },
+    {
+      "match_id": "M096",
+      "home_goals": 0,
+      "away_goals": 0,
+      "penalties": [
+        4,
+        3
+      ],
+      "note": "Switzerland 0-0 (4-3 PSO) Colombia"
+    }
+  ]
+}
