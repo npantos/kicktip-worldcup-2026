@@ -1,0 +1,68 @@
+{
+  "match_date": "2026-07-09",
+  "predictions": [
+    {
+      "match_id": "M097",
+      "created_at": "2026-07-08T09:37:13Z",
+      "locked_at": "2026-07-08T09:45:00Z",
+      "model": {
+        "elo_home": 2141.9,
+        "elo_away": 1922.1,
+        "home_adv_applied": 0,
+        "lambda_home": 3.068,
+        "lambda_away": 0.568,
+        "p_home": 0.8623,
+        "p_draw": 0.0966,
+        "p_away": 0.0411,
+        "expected_score": "3-0",
+        "p_home_advance": 0.9264
+      },
+      "adjusted": {
+        "p_home": 0.61,
+        "p_draw": 0.24,
+        "p_away": 0.15,
+        "predicted_score": "2-0",
+        "reasoning": "France clear favourites but market (~60%) sits far below the model's 86% and the market track has out-predicted the Elo model all tournament — anchored to de-vigged consensus (FRA 60/24/16). France have won all 6, scoring 17, and edged Paraguay in R16; Mbappe on 7 goals wears the armband. Trimmed vs a genuinely dangerous Morocco (held Brazil, knocked out the Netherlands, 2022 semi-finalists) — the best underdog left. Tchouameni doubtful (thigh/abductor, late call) and Olise's booking is under FFF appeal, minor negatives already in the market number. Morocco miss Saibari (hamstring doubt); Hakimi fit. Slight lean to model on France's form keeps p_home a hair above market.",
+        "factors": [
+          {
+            "factor": "Consensus FRA -178 / draw +288 / MAR +525 (de-vig ~60/24/16)",
+            "source": "https://dknetwork.draftkings.com/2026/07/04/world-cup-2026-france-vs-morocco-opening-odds/"
+          },
+          {
+            "factor": "Tchouameni doubtful (thigh/abductor, late call); Olise yellow under FFF appeal; Mbappe (7 goals) captains",
+            "source": "https://www.espn.com/soccer/story/_/id/49294048/fifa-world-cup-2026-france-vs-morocco-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+          },
+          {
+            "factor": "Morocco held Brazil & beat Netherlands; Saibari (hamstring) doubt, Rahimi likely in; Hakimi fit",
+            "source": "https://www.rotowire.com/soccer/article/france-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121621"
+          }
+        ]
+      },
+      "odds": {
+        "source": "consensus DK/FanDuel QF (FRA -178, X +288, MAR +525)",
+        "decimal_odds": [
+          1.562,
+          3.88,
+          6.25
+        ],
+        "overround": 0.058,
+        "p_home": 0.605,
+        "p_draw": 0.244,
+        "p_away": 0.151,
+        "fetched_at": "2026-07-08T09:30:00Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-07-08T09:50:00Z",
+          "confirmed_via": "get_bets readback 2026-07-08",
+          "mode": "PROTECT(==EP-max, market-anchored)",
+          "note": "QF pre-bet sweep (all 4 biddable), R16-sweep precedent. PROTECT mode (rank 1/34, lead +12, rem_grp=0), k=0.3 -> contest pick == EP-max on adjusted (market-anchored). Matchday-morning research may re-bet via superseded_by. Locked 2026-07-08 pre-kickoff."
+        }
+      ]
+    }
+  ]
+}

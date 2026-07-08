@@ -1,0 +1,131 @@
+{
+  "match_date": "2026-07-11",
+  "predictions": [
+    {
+      "match_id": "M099",
+      "created_at": "2026-07-08T09:37:13Z",
+      "locked_at": "2026-07-08T09:45:00Z",
+      "model": {
+        "elo_home": 1973.0,
+        "elo_away": 2076.7,
+        "home_adv_applied": 0,
+        "lambda_home": 0.887,
+        "lambda_away": 1.965,
+        "p_home": 0.1626,
+        "p_draw": 0.2116,
+        "p_away": 0.6258,
+        "expected_score": "0-1",
+        "p_home_advance": 0.2488
+      },
+      "adjusted": {
+        "p_home": 0.25,
+        "p_draw": 0.25,
+        "p_away": 0.5,
+        "predicted_score": "1-2",
+        "reasoning": "Closest QF and the model's shakiest number: model has England 63% but the 90-minute market is a near coin-flip (ENG ~50/draw ~26/NOR ~24), so anchored to market. England have the deeper squad, calmer defence and Bellingham in form after his Mexico masterclass; Norway are Haaland-dependent (7 goals in 4) with big variance. England lose the suspended Quansah (red vs Mexico) and Reece James is a fitness doubt, so Konsa likely at RB — a spot Norway will target, which is why we sit at market ~50% rather than higher. Norway's Ryerson also a fitness doubt. Predicted 1-2: open, high-scoring, England edge with Haaland scoring.",
+        "factors": [
+          {
+            "factor": "bet365 ENG even-money / NOR +250 / draw +260; FanDuel ENG -115 (de-vig 90min ~ENG 49/draw 26/NOR 25)",
+            "source": "https://www.sportsbettingdime.com/news/soccer/norway-vs-england-odds-world-cup-quarterfinals/"
+          },
+          {
+            "factor": "Quansah suspended (red vs Mexico); Reece James fitness doubt -> Konsa likely RB, Norway target; Bellingham in form",
+            "source": "https://www.si.com/soccer/england-huge-injury-boost-world-cup-quarterfinal-norway"
+          },
+          {
+            "factor": "Haaland 7 goals in 4; Ryerson (Norway RB) a fitness doubt after missing games",
+            "source": "https://www.squawka.com/en/news/world-cup/norway-vs-england-team-news-predicted-lineups/"
+          }
+        ]
+      },
+      "odds": {
+        "source": "consensus bet365/FanDuel QF (home NOR +285, X +260, away ENG -108)",
+        "decimal_odds": [
+          3.85,
+          3.6,
+          1.926
+        ],
+        "overround": 0.057,
+        "p_home": 0.246,
+        "p_draw": 0.263,
+        "p_away": 0.491,
+        "fetched_at": "2026-07-08T09:30:00Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "0:1",
+          "posted_at": "2026-07-08T09:50:00Z",
+          "confirmed_via": "get_bets readback 2026-07-08",
+          "mode": "PROTECT(==EP-max, market-anchored)",
+          "note": "QF pre-bet sweep (all 4 biddable), R16-sweep precedent. PROTECT mode (rank 1/34, lead +12, rem_grp=0), k=0.3 -> contest pick == EP-max on adjusted (market-anchored). Matchday-morning research may re-bet via superseded_by. Locked 2026-07-08 pre-kickoff."
+        }
+      ]
+    },
+    {
+      "match_id": "M100",
+      "created_at": "2026-07-08T09:37:13Z",
+      "locked_at": "2026-07-08T09:45:00Z",
+      "model": {
+        "elo_home": 2156.1,
+        "elo_away": 1942.2,
+        "home_adv_applied": 0,
+        "lambda_home": 3.0,
+        "lambda_away": 0.581,
+        "p_home": 0.8531,
+        "p_draw": 0.1022,
+        "p_away": 0.0447,
+        "expected_score": "2-0",
+        "p_home_advance": 0.9207
+      },
+      "adjusted": {
+        "p_home": 0.57,
+        "p_draw": 0.25,
+        "p_away": 0.18,
+        "predicted_score": "2-0",
+        "reasoning": "Argentina favourites but the model's 85% is far above the market (~55%), so anchored to de-vigged consensus (ARG 55/27/18). Argentina looked fragile in R16 — 2-0 down to Egypt before a late comeback, and Messi has now missed two penalties this tournament (a WC first) — so no push above market. Still, Messi leads the Golden Boot on 8 and the attack is elite. Switzerland are a first QF since 1954 on the back of a low-event 0-0 + shootout over Colombia: defensively resilient but tired legs from 120 minutes and short on proven attacking threat. Predicted 2-0.",
+        "factors": [
+          {
+            "factor": "DK ARG -140 / draw +250 / SUI +425; BetMGM ARG -145 (de-vig ~ARG 55/27/18)",
+            "source": "https://dknetwork.draftkings.com/2026/07/07/opening-odds-for-argentina-vs-switzerland-in-the-fifa-world-cup-2026/"
+          },
+          {
+            "factor": "Argentina fragile in R16 (2-0 down to Egypt, comeback); Messi missed 2 pens (WC first) but leads Golden Boot on 8",
+            "source": "https://www.espn.com/soccer/story/_/id/49297866/world-cup-reaction-switzerland-beat-colombia-4-3-penalties-set-quarterfinal-argentina"
+          },
+          {
+            "factor": "Switzerland first QF since 1954, resilient but tired from 120min+pens vs Colombia, limited attack",
+            "source": "https://www.aljazeera.com/sports/2026/7/7/switzerland-face-argentina-in-world-cup-quarterfinal-after-beating-colombia"
+          }
+        ]
+      },
+      "odds": {
+        "source": "consensus DK/BetMGM QF (ARG -142, X +255, SUI +425)",
+        "decimal_odds": [
+          1.704,
+          3.55,
+          5.25
+        ],
+        "overround": 0.059,
+        "p_home": 0.554,
+        "p_draw": 0.266,
+        "p_away": 0.18,
+        "fetched_at": "2026-07-08T09:30:00Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-07-08T09:50:00Z",
+          "confirmed_via": "get_bets readback 2026-07-08",
+          "mode": "PROTECT(==EP-max, market-anchored)",
+          "note": "QF pre-bet sweep (all 4 biddable), R16-sweep precedent. PROTECT mode (rank 1/34, lead +12, rem_grp=0), k=0.3 -> contest pick == EP-max on adjusted (market-anchored). Matchday-morning research may re-bet via superseded_by. Locked 2026-07-08 pre-kickoff."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "match_date": "2026-07-10",
+  "predictions": [
+    {
+      "match_id": "M098",
+      "created_at": "2026-07-08T09:37:13Z",
+      "locked_at": "2026-07-08T09:45:00Z",
+      "model": {
+        "elo_home": 2177.1,
+        "elo_away": 1961.9,
+        "home_adv_applied": 0,
+        "lambda_home": 3.015,
+        "lambda_away": 0.578,
+        "p_home": 0.8552,
+        "p_draw": 0.1009,
+        "p_away": 0.0439,
+        "expected_score": "3-0",
+        "p_home_advance": 0.922
+      },
+      "adjusted": {
+        "p_home": 0.6,
+        "p_draw": 0.23,
+        "p_away": 0.17,
+        "predicted_score": "1-0",
+        "reasoning": "Spain favourites; market (~59%) well under the model's 86%, so anchored to de-vigged consensus (ESP 59/24/17) per the tournament-long market edge. Spain have not conceded a goal all tournament with Rodri back to peak — the meanest defence left — but Yamal is still not fully fit off the hamstring and Nico Williams is injured (Baena a step down), capping the upside, so held just above market rather than pushing higher. Belgium arrive unbeaten in 18 and scoring freely, but leak goals; Garcia benched De Bruyne and Doku vs USA and may restore them here. Low-total game expected — predicted 1-0 reflects Spain's clean-sheet profile.",
+        "factors": [
+          {
+            "factor": "Consensus ESP -167 / draw +295 / BEL +460; bet365 ESP -163 (de-vig ~59/24/17)",
+            "source": "https://www.sportsbettingdime.com/news/soccer/spain-vs-belgium-odds-for-world-cup-quarterfinals-3-way-moneyline-total-odds-to-advance/"
+          },
+          {
+            "factor": "Spain no goals conceded all tournament, Rodri peak; Yamal not fully fit, Nico Williams injured",
+            "source": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinals-preview-key-storyline-every-team"
+          },
+          {
+            "factor": "Belgium unbeaten in 18, prolific but leaky; De Bruyne & Doku benched vs USA, may return",
+            "source": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/spain-to-face-an-unbeaten-belgium-riding-an-18-match-streak-2026-07-07"
+          }
+        ]
+      },
+      "odds": {
+        "source": "consensus SBD/bet365 QF (ESP -167, X +295, BEL +460)",
+        "decimal_odds": [
+          1.599,
+          3.95,
+          5.6
+        ],
+        "overround": 0.057,
+        "p_home": 0.591,
+        "p_draw": 0.24,
+        "p_away": 0.169,
+        "fetched_at": "2026-07-08T09:30:00Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-07-08T09:50:00Z",
+          "confirmed_via": "get_bets readback 2026-07-08",
+          "mode": "PROTECT(==EP-max, market-anchored)",
+          "note": "QF pre-bet sweep (all 4 biddable), R16-sweep precedent. PROTECT mode (rank 1/34, lead +12, rem_grp=0), k=0.3 -> contest pick == EP-max on adjusted (market-anchored). Matchday-morning research may re-bet via superseded_by. Locked 2026-07-08 pre-kickoff."
+        }
+      ]
+    }
+  ]
+}
