@@ -1,27 +1,27 @@
 {
-  "fetched_at": "2026-07-08T09:25:00Z",
+  "fetched_at": "2026-07-10T13:35:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview 2026-07-08; R16 COMPLETE (repo through M096)",
-  "as_of_matchday": 12,
-  "matchday_numbering": "kicktipp overview index (MD12 = R16, in progress)",
-  "matches_scored_so_far": 96,
+  "source": "kicktipp MCP get_overview 2026-07-10; after M097 (QF1)",
+  "as_of_matchday": 13,
+  "matchday_numbering": "kicktipp overview index (MD13 = QF)",
+  "matches_scored_so_far": 97,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
     "rank": 1,
-    "points": 247,
-    "bonus": 36
+    "points": 253,
+    "bonus": 40
   },
   "human_owner": {
     "name": "NemanjaPantoš",
     "rank": 3,
-    "points": 228
+    "points": 238
   },
   "leader": {
     "names": [
       "Nemanj-AI"
     ],
-    "points": 247
+    "points": 253
   },
   "deficit_to_leader": 0,
   "tier_at_my_points": 1,
@@ -30,63 +30,63 @@
     {
       "rank": 1,
       "name": "Nemanj-AI",
-      "points": 247,
-      "bonus": 36
+      "points": 253,
+      "bonus": 40
     },
     {
       "rank": 2,
       "name": "Stef",
-      "points": 235,
-      "bonus": 44
+      "points": 241,
+      "bonus": 48
     },
     {
       "rank": 3,
       "name": "NemanjaPantoš",
-      "points": 228,
-      "bonus": 44
+      "points": 238,
+      "bonus": 48
     },
     {
       "rank": 4,
       "name": "MrGojomir",
-      "points": 226,
-      "bonus": 36
+      "points": 233,
+      "bonus": 40
     },
     {
       "rank": 5,
       "name": "LosAngelesBus",
-      "points": 219,
-      "bonus": 48
+      "points": 225,
+      "bonus": 52
     },
     {
       "rank": 6,
-      "name": "Shelly",
-      "points": 217,
-      "bonus": 32
+      "name": "bojan_nišić",
+      "points": 224,
+      "bonus": 44
     },
     {
       "rank": 7,
-      "name": "bojan_nišić",
-      "points": 214,
-      "bonus": 40
+      "name": "Shelly",
+      "points": 221,
+      "bonus": 36
     },
     {
       "rank": 8,
       "name": "djomla",
-      "points": 213,
-      "bonus": 40
+      "points": 219,
+      "bonus": 44
     },
     {
       "rank": 9,
       "name": "LilDja",
-      "points": 209,
-      "bonus": 36
+      "points": 213,
+      "bonus": 40
     },
     {
       "rank": 10,
       "name": "BB",
-      "points": 207,
-      "bonus": 44
+      "points": 213,
+      "bonus": 48
     }
   ],
-  "note": "R16 COMPLETE. Day-4 close: ARG-EGY bet 1:0 vs 3-2 = goal_diff 3 (both home-by-1; Messi-led comeback from 0-2); SUI-COL bet 0:1 vs 0-0 (SUI 4-3 pens) = 0 (graded 4:3 home win, we had away). +3 -> 247. Lead narrows to +12 over Stef (235, who took +5 on the round); human 228, now -7 to Stef. MrGojomir MD12=22 surges to 226, only +21 back and hot. QF bracket set: M097 FRA-MAR, M098 ESP-BEL, M099 NOR-ENG, M100 ARG-SUI."
+  "note": "QF1: FRA 2-0 MAR. AI bet 1:0 = tendency 2 (253, lead +12 over Stef 241). A bonus question resolved (+4 to most; AI bonus 36->40, still -8 to Stef/human on bonus). HUMAN scored +6 on the match -> France 2:0 EXACT (the suggested differentiator hit); human 238, closed from -7 to -3 vs Stef (who took tendency 2). MrGojomir 233, 4th and hot. M098 ESP-BEL today (bet 1:0), then NOR-ENG (Sat), ARG-SUI (Sun)."
 }

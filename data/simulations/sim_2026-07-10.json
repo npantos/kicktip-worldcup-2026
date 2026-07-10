@@ -1,0 +1,440 @@
+{
+  "run_at": "2026-07-10T13:30:45Z",
+  "n_iterations": 10000,
+  "seed": 20260611,
+  "n_confirmed_results": 97,
+  "teams": {
+    "CZE": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "MEX": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "RSA": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "KOR": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "BIH": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "CAN": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "QAT": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "SUI": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 0.7979,
+      "qf": 0.7979,
+      "sf": 0.0558,
+      "final": 0.0136,
+      "champion": 0.0009
+    },
+    "BRA": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "HAI": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "MAR": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 1.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "SCO": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "AUS": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "PAR": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "TUR": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "USA": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 0.0571,
+      "sf": 0.0007,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "CUW": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "ECU": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "GER": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "CIV": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "JPN": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "NED": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "SWE": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "TUN": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "BEL": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 0.9235,
+      "qf": 0.9235,
+      "sf": 0.059,
+      "final": 0.0048,
+      "champion": 0.0001
+    },
+    "EGY": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "IRN": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "NZL": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "CPV": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "KSA": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "ESP": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 1.0,
+      "sf": 0.94,
+      "final": 0.509,
+      "champion": 0.32
+    },
+    "URU": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "FRA": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 1.0,
+      "sf": 1.0,
+      "final": 0.4862,
+      "champion": 0.287
+    },
+    "IRQ": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "NOR": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 1.0,
+      "sf": 0.2412,
+      "final": 0.0327,
+      "champion": 0.0033
+    },
+    "SEN": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.2021,
+      "qf": 0.0213,
+      "sf": 0.0004,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "ALG": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0765,
+      "qf": 0.0194,
+      "sf": 0.0003,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "ARG": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 1.0,
+      "sf": 0.9179,
+      "final": 0.684,
+      "champion": 0.3195
+    },
+    "AUT": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "JOR": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "COL": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 0.1808,
+      "sf": 0.0259,
+      "final": 0.0102,
+      "champion": 0.0013
+    },
+    "COD": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "POR": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "UZB": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "CRO": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "ENG": {
+      "win_group": 1.0,
+      "r32": 1.0,
+      "r16": 1.0,
+      "qf": 1.0,
+      "sf": 0.7588,
+      "final": 0.2595,
+      "champion": 0.0679
+    },
+    "GHA": {
+      "win_group": 0.0,
+      "r32": 1.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    },
+    "PAN": {
+      "win_group": 0.0,
+      "r32": 0.0,
+      "r16": 0.0,
+      "qf": 0.0,
+      "sf": 0.0,
+      "final": 0.0,
+      "champion": 0.0
+    }
+  }
+}

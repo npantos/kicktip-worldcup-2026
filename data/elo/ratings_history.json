@@ -1345,6 +1345,20 @@
       "r_away_after": 2002.9,
       "delta_home": 6.22,
       "g_multiplier": 1.0
+    },
+    {
+      "match_id": "M097",
+      "applied_at": "2026-07-10T13:29:46Z",
+      "home": "FRA",
+      "away": "MAR",
+      "score": "2-0",
+      "home_adv_applied": 0,
+      "r_home_before": 2141.9,
+      "r_away_before": 1922.1,
+      "r_home_after": 2161.7,
+      "r_away_after": 1902.3,
+      "delta_home": 19.81,
+      "g_multiplier": 1.5
     }
   ],
   "current": {
@@ -1358,7 +1372,7 @@
     "SUI": 1942.2,
     "BRA": 1992.4,
     "HAI": 1516.8,
-    "MAR": 1922.1,
+    "MAR": 1902.3,
     "SCO": 1744.9,
     "AUS": 1795.3,
     "PAR": 1814.6,
@@ -1380,7 +1394,7 @@
     "KSA": 1595.4,
     "ESP": 2177.1,
     "URU": 1841.3,
-    "FRA": 2141.9,
+    "FRA": 2161.7,
     "IRQ": 1560.7,
     "NOR": 1973.0,
     "SEN": 1815.2,
@@ -1397,5 +1411,5 @@
     "GHA": 1570.4,
     "PAN": 1658.5
   },
-  "updated_at": "2026-07-08T09:21:21Z"
+  "updated_at": "2026-07-10T13:29:46Z"
 }

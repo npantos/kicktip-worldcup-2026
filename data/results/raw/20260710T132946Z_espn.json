@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-10T13:29:46Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760510/morocco-france"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M097",
+      "home_goals": 2,
+      "away_goals": 0,
+      "note": "FT 90min. Mbappe 60 (+missed 1H pen), Dembele. France to SF. Foxborough."
+    }
+  ]
+}
