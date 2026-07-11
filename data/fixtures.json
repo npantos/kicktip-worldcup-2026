@@ -1469,7 +1469,7 @@
       "away": "BEL",
       "home_slot": "W093",
       "away_slot": "W094",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M099",
@@ -1510,8 +1510,8 @@
       "kickoff_utc": "2026-07-14T19:00:00Z",
       "venue_city": "Dallas (Arlington)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "FRA",
+      "away": "ESP",
       "home_slot": "W097",
       "away_slot": "W098",
       "status": "scheduled"

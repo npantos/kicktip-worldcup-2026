@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-11T09:24:01Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760511/belgium-spain"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M098",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "FT 90min. Fabian Ruiz; De Ketelaere eq; Merino 88 winner (sub again). Spain to SF vs France. SoFi LA."
+    }
+  ]
+}

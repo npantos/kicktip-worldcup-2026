@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-11T09:24:01Z",
+  "source": "FIFA/CNN consensus",
+  "urls": [
+    "https://www.cnn.com/2026/07/10/sport/live-news/spain-belgium-world-cup-score"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M098",
+      "home_goals": 2,
+      "away_goals": 1,
+      "note": "Spain 2-1 Belgium, QF, Merino late winner"
+    }
+  ]
+}
