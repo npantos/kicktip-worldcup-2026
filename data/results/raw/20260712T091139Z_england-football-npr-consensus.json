@@ -1,0 +1,23 @@
+{
+  "fetched_at": "2026-07-12T09:11:39Z",
+  "source": "England Football / NPR consensus",
+  "urls": [
+    "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/norway-england-fifa-world-cup-quarter-final-saturday-11-july-2026-match-centre",
+    "https://www.npr.org/2026/07/11/nx-s1-5888612/2026-world-cup-fifa-argentina-switzerland-quarterfinal"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M099",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "Norway 1-2 England AET"
+    },
+    {
+      "match_id": "M100",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "Argentina 3-1 Switzerland AET"
+    }
+  ]
+}

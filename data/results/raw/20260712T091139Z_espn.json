@@ -1,0 +1,23 @@
+{
+  "fetched_at": "2026-07-12T09:11:39Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760512/england-norway",
+    "https://www.espn.com/soccer/story/_/id/49337589/argentina-switzerland-live-world-cup-2026"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M099",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "AET. Schjelderup; Bellingham x2 (incl 93 ET winner). England to SF. No shootout. Miami."
+    },
+    {
+      "match_id": "M100",
+      "home_goals": 3,
+      "away_goals": 1,
+      "note": "AET. Mac Allister 10 (Messi assist); Alvarez & L.Martinez in ET; SUI 10 men. Argentina to SF. Kansas City."
+    }
+  ]
+}

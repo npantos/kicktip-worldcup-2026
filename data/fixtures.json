@@ -1484,7 +1484,7 @@
       "away": "ENG",
       "home_slot": "W091",
       "away_slot": "W092",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M100",
@@ -1499,7 +1499,7 @@
       "away": "SUI",
       "home_slot": "W095",
       "away_slot": "W096",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M101",
@@ -1525,8 +1525,8 @@
       "kickoff_utc": "2026-07-15T19:00:00Z",
       "venue_city": "Atlanta",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "ENG",
+      "away": "ARG",
       "home_slot": "W099",
       "away_slot": "W100",
       "status": "scheduled"
