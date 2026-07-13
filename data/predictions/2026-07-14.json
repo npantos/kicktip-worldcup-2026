@@ -1,0 +1,26 @@
+{
+  "match_date": "2026-07-14",
+  "predictions": [
+    {
+      "match_id": "M101",
+      "created_at": "2026-07-12T09:17:56Z",
+      "locked_at": null,
+      "model": {
+        "elo_home": 2161.7,
+        "elo_away": 2190.6,
+        "home_adv_applied": 0,
+        "lambda_home": 1.181,
+        "lambda_away": 1.475,
+        "p_home": 0.3035,
+        "p_draw": 0.2574,
+        "p_away": 0.4391,
+        "expected_score": "1-1",
+        "p_home_advance": 0.4252
+      },
+      "adjusted": null,
+      "odds": null,
+      "external": [],
+      "posted_to": []
+    }
+  ]
+}

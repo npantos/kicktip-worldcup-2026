@@ -16,7 +16,7 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="177" />
+    <option name="cachedIndexableFilesCount" value="216" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +57,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-a98d8de5180a-a9a4ea3ee0f4-com.jetbrains.php.sharedIndexes-PS-261.22158.283" />
+        <option value="bundled-php-predefined-a98d8de5180a-6bbb74dbab74-com.jetbrains.php.sharedIndexes-PS-261.26222.71" />
       </set>
     </attachedChunks>
   </component>
@@ -77,7 +77,10 @@
       <workItem from="1782203613545" duration="598000" />
       <workItem from="1782205430877" duration="10702000" />
       <workItem from="1782314488930" duration="36605000" />
-      <workItem from="1783197139040" duration="31318000" />
+      <workItem from="1783197139040" duration="35855000" />
+      <workItem from="1783932142505" duration="490000" />
+      <workItem from="1783932669719" duration="61000" />
+      <workItem from="1783932848173" duration="1223000" />
     </task>
     <servers />
   </component>
