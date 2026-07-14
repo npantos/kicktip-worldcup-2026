@@ -1401,6 +1401,20 @@
       "r_away_after": 1921.9,
       "delta_home": 20.34,
       "g_multiplier": 1.5
+    },
+    {
+      "match_id": "M101",
+      "applied_at": "2026-07-14T21:04:52Z",
+      "home": "FRA",
+      "away": "ESP",
+      "score": "0-2",
+      "home_adv_applied": 0,
+      "r_home_before": 2161.7,
+      "r_away_before": 2190.6,
+      "r_home_after": 2120.4,
+      "r_away_after": 2231.9,
+      "delta_home": -41.27,
+      "g_multiplier": 1.5
     }
   ],
   "current": {
@@ -1434,9 +1448,9 @@
     "NZL": 1534.2,
     "CPV": 1619.6,
     "KSA": 1595.4,
-    "ESP": 2190.6,
+    "ESP": 2231.9,
     "URU": 1841.3,
-    "FRA": 2161.7,
+    "FRA": 2120.4,
     "IRQ": 1560.7,
     "NOR": 1951.7,
     "SEN": 1815.2,
@@ -1453,5 +1467,5 @@
     "GHA": 1570.4,
     "PAN": 1658.5
   },
-  "updated_at": "2026-07-12T09:11:39Z"
+  "updated_at": "2026-07-14T21:04:52Z"
 }

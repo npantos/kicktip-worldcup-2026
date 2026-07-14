@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-14T21:04:52Z",
+  "source": "ESPN",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760514/spain-france"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M101",
+      "home_goals": 0,
+      "away_goals": 2,
+      "note": "FT 90min. Oyarzabal pen 22 (won by Yamal), Porro 58. Spain to final. Arlington."
+    }
+  ]
+}

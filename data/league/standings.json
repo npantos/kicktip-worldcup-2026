@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-07-12T09:15:00Z",
+  "fetched_at": "2026-07-14T21:10:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_overview 2026-07-12; QF COMPLETE (repo through M100)",
-  "as_of_matchday": 13,
+  "source": "kicktipp MCP get_leaderboard MD14 2026-07-14 post-SF1",
+  "as_of_matchday": 14,
   "matchday_numbering": "kicktipp overview index (MD13 = QF)",
-  "matches_scored_so_far": 100,
+  "matches_scored_so_far": 101,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
@@ -54,19 +54,19 @@
     {
       "rank": 5,
       "name": "BB",
-      "points": 240,
+      "points": 242,
       "bonus": 60
     },
     {
       "rank": 6,
       "name": "LosAngelesBus",
-      "points": 239,
+      "points": 241,
       "bonus": 60
     },
     {
       "rank": 7,
       "name": "bojan_nišić",
-      "points": 239,
+      "points": 241,
       "bonus": 52
     },
     {
@@ -88,5 +88,5 @@
       "bonus": 48
     }
   ],
-  "note": "QF COMPLETE. NOR 1-2 ENG (AET) & ARG 3-1 SUI (AET). AI bets 0:1 (goal_diff 3) + 1:0 (tendency 2) = +5 -> 273, lead +9 over Stef (264). SEMIFINALIST bonus resolved (4 SFs known: FRA/ESP/ENG/ARG): AI & human +8, Stef & MrGojomir +4 -> human's bonus edge MATERIALIZED as predicted. Human 261 closed -6 -> -3 on Stef (bonus +4 did the work; on match Stef edged +1 via ARG 3-1 exact). NB: Stef did NOT play Norway 2:1 - he backed England (scored on NOR-ENG), so that read was off, but England 0:1 rec was robust & correct anyway. PENDING bonus: World Champion (human ESP vs Stef/Gojo FRA - decided in SF FRA-ESP) + Top Scorer (Mbappe vs Messi, both 8). SF: M101 FRA-ESP, M102 ENG-ARG."
+  "note": "SF1: FRA 0-2 ESP (Oyarzabal pen 22, Porro 58) - Spain to FINAL. AI bet 1:0 = 0 pts; Stef 0 (backed France, 2:1 projection consistent); human 0; MrGojomir 0 -> top-4 gaps UNCHANGED (273/264/261/249). BB/LAB/bojan +2 (Spain tendency) but >=31 back. STRATEGIC EARTHQUAKE: Stef's & MrGojomir's FRANCE champion picks are DEAD (France eliminated); AI & human SPAIN picks alive, one win from +4. AI-vs-Stef doomsday (FRA champ + Messi boot) ELIMINATED - worst case now +5 floor before matches. Mbappe (leads boot 8g+3a) plays 3rd-place game M103 vs loser of ENG-ARG. SF2 tomorrow: M102 ENG-ARG (AI unbet, plan ENG 1:0; Stef projected ARG 1:2)."
 }

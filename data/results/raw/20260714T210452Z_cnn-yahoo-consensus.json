@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-07-14T21:04:52Z",
+  "source": "CNN/Yahoo consensus",
+  "urls": [
+    "https://www.cnn.com/2026/07/14/sport/live-news/world-cup-france-spain",
+    "https://sports.yahoo.com/articles/scored-spain-see-mikel-oyarzabal-192740022.html"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M101",
+      "home_goals": 0,
+      "away_goals": 2,
+      "note": "Spain 2-0 France, SF1"
+    }
+  ]
+}
