@@ -4,7 +4,7 @@
     {
       "match_id": "M101",
       "created_at": "2026-07-12T09:17:56Z",
-      "locked_at": null,
+      "locked_at": "2026-07-14T09:00:00Z",
       "model": {
         "elo_home": 2161.7,
         "elo_away": 2190.6,
@@ -17,10 +17,52 @@
         "expected_score": "1-1",
         "p_home_advance": 0.4252
       },
-      "adjusted": null,
-      "odds": null,
+      "adjusted": {
+        "p_home": 0.4,
+        "p_draw": 0.3,
+        "p_away": 0.3,
+        "predicted_score": "1-0",
+        "reasoning": "Coin-flip semi. Model (Elo) narrowly favours Spain (44% away) but the 90-min market favours France (~FRA 40/draw 30/ESP 30 de-vigged; FRA -150 to advance), and the market track has out-predicted the model all tournament -> anchored to market. France unbeaten in 7, Mbappe leads Golden Boot (8g+3a) and is 'completely fine' after the ankle knock; no suspensions (yellows wiped for last four). Tchouameni a game-time decision (thigh) - Kone deputises, already priced. Spain have not conceded all tournament but Nico Williams questionable, and Yamal only recently back to full sharpness. Tight, low-scoring, decided by a moment - predicted 1-0 France.",
+        "factors": [
+          {
+            "factor": "Consensus FRA +135 / draw +210 / ESP +225; FRA -150 to advance (de-vig ~40/30/30)",
+            "source": "https://www.cbssports.com/soccer/news/france-spain-odds-prediction-line-time-2026-world-cup-semifinal-picks/"
+          },
+          {
+            "factor": "Mbappe 'completely fine' after ankle knock, leads Golden Boot 8g+3a; no France suspensions (yellows wiped)",
+            "source": "https://www.sportsmole.co.uk/football/france/injury-news/injuries-and-suspensions/mbappe-tchouameni-kone-latest-france-injury-suspension-list-vs-spain_601068.html"
+          },
+          {
+            "factor": "Spain no goals conceded all tournament; Nico Williams questionable; Yamal recently back",
+            "source": "https://www.rotowire.com/soccer/article/france-vs-spain-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-semifinal-122319"
+          }
+        ]
+      },
+      "odds": {
+        "source": "consensus CBS/ESPN SF (FRA +135, X +210, ESP +225)",
+        "decimal_odds": [
+          2.35,
+          3.1,
+          3.25
+        ],
+        "overround": 0.0558,
+        "p_home": 0.403,
+        "p_draw": 0.305,
+        "p_away": 0.292,
+        "fetched_at": "2026-07-14T08:50:00Z"
+      },
       "external": [],
-      "posted_to": []
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-07-14T09:05:00Z",
+          "confirmed_via": "get_bets readback 2026-07-14",
+          "mode": "PROTECT(==EP-max, market-anchored)",
+          "note": "SF1 matchday bet. PROTECT (rank 1/34, lead +9), k=0.3 -> contest pick == EP-max = 1:0 (EP 1.85 on adjusted 40/30/30). Coin-flip semi anchored to market (France fav to advance) over Elo (Spain narrow fav). ENG-ARG left for 2026-07-15 cycle."
+        }
+      ]
     }
   ]
 }

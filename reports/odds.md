@@ -1,6 +1,6 @@
 # Championship odds
 
-_Monte Carlo, N=10000, ratings as of 2026-07-13, 100 results fixed._
+_Monte Carlo, N=10000, ratings as of 2026-07-14, 100 results fixed._
 
 | # | Team | Champion | Final | SF | QF | R16 | R32 | Win grp | Δ champ |
 |---|------|----------|-------|----|----|-----|-----|---------|---------|
