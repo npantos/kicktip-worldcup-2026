@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-07-15T21:06:35Z",
+  "source": "NBC/CNN consensus",
+  "urls": [
+    "https://www.nbcnews.com/sports/soccer/live-blog/england-argentina-world-cup-2026-july-15-live-updates-rcna587325",
+    "https://www.cnn.com/2026/07/15/sport/live-news/world-cup-argentina-england"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M102",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "England 1-2 Argentina, SF2"
+    }
+  ]
+}

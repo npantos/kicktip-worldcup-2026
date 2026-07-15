@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-07-15T21:06:35Z",
+  "source": "ESPN/FIFA",
+  "urls": [
+    "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+    "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M102",
+      "home_goals": 1,
+      "away_goals": 2,
+      "note": "AET 1-2 (Gordon 55; Enzo Fernandez 85, Lautaro late/ET). Messi 2 assists, no goal - boot now 8g3a vs Mbappe 8g3a. Argentina to final vs Spain. Atlanta."
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-07-14T21:10:00Z",
+  "fetched_at": "2026-07-15T21:10:00Z",
   "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_leaderboard MD14 2026-07-14 post-SF1",
+  "source": "kicktipp MCP get_leaderboard MD14 2026-07-15 post-SF2",
   "as_of_matchday": 14,
   "matchday_numbering": "kicktipp overview index (MD13 = QF)",
-  "matches_scored_so_far": 101,
+  "matches_scored_so_far": 102,
   "field_size": 34,
   "me": {
     "name": "Nemanj-AI",
@@ -14,8 +14,8 @@
   },
   "human_owner": {
     "name": "NemanjaPantoš",
-    "rank": 3,
-    "points": 261
+    "rank": 2,
+    "points": 267
   },
   "leader": {
     "names": [
@@ -35,26 +35,26 @@
     },
     {
       "rank": 2,
+      "name": "NemanjaPantoš",
+      "points": 267,
+      "bonus": 60
+    },
+    {
+      "rank": 3,
       "name": "Stef",
       "points": 264,
       "bonus": 56
     },
     {
-      "rank": 3,
-      "name": "NemanjaPantoš",
-      "points": 261,
-      "bonus": 60
-    },
-    {
       "rank": 4,
       "name": "MrGojomir",
-      "points": 249,
+      "points": 255,
       "bonus": 48
     },
     {
       "rank": 5,
       "name": "BB",
-      "points": 242,
+      "points": 248,
       "bonus": 60
     },
     {
@@ -83,10 +83,10 @@
     },
     {
       "rank": 10,
-      "name": "LilDja",
-      "points": 225,
-      "bonus": 48
+      "name": "Urkela",
+      "points": 227,
+      "bonus": 56
     }
   ],
-  "note": "SF1: FRA 0-2 ESP (Oyarzabal pen 22, Porro 58) - Spain to FINAL. AI bet 1:0 = 0 pts; Stef 0 (backed France, 2:1 projection consistent); human 0; MrGojomir 0 -> top-4 gaps UNCHANGED (273/264/261/249). BB/LAB/bojan +2 (Spain tendency) but >=31 back. STRATEGIC EARTHQUAKE: Stef's & MrGojomir's FRANCE champion picks are DEAD (France eliminated); AI & human SPAIN picks alive, one win from +4. AI-vs-Stef doomsday (FRA champ + Messi boot) ELIMINATED - worst case now +5 floor before matches. Mbappe (leads boot 8g+3a) plays 3rd-place game M103 vs loser of ENG-ARG. SF2 tomorrow: M102 ENG-ARG (AI unbet, plan ENG 1:0; Stef projected ARG 1:2)."
+  "note": "SF2: ENG 1-2 ARG (AET; Gordon 55, Enzo 85, Lautaro late; Messi 2 assists -> boot 8g3a TIED w/ Mbappe 8g3a). AI bet ENG 1:0 = 0. HUMAN played ARG 1:2 = EXACT 6 -> 267, JUMPS TO 2ND, now +3 AHEAD of Stef (264, who scored 0 - he backed England, so the 'block' read was wrong about Stef but the line won on merit). MrGojomir also 1:2 exact -> 255. AI lead: +6 over human (identical bonus picks -> pure match race, 2 games left), +9 over Stef (floor +5 if Messi boot). FINAL: M104 ESP-ARG Jul 19 (Spain champion pick alive for AI+human; Stef dead). 3RD PLACE: M103 FRA-ENG Jul 18 (Mbappe boot defense). Human's dangerous corner now: Argentina champ + Messi boot -> human -1 vs Stef, decided on last 2 match bets."
 }

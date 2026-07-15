@@ -1529,7 +1529,7 @@
       "away": "ARG",
       "home_slot": "W099",
       "away_slot": "W100",
-      "status": "scheduled"
+      "status": "completed"
     },
     {
       "match_id": "M103",
@@ -1540,8 +1540,8 @@
       "kickoff_utc": "2026-07-18T21:00:00Z",
       "venue_city": "Miami (Miami Gardens)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "FRA",
+      "away": "ENG",
       "home_slot": "L101",
       "away_slot": "L102",
       "status": "scheduled"
@@ -1555,8 +1555,8 @@
       "kickoff_utc": "2026-07-19T19:00:00Z",
       "venue_city": "New York/New Jersey (East Rutherford)",
       "venue_country": "USA",
-      "home": null,
-      "away": null,
+      "home": "ESP",
+      "away": "ARG",
       "home_slot": "W101",
       "away_slot": "W102",
       "status": "scheduled"
