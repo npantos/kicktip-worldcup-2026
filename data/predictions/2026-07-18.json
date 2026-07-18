@@ -1,0 +1,68 @@
+{
+  "match_date": "2026-07-18",
+  "predictions": [
+    {
+      "match_id": "M103",
+      "created_at": "2026-07-18T08:19:29Z",
+      "locked_at": "2026-07-18T08:30:00Z",
+      "model": {
+        "elo_home": 2120.4,
+        "elo_away": 2074.7,
+        "home_adv_applied": 0,
+        "lambda_home": 1.573,
+        "lambda_away": 1.108,
+        "p_home": 0.4811,
+        "p_draw": 0.2511,
+        "p_away": 0.2678,
+        "expected_score": "1-1",
+        "p_home_advance": 0.6173
+      },
+      "adjusted": {
+        "p_home": 0.5,
+        "p_draw": 0.25,
+        "p_away": 0.25,
+        "predicted_score": "2-1",
+        "reasoning": "Bronze final: market FRA -112 / X +278 / ENG +285 de-vigs to ~50/25/25, dead on the Elo baseline (48/25/27) for once. The differentiator is TOTALS: Over 2.5 at -225 (~65-69% over) - third-place games are open, both sides rotate defenders (Saliba OUT/back surgery; England may rest Rice/Saka) while Mbappe STARTS chasing the boot (needs to out-produce Messi 8g+4a). Fitted lambdas from outcome probs alone give total 2.7 and EP-max 1:0; re-fitting with the market total (~3.1) flips EP-max to 2:1 (1.83 vs 1.79) with 2-1 the modal France win (9.6%). Predicted 2-1 France; high-total override documented per NOR-ENG precedent (0:1 vs actual 1-2).",
+        "factors": [
+          {
+            "factor": "FanDuel/Deadspin FRA -110/-115, X +275/+280, ENG +275/+295 (de-vig ~50/25/25)",
+            "source": "https://www.si.com/betting/france-vs-england-opening-odds-for-world-cup-3rd-place-match-france-heavily-favored"
+          },
+          {
+            "factor": "Over 2.5 goals -225 / Under +165 -> market expects ~3.1 total; bronze finals historically open",
+            "source": "https://deadspin.com/betting/france-vs-england-world-cup-betting-preview-lines-predictions-7-18-2026"
+          },
+          {
+            "factor": "Mbappe starts (boot chase, trails Messi 8g+4a on assists); Saliba out (back); England rotation risk Kane/Bellingham/Rice",
+            "source": "https://www.rotowire.com/soccer/article/france-vs-england-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-third-place-playoff-123027"
+          }
+        ]
+      },
+      "odds": {
+        "source": "consensus FanDuel/Deadspin 3rd place (FRA -112, X +278, ENG +285)",
+        "decimal_odds": [
+          1.89,
+          3.78,
+          3.85
+        ],
+        "overround": 0.049,
+        "p_home": 0.504,
+        "p_draw": 0.252,
+        "p_away": 0.244,
+        "fetched_at": "2026-07-18T08:20:00Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "2:1",
+          "posted_at": "2026-07-18T08:35:00Z",
+          "confirmed_via": "get_bets readback 2026-07-18",
+          "mode": "PROTECT(EP-max under market-total override)",
+          "note": "Bronze final bet. EP-max flips 1:0 -> 2:1 when lambdas re-fit to the market total (~3.1, Over2.5 -225): 2:1 EP 1.83 vs 1:0 EP 1.79, and 2-1 is the modal France win (9.6%). NOR-ENG precedent (high-total market beat the default fit). PROTECT: +9 Stef / +6 human; 2:1 also likely matches Stef's signature = natural freeze vs him."
+        }
+      ]
+    }
+  ]
+}
