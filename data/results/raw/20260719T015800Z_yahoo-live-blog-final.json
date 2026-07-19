@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-19T01:58:00Z",
+  "source": "Yahoo (live blog final)",
+  "urls": [
+    "https://sports.yahoo.com/soccer/live/france-england-world-cup-2026-score-result-schedule-live-updates-160000692.html"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M103",
+      "home_goals": 4,
+      "away_goals": 6,
+      "note": "FT 90min. ENG: Rice 3, Konsa 18, Saka HAT TRICK (2 pre-HT + pen 87), Bellingham 90+8. FRA: Mbappe 46 & 66 (both Olise assists), Barcola 54, Dembele 90+6. Mbappe -> 10 goals, all-time WC record 22; Olise 7 assists passes Pele. Most goals in a WC match since 1982."
+    }
+  ]
+}

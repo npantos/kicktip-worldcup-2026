@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-07-19T01:58:00Z",
+  "source": "FIFA/AlJazeera consensus",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542",
+    "https://www.aljazeera.com/sports/liveblog/2026/7/18/france-vs-england-live-fifa-world-cup-2026-third-place-playoff"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M103",
+      "home_goals": 4,
+      "away_goals": 6,
+      "note": "France 4-6 England, bronze final"
+    }
+  ]
+}

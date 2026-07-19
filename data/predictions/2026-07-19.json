@@ -1,0 +1,68 @@
+{
+  "match_date": "2026-07-19",
+  "predictions": [
+    {
+      "match_id": "M104",
+      "created_at": "2026-07-19T01:58:35Z",
+      "locked_at": "2026-07-19T02:05:00Z",
+      "model": {
+        "elo_home": 2231.9,
+        "elo_away": 2199.7,
+        "home_adv_applied": 0,
+        "lambda_home": 1.494,
+        "lambda_away": 1.167,
+        "p_home": 0.4474,
+        "p_draw": 0.2563,
+        "p_away": 0.2963,
+        "expected_score": "1-1",
+        "p_home_advance": 0.5833
+      },
+      "adjusted": {
+        "p_home": 0.43,
+        "p_draw": 0.3,
+        "p_away": 0.27,
+        "predicted_score": "1-0",
+        "reasoning": "World Cup final: market ESP +125-130 / X +200 / ARG +250-255 de-vigs to ~42/31/27; Elo baseline 45/26/30 agrees within noise -> adjusted 43/30/27. Totals are the OPPOSITE of the bronze: Under 2.5 favoured at -150 (~60%), consistent with finals played tight and Spain's 1-conceded knockout run. Low-total fit keeps EP-max at 1:0 (no bronze-style override). Spain unbeaten in 37, Yamal fully fit; Argentina on two straight late-comeback wins, Messi 8g (needs a brace vs the best defence left to reclaim the boot from Mbappe's 10). Predicted 1-0 Spain.",
+        "factors": [
+          {
+            "factor": "DK/BetMGM ESP +125-130, X +200, ARG +250-255 (de-vig ~42/31/27); ESP -160 to lift",
+            "source": "https://www.sportsbettingdime.com/news/soccer/spain-vs-odds-world-cup-final-opening-moneyline-total/"
+          },
+          {
+            "factor": "Under 2.5 favoured -150 (over +135) -> low-total final expected (~2.1)",
+            "source": "https://www.nbcsports.com/soccer/world-cup/news/2026-world-cup-final-argentina-vs-spain-prediction-odds-trends-and-best-bet"
+          },
+          {
+            "factor": "Spain unbeaten 37, 1 goal conceded in knockouts; Argentina two straight comeback wins; Messi 8g vs Mbappe 10g boot race",
+            "source": "https://www.fanduel.com/research/spain-vs-argentina-world-cup-final-betting-odds-possible-lineups-july-19"
+          }
+        ]
+      },
+      "odds": {
+        "source": "consensus DK/BetMGM final (ESP +128, X +200, ARG +252)",
+        "decimal_odds": [
+          2.28,
+          3.0,
+          3.52
+        ],
+        "overround": 0.054,
+        "p_home": 0.417,
+        "p_draw": 0.316,
+        "p_away": 0.267,
+        "fetched_at": "2026-07-19T01:58:00Z"
+      },
+      "external": [],
+      "posted_to": [
+        {
+          "platform": "kicktipp",
+          "community": "xcentric-ominimo",
+          "bet": "1:0",
+          "posted_at": "2026-07-19T02:10:00Z",
+          "confirmed_via": "get_bets readback 2026-07-19",
+          "mode": "PROTECT(==EP-max)",
+          "note": "FINAL bet. EP-max 1:0 (EP 1.93 on adjusted 43/30/27; Under 2.5 favoured -150 -> low-total fit, no bronze-style override). PROTECT: +9 Stef (his last hope = Messi brace for boot, ~10%), +6 human (identical bonuses; max human swing = tie at exact-vs-0). Last match of the tournament."
+        }
+      ]
+    }
+  ]
+}
