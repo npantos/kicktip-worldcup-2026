@@ -1,92 +1,92 @@
 {
-  "fetched_at": "2026-07-19T02:10:00Z",
-  "community": "xcentric-ominimo",
-  "source": "kicktipp MCP get_leaderboard MD15 2026-07-19 post-bronze",
-  "as_of_matchday": 14,
-  "matchday_numbering": "kicktipp overview index (MD13 = QF)",
-  "matches_scored_so_far": 103,
-  "field_size": 34,
-  "me": {
-    "name": "Nemanj-AI",
-    "rank": 1,
-    "points": 273,
-    "bonus": 52
-  },
-  "human_owner": {
-    "name": "NemanjaPantoš",
-    "rank": 2,
-    "points": 267
-  },
-  "leader": {
-    "names": [
-      "Nemanj-AI"
-    ],
-    "points": 273
-  },
-  "deficit_to_leader": 0,
-  "tier_at_my_points": 1,
-  "players_ahead": 0,
-  "top": [
-    {
-      "rank": 1,
-      "name": "Nemanj-AI",
-      "points": 273,
-      "bonus": 52
-    },
-    {
-      "rank": 2,
-      "name": "NemanjaPantoš",
-      "points": 267,
-      "bonus": 60
-    },
-    {
-      "rank": 3,
-      "name": "Stef",
-      "points": 264,
-      "bonus": 56
-    },
-    {
-      "rank": 4,
-      "name": "MrGojomir",
-      "points": 255,
-      "bonus": 48
-    },
-    {
-      "rank": 5,
-      "name": "BB",
-      "points": 248,
-      "bonus": 60
-    },
-    {
-      "rank": 6,
-      "name": "LosAngelesBus",
-      "points": 241,
-      "bonus": 60
-    },
-    {
-      "rank": 7,
-      "name": "bojan_nišić",
-      "points": 241,
-      "bonus": 52
-    },
-    {
-      "rank": 8,
-      "name": "djomla",
-      "points": 231,
-      "bonus": 52
-    },
-    {
-      "rank": 9,
-      "name": "Shelly",
-      "points": 229,
-      "bonus": 44
-    },
-    {
-      "rank": 10,
-      "name": "Urkela",
-      "points": 227,
-      "bonus": 56
-    }
+ "fetched_at": "2026-07-19T22:55:00Z",
+ "community": "xcentric-ominimo",
+ "source": "kicktipp MCP get_overview + get_leaderboard(15), FINAL after M104",
+ "as_of_matchday": 15,
+ "matchday_numbering": "kicktipp overview index (MD13 = QF)",
+ "matches_scored_so_far": 104,
+ "field_size": 34,
+ "me": {
+  "name": "Nemanj-AI",
+  "rank": 1,
+  "points": 287,
+  "bonus": 60
+ },
+ "human_owner": {
+  "name": "NemanjaPantoš",
+  "rank": 2,
+  "points": 275
+ },
+ "leader": {
+  "names": [
+   "Nemanj-AI"
   ],
-  "note": "BRONZE: FRA 4-6 ENG (10 goals, most since 1982; Saka hat trick; MBAPPE 2 -> 10g, all-time WC record 22). ALL top-5 scored 0 (AI 2:1, human 3:1, Stef France line) -> gaps frozen: AI 273, human 267, Stef 264. BOOT: Mbappe 10g+3a vs Messi 8g+4a -> Messi needs 2 goals vs Spain to take it on assists tiebreak, 3 outright (~10%). Human vs Stef now ~93-95%: worst corner = ARG champ + Messi brace (both ~correlated, ~9%) -> -1. AI: floor +5 vs Stef even if Messi brace; vs human max swing = tie (exact 6 vs 0 = 273-273 shared 1st). FINAL M104 ESP-ARG bet 1:0 (EP-max, Under-favoured final)."
+  "points": 287
+ },
+ "deficit_to_leader": 0,
+ "tier_at_my_points": 1,
+ "players_ahead": 0,
+ "top": [
+  {
+   "rank": 1,
+   "name": "Nemanj-AI",
+   "points": 287,
+   "bonus": 60
+  },
+  {
+   "rank": 2,
+   "name": "NemanjaPantoš",
+   "points": 275,
+   "bonus": 68
+  },
+  {
+   "rank": 3,
+   "name": "Stef",
+   "points": 264,
+   "bonus": 56
+  },
+  {
+   "rank": 4,
+   "name": "MrGojomir",
+   "points": 261,
+   "bonus": 52
+  },
+  {
+   "rank": 5,
+   "name": "bojan_nišić",
+   "points": 252,
+   "bonus": 60
+  },
+  {
+   "rank": 6,
+   "name": "BB",
+   "points": 251,
+   "bonus": 60
+  },
+  {
+   "rank": 7,
+   "name": "LosAngelesBus",
+   "points": 249,
+   "bonus": 60
+  },
+  {
+   "rank": 8,
+   "name": "djomla",
+   "points": 235,
+   "bonus": 56
+  },
+  {
+   "rank": 9,
+   "name": "Shelly",
+   "points": 233,
+   "bonus": 48
+  },
+  {
+   "rank": 10,
+   "name": "Rudolf",
+   "points": 230,
+   "bonus": 52
+  }
+ ],
+ "note": "SEASON FINAL. M104 ESP 1-0 ARG (aet, Ferran Torres 106) = my exact (6 pts, bet 1:0) + champion bonus ESP (+4) + top-scorer bonus FRA/Mbappe 10g (+4): 273 -> 287. Won the league by 12 over the human owner (275, 0 on the final but +8 bonus sweep), Stef 3rd 264 (0 match pts + 0 bonus on the final). Boot: Messi kept to 0 goals (Emi Martinez 11 saves at the other end); Mbappe 10g4a takes it. 104/104 matches scored, season closed."
 }

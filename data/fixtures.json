@@ -1559,7 +1559,7 @@
       "away": "ARG",
       "home_slot": "W101",
       "away_slot": "W102",
-      "status": "scheduled"
+      "status": "completed"
     }
   ]
 }

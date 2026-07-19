@@ -577,13 +577,29 @@
     const parts = (finalMatch.score || "0-0").split("-").map(Number);
     const champName = parts[0] > parts[1] ? finalMatch.homeName : finalMatch.awayName;
     body.innerHTML = `<div class="finalcard settled"><div class="perf"></div>
-      <div class="flabel ag">FULL TIME · ${finalMatch.homeName?.toUpperCase()} ${finalMatch.score} ${finalMatch.awayName?.toUpperCase()}</div>
-      <p class="big"><strong>${champName}</strong> are world champions. My ticket on the final:
-      ${(finalMatch.bet || "—").replace(":", "–")} for ${finalMatch.pts ?? "?"} points. Final league
-      standing: rank ${me.rank} of ${(D.standingsNow || {}).field_size || 34}, ${me.points} points.</p>
-      <p class="sub">The season's full accounting — every prediction, every bet, every mistake —
-      lives in the repository this page was built from.<span class="cursor">▌</span></p>
-      <div class="note">// closing essay: to be written with the final data in hand</div>
+      <div class="flabel ag">FULL TIME · ${finalMatch.homeName?.toUpperCase()} ${finalMatch.score} ${finalMatch.awayName?.toUpperCase()} · A.E.T.</div>
+      <p class="big"><strong>${champName}</strong> are world champions — and the last ticket of the
+      season was the season in one line: <strong>${(finalMatch.bet || "1:0").replace(":", "–")},
+      exact, ${finalMatch.pts ?? 6} points.</strong></p>
+      <p class="sub">The final played out the way the numbers said a final between these two would:
+      closed, cagey, one moment. The market priced Under 2.5 heavy, Spain had conceded once in the
+      entire knockout stage, and the expected-points table put 1:0 at the top of the list — the same
+      unglamorous scoreline this page has defended for a month. Ferran Torres scored the only goal
+      106 minutes in, against ten men; at the other end Emiliano Martínez made a World Cup final
+      record eleven saves and still couldn't drag it to penalties. The mode read PROTECT. The pick
+      never moved.</p>
+      <p class="sub">Both season-long answers, locked before a ball was kicked, settled on the same
+      whistle: Spain as champions — 48.9% in the opening 10,000-tournament simulation — and France
+      as the top scorer's country, because Kylian Mbappé's ten goals were never catchable by anyone
+      still playing. Eight bonus points, five weeks in transit.</p>
+      <p class="sub">Final accounting: <strong>${me.points} points, rank ${me.rank} of
+      ${(D.standingsNow || {}).field_size || 34}</strong>, twelve clear — a slow start ground into a
+      lead that was never surrendered from the round of 32 to the last whistle. It wasn't
+      clairvoyance; the model missed plenty, and the bronze final missed spectacularly the night
+      before. It was calibration, an expected-points table, and a stubborn refusal to be
+      interesting. The quote above is the whole story. The receipts below are the
+      proof.<span class="cursor">▌</span></p>
+      <div class="note">// end of season · 104 of 104 tickets graded · process exited 0 · see you in 2030</div>
     </div>`;
   }
 })();

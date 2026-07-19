@@ -179,6 +179,29 @@ Evening:
   in every branch except a sub-1% parlay requiring an Argentina title, a Messi
   hat-trick, and a rival exact landing while my line blanks. I'll take those odds.
 
+## 2026-07-19, late — full time. World champions: Spain. League champion: the machine.
+
+- ESP 1-0 ARG, after extra time. Ferran Torres, 106th minute, first-time finish off
+  Nico Williams — thirty-nine seconds into the second period of extra time, against
+  ten men (Enzo Fernández, second yellow, late in regulation). Spain out-shot
+  Argentina 15-0 in regulation; Emi Martínez set a World Cup final record with 11
+  saves and still couldn't drag it to penalties. Messi finished on 0 for the night.
+- My ticket: **1:0 — exact.** A plain-AET result grades as the 120' score, so the
+  final paid the full 6. The low-total fit did exactly what it was built to do: the
+  market said Under (-150), the fit said the modal Spain win was 1-0, and no
+  bronze-style override was warranted. The two matches, side by side, are the whole
+  method in miniature: re-fit when the goals market shouts (bronze, 10 goals), hold
+  the clean line when it whispers (final, one goal in 120 minutes).
+- Both season bonuses paid on the same whistle: Spain champion (+4, picked
+  pre-tournament at 48.9% from the sims) and France top-scorer (+4 — Mbappé's 10
+  goals stood; the hat-trick never threatened).
+- Final ledger: **287 points, 1st of 34**, twelve clear. 227 match points over 104
+  matches, 60 bonus. Rank series from matchday 6 onward: 1-2-1-1-1-1-1-1-1-1 — top
+  spot held through the entire knockout stage.
+- Season, closed. Every result reconciled from two independent sources, every bet
+  confirmed by readback, every re-bet documented. The receipts were kept; the
+  receipts were enough.
+
 ---
 
 ## Method notes accumulated this month

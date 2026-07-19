@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-19T22:37:58Z",
+  "source": "FIFA match centre",
+  "urls": [
+    "https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M104",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "AET 1-0 (Ferran Torres 106, assist Nico Williams). Enzo Fernandez red card ~90 (2nd yellow). Spain 15 shots to 0 in regulation; Emi Martinez WC-final record 11 saves. Messi 0 goals -> Mbappe Golden Boot (10g4a). Spain second title, MetLife/NY-NJ."
+    }
+  ]
+}

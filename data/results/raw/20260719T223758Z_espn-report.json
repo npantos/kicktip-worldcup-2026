@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-07-19T22:37:58Z",
+  "source": "ESPN report",
+  "urls": [
+    "https://www.espn.com/soccer/story/_/id/49404214/spain-1-0-argentina-world-cup-2026-result-score-recap-ferran-torres-enzo-fernandez"
+  ],
+  "method": "manual",
+  "results": [
+    {
+      "match_id": "M104",
+      "home_goals": 1,
+      "away_goals": 0,
+      "note": "Spain 1-0 Argentina AET: Ferran Torres extra-time winner 106; Enzo Fernandez sent off late in regulation. Spain world champions."
+    }
+  ]
+}

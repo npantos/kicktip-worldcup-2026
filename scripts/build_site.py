@@ -76,7 +76,7 @@ def group_winners():
     return winners
 
 
-def bonus_status(answers, winners, results_by_id, fixtures_by_id):
+def bonus_status(answers, winners, results_by_id, fixtures_by_id, boot=None):
     """Attach hit/miss/pending to each bonus answer."""
     sf_teams = set()
     for mid in ("M101", "M102"):
@@ -102,12 +102,14 @@ def bonus_status(answers, winners, results_by_id, fixtures_by_id):
             status = f"{len(picked & actual)}/4"
         elif "World Champion" in q:
             status = ("hit" if name_of.get(champion) == ans else "miss") if champion else "pending"
-        # top scorer stays pending until manually resolvable (needs official Golden Boot)
+        elif "highest goal scorer" in q and boot:
+            # resolved via the golden_boot record in data/bonus.json (official Golden Boot)
+            status = "hit" if name_of.get(boot["team"], boot["team"]) == ans else "miss"
         out.append({**a, "status": status})
     return out
 
 
-def bonus_players(winners, results_by_id, fixtures_by_id):
+def bonus_players(winners, results_by_id, fixtures_by_id, boot=None):
     """Grade the top-5 players' public bonus picks (data/league/bonus_picks.json)."""
     picks = store.load("data/league/bonus_picks.json", default=None)
     if not picks:
@@ -136,7 +138,7 @@ def bonus_players(winners, results_by_id, fixtures_by_id):
             {"q": "World Champion", "answer": name_of.get(p["champion"], p["champion"]),
              "status": champ_status(p["champion"])},
             {"q": "Top-scorer team", "answer": name_of.get(p["top_scorer_team"], p["top_scorer_team"]),
-             "status": "pending"},
+             "status": ("hit" if p["top_scorer_team"] == boot["team"] else "miss") if boot else "pending"},
         ]
         for g in "ABCDEFGHIJKL":
             tid = p["groups"].get(g)
@@ -270,8 +272,10 @@ def main():
         "race": race,
         "rankHistory": store.load("data/league/rank_history.json", default=None),
         "overview": store.load("data/league/overview_final.json", default=None),
-        "bonus": bonus_status(bonus.get("answers", []), group_winners(), results_by_id, fixtures_by_id),
-        "bonusPlayers": bonus_players(group_winners(), results_by_id, fixtures_by_id),
+        "bonus": bonus_status(bonus.get("answers", []), group_winners(), results_by_id, fixtures_by_id,
+                              boot=bonus.get("golden_boot")),
+        "bonusPlayers": bonus_players(group_winners(), results_by_id, fixtures_by_id,
+                                      boot=bonus.get("golden_boot")),
         "bonusBasis": bonus.get("basis"),
         "ko": ko,
         "totals": ledger.get("totals"),
