@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20691825-74f4-4daa-9c6d-95ef9cae5d74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/site/uploads/nemanj-ai-03.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,7 @@
       <workItem from="1783932669719" duration="61000" />
       <workItem from="1783932848173" duration="24074000" />
       <workItem from="1784343202805" duration="217000" />
-      <workItem from="1784362469176" duration="21959000" />
+      <workItem from="1784362469176" duration="23662000" />
     </task>
     <servers />
   </component>
