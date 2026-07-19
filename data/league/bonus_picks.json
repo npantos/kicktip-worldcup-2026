@@ -1,0 +1,407 @@
+{
+  "fetched_at": "2026-07-19T14:25:00Z",
+  "source": "kicktipp tippuebersicht?tippsaisonId=4648749&bonus=true (public bonus-tips overview, top 16 by total)",
+  "note": "Team codes are repo team ids (teams.json). Bonus answers lock before the opening match and are public on the platform once locked.",
+  "players": [
+    {
+      "name": "Nemanj-AI",
+      "champion": "ESP",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "TUR",
+        "E": "ECU",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "ARG",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "NemanjaPantoš",
+      "champion": "ESP",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "ARG",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "Stef",
+      "champion": "FRA",
+      "top_scorer_team": "ARG",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "ARG",
+        "BRA",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "MrGojomir",
+      "champion": "FRA",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "BIH",
+        "C": "BRA",
+        "D": "PAR",
+        "E": "GER",
+        "F": "JPN",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "COL",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "BRA",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "BB",
+      "champion": "FRA",
+      "top_scorer_team": "ENG",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "ARG",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "LosAngelesBus",
+      "champion": "BRA",
+      "top_scorer_team": "ENG",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "COL",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "BRA",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "bojan_nišić",
+      "champion": "ESP",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "TUR",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "ARG",
+        "BRA",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "djomla",
+      "champion": "FRA",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "JPN",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "POR",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "Shelly",
+      "champion": "ARG",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "BIH",
+        "C": "BRA",
+        "D": "TUR",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "CRO"
+      },
+      "semifinalists": [
+        "ARG",
+        "ENG",
+        "FRA",
+        "BRA"
+      ]
+    },
+    {
+      "name": "Urkela",
+      "champion": "FRA",
+      "top_scorer_team": "ENG",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "ARG",
+        "GER",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "Rudolf",
+      "champion": "FRA",
+      "top_scorer_team": "ESP",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "TUR",
+        "E": "GER",
+        "F": "SWE",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "COL",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "BRA",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "LilDja",
+      "champion": "POR",
+      "top_scorer_team": "MEX",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "TUR",
+        "E": "GER",
+        "F": "JPN",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "POR",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "Raca",
+      "champion": "ESP",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "ARG",
+        "BRA",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "Dalibor89",
+      "champion": "POR",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "CZE",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "GHA"
+      },
+      "semifinalists": [
+        "ARG",
+        "GER",
+        "FRA",
+        "POR"
+      ]
+    },
+    {
+      "name": "ivantheterrible",
+      "champion": "ESP",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "TUR",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "ARG",
+        "ENG",
+        "FRA",
+        "ESP"
+      ]
+    },
+    {
+      "name": "Kula",
+      "champion": "ENG",
+      "top_scorer_team": "FRA",
+      "groups": {
+        "A": "MEX",
+        "B": "SUI",
+        "C": "BRA",
+        "D": "USA",
+        "E": "GER",
+        "F": "NED",
+        "G": "BEL",
+        "H": "ESP",
+        "I": "FRA",
+        "J": "ARG",
+        "K": "POR",
+        "L": "ENG"
+      },
+      "semifinalists": [
+        "BRA",
+        "ENG",
+        "FRA",
+        "MAR"
+      ]
+    }
+  ]
+}

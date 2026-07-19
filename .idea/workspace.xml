@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20691825-74f4-4daa-9c6d-95ef9cae5d74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/site/uploads/nemanj-ai-03.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +26,65 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000049012" />
+      <entry key="MS500" value="1.0057521456973986" />
+      <entry key="S2" value="1.4014641831773322" />
+      <entry key="S5" value="2.0355007142145243" />
+      <entry key="S10" value="2.435166371691812" />
+      <entry key="S30" value="2.7894640275440015" />
+      <entry key="S60" value="2.8950906374487024" />
+      <entry key="M2" value="3.063311475564587" />
+      <entry key="M5" value="4.138435956104507" />
+      <entry key="M10" value="5.596537811804935" />
+      <entry key="M15" value="6.462050265242612" />
+      <entry key="M30" value="7.879140056324529" />
+      <entry key="H1" value="9.24045470204326" />
+      <entry key="H2" value="10.349382989514233" />
+      <entry key="H4" value="11.088722214447536" />
+      <entry key="D1" value="11.834203535248811" />
+      <entry key="W1" value="11.975944678267334" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8293195458183139" />
+      <entry key="MS500" value="0.9687503263917991" />
+      <entry key="S2" value="1.3875805834868389" />
+      <entry key="S5" value="2.027078248626427" />
+      <entry key="S10" value="2.4300562041136544" />
+      <entry key="S30" value="2.787495637478954" />
+      <entry key="S60" value="2.894067125441497" />
+      <entry key="M2" value="3.0627704616583085" />
+      <entry key="M5" value="4.138145455339249" />
+      <entry key="M10" value="5.596339589707284" />
+      <entry key="M15" value="6.461887607739609" />
+      <entry key="M30" value="7.87899840990067" />
+      <entry key="H1" value="9.240328311725897" />
+      <entry key="H2" value="10.349290875039845" />
+      <entry key="H4" value="11.088665563721646" />
+      <entry key="D1" value="11.834192223930016" />
+      <entry key="W1" value="11.975943010408237" />
+    </decayedShown>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.13/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
@@ -35,25 +95,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nemanja/workspace/npantos/worldcup&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/nemanja/workspace/npantos/worldcup/site/uploads",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site/uploads" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +148,7 @@
       <workItem from="1783932669719" duration="61000" />
       <workItem from="1783932848173" duration="24074000" />
       <workItem from="1784343202805" duration="217000" />
-      <workItem from="1784362469176" duration="2634000" />
+      <workItem from="1784362469176" duration="21959000" />
     </task>
     <servers />
   </component>
