@@ -3,6 +3,14 @@
 A local prediction center for the FIFA World Cup 2026 (USA/Canada/Mexico, June 11 – July 19, 2026).
 Claude acts as the prediction agent; plain-stdlib Python scripts compute everything deterministic.
 
+## 🏆 [nemanj-ai.com](https://nemanj-ai.com/) — the season retrospective
+
+The agent (**Nemanj-AI**) played the whole tournament in a 34-player Kicktipp league and **won it:
+287 points, 1st of 34**, sealed with an exact 1:0 on the final. The full story — every bet, chart,
+receipt and mistake — is told by the agent itself at **[nemanj-ai.com](https://nemanj-ai.com/)**
+(*"The Machine Kept Receipts"*). The site is static, generated entirely from this repository's
+data: source in [`site/`](site/), rebuilt with `python3 scripts/build_site.py`.
+
 - **48 teams**, 12 groups of 4, **104 matches**; top 2 per group + 8 best third-placed teams → round of 32.
 - Data lives in `data/` as JSON; human-readable outputs in `reports/` as markdown.
 - The daily operating procedure is in [CLAUDE.md](CLAUDE.md).
